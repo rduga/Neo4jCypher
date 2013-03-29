@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="-1" />
+    </dependencies>
+    <rename id="qgu4.1268543411551983790" type="CONCEPT" from="CypherList" to="QuerySheet" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="0" />
+    </dependencies>
+    <rename id="qgu4.1268543411551995397" type="CONCEPT" from="CypherStatement" to="Statement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="1" />
+    </dependencies>
+    <rename id="qgu4.1268543411551995397" type="CONCEPT" from="Statement" to="QueryStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="2" />
+    </dependencies>
+    <rename id="qgu4.1268543411552161307" type="CONCEPT" from="NodeAssignmentExpressions" to="NodeAssignmentStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="3" />
+    </dependencies>
+    <rename id="qgu4.1268543411552161296" type="CONCEPT" from="NodeAssignmentExpression" to="NodeAssignmentStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="4" />
+    </dependencies>
+    <rename id="qgu4.1268543411552161307" type="CONCEPT" from="NodeAssignmentExpressions" to="NodeAssignmentList" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="5" />
+    </dependencies>
+    <rename id="qgu4.1268543411552161308" type="CHILD" from="nodeAssignmentExpression" to="statement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="6" />
+    </dependencies>
+    <rename id="qgu4.1268543411552161307" type="CONCEPT" from="NodeAssignmentList" to="NodeAssignmentStatementList" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="7" />
+    </dependencies>
+    <rename id="qgu4.1268543411552161296" type="CONCEPT" from="NodeAssignmentStatement" to="AssignmentStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="8" />
+    </dependencies>
+    <rename id="qgu4.1268543411552161307" type="CONCEPT" from="NodeAssignmentStatementList" to="AssignmentStatementList" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="9" />
+    </dependencies>
+    <rename id="qgu4.1268543411552170113" type="CONCEPT" from="NodeIdAssignmentStatement" to="IdAssignmentStatement" />
+  </StructureModification>
+</history>
+
