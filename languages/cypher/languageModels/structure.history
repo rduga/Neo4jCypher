@@ -66,5 +66,143 @@
     </dependencies>
     <rename id="qgu4.1268543411552170113" type="CONCEPT" from="NodeIdAssignmentStatement" to="IdAssignmentStatement" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="10" />
+    </dependencies>
+    <rename id="qgu4.7169725830544999552" type="CONCEPT" from="Relationship" to="NamedRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="11" />
+    </dependencies>
+    <rename id="qgu4.1268543411552161297" type="CONCEPT" from="Node" to="NamedNode" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="12" />
+    </dependencies>
+    <rename id="qgu4.2686030116060541310" type="CONCEPT" from="LRNamedRelationship" to="SimpleLRNamedRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="13" />
+    </dependencies>
+    <rename id="qgu4.2686030116060541310" type="CONCEPT" from="SimpleLRNamedRelationship" to="LRNamedRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="14" />
+    </dependencies>
+    <rename id="qgu4.7169725830545051570" type="CONCEPT" from="LRRelationship" to="SimpleLRRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="15" />
+    </dependencies>
+    <rename id="qgu4.7169725830545051570" type="CONCEPT" from="SimpleLRRelationship" to="UntypedLRRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="16" />
+    </dependencies>
+    <rename id="qgu4.2686030116060541306" type="CONCEPT" from="UndirectedRelationship" to="UntypedUndirectedRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="17" />
+    </dependencies>
+    <rename id="qgu4.2686030116060541306" type="CONCEPT" from="UntypedUndirectedRelationship" to="UntypedRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="18" />
+    </dependencies>
+    <rename id="qgu4.7169725830545051582" type="CONCEPT" from="RLRelationship" to="UntypedRLRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="19" />
+    </dependencies>
+    <rename id="qgu4.7169725830545051570" type="CONCEPT" from="UntypedLRRelationship" to="UnnamedUntypedLRRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="20" />
+    </dependencies>
+    <rename id="qgu4.7169725830545051582" type="CONCEPT" from="UntypedRLRelationship" to="UnnamedUntypedRLRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="21" />
+    </dependencies>
+    <rename id="qgu4.2686030116060541306" type="CONCEPT" from="UntypedRelationship" to="UnnamedUntypedRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="22" />
+    </dependencies>
+    <rename id="qgu4.2686030116060626597" type="CONCEPT" from="UnnamedOneTypedLRRelationship" to="UnnamedTypedLRRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="23" />
+    </dependencies>
+    <rename id="qgu4.2686030116060633104" type="CONCEPT" from="UnnamedTypedLRRelationship" to="UnnamedTypedRLRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="24" />
+    </dependencies>
+    <rename id="qgu4.2686030116060639749" type="CONCEPT" from="UnnamedTypedRLRelationship" to="UnnamedTypedRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="25" />
+    </dependencies>
+    <rename id="qgu4.2686030116060541310" type="CONCEPT" from="LRNamedRelationship" to="NamedUntypedLRRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="26" />
+    </dependencies>
+    <rename id="qgu4.2686030116060646827" type="CONCEPT" from="NamedUntypedLRRelationship" to="NamedUntypedRLRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="27" />
+    </dependencies>
+    <rename id="qgu4.2686030116060661226" type="CONCEPT" from="NamedUntypedLRRelationship" to="NamedUntypedRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="28" />
+    </dependencies>
+    <rename id="qgu4.2686030116060668985" type="CONCEPT" from="NamedUntypedLRRelationship" to="NamedTypedLRRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="29" />
+    </dependencies>
+    <rename id="qgu4.2686030116060677025" type="CONCEPT" from="NamedTypedLRRelationship" to="NamedTypedRLRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="30" />
+    </dependencies>
+    <rename id="qgu4.2686030116060685549" type="CONCEPT" from="NamedTypedRLRelationship" to="NamedTypedRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="31" />
+    </dependencies>
+    <rename id="qgu4.2686030116060695015" type="CONCEPT" from="SumAggregate" to="MaxAggregate" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="32" />
+    </dependencies>
+    <rename id="qgu4.2686030116060704969" type="CONCEPT" from="MaxAggregate" to="MinAggregate" />
+  </StructureModification>
 </history>
 
