@@ -3,12 +3,18 @@
   <persistence version="7" />
   <language namespace="fa0e36f7-2d65-493a-8638-2d9c4dbffdf7(neo4j.cypher)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language namespace="798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="33" implicit="yes" />
+  <import index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="43" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" implicit="yes" />
+  <import index="3ior" modelUID="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)" version="2" implicit="yes" />
   <roots>
     <node type="qgu4.QuerySheet" typeId="qgu4.1268543411551983790" id="1268543411552216137">
-      <property name="name" nameId="tpck.1169194664001" value="QueryDemo1" />
+      <property name="name" nameId="tpck.1169194664001" value="QuerySheet1" />
+    </node>
+    <node type="qgu4.ConnectionSheet" typeId="qgu4.4395952758104106908" id="4395952758104327796">
+      <property name="name" nameId="tpck.1169194664001" value="MyConnections" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="connection" />
     </node>
   </roots>
   <root id="1268543411552216137">
@@ -56,18 +62,40 @@
             <property name="name" nameId="tpck.1169194664001" value="n4" />
           </node>
         </node>
+        <node role="returnExpression" roleId="qgu4.4395952758104095470" type="qgu4.NamedNodeReference" typeId="qgu4.4395952758104302029" id="4395952758104327795">
+          <link role="node" roleId="qgu4.4395952758104302030" targetNodeId="1268543411552265300" resolveInfo="n1" />
+        </node>
       </node>
     </node>
-    <node role="statement" roleId="qgu4.1268543411552025426" type="qgu4.QueryEmptyStatement" typeId="qgu4.1268543411552273140" id="1268543411552300616" />
+    <node role="statement" roleId="qgu4.1268543411552025426" type="qgu4.QueryEmptyStatement" typeId="qgu4.1268543411552273140" id="4395952758104053440" />
+    <node role="statement" roleId="qgu4.1268543411552025426" type="qgu4.QueryEmptyStatement" typeId="qgu4.1268543411552273140" id="4395952758104084114" />
     <node role="statement" roleId="qgu4.1268543411552025426" type="qgu4.QueryEmptyStatement" typeId="qgu4.1268543411552273140" id="1268543411552282296" />
     <node role="statement" roleId="qgu4.1268543411552025426" type="qgu4.QueryStatement" typeId="qgu4.1268543411551995397" id="1268543411552273125">
       <property name="name" nameId="tpck.1169194664001" value="readWrite" />
       <node role="queryExpression" roleId="qgu4.1268543411552161282" type="qgu4.ReadWriteQueryExpression" typeId="qgu4.1268543411552161286" id="1268543411552273130">
         <node role="startStatement" roleId="qgu4.1268543411552268231" type="qgu4.AssignmentStatement" typeId="qgu4.1268543411552161296" id="1268543411552273131">
           <node role="node" roleId="qgu4.1268543411552161302" type="qgu4.NamedNode" typeId="qgu4.1268543411552161297" id="1268543411552273132">
-            <property name="name" nameId="tpck.1169194664001" value="n1" />
+            <property name="name" nameId="tpck.1169194664001" value="m1" />
           </node>
           <node role="index" roleId="qgu4.1268543411552224154" type="qgu4.AllIndex" typeId="qgu4.1268543411552224188" id="1268543411552273134" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="4395952758104327796">
+    <node role="statement" roleId="qgu4.4395952758104106914" type="qgu4.ImpermanentConnection" typeId="qgu4.4395952758104119216" id="4395952758104328298">
+      <property name="name" nameId="tpck.1169194664001" value="impermanent1" />
+      <property name="memorySize" nameId="qgu4.4395952758104288733" value="30" />
+    </node>
+    <node role="statement" roleId="qgu4.4395952758104106914" type="qgu4.EmptyConnectionStatement" typeId="qgu4.4395952758104106933" id="4395952758104329176" />
+    <node role="statement" roleId="qgu4.4395952758104106914" type="qgu4.EmbeddedConnection" typeId="qgu4.4395952758104119207" id="4395952758104329178">
+      <property name="name" nameId="tpck.1169194664001" value="embedded1" />
+      <node role="databasePath" roleId="qgu4.4395952758104218299" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="4395952758104329192">
+        <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="4395952758104329193">
+          <property name="head" nameId="3ior.8618885170173601779" value="database" />
+          <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="4395952758104329194">
+            <property name="head" nameId="3ior.8618885170173601779" value="neo4j" />
+          </node>
         </node>
       </node>
     </node>

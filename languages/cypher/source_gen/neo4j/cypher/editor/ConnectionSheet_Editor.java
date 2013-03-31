@@ -23,31 +23,31 @@ import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
-public class QuerySheet_Editor extends DefaultNodeEditor {
+public class ConnectionSheet_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_ezpmsa_a(editorContext, node);
+    return this.createCollection_u03sjp_a(editorContext, node);
   }
 
-  private EditorCell createCollection_ezpmsa_a(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_u03sjp_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_ezpmsa_a");
-    editorCell.addEditorCell(this.createConstant_ezpmsa_a0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_ezpmsa_b0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_ezpmsa_c0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_ezpmsa_d0(editorContext, node));
+    editorCell.setCellId("Collection_u03sjp_a");
+    editorCell.addEditorCell(this.createConstant_u03sjp_a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_u03sjp_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_u03sjp_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_u03sjp_d0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_ezpmsa_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Cypher Query Definitions:");
-    editorCell.setCellId("Constant_ezpmsa_a0");
+  private EditorCell createConstant_u03sjp_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Database connections:");
+    editorCell.setCellId("Constant_u03sjp_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_ezpmsa_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_u03sjp_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_ezpmsa_c0");
+    editorCell.setCellId("Constant_u03sjp_c0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -56,8 +56,8 @@ public class QuerySheet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_ezpmsa_d0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new QuerySheet_Editor.statementListHandler_ezpmsa_d0(node, "statement", editorContext);
+  private EditorCell createRefNodeList_u03sjp_d0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new ConnectionSheet_Editor.statementListHandler_u03sjp_d0(node, "statement", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_statement");
     {
@@ -68,7 +68,7 @@ public class QuerySheet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_ezpmsa_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_u03sjp_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -90,8 +90,8 @@ public class QuerySheet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class statementListHandler_ezpmsa_d0 extends RefNodeListHandler {
-    public statementListHandler_ezpmsa_d0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class statementListHandler_u03sjp_d0 extends RefNodeListHandler {
+    public statementListHandler_u03sjp_d0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -101,7 +101,7 @@ public class QuerySheet_Editor extends DefaultNodeEditor {
     }
 
     public SNode nodeFactory(SNode node, EditorContext editorContext) {
-      return SConceptOperations.createNewNode("neo4j.cypher.structure.QueryEmptyStatement", null);
+      return SConceptOperations.createNewNode("neo4j.cypher.structure.EmptyConnectionStatement", null);
     }
 
     public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {

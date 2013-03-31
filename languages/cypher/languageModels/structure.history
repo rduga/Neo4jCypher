@@ -204,5 +204,65 @@
     </dependencies>
     <rename id="qgu4.2686030116060704969" type="CONCEPT" from="MaxAggregate" to="MinAggregate" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="33" />
+    </dependencies>
+    <rename id="qgu4.2686030116060695002" type="CONCEPT" from="AggregateExpression" to="AggregateFunction" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="34" />
+    </dependencies>
+    <rename id="qgu4.4395952758104028965" type="PROPERTY" from="skipNumber" to="skipItems" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="35" />
+    </dependencies>
+    <rename id="qgu4.4395952758104028966" type="PROPERTY" from="limitNumber" to="limitItems" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="36" />
+    </dependencies>
+    <rename id="qgu4.2686030116060694994" type="CONCEPT" from="CountAggregate" to="CountAllAggregate" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="37" />
+    </dependencies>
+    <rename id="qgu4.4395952758104095485" type="CONCEPT" from="DistinctReturn" to="Distinct" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="38" />
+    </dependencies>
+    <rename id="qgu4.4395952758104095485" type="CONCEPT" from="Distinct" to="DistinctReturnExpression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="39" />
+    </dependencies>
+    <rename id="qgu4.4395952758104106909" type="CONCEPT" from="Connection" to="ConnectionStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="40" />
+    </dependencies>
+    <rename id="qgu4.4395952758104106933" type="CONCEPT" from="EmptyConnection" to="EmptyConnectionStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="41" />
+    </dependencies>
+    <rename id="qgu4.4395952758104218299" type="CHILD" from="relativePath" to="databasePath" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="42" />
+    </dependencies>
+    <rename id="qgu4.4395952758104302029" type="CONCEPT" from="NodeReference" to="NamedNodeReference" />
+  </StructureModification>
 </history>
 

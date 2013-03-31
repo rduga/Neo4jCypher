@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-bml5o5r8fxt0ewx2m5t9ecdm9i85d31">
+<dependencies version="2" modelHash="-9uajvkavft6n5p8bs1abamja2rwyzr9">
   <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
@@ -12,7 +12,7 @@
   <dep model="r:95397225-9080-48bc-b1aa-0ce7c4f3d2ce(jetbrains.mps.lang.traceable.behavior)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="pw8pdnlx95qm8kemxvb96blec4jwgy" />
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-6ttw9g22c73vgndamilolqwdjo7hk4c" />
   <common dependsOnNodes="true">
     <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -27,22 +27,30 @@
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
-    <file name="AggregateExpression_BehaviorDescriptor.java" />
+    <file name="AggregateFunction_BehaviorDescriptor.java" />
     <file name="AllIndex_BehaviorDescriptor.java" />
     <file name="AssignmentStatement_BehaviorDescriptor.java" />
     <file name="BehaviorAspectDescriptor.java" />
-    <file name="CountAggregate_BehaviorDescriptor.java" />
+    <file name="ConnectionSheet_BehaviorDescriptor.java" />
+    <file name="ConnectionStatement_BehaviorDescriptor.java" />
+    <file name="CountAllAggregate_BehaviorDescriptor.java" />
     <file name="CypherExpression_BehaviorDescriptor.java" />
-    <file name="IAggregateFunction_BehaviorDescriptor.java" />
-    <file name="IFunction_BehaviorDescriptor.java" />
+    <file name="DistinctReturnExpression_BehaviorDescriptor.java" />
+    <file name="EmbeddedConnection_BehaviorDescriptor.java" />
+    <file name="EmptyConnectionStatement_BehaviorDescriptor.java" />
+    <file name="Function_BehaviorDescriptor.java" />
+    <file name="IConnectionStatement_BehaviorDescriptor.java" />
     <file name="IQueryStatement_BehaviorDescriptor.java" />
     <file name="IdIndex_BehaviorDescriptor.java" />
+    <file name="ImpermanentConnection_BehaviorDescriptor.java" />
     <file name="Index_BehaviorDescriptor.java" />
     <file name="KeyValueIndex_BehaviorDescriptor.java" />
     <file name="LuceneIndex_BehaviorDescriptor.java" />
+    <file name="MatchExpression_BehaviorDescriptor.java" />
     <file name="MaxAggregate_BehaviorDescriptor.java" />
     <file name="MinAggregate_BehaviorDescriptor.java" />
     <file name="NamedIndex_BehaviorDescriptor.java" />
+    <file name="NamedNodeReference_BehaviorDescriptor.java" />
     <file name="NamedNode_BehaviorDescriptor.java" />
     <file name="NamedTypedLRRelationship_BehaviorDescriptor.java" />
     <file name="NamedTypedRLRelationship_BehaviorDescriptor.java" />
@@ -51,6 +59,7 @@
     <file name="NamedUntypedRLRelationship_BehaviorDescriptor.java" />
     <file name="NamedUntypedRelationship_BehaviorDescriptor.java" />
     <file name="Node_BehaviorDescriptor.java" />
+    <file name="OrderByExpression_BehaviorDescriptor.java" />
     <file name="PropertyContainer_BehaviorDescriptor.java" />
     <file name="QueryEmptyStatement_BehaviorDescriptor.java" />
     <file name="QueryExpression_BehaviorDescriptor.java" />
@@ -60,6 +69,7 @@
     <file name="ReadWriteQueryExpression_BehaviorDescriptor.java" />
     <file name="RelationshipType_BehaviorDescriptor.java" />
     <file name="Relationship_BehaviorDescriptor.java" />
+    <file name="ReturnExpression_BehaviorDescriptor.java" />
     <file name="SumAggregate_BehaviorDescriptor.java" />
     <file name="UnnamedNode_BehaviorDescriptor.java" />
     <file name="UnnamedTypedLRRelationship_BehaviorDescriptor.java" />
@@ -68,6 +78,7 @@
     <file name="UnnamedUntypedLRRelationship_BehaviorDescriptor.java" />
     <file name="UnnamedUntypedRLRelationship_BehaviorDescriptor.java" />
     <file name="UnnamedUntypedRelationship_BehaviorDescriptor.java" />
+    <file name="WhereExpression_BehaviorDescriptor.java" />
   </common>
 </dependencies>
 
