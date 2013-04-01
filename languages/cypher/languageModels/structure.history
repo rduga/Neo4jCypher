@@ -264,5 +264,29 @@
     </dependencies>
     <rename id="qgu4.4395952758104302029" type="CONCEPT" from="NodeReference" to="NamedNodeReference" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="43" />
+    </dependencies>
+    <rename id="qgu4.4395952758104428428" type="CONCEPT" from="PropertyReference" to="NamedNodePropertyReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="44" />
+    </dependencies>
+    <rename id="qgu4.4395952758104302029" type="CONCEPT" from="NamedNodeReference" to="NamedNodeRef" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="45" />
+    </dependencies>
+    <rename id="qgu4.4395952758104517021" type="CONCEPT" from="NamedNodeProperty" to="NamedNodeRefProperty" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="46" />
+    </dependencies>
+    <rename id="qgu4.4395952758104428428" type="CONCEPT" from="NamedNodePropertyReference" to="NamedNodeRefPropertyRef" />
+  </StructureModification>
 </history>
 

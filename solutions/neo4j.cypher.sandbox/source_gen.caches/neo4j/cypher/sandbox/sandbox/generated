@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-7ws6r62dkxawpysbguqdde99ea57bhq">
+<dependencies version="2" modelHash="-4tf7bl63rf8u1cnc7slg26688i3svhu">
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <common hash="-5772yv0avmk753rk55l5o7f0erap9j0">
+  <common hash="ci4augsnuj4e7pay0c5nfucmicucutc">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="1268543411552216137" name="QuerySheet1" hash="-8ii069c7686hzwvinzle7seav91coh2">
+  <source id="1268543411552216137" name="QuerySheet1" hash="-dg8ipebq51w2kaj28v8d7tmbrxea9wn">
     <file name="QuerySheet1" />
   </source>
   <source id="4395952758104327796" name="MyConnections" hash="9lta77gh7mljwraac5min34xvb3988g">
