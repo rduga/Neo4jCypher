@@ -9,9 +9,10 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class KeyValueIndex_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -27,10 +28,8 @@ public class KeyValueIndex_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_lv1spi_d0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_lv1spi_e0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_lv1spi_f0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_lv1spi_g0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_lv1spi_h0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_lv1spi_i0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_lv1spi_j0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_lv1spi_g0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_lv1spi_h0(editorContext, node));
     return editorCell;
   }
 
@@ -62,24 +61,27 @@ public class KeyValueIndex_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_lv1spi_g0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
-    editorCell.setCellId("Constant_lv1spi_g0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_lv1spi_i0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
-    editorCell.setCellId("Constant_lv1spi_i0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_lv1spi_j0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_lv1spi_h0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_lv1spi_j0");
+    editorCell.setCellId("Constant_lv1spi_h0");
     editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_lv1spi_g0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("value");
+    provider.setNoTargetText("<no value>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
     return editorCell;
   }
 
@@ -108,24 +110,6 @@ public class KeyValueIndex_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_key");
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
-  private EditorCell createProperty_lv1spi_h0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("value");
-    provider.setNoTargetText("<no value>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_value");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
