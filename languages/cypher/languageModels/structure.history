@@ -288,5 +288,35 @@
     </dependencies>
     <rename id="qgu4.4395952758104428428" type="CONCEPT" from="NamedNodePropertyReference" to="NamedNodeRefPropertyRef" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="47" />
+    </dependencies>
+    <rename id="qgu4.4395952758104028947" type="CONCEPT" from="MatchExpression" to="MatchStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="48" />
+    </dependencies>
+    <rename id="qgu4.4395952758104028948" type="CONCEPT" from="WhereExpression" to="WhereStatement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="49" />
+    </dependencies>
+    <rename id="qgu4.4395952758104095485" type="CONCEPT" from="DistinctReturnExpression" to="DistinctExpression" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="50" />
+    </dependencies>
+    <rename id="qgu4.3830435865999703329" type="CONCEPT" from="HeadFunction" to="HeadCollFunction" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="51" />
+    </dependencies>
+    <rename id="qgu4.3830435865999758765" type="CONCEPT" from="AliasExpression" to="AsExpression" />
+  </StructureModification>
 </history>
 

@@ -8,14 +8,14 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
-public class CountAllAggregate_Editor extends DefaultNodeEditor {
+public class AllExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createConstant_g3woj3_a(editorContext, node);
+    return this.createConstant_jkocsp_a(editorContext, node);
   }
 
-  private EditorCell createConstant_g3woj3_a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "COUNT(*)");
-    editorCell.setCellId("Constant_g3woj3_a");
+  private EditorCell createConstant_jkocsp_a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
+    editorCell.setCellId("Constant_jkocsp_a");
     editorCell.setDefaultText("");
     return editorCell;
   }

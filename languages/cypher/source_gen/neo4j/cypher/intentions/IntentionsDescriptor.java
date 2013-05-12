@@ -13,8 +13,6 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
 
   public void init() {
     add(new Asc2Desc_Intention(), "7352030329465574050");
-    add(new Count2CountAll_Intention(), "7352030329465733503");
-    add(new CountAll2Count_Intention(), "7352030329465733585");
     add(new Desc2Asc_Intention(), "7352030329465701064");
   }
 }

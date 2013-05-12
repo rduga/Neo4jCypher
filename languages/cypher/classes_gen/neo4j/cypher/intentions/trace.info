@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="19" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
   <root nodeId="7352030329465574050" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
     <nodeInfo nodeId="7352030329465574050" fileName="Asc2Desc_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7352030329465574050" fileName="Asc2Desc_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -90,94 +90,6 @@
       <varInfo nodeId="7352030329465701064" varName="node" />
     </scopeInfo>
     <unitInfo nodeId="7352030329465701064" fileName="Desc2Asc_Intention.java" startLine="13" startPosition="0" endLine="48" endPosition="0" unitName="neo4j.cypher.intentions.Desc2Asc_Intention" />
-  </root>
-  <root nodeId="7352030329465733503" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="28" startPosition="44" endLine="29" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733508" fileName="Count2CountAll_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733516" fileName="Count2CountAll_Intention.java" startLine="36" startPosition="76" endLine="37" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7352030329465733511" fileName="Count2CountAll_Intention.java" startLine="37" startPosition="113" endLine="38" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7352030329465733555" fileName="Count2CountAll_Intention.java" startLine="38" startPosition="64" endLine="39" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="42" startPosition="37" endLine="43" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="12" startPosition="82" endLine="14" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="Count2CountAll_Intention#()V" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
-    <nodeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="35" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="13" startPosition="37" endLine="13" endPosition="37" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="51" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="28" startPosition="44" endLine="29" endPosition="17" />
-    <scopeInfo nodeId="7352030329465733505" fileName="Count2CountAll_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="66" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="42" startPosition="37" endLine="43" endPosition="37" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="12" startPosition="82" endLine="14" endPosition="3" />
-    <scopeInfo nodeId="7352030329465733507" fileName="Count2CountAll_Intention.java" startLine="36" startPosition="76" endLine="39" endPosition="44">
-      <varInfo nodeId="7352030329465733517" varName="countAllAggregate" />
-    </scopeInfo>
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
-      <varInfo nodeId="7352030329465733503" varName="editorContext" />
-      <varInfo nodeId="7352030329465733503" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="35" startPosition="0" endLine="41" endPosition="0">
-      <varInfo nodeId="7352030329465733503" varName="editorContext" />
-      <varInfo nodeId="7352030329465733503" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="7352030329465733503" fileName="Count2CountAll_Intention.java" startLine="12" startPosition="0" endLine="46" endPosition="0" unitName="neo4j.cypher.intentions.Count2CountAll_Intention" />
-  </root>
-  <root nodeId="7352030329465733585" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="28" startPosition="44" endLine="29" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733590" fileName="CountAll2Count_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733597" fileName="CountAll2Count_Intention.java" startLine="36" startPosition="76" endLine="37" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7352030329465733592" fileName="CountAll2Count_Intention.java" startLine="37" startPosition="107" endLine="38" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7352030329465733635" fileName="CountAll2Count_Intention.java" startLine="38" startPosition="61" endLine="39" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="42" startPosition="37" endLine="43" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="12" startPosition="82" endLine="14" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CountAll2Count_Intention#()V" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
-    <nodeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="35" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="13" startPosition="37" endLine="13" endPosition="37" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="54" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="28" startPosition="44" endLine="29" endPosition="17" />
-    <scopeInfo nodeId="7352030329465733587" fileName="CountAll2Count_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="66" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="42" startPosition="37" endLine="43" endPosition="37" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="12" startPosition="82" endLine="14" endPosition="3" />
-    <scopeInfo nodeId="7352030329465733589" fileName="CountAll2Count_Intention.java" startLine="36" startPosition="76" endLine="39" endPosition="41">
-      <varInfo nodeId="7352030329465733598" varName="countAggregate" />
-    </scopeInfo>
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
-      <varInfo nodeId="7352030329465733585" varName="editorContext" />
-      <varInfo nodeId="7352030329465733585" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="41" startPosition="0" endLine="45" endPosition="0" />
-    <scopeInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="35" startPosition="0" endLine="41" endPosition="0">
-      <varInfo nodeId="7352030329465733585" varName="editorContext" />
-      <varInfo nodeId="7352030329465733585" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="7352030329465733585" fileName="CountAll2Count_Intention.java" startLine="12" startPosition="0" endLine="46" endPosition="0" unitName="neo4j.cypher.intentions.CountAll2Count_Intention" />
   </root>
 </debugInfo>
 

@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="neo4j.cypher.behavior.AbsMathFunction_BehaviorDescriptor" file="AbsMathFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.MathFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="neo4j.cypher.behavior.AggregateFunction_BehaviorDescriptor" file="AggregateFunction_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="neo4j.cypher.behavior.Function_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="neo4j.cypher.behavior.AllExpression_BehaviorDescriptor" file="AllExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.IReturnExpression_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="neo4j.cypher.behavior.AllIndex_BehaviorDescriptor" file="AllIndex_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="neo4j.cypher.behavior.Index_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.AsExpression_BehaviorDescriptor" file="AsExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="neo4j.cypher.behavior.IReturnExpression_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.AscOrderBy_BehaviorDescriptor" file="AscOrderBy_BehaviorDescriptor.java">
@@ -31,20 +56,25 @@
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode dependClassName="neo4j.cypher.behavior.AbsMathFunction_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.AllExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.AllIndex_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.AsExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.AscOrderBy_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.ConnectionSheet_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.CountAggregate_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.CountAllAggregate_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.CypherDotExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.CypherExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.DescOrderBy_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.DistinctReturnExpression_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.DistinctExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.EmbeddedConnection_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.EmptyConnectionStatement_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.HeadCollFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.IdIndex_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.ImpermanentConnection_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.KeyValueIndex_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.LastCollFunction_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.LengthPathFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.LuceneIndex_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.MaxAggregate_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.MinAggregate_BehaviorDescriptor" />
@@ -56,6 +86,7 @@
     <classNode dependClassName="neo4j.cypher.behavior.NamedUntypedLRRelationship_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.NamedUntypedRLRelationship_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.NamedUntypedRelationship_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.NodesPathFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.OrderByStatement_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.Property_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.QueryEmptyStatement_BehaviorDescriptor" />
@@ -64,9 +95,14 @@
     <classNode dependClassName="neo4j.cypher.behavior.ReadOnlyQueryExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.ReadWriteQueryExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.RelationshipType_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.RelsPathFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.ReturnStatement_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.RoundMathFunction_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.SignMathFunction_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.SqrtMathFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.StartStatement_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.SumAggregate_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.TailCollFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.UnnamedNode_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.UnnamedTypedLRRelationship_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.UnnamedTypedRLRelationship_BehaviorDescriptor" />
@@ -75,6 +111,12 @@
     <classNode dependClassName="neo4j.cypher.behavior.UnnamedUntypedRLRelationship_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.UnnamedUntypedRelationship_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.CollectionFunction_BehaviorDescriptor" file="CollectionFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.Function_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.ConnectionSheet_BehaviorDescriptor" file="ConnectionSheet_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -98,12 +140,6 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.CountAggregate_BehaviorDescriptor" file="CountAggregate_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.AggregateFunction_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.CountAllAggregate_BehaviorDescriptor" file="CountAllAggregate_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="neo4j.cypher.behavior.AggregateFunction_BehaviorDescriptor" />
@@ -137,7 +173,7 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="neo4j.cypher.behavior.DistinctReturnExpression_BehaviorDescriptor" file="DistinctReturnExpression_BehaviorDescriptor.java">
+  <dependency className="neo4j.cypher.behavior.DistinctExpression_BehaviorDescriptor" file="DistinctExpression_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
@@ -166,6 +202,12 @@
     <classNode dependClassName="neo4j.cypher.behavior.ICypherExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.IReturnExpression_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.HeadCollFunction_BehaviorDescriptor" file="HeadCollFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.CollectionFunction_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.IConnectionStatement_BehaviorDescriptor" file="IConnectionStatement_BehaviorDescriptor.java" />
@@ -209,18 +251,34 @@
     <classNode dependClassName="neo4j.cypher.behavior.NamedIndex_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="neo4j.cypher.behavior.LastCollFunction_BehaviorDescriptor" file="LastCollFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.CollectionFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.LengthPathFunction_BehaviorDescriptor" file="LengthPathFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.PathFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="neo4j.cypher.behavior.LuceneIndex_BehaviorDescriptor" file="LuceneIndex_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="neo4j.cypher.behavior.NamedIndex_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="neo4j.cypher.behavior.MatchExpression_BehaviorDescriptor" file="MatchExpression_BehaviorDescriptor.java">
+  <dependency className="neo4j.cypher.behavior.MatchStatement_BehaviorDescriptor" file="MatchStatement_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.ICypherExpression_BehaviorDescriptor" />
-    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode dependClassName="neo4j.cypher.behavior.CypherStatement_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.MathFunction_BehaviorDescriptor" file="MathFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.Function_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.MaxAggregate_BehaviorDescriptor" file="MaxAggregate_BehaviorDescriptor.java">
@@ -253,12 +311,6 @@
     <classNode dependClassName="neo4j.cypher.behavior.IReturnExpression_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.NamedNode_Behavior" file="NamedNode_Behavior.java">
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.NamedNode_BehaviorDescriptor" file="NamedNode_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
@@ -312,6 +364,12 @@
     <classNode dependClassName="neo4j.cypher.behavior.PropertyContainer_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="neo4j.cypher.behavior.NodesPathFunction_BehaviorDescriptor" file="NodesPathFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.PathFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="neo4j.cypher.behavior.OrderByExpression_BehaviorDescriptor" file="OrderByExpression_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -324,6 +382,12 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="neo4j.cypher.behavior.CypherStatement_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.PathFunction_BehaviorDescriptor" file="PathFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.Function_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.PropertyContainer_BehaviorDescriptor" file="PropertyContainer_BehaviorDescriptor.java">
@@ -411,10 +475,34 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="neo4j.cypher.behavior.RelsPathFunction_BehaviorDescriptor" file="RelsPathFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.PathFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="neo4j.cypher.behavior.ReturnStatement_BehaviorDescriptor" file="ReturnStatement_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="neo4j.cypher.behavior.CypherStatement_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.RoundMathFunction_BehaviorDescriptor" file="RoundMathFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.MathFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.SignMathFunction_BehaviorDescriptor" file="SignMathFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.MathFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.SqrtMathFunction_BehaviorDescriptor" file="SqrtMathFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.MathFunction_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.StartStatement_BehaviorDescriptor" file="StartStatement_BehaviorDescriptor.java">
@@ -427,6 +515,12 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="neo4j.cypher.behavior.AggregateFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.TailCollFunction_BehaviorDescriptor" file="TailCollFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.CollectionFunction_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.UnnamedNode_BehaviorDescriptor" file="UnnamedNode_BehaviorDescriptor.java">
@@ -473,12 +567,10 @@
     <classNode dependClassName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="neo4j.cypher.behavior.WhereExpression_BehaviorDescriptor" file="WhereExpression_BehaviorDescriptor.java">
+  <dependency className="neo4j.cypher.behavior.WhereStatement_BehaviorDescriptor" file="WhereStatement_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.ICypherExpression_BehaviorDescriptor" />
-    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode dependClassName="neo4j.cypher.behavior.QueryStatement_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
 </dependenciesRoot>

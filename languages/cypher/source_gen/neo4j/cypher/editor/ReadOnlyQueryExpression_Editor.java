@@ -8,10 +8,10 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
@@ -24,81 +24,33 @@ public class ReadOnlyQueryExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_5f8f1j_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_5f8f1j_a");
-    editorCell.addEditorCell(this.createConstant_5f8f1j_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_5f8f1j_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_5f8f1j_b0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5f8f1j_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_5f8f1j_c0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_5f8f1j_d0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5f8f1j_e0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_5f8f1j_f0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5f8f1j_g0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_5f8f1j_h0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5f8f1j_i0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_5f8f1j_j0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5f8f1j_k0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_5f8f1j_l0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5f8f1j_m0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_5f8f1j_n0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_5f8f1j_e0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_5f8f1j_f0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_5f8f1j_g0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_5f8f1j_h0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_5f8f1j_i0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_5f8f1j_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "START");
-    editorCell.setCellId("Constant_5f8f1j_a0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-    }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_5f8f1j_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "MATCH");
-    editorCell.setCellId("Constant_5f8f1j_c0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
-    }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_5f8f1j_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "WHERE");
-    editorCell.setCellId("Constant_5f8f1j_e0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_5f8f1j_g0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "RETURN");
-    editorCell.setCellId("Constant_5f8f1j_g0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_5f8f1j_i0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "ORDER BY");
-    editorCell.setCellId("Constant_5f8f1j_i0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_5f8f1j_k0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_5f8f1j_f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "SKIP");
-    editorCell.setCellId("Constant_5f8f1j_k0");
+    editorCell.setCellId("Constant_5f8f1j_f0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_5f8f1j_m0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_5f8f1j_h0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "LIMIT");
-    editorCell.setCellId("Constant_5f8f1j_m0");
+    editorCell.setCellId("Constant_5f8f1j_h0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_5f8f1j_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_5f8f1j_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("startStatement");
     provider.setNoTargetText("<no startStatement>");
@@ -106,7 +58,49 @@ public class ReadOnlyQueryExpression_Editor extends DefaultNodeEditor {
     editorCell = provider.createEditorCell(editorContext);
     {
       Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_5f8f1j_b0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("matchStatement");
+    provider.setNoTargetText("<no matchStatement>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_5f8f1j_c0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("whereStatement");
+    provider.setNoTargetText("<no whereStatement>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -120,48 +114,6 @@ public class ReadOnlyQueryExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createRefNode_5f8f1j_d0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("matchExpression");
-    provider.setNoTargetText("<no matchExpression>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-    }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
-  private EditorCell createRefNode_5f8f1j_f0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("whereExpression");
-    provider.setNoTargetText("<no whereExpression>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-    }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
-  private EditorCell createRefNode_5f8f1j_h0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("returnStatement");
     provider.setNoTargetText("<no returnStatement>");
@@ -182,10 +134,10 @@ public class ReadOnlyQueryExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_5f8f1j_j0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_5f8f1j_e0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("orderByExpression");
-    provider.setNoTargetText("<no orderByExpression>");
+    provider.setRole("orderByStatement");
+    provider.setNoTargetText("<no orderByStatement>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     {
@@ -203,7 +155,7 @@ public class ReadOnlyQueryExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_5f8f1j_l0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_5f8f1j_g0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("skipItems");
     provider.setNoTargetText("0");
@@ -222,7 +174,7 @@ public class ReadOnlyQueryExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_5f8f1j_n0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_5f8f1j_i0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("limitItems");
     provider.setNoTargetText("0");

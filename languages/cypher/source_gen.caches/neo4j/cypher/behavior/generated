@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="dmy1mb3s6i73zzwioc1osn0lgj8r5mj">
+<dependencies version="2" modelHash="chxszmmz8w7vjz6ojuuoyr2ea7ffz13">
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -14,11 +14,9 @@
   <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" />
   <dep model="r:95397225-9080-48bc-b1aa-0ce7c4f3d2ce(jetbrains.mps.lang.traceable.behavior)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-cpvhm22f23ni13k77flbxaw6c95z1ws" />
-  <common hash="-dhficzemzo3h7a42kev7eq3rfj1oi6e" dependsOnNodes="true">
-    <dep root="4395952758104331843" />
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="3qdjpb5hr0fpyl36nzdyc7cen7tooqq" />
+  <common hash="7tbgw2rduimwd314yy675dqugcgiu4t" dependsOnNodes="true">
     <dep root="4395952758104628250" />
     <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -33,23 +31,27 @@
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
+    <file name="AbsMathFunction_BehaviorDescriptor.java" />
     <file name="AggregateFunction_BehaviorDescriptor.java" />
+    <file name="AllExpression_BehaviorDescriptor.java" />
     <file name="AllIndex_BehaviorDescriptor.java" />
+    <file name="AsExpression_BehaviorDescriptor.java" />
     <file name="AscOrderBy_BehaviorDescriptor.java" />
     <file name="AssignmentStatement_BehaviorDescriptor.java" />
     <file name="BehaviorAspectDescriptor.java" />
+    <file name="CollectionFunction_BehaviorDescriptor.java" />
     <file name="ConnectionSheet_BehaviorDescriptor.java" />
     <file name="ConnectionStatement_BehaviorDescriptor.java" />
     <file name="CountAggregate_BehaviorDescriptor.java" />
-    <file name="CountAllAggregate_BehaviorDescriptor.java" />
     <file name="CypherDotExpression_BehaviorDescriptor.java" />
     <file name="CypherExpression_BehaviorDescriptor.java" />
     <file name="CypherStatement_BehaviorDescriptor.java" />
     <file name="DescOrderBy_BehaviorDescriptor.java" />
-    <file name="DistinctReturnExpression_BehaviorDescriptor.java" />
+    <file name="DistinctExpression_BehaviorDescriptor.java" />
     <file name="EmbeddedConnection_BehaviorDescriptor.java" />
     <file name="EmptyConnectionStatement_BehaviorDescriptor.java" />
     <file name="Function_BehaviorDescriptor.java" />
+    <file name="HeadCollFunction_BehaviorDescriptor.java" />
     <file name="IConnectionStatement_BehaviorDescriptor.java" />
     <file name="ICypherExpression_BehaviorDescriptor.java" />
     <file name="IOrderByExpression_BehaviorDescriptor.java" />
@@ -59,8 +61,11 @@
     <file name="ImpermanentConnection_BehaviorDescriptor.java" />
     <file name="Index_BehaviorDescriptor.java" />
     <file name="KeyValueIndex_BehaviorDescriptor.java" />
+    <file name="LastCollFunction_BehaviorDescriptor.java" />
+    <file name="LengthPathFunction_BehaviorDescriptor.java" />
     <file name="LuceneIndex_BehaviorDescriptor.java" />
-    <file name="MatchExpression_BehaviorDescriptor.java" />
+    <file name="MatchStatement_BehaviorDescriptor.java" />
+    <file name="MathFunction_BehaviorDescriptor.java" />
     <file name="MaxAggregate_BehaviorDescriptor.java" />
     <file name="MinAggregate_BehaviorDescriptor.java" />
     <file name="NamedIndex_BehaviorDescriptor.java" />
@@ -73,8 +78,10 @@
     <file name="NamedUntypedRLRelationship_BehaviorDescriptor.java" />
     <file name="NamedUntypedRelationship_BehaviorDescriptor.java" />
     <file name="Node_BehaviorDescriptor.java" />
+    <file name="NodesPathFunction_BehaviorDescriptor.java" />
     <file name="OrderByExpression_BehaviorDescriptor.java" />
     <file name="OrderByStatement_BehaviorDescriptor.java" />
+    <file name="PathFunction_BehaviorDescriptor.java" />
     <file name="PropertyContainer_BehaviorDescriptor.java" />
     <file name="Property_BehaviorDescriptor.java" />
     <file name="QueryEmptyStatement_BehaviorDescriptor.java" />
@@ -85,9 +92,14 @@
     <file name="ReadWriteQueryExpression_BehaviorDescriptor.java" />
     <file name="RelationshipType_BehaviorDescriptor.java" />
     <file name="Relationship_BehaviorDescriptor.java" />
+    <file name="RelsPathFunction_BehaviorDescriptor.java" />
     <file name="ReturnStatement_BehaviorDescriptor.java" />
+    <file name="RoundMathFunction_BehaviorDescriptor.java" />
+    <file name="SignMathFunction_BehaviorDescriptor.java" />
+    <file name="SqrtMathFunction_BehaviorDescriptor.java" />
     <file name="StartStatement_BehaviorDescriptor.java" />
     <file name="SumAggregate_BehaviorDescriptor.java" />
+    <file name="TailCollFunction_BehaviorDescriptor.java" />
     <file name="UnnamedNode_BehaviorDescriptor.java" />
     <file name="UnnamedTypedLRRelationship_BehaviorDescriptor.java" />
     <file name="UnnamedTypedRLRelationship_BehaviorDescriptor.java" />
@@ -95,20 +107,8 @@
     <file name="UnnamedUntypedLRRelationship_BehaviorDescriptor.java" />
     <file name="UnnamedUntypedRLRelationship_BehaviorDescriptor.java" />
     <file name="UnnamedUntypedRelationship_BehaviorDescriptor.java" />
-    <file name="WhereExpression_BehaviorDescriptor.java" />
+    <file name="WhereStatement_BehaviorDescriptor.java" />
   </common>
-  <source id="4395952758104331843" name="NamedNode_Behavior" hash="5p8k15hux57oxy7xkitv8ljp6cztoi6">
-    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
-    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
-    <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
-    <file name="NamedNode_Behavior.java" />
-  </source>
   <source id="4395952758104628250" name="KeyValueIndex_Behavior" hash="5pn6fx1p02yt1isvh76fsvgsimm7rkj">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
