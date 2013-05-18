@@ -1,3 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo />
+<debugInfo>
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="neo4j.cypher.typesystem.TypesystemDescriptor" />
+  <root nodeId="5206628397327256708" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
+    <nodeInfo nodeId="1221566486911" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="22" startPosition="7" endLine="23" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1221566486911" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="23" startPosition="60" endLine="24" endPosition="230" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="29" startPosition="46" endLine="30" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="34" startPosition="5" endLine="35" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="35" startPosition="117" endLine="36" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="40" startPosition="30" endLine="41" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="16" startPosition="133" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_ApStringLiteral_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="1221566486911" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="21" startPosition="84" endLine="25" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="33" startPosition="68" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="1221566486909" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="20" startPosition="128" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="17" startPosition="52" endLine="17" endPosition="52" />
+    <scopeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="29" startPosition="46" endLine="30" endPosition="52" />
+    <scopeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="40" startPosition="30" endLine="41" endPosition="17" />
+    <scopeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="16" startPosition="133" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="1221566486911" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="22" startPosition="7" endLine="24" endPosition="230">
+      <varInfo nodeId="1221566486911" varName="_reporter_2309309498" />
+      <varInfo nodeId="1221566486911" varName="errorTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="34" startPosition="5" endLine="36" endPosition="45">
+      <varInfo nodeId="5206628397327256708" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="1221566486910" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="21" startPosition="84" endLine="25" endPosition="7" />
+    <scopeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="33" startPosition="68" endLine="37" endPosition="5" />
+    <scopeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="5206628397327256709" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="20" startPosition="128" endLine="26" endPosition="5" />
+    <scopeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="5206628397327256708" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="5206628397327256708" varName="apStringLiteral" />
+      <varInfo nodeId="5206628397327256708" varName="status" />
+      <varInfo nodeId="5206628397327256708" varName="typeCheckingContext" />
+    </scopeInfo>
+    <unitInfo nodeId="5206628397327256708" fileName="check_ApStringLiteral_NonTypesystemRule.java" startLine="16" startPosition="0" endLine="44" endPosition="0" unitName="neo4j.cypher.typesystem.check_ApStringLiteral_NonTypesystemRule" />
+  </root>
+  <root nodeId="5206628397327256718" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
+    <nodeInfo nodeId="5206628397327256745" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="21" startPosition="5" endLine="22" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256745" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="22" startPosition="57" endLine="23" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256745" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="23" startPosition="189" endLine="24" endPosition="333" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="28" startPosition="46" endLine="29" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="33" startPosition="5" endLine="34" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="34" startPosition="117" endLine="35" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="39" startPosition="30" endLine="40" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="47" startPosition="76" endLine="48" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="48" startPosition="26" endLine="49" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="49" startPosition="67" endLine="50" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="51" startPosition="7" endLine="52" endPosition="159" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="52" startPosition="159" endLine="53" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="53" startPosition="43" endLine="54" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="55" startPosition="7" endLine="56" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="59" startPosition="31" endLine="60" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="60" startPosition="26" endLine="61" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="61" startPosition="67" endLine="62" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="63" startPosition="7" endLine="64" endPosition="159" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="64" startPosition="159" endLine="65" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="65" startPosition="43" endLine="66" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="67" startPosition="7" endLine="68" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="16" startPosition="122" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_ApStringLiteral_InferenceRule#()V" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="43" startPosition="52" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_ugvsjf_a0a0a0#()V" />
+    <nodeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="32" startPosition="68" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="5206628397327256745" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="20" startPosition="128" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="50" startPosition="32" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="50" startPosition="32" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="62" startPosition="32" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="62" startPosition="32" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="31" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="19" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="46" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#(Ljetbrains/mps/typesystem/inference/TypeCheckingContext;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="58" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
+    <scopeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="17" startPosition="49" endLine="17" endPosition="49" />
+    <scopeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="44" startPosition="43" endLine="44" endPosition="43" />
+    <scopeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="28" startPosition="46" endLine="29" endPosition="52" />
+    <scopeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="39" startPosition="30" endLine="40" endPosition="17" />
+    <scopeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="16" startPosition="122" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="33" startPosition="5" endLine="35" endPosition="45">
+      <varInfo nodeId="5206628397327256718" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="43" startPosition="52" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="5206628397327256745" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="21" startPosition="5" endLine="24" endPosition="333">
+      <varInfo nodeId="5206628397327256745" varName="_info_12389875345" />
+      <varInfo nodeId="5206628397327256745" varName="_nodeToCheck_1029348928467" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="51" startPosition="7" endLine="54" endPosition="31">
+      <varInfo nodeId="5206628397327256750" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="63" startPosition="7" endLine="66" endPosition="31">
+      <varInfo nodeId="5206628397327256750" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="32" startPosition="68" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="5206628397327256719" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="20" startPosition="128" endLine="25" endPosition="5" />
+    <scopeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="50" startPosition="32" endLine="55" endPosition="7" />
+    <scopeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="62" startPosition="32" endLine="67" endPosition="7" />
+    <scopeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="31" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="5206628397327256718" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="19" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="5206628397327256718" varName="apStringLiteral" />
+      <varInfo nodeId="5206628397327256718" varName="status" />
+      <varInfo nodeId="5206628397327256718" varName="typeCheckingContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="47" startPosition="76" endLine="56" endPosition="20">
+      <varInfo nodeId="5206628397327256750" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5206628397327256750" varName="quotedNode_1" />
+      <varInfo nodeId="5206628397327256750" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="59" startPosition="31" endLine="68" endPosition="20">
+      <varInfo nodeId="5206628397327256750" varName="_parameterValues_129834374" />
+      <varInfo nodeId="5206628397327256750" varName="quotedNode_1" />
+      <varInfo nodeId="5206628397327256750" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="46" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="5206628397327256750" varName="typeCheckingContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="58" startPosition="0" endLine="70" endPosition="0" />
+    <unitInfo nodeId="5206628397327256750" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="43" startPosition="0" endLine="71" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_ApStringLiteral_InferenceRule$QuotationClass_ugvsjf_a0a0a0" />
+    <unitInfo nodeId="5206628397327256718" fileName="typeof_ApStringLiteral_InferenceRule.java" startLine="16" startPosition="0" endLine="72" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_ApStringLiteral_InferenceRule" />
+  </root>
+  <root nodeId="5206628397327342231" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
+    <nodeInfo nodeId="5206628397327342282" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="22" startPosition="7" endLine="23" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327342282" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="23" startPosition="60" endLine="24" endPosition="244" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="29" startPosition="46" endLine="30" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="34" startPosition="5" endLine="35" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="35" startPosition="117" endLine="36" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="40" startPosition="30" endLine="41" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="16" startPosition="141" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_INamedPropertyContainer_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="5206628397327342282" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="21" startPosition="119" endLine="25" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="33" startPosition="68" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="5206628397327342235" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="20" startPosition="135" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="17" startPosition="60" endLine="17" endPosition="60" />
+    <scopeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="29" startPosition="46" endLine="30" endPosition="60" />
+    <scopeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="40" startPosition="30" endLine="41" endPosition="17" />
+    <scopeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="16" startPosition="141" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="5206628397327342282" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="22" startPosition="7" endLine="24" endPosition="244">
+      <varInfo nodeId="5206628397327342282" varName="_reporter_2309309498" />
+      <varInfo nodeId="5206628397327342282" varName="errorTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="34" startPosition="5" endLine="36" endPosition="45">
+      <varInfo nodeId="5206628397327342231" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327342236" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="21" startPosition="119" endLine="25" endPosition="7" />
+    <scopeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="33" startPosition="68" endLine="37" endPosition="5" />
+    <scopeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="5206628397327342232" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="20" startPosition="135" endLine="26" endPosition="5" />
+    <scopeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="5206628397327342231" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="5206628397327342231" varName="namedPropertyContainer" />
+      <varInfo nodeId="5206628397327342231" varName="status" />
+      <varInfo nodeId="5206628397327342231" varName="typeCheckingContext" />
+    </scopeInfo>
+    <unitInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainer_NonTypesystemRule.java" startLine="16" startPosition="0" endLine="44" endPosition="0" unitName="neo4j.cypher.typesystem.check_INamedPropertyContainer_NonTypesystemRule" />
+  </root>
+</debugInfo>
 

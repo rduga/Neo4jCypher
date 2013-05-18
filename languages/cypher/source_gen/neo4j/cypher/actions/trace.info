@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo />
+<debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="neo4j.cypher.actions.QueriesGenerated" />
+  <root nodeId="5206628397327285754" modelId="r:ae4b435d-e2de-45ff-8308-3989c5d9b5ff(neo4j.cypher.actions)">
+    <nodeInfo nodeId="5206628397327285856" fileName="QueriesGenerated.java" startLine="9" startPosition="159" endLine="10" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <scopeInfo nodeId="5206628397327285757" fileName="QueriesGenerated.java" startLine="9" startPosition="159" endLine="10" endPosition="14" />
+  </root>
+</debugInfo>
 

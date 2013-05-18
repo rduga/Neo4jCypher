@@ -8,6 +8,7 @@
     <classNode dependClassName="neo4j.cypher.constraints.NamedNodeRef_Constraints" />
     <classNode dependClassName="neo4j.cypher.constraints.OrderByExpression_Constraints" />
     <classNode dependClassName="neo4j.cypher.constraints.OrderByStatement_Constraints" />
+    <classNode dependClassName="neo4j.cypher.constraints.ReadWriteQueryExpression_Constraints" />
     <classNode dependClassName="neo4j.cypher.constraints.ReturnStatement_Constraints" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
   </dependency>
@@ -46,6 +47,9 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.constraints.ReadWriteQueryExpression_Constraints" file="ReadWriteQueryExpression_Constraints.java">
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.constraints.ReturnStatement_Constraints" file="ReturnStatement_Constraints.java">

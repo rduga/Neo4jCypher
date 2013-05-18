@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
-  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.OrderByExpression", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.ReturnStatement"};
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.OrderByExpression", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.ReadWriteQueryExpression", "neo4j.cypher.structure.ReturnStatement"};
 
   public ConstraintsAspectDescriptor() {
   }
@@ -16,12 +16,14 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0a, fqName)) {
       case 2:
         return new OrderByStatement_Constraints();
-      case 3:
-        return new ReturnStatement_Constraints();
       case 1:
         return new OrderByExpression_Constraints();
       case 0:
         return new NamedNodeRef_Constraints();
+      case 3:
+        return new ReadWriteQueryExpression_Constraints();
+      case 4:
+        return new ReturnStatement_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);

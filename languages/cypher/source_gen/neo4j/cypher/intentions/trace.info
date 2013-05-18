@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="19" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
+  <root nodeId="5206628397327142130" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="25" startPosition="37" endLine="26" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="29" startPosition="44" endLine="30" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327142135" fileName="SplitApStringIntoContatenation_Intention.java" startLine="33" startPosition="85" endLine="34" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3714404449448597993" fileName="SplitApStringIntoContatenation_Intention.java" startLine="37" startPosition="76" endLine="38" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1195647385886" fileName="SplitApStringIntoContatenation_Intention.java" startLine="38" startPosition="80" endLine="39" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1195647385892" fileName="SplitApStringIntoContatenation_Intention.java" startLine="39" startPosition="48" endLine="40" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1195647385901" fileName="SplitApStringIntoContatenation_Intention.java" startLine="40" startPosition="89" endLine="41" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1195647385909" fileName="SplitApStringIntoContatenation_Intention.java" startLine="41" startPosition="86" endLine="42" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1195647385915" fileName="SplitApStringIntoContatenation_Intention.java" startLine="42" startPosition="131" endLine="43" endPosition="153" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1195647385926" fileName="SplitApStringIntoContatenation_Intention.java" startLine="43" startPosition="153" endLine="44" endPosition="154" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="47" startPosition="37" endLine="48" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="13" startPosition="98" endLine="15" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SplitApStringIntoContatenation_Intention#()V" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="16" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="20" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="36" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="14" startPosition="53" endLine="14" endPosition="53" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="52" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="25" startPosition="37" endLine="26" endPosition="17" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="29" startPosition="44" endLine="30" endPosition="17" />
+    <scopeInfo nodeId="5206628397327142132" fileName="SplitApStringIntoContatenation_Intention.java" startLine="33" startPosition="85" endLine="34" endPosition="47" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="47" startPosition="37" endLine="48" endPosition="37" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="13" startPosition="98" endLine="15" endPosition="3" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="16" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="20" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="32" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="5206628397327142130" varName="editorContext" />
+      <varInfo nodeId="5206628397327142130" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0" />
+    <scopeInfo nodeId="1195647385878" fileName="SplitApStringIntoContatenation_Intention.java" startLine="37" startPosition="76" endLine="44" endPosition="154">
+      <varInfo nodeId="1195647385887" varName="caretPosition" />
+      <varInfo nodeId="3714404449448597994" varName="cell" />
+      <varInfo nodeId="1195647385910" varName="plusExpression" />
+      <varInfo nodeId="1195647385893" varName="s1" />
+      <varInfo nodeId="1195647385902" varName="s2" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="36" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="5206628397327142130" varName="editorContext" />
+      <varInfo nodeId="5206628397327142130" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="13" startPosition="0" endLine="51" endPosition="0" unitName="neo4j.cypher.intentions.SplitApStringIntoContatenation_Intention" />
+  </root>
   <root nodeId="7352030329465574050" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
     <nodeInfo nodeId="7352030329465574050" fileName="Asc2Desc_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7352030329465574050" fileName="Asc2Desc_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

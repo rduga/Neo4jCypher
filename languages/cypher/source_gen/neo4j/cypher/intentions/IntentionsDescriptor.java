@@ -14,5 +14,6 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
   public void init() {
     add(new Asc2Desc_Intention(), "7352030329465574050");
     add(new Desc2Asc_Intention(), "7352030329465701064");
+    add(new SplitApStringIntoContatenation_Intention(), "5206628397327142130");
   }
 }

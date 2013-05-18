@@ -11,29 +11,29 @@ import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
 public class ReturnStatement_Constraints extends BaseConstraintsDescriptor {
-  private static SNodePointer canBeParentBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "5530189148631488000");
+  private static SNodePointer canBeAncesctorBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "5206628397327010375");
 
   public ReturnStatement_Constraints() {
     super("neo4j.cypher.structure.ReturnStatement");
   }
 
   @Override
-  public boolean hasOwnCanBeParentMethod() {
+  public boolean hasOwnCanBeAncestorMethod() {
     return true;
   }
 
   @Override
-  public boolean canBeParent(SNode node, @Nullable SNode childNode, SNode childConcept, SNode link, IOperationContext operationContext, @Nullable CheckingNodeContext checkingNodeContext) {
-    boolean result = static_canBeAParent(node, childNode, childConcept, link, operationContext);
+  public boolean canBeAncestor(SNode node, @Nullable SNode childNode, SNode childConcept, IOperationContext context, @Nullable CheckingNodeContext checkingNodeContext) {
+    boolean result = static_canBeAnAncestor(node, childNode, childConcept, context);
 
     if (!(result) && checkingNodeContext != null) {
-      checkingNodeContext.setBreakingNode(canBeParentBreakingPoint);
+      checkingNodeContext.setBreakingNode(canBeAncesctorBreakingPoint);
     }
 
     return result;
   }
 
-  public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
-    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IReturnExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.DotExpression");
+  public static boolean static_canBeAnAncestor(SNode node, SNode childNode, SNode childConcept, final IOperationContext operationContext) {
+    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IReturnExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.DotExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.BooleanConstant") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.ApStringLiteral") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.IntegerLiteral") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.FloatingPointConstant") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.StringLiteral") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.PlusExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.MinusExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.MulExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.DivExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.RemExpression");
   }
 }

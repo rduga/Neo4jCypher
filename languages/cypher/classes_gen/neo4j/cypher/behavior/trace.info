@@ -4,17 +4,21 @@
   <unitInfo fileName="AggregateFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.AggregateFunction_BehaviorDescriptor" />
   <unitInfo fileName="AllExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.AllExpression_BehaviorDescriptor" />
   <unitInfo fileName="AllIndex_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.AllIndex_BehaviorDescriptor" />
+  <unitInfo fileName="ApStringLiteral_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.behavior.ApStringLiteral_BehaviorDescriptor" />
   <unitInfo fileName="AsExpression_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.behavior.AsExpression_BehaviorDescriptor" />
   <unitInfo fileName="AscOrderBy_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.AscOrderBy_BehaviorDescriptor" />
   <unitInfo fileName="AssignmentStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.AssignmentStatement_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="130" endPosition="0" unitName="neo4j.cypher.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="144" endPosition="0" unitName="neo4j.cypher.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CollectionFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.CollectionFunction_BehaviorDescriptor" />
   <unitInfo fileName="ConnectionSheet_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.behavior.ConnectionSheet_BehaviorDescriptor" />
   <unitInfo fileName="ConnectionStatement_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.behavior.ConnectionStatement_BehaviorDescriptor" />
   <unitInfo fileName="CountAggregate_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.CountAggregate_BehaviorDescriptor" />
+  <unitInfo fileName="CreateStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.CreateStatement_BehaviorDescriptor" />
+  <unitInfo fileName="CreateUniqueStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.CreateUniqueStatement_BehaviorDescriptor" />
   <unitInfo fileName="CypherDotExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.CypherDotExpression_BehaviorDescriptor" />
   <unitInfo fileName="CypherExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.CypherExpression_BehaviorDescriptor" />
   <unitInfo fileName="CypherStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.CypherStatement_BehaviorDescriptor" />
+  <unitInfo fileName="DeleteStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.DeleteStatement_BehaviorDescriptor" />
   <unitInfo fileName="DescOrderBy_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.DescOrderBy_BehaviorDescriptor" />
   <unitInfo fileName="DistinctExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.DistinctExpression_BehaviorDescriptor" />
   <unitInfo fileName="EmbeddedConnection_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.EmbeddedConnection_BehaviorDescriptor" />
@@ -23,6 +27,7 @@
   <unitInfo fileName="HeadCollFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.HeadCollFunction_BehaviorDescriptor" />
   <unitInfo fileName="IConnectionStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IConnectionStatement_BehaviorDescriptor" />
   <unitInfo fileName="ICypherExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.ICypherExpression_BehaviorDescriptor" />
+  <unitInfo fileName="INamedPropertyContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="neo4j.cypher.behavior.INamedPropertyContainer_BehaviorDescriptor" />
   <unitInfo fileName="IOrderByExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IOrderByExpression_BehaviorDescriptor" />
   <unitInfo fileName="IQueryStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IQueryStatement_BehaviorDescriptor" />
   <unitInfo fileName="IReturnExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IReturnExpression_BehaviorDescriptor" />
@@ -39,13 +44,13 @@
   <unitInfo fileName="MinAggregate_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.MinAggregate_BehaviorDescriptor" />
   <unitInfo fileName="NamedIndex_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.behavior.NamedIndex_BehaviorDescriptor" />
   <unitInfo fileName="NamedNodeRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.NamedNodeRef_BehaviorDescriptor" />
-  <unitInfo fileName="NamedNode_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.behavior.NamedNode_BehaviorDescriptor" />
-  <unitInfo fileName="NamedTypedLRRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.NamedTypedLRRelationship_BehaviorDescriptor" />
-  <unitInfo fileName="NamedTypedRLRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.NamedTypedRLRelationship_BehaviorDescriptor" />
-  <unitInfo fileName="NamedTypedRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.NamedTypedRelationship_BehaviorDescriptor" />
-  <unitInfo fileName="NamedUntypedLRRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.NamedUntypedLRRelationship_BehaviorDescriptor" />
-  <unitInfo fileName="NamedUntypedRLRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.NamedUntypedRLRelationship_BehaviorDescriptor" />
-  <unitInfo fileName="NamedUntypedRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.NamedUntypedRelationship_BehaviorDescriptor" />
+  <unitInfo fileName="NamedNode_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.behavior.NamedNode_BehaviorDescriptor" />
+  <unitInfo fileName="NamedTypedLRRelationship_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.behavior.NamedTypedLRRelationship_BehaviorDescriptor" />
+  <unitInfo fileName="NamedTypedRLRelationship_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.behavior.NamedTypedRLRelationship_BehaviorDescriptor" />
+  <unitInfo fileName="NamedTypedRelationship_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.behavior.NamedTypedRelationship_BehaviorDescriptor" />
+  <unitInfo fileName="NamedUntypedLRRelationship_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.behavior.NamedUntypedLRRelationship_BehaviorDescriptor" />
+  <unitInfo fileName="NamedUntypedRLRelationship_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.behavior.NamedUntypedRLRelationship_BehaviorDescriptor" />
+  <unitInfo fileName="NamedUntypedRelationship_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.behavior.NamedUntypedRelationship_BehaviorDescriptor" />
   <unitInfo fileName="Node_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.Node_BehaviorDescriptor" />
   <unitInfo fileName="NodesPathFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.NodesPathFunction_BehaviorDescriptor" />
   <unitInfo fileName="OrderByExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.OrderByExpression_BehaviorDescriptor" />
@@ -60,11 +65,14 @@
   <unitInfo fileName="ReadOnlyQueryExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.ReadOnlyQueryExpression_BehaviorDescriptor" />
   <unitInfo fileName="ReadWriteQueryExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.ReadWriteQueryExpression_BehaviorDescriptor" />
   <unitInfo fileName="RelationshipType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.behavior.RelationshipType_BehaviorDescriptor" />
-  <unitInfo fileName="Relationship_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />
+  <unitInfo fileName="Relationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />
   <unitInfo fileName="RelsPathFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.RelsPathFunction_BehaviorDescriptor" />
+  <unitInfo fileName="ReturnStatementBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.ReturnStatementBlock_BehaviorDescriptor" />
   <unitInfo fileName="ReturnStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.ReturnStatement_BehaviorDescriptor" />
   <unitInfo fileName="RoundMathFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.RoundMathFunction_BehaviorDescriptor" />
+  <unitInfo fileName="SetStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.SetStatement_BehaviorDescriptor" />
   <unitInfo fileName="SignMathFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.SignMathFunction_BehaviorDescriptor" />
+  <unitInfo fileName="SkipStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.SkipStatement_BehaviorDescriptor" />
   <unitInfo fileName="SqrtMathFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.SqrtMathFunction_BehaviorDescriptor" />
   <unitInfo fileName="StartStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.StartStatement_BehaviorDescriptor" />
   <unitInfo fileName="SumAggregate_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.SumAggregate_BehaviorDescriptor" />
@@ -72,7 +80,7 @@
   <unitInfo fileName="UnnamedNode_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedNode_BehaviorDescriptor" />
   <unitInfo fileName="UnnamedTypedLRRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedTypedLRRelationship_BehaviorDescriptor" />
   <unitInfo fileName="UnnamedTypedRLRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedTypedRLRelationship_BehaviorDescriptor" />
-  <unitInfo fileName="UnnamedTypedRelationship_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedTypedRelationship_BehaviorDescriptor" />
+  <unitInfo fileName="UnnamedTypedRelationship_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedTypedRelationship_BehaviorDescriptor" />
   <unitInfo fileName="UnnamedUntypedLRRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedUntypedLRRelationship_BehaviorDescriptor" />
   <unitInfo fileName="UnnamedUntypedRLRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedUntypedRLRelationship_BehaviorDescriptor" />
   <unitInfo fileName="UnnamedUntypedRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedUntypedRelationship_BehaviorDescriptor" />
@@ -91,6 +99,156 @@
       <varInfo nodeId="4395952758104628250" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="4395952758104628250" fileName="KeyValueIndex_Behavior.java" startLine="10" startPosition="0" endLine="19" endPosition="0" unitName="neo4j.cypher.behavior.KeyValueIndex_Behavior" />
+  </root>
+  <root nodeId="5206628397327256671" modelId="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)">
+    <nodeInfo nodeId="1213877530971" fileName="ApStringLiteral_Behavior.java" startLine="13" startPosition="83" endLine="14" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221565478455" fileName="ApStringLiteral_Behavior.java" startLine="17" startPosition="70" endLine="18" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1221565667816" fileName="ApStringLiteral_Behavior.java" startLine="18" startPosition="33" endLine="19" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1240399142702" fileName="ApStringLiteral_Behavior.java" startLine="19" startPosition="34" endLine="20" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1240399104823" fileName="ApStringLiteral_Behavior.java" startLine="20" startPosition="37" endLine="21" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1221565744030" fileName="ApStringLiteral_Behavior.java" startLine="21" startPosition="24" endLine="22" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1221652022969" fileName="ApStringLiteral_Behavior.java" startLine="22" startPosition="31" endLine="23" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1221652066642" fileName="ApStringLiteral_Behavior.java" startLine="24" startPosition="24" endLine="25" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221565493999" fileName="ApStringLiteral_Behavior.java" startLine="27" startPosition="46" endLine="28" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1221567525142" fileName="ApStringLiteral_Behavior.java" startLine="30" startPosition="23" endLine="31" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1240399230283" fileName="ApStringLiteral_Behavior.java" startLine="32" startPosition="42" endLine="33" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1240399261494" fileName="ApStringLiteral_Behavior.java" startLine="33" startPosition="34" endLine="34" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1221567525151" fileName="ApStringLiteral_Behavior.java" startLine="35" startPosition="116" endLine="36" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221567525184" fileName="ApStringLiteral_Behavior.java" startLine="37" startPosition="9" endLine="38" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1221567545067" fileName="ApStringLiteral_Behavior.java" startLine="39" startPosition="29" endLine="40" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1240399339653" fileName="ApStringLiteral_Behavior.java" startLine="42" startPosition="35" endLine="43" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1240399339665" fileName="ApStringLiteral_Behavior.java" startLine="44" startPosition="16" endLine="45" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1240399339672" fileName="ApStringLiteral_Behavior.java" startLine="47" startPosition="31" endLine="48" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1240399400115" fileName="ApStringLiteral_Behavior.java" startLine="48" startPosition="35" endLine="49" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1221565850401" fileName="ApStringLiteral_Behavior.java" startLine="52" startPosition="105" endLine="53" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1221565854361" fileName="ApStringLiteral_Behavior.java" startLine="54" startPosition="16" endLine="55" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221565798249" fileName="ApStringLiteral_Behavior.java" startLine="57" startPosition="38" endLine="58" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1240399353052" fileName="ApStringLiteral_Behavior.java" startLine="58" startPosition="32" endLine="59" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1221567052888" fileName="ApStringLiteral_Behavior.java" startLine="61" startPosition="28" endLine="62" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221565710808" fileName="ApStringLiteral_Behavior.java" startLine="65" startPosition="40" endLine="66" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221565761039" fileName="ApStringLiteral_Behavior.java" startLine="67" startPosition="5" endLine="68" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221565885464" fileName="ApStringLiteral_Behavior.java" startLine="72" startPosition="32" endLine="73" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1221565906018" fileName="ApStringLiteral_Behavior.java" startLine="74" startPosition="5" endLine="75" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1221565921372" fileName="ApStringLiteral_Behavior.java" startLine="75" startPosition="40" endLine="76" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1240399339663" fileName="ApStringLiteral_Behavior.java" startLine="44" startPosition="14" endLine="46" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1221565853484" fileName="ApStringLiteral_Behavior.java" startLine="54" startPosition="14" endLine="56" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327256671" fileName="ApStringLiteral_Behavior.java" startLine="9" startPosition="39" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="1221652055561" fileName="ApStringLiteral_Behavior.java" startLine="23" startPosition="68" endLine="26" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1221565708021" fileName="ApStringLiteral_Behavior.java" startLine="64" startPosition="5" endLine="67" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1221565879348" fileName="ApStringLiteral_Behavior.java" startLine="71" startPosition="79" endLine="74" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327256671" fileName="ApStringLiteral_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_eval_1213877519769#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/project/IModule;)Ljava/lang/Object;" />
+    <nodeInfo nodeId="1240399339667" fileName="ApStringLiteral_Behavior.java" startLine="46" startPosition="9" endLine="50" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1221565793100" fileName="ApStringLiteral_Behavior.java" startLine="56" startPosition="9" endLine="60" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1240399339651" fileName="ApStringLiteral_Behavior.java" startLine="41" startPosition="36" endLine="46" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1221565803429" fileName="ApStringLiteral_Behavior.java" startLine="51" startPosition="33" endLine="56" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1221567525140" fileName="ApStringLiteral_Behavior.java" startLine="29" startPosition="25" endLine="37" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327256671" fileName="ApStringLiteral_Behavior.java" startLine="70" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isHexChar_1221565869792#(Ljetbrains/mps/smodel/SNode;C)Z" />
+    <nodeInfo nodeId="1221565503888" fileName="ApStringLiteral_Behavior.java" startLine="28" startPosition="74" endLine="63" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1221565279181" fileName="ApStringLiteral_Behavior.java" startLine="26" startPosition="5" endLine="64" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="5206628397327256671" fileName="ApStringLiteral_Behavior.java" startLine="16" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isCorrect_1221565233201#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <scopeInfo nodeId="5206628397327256673" fileName="ApStringLiteral_Behavior.java" startLine="10" startPosition="43" endLine="10" endPosition="43" />
+    <scopeInfo nodeId="1213877530970" fileName="ApStringLiteral_Behavior.java" startLine="13" startPosition="83" endLine="14" endPosition="60" />
+    <scopeInfo nodeId="1221652055562" fileName="ApStringLiteral_Behavior.java" startLine="24" startPosition="24" endLine="25" endPosition="18" />
+    <scopeInfo nodeId="1221567525141" fileName="ApStringLiteral_Behavior.java" startLine="30" startPosition="23" endLine="31" endPosition="31" />
+    <scopeInfo nodeId="1240399196555" fileName="ApStringLiteral_Behavior.java" startLine="35" startPosition="116" endLine="36" endPosition="23" />
+    <scopeInfo nodeId="1221565533957" fileName="ApStringLiteral_Behavior.java" startLine="39" startPosition="29" endLine="40" endPosition="28" />
+    <scopeInfo nodeId="1240399339652" fileName="ApStringLiteral_Behavior.java" startLine="42" startPosition="35" endLine="43" endPosition="24" />
+    <scopeInfo nodeId="1240399339664" fileName="ApStringLiteral_Behavior.java" startLine="44" startPosition="16" endLine="45" endPosition="23" />
+    <scopeInfo nodeId="1221565803430" fileName="ApStringLiteral_Behavior.java" startLine="52" startPosition="105" endLine="53" endPosition="31" />
+    <scopeInfo nodeId="1221565853485" fileName="ApStringLiteral_Behavior.java" startLine="54" startPosition="16" endLine="55" endPosition="23" />
+    <scopeInfo nodeId="1221567022879" fileName="ApStringLiteral_Behavior.java" startLine="61" startPosition="28" endLine="62" endPosition="21" />
+    <scopeInfo nodeId="1221565708022" fileName="ApStringLiteral_Behavior.java" startLine="65" startPosition="40" endLine="66" endPosition="19" />
+    <scopeInfo nodeId="1221565879350" fileName="ApStringLiteral_Behavior.java" startLine="72" startPosition="32" endLine="73" endPosition="18" />
+    <scopeInfo nodeId="1221567525150" fileName="ApStringLiteral_Behavior.java" startLine="32" startPosition="42" endLine="34" endPosition="26" />
+    <scopeInfo nodeId="1240399339671" fileName="ApStringLiteral_Behavior.java" startLine="47" startPosition="31" endLine="49" endPosition="26" />
+    <scopeInfo nodeId="1221565793102" fileName="ApStringLiteral_Behavior.java" startLine="57" startPosition="38" endLine="59" endPosition="33" />
+    <scopeInfo nodeId="5206628397327256671" fileName="ApStringLiteral_Behavior.java" startLine="9" startPosition="39" endLine="12" endPosition="0">
+      <varInfo nodeId="5206628397327256671" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256671" fileName="ApStringLiteral_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="1213877530975" varName="module" />
+      <varInfo nodeId="5206628397327256671" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1221565869795" fileName="ApStringLiteral_Behavior.java" startLine="71" startPosition="79" endLine="76" endPosition="34">
+      <varInfo nodeId="1221565906019" varName="lc" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256671" fileName="ApStringLiteral_Behavior.java" startLine="70" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="1221565876908" varName="ch" />
+      <varInfo nodeId="5206628397327256671" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1221565503889" fileName="ApStringLiteral_Behavior.java" startLine="29" startPosition="25" endLine="38" endPosition="29" />
+    <scopeInfo nodeId="1240399324195" fileName="ApStringLiteral_Behavior.java" startLine="41" startPosition="36" endLine="50" endPosition="9" />
+    <scopeInfo nodeId="1221565764872" fileName="ApStringLiteral_Behavior.java" startLine="51" startPosition="33" endLine="60" endPosition="9" />
+    <scopeInfo nodeId="1221565279184" fileName="ApStringLiteral_Behavior.java" startLine="27" startPosition="46" endLine="63" endPosition="7">
+      <varInfo nodeId="1221565494000" varName="c" />
+    </scopeInfo>
+    <scopeInfo nodeId="1221565279181" fileName="ApStringLiteral_Behavior.java" startLine="26" startPosition="5" endLine="64" endPosition="5">
+      <varInfo nodeId="1221565279182" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="1221565233204" fileName="ApStringLiteral_Behavior.java" startLine="17" startPosition="70" endLine="68" endPosition="16">
+      <varInfo nodeId="1240399104824" varName="digitNumber" />
+      <varInfo nodeId="1221565478456" varName="isEscapeMode" />
+      <varInfo nodeId="1240399142703" varName="isSymbolCodeMode" />
+      <varInfo nodeId="1221565667817" varName="isUnicodeMode" />
+      <varInfo nodeId="1221565744031" varName="unicodeDigitNumber" />
+      <varInfo nodeId="1221652022970" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327256671" fileName="ApStringLiteral_Behavior.java" startLine="16" startPosition="0" endLine="70" endPosition="0">
+      <varInfo nodeId="5206628397327256671" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="5206628397327256671" fileName="ApStringLiteral_Behavior.java" startLine="9" startPosition="0" endLine="79" endPosition="0" unitName="neo4j.cypher.behavior.ApStringLiteral_Behavior" />
+  </root>
+  <root nodeId="5206628397327338995" modelId="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)">
+    <nodeInfo nodeId="5206628397327339030" fileName="INamedPropertyContainer_Behavior.java" startLine="12" startPosition="90" endLine="13" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327339034" fileName="INamedPropertyContainer_Behavior.java" startLine="13" startPosition="33" endLine="14" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327339038" fileName="INamedPropertyContainer_Behavior.java" startLine="14" startPosition="34" endLine="15" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327339042" fileName="INamedPropertyContainer_Behavior.java" startLine="15" startPosition="37" endLine="16" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327339046" fileName="INamedPropertyContainer_Behavior.java" startLine="16" startPosition="24" endLine="17" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327339050" fileName="INamedPropertyContainer_Behavior.java" startLine="17" startPosition="31" endLine="18" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327341547" fileName="INamedPropertyContainer_Behavior.java" startLine="18" startPosition="67" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327339058" fileName="INamedPropertyContainer_Behavior.java" startLine="20" startPosition="24" endLine="21" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327341550" fileName="INamedPropertyContainer_Behavior.java" startLine="22" startPosition="5" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327341794" fileName="INamedPropertyContainer_Behavior.java" startLine="23" startPosition="0" endLine="24" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5206628397327341918" fileName="INamedPropertyContainer_Behavior.java" startLine="25" startPosition="99" endLine="26" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5206628397327341922" fileName="INamedPropertyContainer_Behavior.java" startLine="26" startPosition="42" endLine="27" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327341982" fileName="INamedPropertyContainer_Behavior.java" startLine="28" startPosition="32" endLine="29" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327342150" fileName="INamedPropertyContainer_Behavior.java" startLine="30" startPosition="7" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327341985" fileName="INamedPropertyContainer_Behavior.java" startLine="31" startPosition="0" endLine="32" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327341988" fileName="INamedPropertyContainer_Behavior.java" startLine="33" startPosition="5" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327344967" fileName="INamedPropertyContainer_Behavior.java" startLine="34" startPosition="0" endLine="35" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5206628397327342147" fileName="INamedPropertyContainer_Behavior.java" startLine="37" startPosition="53" endLine="38" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327341546" fileName="INamedPropertyContainer_Behavior.java" startLine="40" startPosition="5" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327339227" fileName="INamedPropertyContainer_Behavior.java" startLine="41" startPosition="0" endLine="42" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327338995" fileName="INamedPropertyContainer_Behavior.java" startLine="8" startPosition="47" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="5206628397327339056" fileName="INamedPropertyContainer_Behavior.java" startLine="19" startPosition="0" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327341950" fileName="INamedPropertyContainer_Behavior.java" startLine="27" startPosition="78" endLine="30" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327342108" fileName="INamedPropertyContainer_Behavior.java" startLine="36" startPosition="29" endLine="39" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327341990" fileName="INamedPropertyContainer_Behavior.java" startLine="35" startPosition="78" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327341552" fileName="INamedPropertyContainer_Behavior.java" startLine="24" startPosition="23" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327338995" fileName="INamedPropertyContainer_Behavior.java" startLine="11" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isCorrectIdentifierName_5206628397327339026#(Ljetbrains/mps/smodel/SNode;)Z" />
+    <scopeInfo nodeId="5206628397327338997" fileName="INamedPropertyContainer_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="5206628397327339057" fileName="INamedPropertyContainer_Behavior.java" startLine="20" startPosition="24" endLine="21" endPosition="18" />
+    <scopeInfo nodeId="5206628397327341951" fileName="INamedPropertyContainer_Behavior.java" startLine="28" startPosition="32" endLine="29" endPosition="21" />
+    <scopeInfo nodeId="5206628397327342109" fileName="INamedPropertyContainer_Behavior.java" startLine="37" startPosition="53" endLine="38" endPosition="21" />
+    <scopeInfo nodeId="5206628397327338995" fileName="INamedPropertyContainer_Behavior.java" startLine="8" startPosition="47" endLine="11" endPosition="0">
+      <varInfo nodeId="5206628397327338995" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327341991" fileName="INamedPropertyContainer_Behavior.java" startLine="36" startPosition="29" endLine="39" endPosition="7" />
+    <scopeInfo nodeId="5206628397327341553" fileName="INamedPropertyContainer_Behavior.java" startLine="25" startPosition="99" endLine="32" endPosition="18">
+      <varInfo nodeId="5206628397327341797" varName="inner" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327339029" fileName="INamedPropertyContainer_Behavior.java" startLine="12" startPosition="90" endLine="42" endPosition="16">
+      <varInfo nodeId="5206628397327339043" varName="digitNumber" />
+      <varInfo nodeId="5206628397327339031" varName="isEscapeMode" />
+      <varInfo nodeId="5206628397327339039" varName="isSymbolCodeMode" />
+      <varInfo nodeId="5206628397327339035" varName="isUnicodeMode" />
+      <varInfo nodeId="5206628397327339047" varName="unicodeDigitNumber" />
+      <varInfo nodeId="5206628397327339051" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327338995" fileName="INamedPropertyContainer_Behavior.java" startLine="11" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="5206628397327338995" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="5206628397327338995" fileName="INamedPropertyContainer_Behavior.java" startLine="8" startPosition="0" endLine="45" endPosition="0" unitName="neo4j.cypher.behavior.INamedPropertyContainer_Behavior" />
   </root>
 </debugInfo>
 
