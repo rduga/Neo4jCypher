@@ -4,5 +4,5 @@ package neo4j.cypher.behavior;
 
 import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 
-public interface INamedPropertyContainer_BehaviorDescriptor extends INamedConcept_BehaviorDescriptor {
+public interface INamedNullableIdentifier_BehaviorDescriptor extends INamedConcept_BehaviorDescriptor {
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="bd9g9cxodjt005hcj9oumdyz6rqkyqz">
+<dependencies version="2" modelHash="duh9ld0ul7003t6pd84012zvj0hqlt8">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -8,7 +8,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="by6m6685edr3tvvu41tn962ziqck6uy">
+  <common hash="er428kbub0u1uid2mf5u1rxf67txwn8">
     <dep root="1268543411551983790" />
     <dep root="1268543411551995397" />
     <dep root="1268543411552025423" />
@@ -78,6 +78,7 @@
     <dep root="4395952758104566948" />
     <dep root="5206628397327069922" />
     <dep root="5206628397327330408" />
+    <dep root="5206628397327427253" />
     <dep root="5530189148631283264" />
     <dep root="5530189148631311038" />
     <dep root="5530189148631337723" />
@@ -122,7 +123,7 @@
   <source id="1268543411552161296" name="AssignmentStatement" hash="5v9lbrjejozjrwhd310458rnevruzia">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1268543411552161297" name="NamedNode" hash="cpp5esjf9kut751ouwpsdjevzf56u5b">
+  <source id="1268543411552161297" name="NamedNode" hash="b9hupqyjqlx1p7jzzhwb6zhoectffip">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1268543411552224123" name="Index" hash="1dvqxr8wqdm29q0ru126e3dnjiqzcy5">
@@ -170,7 +171,7 @@
   <source id="2686030116060541306" name="UnnamedUntypedRelationship" hash="399a47pz2ggucxiknkbx2j99v1zbzgu">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2686030116060541310" name="NamedUntypedLRRelationship" hash="-bo5frmyebfxrxbuandnzwhgemr3gewt">
+  <source id="2686030116060541310" name="NamedUntypedLRRelationship" hash="-2fty4d1qvyqyfykuzz1xhl2etropxh4">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="2686030116060608322" name="RelationshipType" hash="9vd67lc94cz4sbia0nd3ydtonrp9ba0">
@@ -185,19 +186,19 @@
   <source id="2686030116060639749" name="UnnamedTypedRelationship" hash="4vdjtmek0jn1oaxj911nmjixacjqzg">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2686030116060646827" name="NamedUntypedRLRelationship" hash="-e53ss8djl5aafao2ya1mwdmijg7wjw8">
+  <source id="2686030116060646827" name="NamedUntypedRLRelationship" hash="-7t84lv4tmwk5g1yvdqqbicvl68fuyli">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2686030116060661226" name="NamedUntypedRelationship" hash="-b6qezx769ti3h7lfkvt9b49f7raacxb">
+  <source id="2686030116060661226" name="NamedUntypedRelationship" hash="-34avsntrp204nwrlq19jferwvl7hzcg">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2686030116060668985" name="NamedTypedLRRelationship" hash="-7nlm16k5euipxi9ri6ggheoxe3hyb7q">
+  <source id="2686030116060668985" name="NamedTypedLRRelationship" hash="w6je9vlxcdac1jpvbvefq1qgzkzx3g">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2686030116060677025" name="NamedTypedRLRelationship" hash="-8gfe1ma1db9hjjfwqyfgv8a4nzv1cnu">
+  <source id="2686030116060677025" name="NamedTypedRLRelationship" hash="-8a640kpuu65fgimorkwl7eit23w963j">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2686030116060685549" name="NamedTypedRelationship" hash="5ivp61b6021448tb70bz82cf6znz4nl">
+  <source id="2686030116060685549" name="NamedTypedRelationship" hash="3dla3gb40lhhar0ggzy17eiawvpdmxy">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="2686030116060694996" name="CypherExpression" hash="4ktfg5ma0a8tk83vy7dxnyn9he8yify">
@@ -251,7 +252,7 @@
   <source id="4395952758104302029" name="NamedNodeRef" hash="aqjey9rv0iz7j0fumqn3iso7qrch8uo">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4395952758104399755" name="Property" hash="-9tz97q06im4buqv0naqux6iv0jxqthq">
+  <source id="4395952758104399755" name="Property" hash="-et4winp21actzee6fe51vjqgy93bsvk">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4395952758104563294" name="ReturnStatement" hash="aackhrsh6lcjf8fkp9fmgr9q50z3jn4">
@@ -353,7 +354,10 @@
   <source id="5206628397327069922" name="ApStringLiteral" hash="-38389c3vm55085b3c8k1s8ggxecp4pd">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="5206628397327330408" name="INamedPropertyContainer" hash="-atoso0m78jnw4p4hk56pt79k7693gk0">
+  <source id="5206628397327330408" name="INamedIdentifier" hash="6mh4ca8717yjf44mtiqpql2dwx54tk5">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5206628397327427253" name="INamedNullableIdentifier" hash="-2o5sryriu0awvzgz3wawj7s1ff5e6ir">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

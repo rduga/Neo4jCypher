@@ -27,7 +27,8 @@
   <unitInfo fileName="HeadCollFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.HeadCollFunction_BehaviorDescriptor" />
   <unitInfo fileName="IConnectionStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IConnectionStatement_BehaviorDescriptor" />
   <unitInfo fileName="ICypherExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.ICypherExpression_BehaviorDescriptor" />
-  <unitInfo fileName="INamedPropertyContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="neo4j.cypher.behavior.INamedPropertyContainer_BehaviorDescriptor" />
+  <unitInfo fileName="INamedIdentifier_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="neo4j.cypher.behavior.INamedIdentifier_BehaviorDescriptor" />
+  <unitInfo fileName="INamedNullableIdentifier_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="neo4j.cypher.behavior.INamedNullableIdentifier_BehaviorDescriptor" />
   <unitInfo fileName="IOrderByExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IOrderByExpression_BehaviorDescriptor" />
   <unitInfo fileName="IQueryStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IQueryStatement_BehaviorDescriptor" />
   <unitInfo fileName="IReturnExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IReturnExpression_BehaviorDescriptor" />
@@ -57,7 +58,7 @@
   <unitInfo fileName="OrderByStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.OrderByStatement_BehaviorDescriptor" />
   <unitInfo fileName="PathFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.PathFunction_BehaviorDescriptor" />
   <unitInfo fileName="PropertyContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.PropertyContainer_BehaviorDescriptor" />
-  <unitInfo fileName="Property_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="41" endPosition="0" unitName="neo4j.cypher.behavior.Property_BehaviorDescriptor" />
+  <unitInfo fileName="Property_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="40" endPosition="0" unitName="neo4j.cypher.behavior.Property_BehaviorDescriptor" />
   <unitInfo fileName="QueryEmptyStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.QueryEmptyStatement_BehaviorDescriptor" />
   <unitInfo fileName="QueryExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.QueryExpression_BehaviorDescriptor" />
   <unitInfo fileName="QuerySheet_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.behavior.QuerySheet_BehaviorDescriptor" />
@@ -199,56 +200,65 @@
     <unitInfo nodeId="5206628397327256671" fileName="ApStringLiteral_Behavior.java" startLine="9" startPosition="0" endLine="79" endPosition="0" unitName="neo4j.cypher.behavior.ApStringLiteral_Behavior" />
   </root>
   <root nodeId="5206628397327338995" modelId="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)">
-    <nodeInfo nodeId="5206628397327339030" fileName="INamedPropertyContainer_Behavior.java" startLine="12" startPosition="90" endLine="13" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5206628397327339034" fileName="INamedPropertyContainer_Behavior.java" startLine="13" startPosition="33" endLine="14" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5206628397327339038" fileName="INamedPropertyContainer_Behavior.java" startLine="14" startPosition="34" endLine="15" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5206628397327339042" fileName="INamedPropertyContainer_Behavior.java" startLine="15" startPosition="37" endLine="16" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5206628397327339046" fileName="INamedPropertyContainer_Behavior.java" startLine="16" startPosition="24" endLine="17" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5206628397327339050" fileName="INamedPropertyContainer_Behavior.java" startLine="17" startPosition="31" endLine="18" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5206628397327341547" fileName="INamedPropertyContainer_Behavior.java" startLine="18" startPosition="67" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="5206628397327339058" fileName="INamedPropertyContainer_Behavior.java" startLine="20" startPosition="24" endLine="21" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5206628397327341550" fileName="INamedPropertyContainer_Behavior.java" startLine="22" startPosition="5" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="5206628397327341794" fileName="INamedPropertyContainer_Behavior.java" startLine="23" startPosition="0" endLine="24" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="5206628397327341918" fileName="INamedPropertyContainer_Behavior.java" startLine="25" startPosition="99" endLine="26" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="5206628397327341922" fileName="INamedPropertyContainer_Behavior.java" startLine="26" startPosition="42" endLine="27" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5206628397327341982" fileName="INamedPropertyContainer_Behavior.java" startLine="28" startPosition="32" endLine="29" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5206628397327342150" fileName="INamedPropertyContainer_Behavior.java" startLine="30" startPosition="7" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="5206628397327341985" fileName="INamedPropertyContainer_Behavior.java" startLine="31" startPosition="0" endLine="32" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5206628397327341988" fileName="INamedPropertyContainer_Behavior.java" startLine="33" startPosition="5" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="5206628397327344967" fileName="INamedPropertyContainer_Behavior.java" startLine="34" startPosition="0" endLine="35" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="5206628397327342147" fileName="INamedPropertyContainer_Behavior.java" startLine="37" startPosition="53" endLine="38" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5206628397327341546" fileName="INamedPropertyContainer_Behavior.java" startLine="40" startPosition="5" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="5206628397327339227" fileName="INamedPropertyContainer_Behavior.java" startLine="41" startPosition="0" endLine="42" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5206628397327338995" fileName="INamedPropertyContainer_Behavior.java" startLine="8" startPosition="47" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="5206628397327339056" fileName="INamedPropertyContainer_Behavior.java" startLine="19" startPosition="0" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5206628397327341950" fileName="INamedPropertyContainer_Behavior.java" startLine="27" startPosition="78" endLine="30" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5206628397327342108" fileName="INamedPropertyContainer_Behavior.java" startLine="36" startPosition="29" endLine="39" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5206628397327341990" fileName="INamedPropertyContainer_Behavior.java" startLine="35" startPosition="78" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5206628397327341552" fileName="INamedPropertyContainer_Behavior.java" startLine="24" startPosition="23" endLine="33" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5206628397327338995" fileName="INamedPropertyContainer_Behavior.java" startLine="11" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isCorrectIdentifierName_5206628397327339026#(Ljetbrains/mps/smodel/SNode;)Z" />
-    <scopeInfo nodeId="5206628397327338997" fileName="INamedPropertyContainer_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
-    <scopeInfo nodeId="5206628397327339057" fileName="INamedPropertyContainer_Behavior.java" startLine="20" startPosition="24" endLine="21" endPosition="18" />
-    <scopeInfo nodeId="5206628397327341951" fileName="INamedPropertyContainer_Behavior.java" startLine="28" startPosition="32" endLine="29" endPosition="21" />
-    <scopeInfo nodeId="5206628397327342109" fileName="INamedPropertyContainer_Behavior.java" startLine="37" startPosition="53" endLine="38" endPosition="21" />
-    <scopeInfo nodeId="5206628397327338995" fileName="INamedPropertyContainer_Behavior.java" startLine="8" startPosition="47" endLine="11" endPosition="0">
+    <nodeInfo nodeId="5206628397327427498" fileName="INamedIdentifier_Behavior.java" startLine="12" startPosition="23" endLine="13" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327427507" fileName="INamedIdentifier_Behavior.java" startLine="14" startPosition="5" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327427565" fileName="INamedIdentifier_Behavior.java" startLine="15" startPosition="0" endLine="16" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5206628397327427511" fileName="INamedIdentifier_Behavior.java" startLine="17" startPosition="95" endLine="18" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5206628397327427513" fileName="INamedIdentifier_Behavior.java" startLine="18" startPosition="42" endLine="19" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327427531" fileName="INamedIdentifier_Behavior.java" startLine="20" startPosition="32" endLine="21" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327427537" fileName="INamedIdentifier_Behavior.java" startLine="22" startPosition="7" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327427538" fileName="INamedIdentifier_Behavior.java" startLine="23" startPosition="0" endLine="24" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327427567" fileName="INamedIdentifier_Behavior.java" startLine="25" startPosition="5" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327427586" fileName="INamedIdentifier_Behavior.java" startLine="26" startPosition="0" endLine="27" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5206628397327427573" fileName="INamedIdentifier_Behavior.java" startLine="29" startPosition="52" endLine="30" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327427568" fileName="INamedIdentifier_Behavior.java" startLine="32" startPosition="5" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327427588" fileName="INamedIdentifier_Behavior.java" startLine="33" startPosition="0" endLine="34" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327338995" fileName="INamedIdentifier_Behavior.java" startLine="7" startPosition="40" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="5206628397327427496" fileName="INamedIdentifier_Behavior.java" startLine="11" startPosition="82" endLine="14" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327427529" fileName="INamedIdentifier_Behavior.java" startLine="19" startPosition="76" endLine="22" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327427571" fileName="INamedIdentifier_Behavior.java" startLine="28" startPosition="28" endLine="31" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327427569" fileName="INamedIdentifier_Behavior.java" startLine="27" startPosition="78" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327427509" fileName="INamedIdentifier_Behavior.java" startLine="16" startPosition="23" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327338995" fileName="INamedIdentifier_Behavior.java" startLine="10" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isCorrectIdentifierName_5206628397327427489#(Ljava/lang/String;)Z" />
+    <scopeInfo nodeId="5206628397327338997" fileName="INamedIdentifier_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="5206628397327427497" fileName="INamedIdentifier_Behavior.java" startLine="12" startPosition="23" endLine="13" endPosition="18" />
+    <scopeInfo nodeId="5206628397327427530" fileName="INamedIdentifier_Behavior.java" startLine="20" startPosition="32" endLine="21" endPosition="21" />
+    <scopeInfo nodeId="5206628397327427572" fileName="INamedIdentifier_Behavior.java" startLine="29" startPosition="52" endLine="30" endPosition="21" />
+    <scopeInfo nodeId="5206628397327338995" fileName="INamedIdentifier_Behavior.java" startLine="7" startPosition="40" endLine="10" endPosition="0">
       <varInfo nodeId="5206628397327338995" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5206628397327341991" fileName="INamedPropertyContainer_Behavior.java" startLine="36" startPosition="29" endLine="39" endPosition="7" />
-    <scopeInfo nodeId="5206628397327341553" fileName="INamedPropertyContainer_Behavior.java" startLine="25" startPosition="99" endLine="32" endPosition="18">
-      <varInfo nodeId="5206628397327341797" varName="inner" />
+    <scopeInfo nodeId="5206628397327427570" fileName="INamedIdentifier_Behavior.java" startLine="28" startPosition="28" endLine="31" endPosition="7" />
+    <scopeInfo nodeId="5206628397327427510" fileName="INamedIdentifier_Behavior.java" startLine="17" startPosition="95" endLine="24" endPosition="18">
+      <varInfo nodeId="5206628397327427514" varName="inner" />
     </scopeInfo>
-    <scopeInfo nodeId="5206628397327339029" fileName="INamedPropertyContainer_Behavior.java" startLine="12" startPosition="90" endLine="42" endPosition="16">
-      <varInfo nodeId="5206628397327339043" varName="digitNumber" />
-      <varInfo nodeId="5206628397327339031" varName="isEscapeMode" />
-      <varInfo nodeId="5206628397327339039" varName="isSymbolCodeMode" />
-      <varInfo nodeId="5206628397327339035" varName="isUnicodeMode" />
-      <varInfo nodeId="5206628397327339047" varName="unicodeDigitNumber" />
-      <varInfo nodeId="5206628397327339051" varName="value" />
+    <scopeInfo nodeId="5206628397327427492" fileName="INamedIdentifier_Behavior.java" startLine="11" startPosition="82" endLine="34" endPosition="16" />
+    <scopeInfo nodeId="5206628397327338995" fileName="INamedIdentifier_Behavior.java" startLine="10" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="5206628397327427503" varName="name" />
     </scopeInfo>
-    <scopeInfo nodeId="5206628397327338995" fileName="INamedPropertyContainer_Behavior.java" startLine="11" startPosition="0" endLine="44" endPosition="0">
-      <varInfo nodeId="5206628397327338995" varName="thisNode" />
+    <unitInfo nodeId="5206628397327338995" fileName="INamedIdentifier_Behavior.java" startLine="7" startPosition="0" endLine="37" endPosition="0" unitName="neo4j.cypher.behavior.INamedIdentifier_Behavior" />
+  </root>
+  <root nodeId="5206628397327427259" modelId="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)">
+    <nodeInfo nodeId="5206628397327427259" fileName="INamedNullableIdentifier_Behavior.java" startLine="8" startPosition="48" endLine="9" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
+    <nodeInfo nodeId="5206628397327427755" fileName="INamedNullableIdentifier_Behavior.java" startLine="14" startPosition="90" endLine="15" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5206628397327427786" fileName="INamedNullableIdentifier_Behavior.java" startLine="15" startPosition="27" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327428050" fileName="INamedNullableIdentifier_Behavior.java" startLine="17" startPosition="129" endLine="18" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5206628397327436554" fileName="INamedNullableIdentifier_Behavior.java" startLine="18" startPosition="84" endLine="19" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5206628397327427956" fileName="INamedNullableIdentifier_Behavior.java" startLine="19" startPosition="25" endLine="20" endPosition="121" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327427955" fileName="INamedNullableIdentifier_Behavior.java" startLine="21" startPosition="5" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327427936" fileName="INamedNullableIdentifier_Behavior.java" startLine="22" startPosition="0" endLine="23" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327427259" fileName="INamedNullableIdentifier_Behavior.java" startLine="10" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="5206628397327427666" fileName="INamedNullableIdentifier_Behavior.java" startLine="16" startPosition="0" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327427259" fileName="INamedNullableIdentifier_Behavior.java" startLine="13" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isCorrectNullableIdentifierName_5206628397327427654#(Ljava/lang/String;)Z" />
+    <scopeInfo nodeId="5206628397327427261" fileName="INamedNullableIdentifier_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
+    <scopeInfo nodeId="5206628397327427259" fileName="INamedNullableIdentifier_Behavior.java" startLine="10" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="5206628397327427259" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="5206628397327338995" fileName="INamedPropertyContainer_Behavior.java" startLine="8" startPosition="0" endLine="45" endPosition="0" unitName="neo4j.cypher.behavior.INamedPropertyContainer_Behavior" />
+    <scopeInfo nodeId="5206628397327427667" fileName="INamedNullableIdentifier_Behavior.java" startLine="17" startPosition="129" endLine="20" endPosition="121" />
+    <scopeInfo nodeId="5206628397327427657" fileName="INamedNullableIdentifier_Behavior.java" startLine="14" startPosition="90" endLine="23" endPosition="87" />
+    <scopeInfo nodeId="5206628397327427259" fileName="INamedNullableIdentifier_Behavior.java" startLine="13" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="5206628397327427659" varName="name" />
+    </scopeInfo>
+    <unitInfo nodeId="5206628397327427259" fileName="INamedNullableIdentifier_Behavior.java" startLine="8" startPosition="0" endLine="26" endPosition="0" unitName="neo4j.cypher.behavior.INamedNullableIdentifier_Behavior" />
   </root>
 </debugInfo>
 

@@ -5,7 +5,7 @@ package neo4j.cypher.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class NamedNode_BehaviorDescriptor extends Node_BehaviorDescriptor implements INamedPropertyContainer_BehaviorDescriptor {
+public class NamedNode_BehaviorDescriptor extends Node_BehaviorDescriptor implements INamedIdentifier_BehaviorDescriptor {
   public NamedNode_BehaviorDescriptor() {
   }
 

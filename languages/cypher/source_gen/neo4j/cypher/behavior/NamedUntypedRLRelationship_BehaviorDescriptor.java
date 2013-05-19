@@ -5,7 +5,7 @@ package neo4j.cypher.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class NamedUntypedRLRelationship_BehaviorDescriptor extends Relationship_BehaviorDescriptor implements INamedPropertyContainer_BehaviorDescriptor {
+public class NamedUntypedRLRelationship_BehaviorDescriptor extends Relationship_BehaviorDescriptor implements INamedIdentifier_BehaviorDescriptor {
   public NamedUntypedRLRelationship_BehaviorDescriptor() {
   }
 
