@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="Cypher_Language.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.structure.Cypher_Language" />
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="193" endPosition="0" unitName="neo4j.cypher.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="197" endPosition="0" unitName="neo4j.cypher.structure.StructureAspectDescriptor" />
 </debugInfo>
 

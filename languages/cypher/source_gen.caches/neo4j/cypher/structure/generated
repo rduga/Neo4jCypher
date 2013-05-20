@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="duh9ld0ul7003t6pd84012zvj0hqlt8">
+<dependencies version="2" modelHash="amqdag9tvb5meukupk57h0lvli9hnu4">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -79,6 +79,8 @@
     <dep root="5206628397327069922" />
     <dep root="5206628397327330408" />
     <dep root="5206628397327427253" />
+    <dep root="5206628397327477991" />
+    <dep root="5206628397327585215" />
     <dep root="5530189148631283264" />
     <dep root="5530189148631311038" />
     <dep root="5530189148631337723" />
@@ -358,6 +360,12 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="5206628397327427253" name="INamedNullableIdentifier" hash="-2o5sryriu0awvzgz3wawj7s1ff5e6ir">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5206628397327477991" name="Parameter" hash="-dhpnof0tsqoopemrm8biqiolw8m8pah">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5206628397327585215" name="Collection" hash="-3ztwss180b7jrs0cc0ypjjn6y9ujdkd">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>
