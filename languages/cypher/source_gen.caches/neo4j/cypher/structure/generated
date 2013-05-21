@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="amqdag9tvb5meukupk57h0lvli9hnu4">
+<dependencies version="2" modelHash="c5hmd6jz2yln54nfttqljbj3zkvjyev">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -81,6 +81,13 @@
     <dep root="5206628397327427253" />
     <dep root="5206628397327477991" />
     <dep root="5206628397327585215" />
+    <dep root="5206628397327618087" />
+    <dep root="5206628397327618089" />
+    <dep root="5206628397327618095" />
+    <dep root="5206628397327618096" />
+    <dep root="5206628397327618097" />
+    <dep root="5206628397327618119" />
+    <dep root="5206628397327643157" />
     <dep root="5530189148631283264" />
     <dep root="5530189148631311038" />
     <dep root="5530189148631337723" />
@@ -293,7 +300,7 @@
   <source id="3830435865999703329" name="HeadCollFunction" hash="-4rbgiswzrxkvf2lloeibeg5ata4peuz">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="3830435865999703330" name="CollectionFunction" hash="62svawxz0tuij1pib2695orw0gzg9uw">
+  <source id="3830435865999703330" name="CollectionFunction" hash="1e06mlppnifj54le21pteg6b45zlwt6">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="3830435865999720216" name="TailCollFunction" hash="38jfni7helzm735wc1snv9x1ircca56">
@@ -329,10 +336,10 @@
   <source id="3830435865999738722" name="LengthPathFunction" hash="-bil1ukg2vfc7whr8u539rim83ftb0ce">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="3830435865999758765" name="AsExpression" hash="d1d40mgbwh15a5hl4ek7atsncctbdk5">
+  <source id="3830435865999758765" name="AsExpression" hash="bpm39uwpnutu4a4chv46jqpnh8dcot2">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="3830435865999795756" name="AllExpression" hash="5bxs5xtk6v7yvu48c72hgq2au74fkyb">
+  <source id="3830435865999795756" name="AllExpression" hash="-9u0u7y2jver9p0k48kowb67vzed4hqd">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="3830435865999835353" name="CreateStatement" hash="7dpcx1s6jbm4nvg9syhsiatieadijhr">
@@ -365,7 +372,28 @@
   <source id="5206628397327477991" name="Parameter" hash="-dhpnof0tsqoopemrm8biqiolw8m8pah">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="5206628397327585215" name="Collection" hash="-3ztwss180b7jrs0cc0ypjjn6y9ujdkd">
+  <source id="5206628397327585215" name="Collection" hash="2kvwdnnp388cjcc7fuxjfnsacwde6xz">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5206628397327618087" name="PredicateFunction" hash="514docw2x64euyfuz4ag4pxky16huzg">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5206628397327618089" name="AllPredicateFunction" hash="-3i6ei3m9kf07ngzenhx381mlvph66ge">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5206628397327618095" name="AnyPredicateFunction" hash="-9rl4z849ykn6etdhp22991bi01seasu">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5206628397327618096" name="NonePredicateFunction" hash="apdx5o4nf9f1dvm1n582e1p9yblqoql">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5206628397327618097" name="SinglePredicateFunction" hash="5yejl7h5bqlwp36j1rkjyv4b3ymdyic">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5206628397327618119" name="PredicateExpression" hash="dda9rlmnazsozvrm44n1thbjaoaq2zu">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="5206628397327643157" name="ICollectionExpression" hash="dujaga8l8uo5pir2xohkzukt66vnpmx">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

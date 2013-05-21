@@ -7,139 +7,149 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted;
 
 public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor {
-  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"neo4j.cypher.structure.AbsMathFunction", "neo4j.cypher.structure.AllExpression", "neo4j.cypher.structure.AllIndex", "neo4j.cypher.structure.ApStringLiteral", "neo4j.cypher.structure.AsExpression", "neo4j.cypher.structure.AscOrderBy", "neo4j.cypher.structure.Collection", "neo4j.cypher.structure.ConnectionSheet", "neo4j.cypher.structure.CountAggregate", "neo4j.cypher.structure.CreateStatement", "neo4j.cypher.structure.CreateUniqueStatement", "neo4j.cypher.structure.CypherDotExpression", "neo4j.cypher.structure.CypherExpression", "neo4j.cypher.structure.DeleteStatement", "neo4j.cypher.structure.DescOrderBy", "neo4j.cypher.structure.DistinctExpression", "neo4j.cypher.structure.EmbeddedConnection", "neo4j.cypher.structure.EmptyConnectionStatement", "neo4j.cypher.structure.HeadCollFunction", "neo4j.cypher.structure.IdIndex", "neo4j.cypher.structure.ImpermanentConnection", "neo4j.cypher.structure.KeyValueIndex", "neo4j.cypher.structure.LastCollFunction", "neo4j.cypher.structure.LengthPathFunction", "neo4j.cypher.structure.LuceneIndex", "neo4j.cypher.structure.MaxAggregate", "neo4j.cypher.structure.MinAggregate", "neo4j.cypher.structure.NamedNode", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedTypedLRRelationship", "neo4j.cypher.structure.NamedTypedRLRelationship", "neo4j.cypher.structure.NamedTypedRelationship", "neo4j.cypher.structure.NamedUntypedLRRelationship", "neo4j.cypher.structure.NamedUntypedRLRelationship", "neo4j.cypher.structure.NamedUntypedRelationship", "neo4j.cypher.structure.NodesPathFunction", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.Parameter", "neo4j.cypher.structure.Property", "neo4j.cypher.structure.QueryEmptyStatement", "neo4j.cypher.structure.QuerySheet", "neo4j.cypher.structure.QueryStatement", "neo4j.cypher.structure.ReadOnlyQueryExpression", "neo4j.cypher.structure.ReadWriteQueryExpression", "neo4j.cypher.structure.RelationshipType", "neo4j.cypher.structure.RelsPathFunction", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.ReturnStatementBlock", "neo4j.cypher.structure.RoundMathFunction", "neo4j.cypher.structure.SetStatement", "neo4j.cypher.structure.SignMathFunction", "neo4j.cypher.structure.SkipStatement", "neo4j.cypher.structure.SqrtMathFunction", "neo4j.cypher.structure.StartStatement", "neo4j.cypher.structure.SumAggregate", "neo4j.cypher.structure.TailCollFunction", "neo4j.cypher.structure.UnnamedNode", "neo4j.cypher.structure.UnnamedTypedLRRelationship", "neo4j.cypher.structure.UnnamedTypedRLRelationship", "neo4j.cypher.structure.UnnamedTypedRelationship", "neo4j.cypher.structure.UnnamedUntypedLRRelationship", "neo4j.cypher.structure.UnnamedUntypedRLRelationship", "neo4j.cypher.structure.UnnamedUntypedRelationship"};
+  private static String[] stringSwitchCases_846f5o_a0a0a = new String[]{"neo4j.cypher.structure.AbsMathFunction", "neo4j.cypher.structure.AllExpression", "neo4j.cypher.structure.AllIndex", "neo4j.cypher.structure.AllPredicateFunction", "neo4j.cypher.structure.AnyPredicateFunction", "neo4j.cypher.structure.ApStringLiteral", "neo4j.cypher.structure.AsExpression", "neo4j.cypher.structure.AscOrderBy", "neo4j.cypher.structure.Collection", "neo4j.cypher.structure.ConnectionSheet", "neo4j.cypher.structure.CountAggregate", "neo4j.cypher.structure.CreateStatement", "neo4j.cypher.structure.CreateUniqueStatement", "neo4j.cypher.structure.CypherDotExpression", "neo4j.cypher.structure.CypherExpression", "neo4j.cypher.structure.DeleteStatement", "neo4j.cypher.structure.DescOrderBy", "neo4j.cypher.structure.DistinctExpression", "neo4j.cypher.structure.EmbeddedConnection", "neo4j.cypher.structure.EmptyConnectionStatement", "neo4j.cypher.structure.HeadCollFunction", "neo4j.cypher.structure.IdIndex", "neo4j.cypher.structure.ImpermanentConnection", "neo4j.cypher.structure.KeyValueIndex", "neo4j.cypher.structure.LastCollFunction", "neo4j.cypher.structure.LengthPathFunction", "neo4j.cypher.structure.LuceneIndex", "neo4j.cypher.structure.MaxAggregate", "neo4j.cypher.structure.MinAggregate", "neo4j.cypher.structure.NamedNode", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedTypedLRRelationship", "neo4j.cypher.structure.NamedTypedRLRelationship", "neo4j.cypher.structure.NamedTypedRelationship", "neo4j.cypher.structure.NamedUntypedLRRelationship", "neo4j.cypher.structure.NamedUntypedRLRelationship", "neo4j.cypher.structure.NamedUntypedRelationship", "neo4j.cypher.structure.NodesPathFunction", "neo4j.cypher.structure.NonePredicateFunction", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.Parameter", "neo4j.cypher.structure.PredicateExpression", "neo4j.cypher.structure.Property", "neo4j.cypher.structure.QueryEmptyStatement", "neo4j.cypher.structure.QuerySheet", "neo4j.cypher.structure.QueryStatement", "neo4j.cypher.structure.ReadOnlyQueryExpression", "neo4j.cypher.structure.ReadWriteQueryExpression", "neo4j.cypher.structure.RelationshipType", "neo4j.cypher.structure.RelsPathFunction", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.ReturnStatementBlock", "neo4j.cypher.structure.RoundMathFunction", "neo4j.cypher.structure.SetStatement", "neo4j.cypher.structure.SignMathFunction", "neo4j.cypher.structure.SinglePredicateFunction", "neo4j.cypher.structure.SkipStatement", "neo4j.cypher.structure.SqrtMathFunction", "neo4j.cypher.structure.StartStatement", "neo4j.cypher.structure.SumAggregate", "neo4j.cypher.structure.TailCollFunction", "neo4j.cypher.structure.UnnamedNode", "neo4j.cypher.structure.UnnamedTypedLRRelationship", "neo4j.cypher.structure.UnnamedTypedRLRelationship", "neo4j.cypher.structure.UnnamedTypedRelationship", "neo4j.cypher.structure.UnnamedUntypedLRRelationship", "neo4j.cypher.structure.UnnamedUntypedRLRelationship", "neo4j.cypher.structure.UnnamedUntypedRelationship"};
 
   public BehaviorAspectDescriptor() {
   }
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0a, fqName)) {
-      case 40:
+      case 44:
         return new QuerySheet_BehaviorDescriptor();
-      case 41:
+      case 45:
         return new QueryStatement_BehaviorDescriptor();
-      case 42:
+      case 46:
         return new ReadOnlyQueryExpression_BehaviorDescriptor();
-      case 43:
+      case 47:
         return new ReadWriteQueryExpression_BehaviorDescriptor();
-      case 27:
+      case 29:
         return new NamedNode_BehaviorDescriptor();
-      case 21:
+      case 23:
         return new KeyValueIndex_BehaviorDescriptor();
-      case 24:
+      case 26:
         return new LuceneIndex_BehaviorDescriptor();
-      case 19:
+      case 21:
         return new IdIndex_BehaviorDescriptor();
       case 2:
         return new AllIndex_BehaviorDescriptor();
-      case 39:
+      case 43:
         return new QueryEmptyStatement_BehaviorDescriptor();
-      case 56:
-        return new UnnamedNode_BehaviorDescriptor();
-      case 60:
-        return new UnnamedUntypedLRRelationship_BehaviorDescriptor();
       case 61:
+        return new UnnamedNode_BehaviorDescriptor();
+      case 65:
+        return new UnnamedUntypedLRRelationship_BehaviorDescriptor();
+      case 66:
         return new UnnamedUntypedRLRelationship_BehaviorDescriptor();
-      case 62:
+      case 67:
         return new UnnamedUntypedRelationship_BehaviorDescriptor();
-      case 32:
-        return new NamedUntypedLRRelationship_BehaviorDescriptor();
-      case 44:
-        return new RelationshipType_BehaviorDescriptor();
-      case 57:
-        return new UnnamedTypedLRRelationship_BehaviorDescriptor();
-      case 58:
-        return new UnnamedTypedRLRelationship_BehaviorDescriptor();
-      case 59:
-        return new UnnamedTypedRelationship_BehaviorDescriptor();
-      case 33:
-        return new NamedUntypedRLRelationship_BehaviorDescriptor();
       case 34:
-        return new NamedUntypedRelationship_BehaviorDescriptor();
-      case 29:
-        return new NamedTypedLRRelationship_BehaviorDescriptor();
-      case 30:
-        return new NamedTypedRLRelationship_BehaviorDescriptor();
-      case 31:
-        return new NamedTypedRelationship_BehaviorDescriptor();
-      case 12:
-        return new CypherExpression_BehaviorDescriptor();
-      case 54:
-        return new SumAggregate_BehaviorDescriptor();
-      case 25:
-        return new MaxAggregate_BehaviorDescriptor();
-      case 26:
-        return new MinAggregate_BehaviorDescriptor();
-      case 15:
-        return new DistinctExpression_BehaviorDescriptor();
-      case 7:
-        return new ConnectionSheet_BehaviorDescriptor();
-      case 17:
-        return new EmptyConnectionStatement_BehaviorDescriptor();
-      case 16:
-        return new EmbeddedConnection_BehaviorDescriptor();
-      case 20:
-        return new ImpermanentConnection_BehaviorDescriptor();
-      case 28:
-        return new NamedNodeRef_BehaviorDescriptor();
-      case 38:
-        return new Property_BehaviorDescriptor();
-      case 46:
-        return new ReturnStatement_BehaviorDescriptor();
-      case 53:
-        return new StartStatement_BehaviorDescriptor();
-      case 11:
-        return new CypherDotExpression_BehaviorDescriptor();
+        return new NamedUntypedLRRelationship_BehaviorDescriptor();
+      case 48:
+        return new RelationshipType_BehaviorDescriptor();
+      case 62:
+        return new UnnamedTypedLRRelationship_BehaviorDescriptor();
+      case 63:
+        return new UnnamedTypedRLRelationship_BehaviorDescriptor();
+      case 64:
+        return new UnnamedTypedRelationship_BehaviorDescriptor();
+      case 35:
+        return new NamedUntypedRLRelationship_BehaviorDescriptor();
       case 36:
-        return new OrderByStatement_BehaviorDescriptor();
-      case 5:
-        return new AscOrderBy_BehaviorDescriptor();
+        return new NamedUntypedRelationship_BehaviorDescriptor();
+      case 31:
+        return new NamedTypedLRRelationship_BehaviorDescriptor();
+      case 32:
+        return new NamedTypedRLRelationship_BehaviorDescriptor();
+      case 33:
+        return new NamedTypedRelationship_BehaviorDescriptor();
       case 14:
-        return new DescOrderBy_BehaviorDescriptor();
-      case 8:
-        return new CountAggregate_BehaviorDescriptor();
+        return new CypherExpression_BehaviorDescriptor();
+      case 59:
+        return new SumAggregate_BehaviorDescriptor();
+      case 27:
+        return new MaxAggregate_BehaviorDescriptor();
+      case 28:
+        return new MinAggregate_BehaviorDescriptor();
+      case 17:
+        return new DistinctExpression_BehaviorDescriptor();
+      case 9:
+        return new ConnectionSheet_BehaviorDescriptor();
+      case 19:
+        return new EmptyConnectionStatement_BehaviorDescriptor();
       case 18:
-        return new HeadCollFunction_BehaviorDescriptor();
-      case 55:
-        return new TailCollFunction_BehaviorDescriptor();
+        return new EmbeddedConnection_BehaviorDescriptor();
       case 22:
+        return new ImpermanentConnection_BehaviorDescriptor();
+      case 30:
+        return new NamedNodeRef_BehaviorDescriptor();
+      case 42:
+        return new Property_BehaviorDescriptor();
+      case 50:
+        return new ReturnStatement_BehaviorDescriptor();
+      case 58:
+        return new StartStatement_BehaviorDescriptor();
+      case 13:
+        return new CypherDotExpression_BehaviorDescriptor();
+      case 39:
+        return new OrderByStatement_BehaviorDescriptor();
+      case 7:
+        return new AscOrderBy_BehaviorDescriptor();
+      case 16:
+        return new DescOrderBy_BehaviorDescriptor();
+      case 10:
+        return new CountAggregate_BehaviorDescriptor();
+      case 20:
+        return new HeadCollFunction_BehaviorDescriptor();
+      case 60:
+        return new TailCollFunction_BehaviorDescriptor();
+      case 24:
         return new LastCollFunction_BehaviorDescriptor();
       case 0:
         return new AbsMathFunction_BehaviorDescriptor();
-      case 48:
-        return new RoundMathFunction_BehaviorDescriptor();
       case 52:
+        return new RoundMathFunction_BehaviorDescriptor();
+      case 57:
         return new SqrtMathFunction_BehaviorDescriptor();
-      case 50:
+      case 54:
         return new SignMathFunction_BehaviorDescriptor();
-      case 35:
+      case 37:
         return new NodesPathFunction_BehaviorDescriptor();
-      case 45:
+      case 49:
         return new RelsPathFunction_BehaviorDescriptor();
-      case 23:
+      case 25:
         return new LengthPathFunction_BehaviorDescriptor();
-      case 4:
+      case 6:
         return new AsExpression_BehaviorDescriptor();
       case 1:
         return new AllExpression_BehaviorDescriptor();
-      case 9:
+      case 11:
         return new CreateStatement_BehaviorDescriptor();
-      case 10:
+      case 12:
         return new CreateUniqueStatement_BehaviorDescriptor();
-      case 49:
+      case 53:
         return new SetStatement_BehaviorDescriptor();
-      case 13:
+      case 15:
         return new DeleteStatement_BehaviorDescriptor();
-      case 51:
+      case 56:
         return new SkipStatement_BehaviorDescriptor();
-      case 47:
+      case 51:
         return new ReturnStatementBlock_BehaviorDescriptor();
-      case 3:
+      case 5:
         return new ApStringLiteral_BehaviorDescriptor();
-      case 37:
+      case 40:
         return new Parameter_BehaviorDescriptor();
-      case 6:
+      case 8:
         return new Collection_BehaviorDescriptor();
+      case 3:
+        return new AllPredicateFunction_BehaviorDescriptor();
+      case 4:
+        return new AnyPredicateFunction_BehaviorDescriptor();
+      case 38:
+        return new NonePredicateFunction_BehaviorDescriptor();
+      case 55:
+        return new SinglePredicateFunction_BehaviorDescriptor();
+      case 41:
+        return new PredicateExpression_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

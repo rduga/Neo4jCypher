@@ -19,7 +19,7 @@
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="amqdag9tvb5meukupk57h0lvli9hnu4" />
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-1y3n3w2qnrgyolwzstsf61yw3h822bf" />
   <common hash="gqa4y05w126ga4k3qbxlnmbf3zdyl7" dependsOnNodes="true">
     <dep root="4395952758104628250" />
     <dep root="5206628397327256671" />
@@ -44,6 +44,8 @@
     <file name="AggregateFunction_BehaviorDescriptor.java" />
     <file name="AllExpression_BehaviorDescriptor.java" />
     <file name="AllIndex_BehaviorDescriptor.java" />
+    <file name="AllPredicateFunction_BehaviorDescriptor.java" />
+    <file name="AnyPredicateFunction_BehaviorDescriptor.java" />
     <file name="ApStringLiteral_BehaviorDescriptor.java" />
     <file name="AsExpression_BehaviorDescriptor.java" />
     <file name="AscOrderBy_BehaviorDescriptor.java" />
@@ -66,6 +68,7 @@
     <file name="EmptyConnectionStatement_BehaviorDescriptor.java" />
     <file name="Function_BehaviorDescriptor.java" />
     <file name="HeadCollFunction_BehaviorDescriptor.java" />
+    <file name="ICollectionExpression_BehaviorDescriptor.java" />
     <file name="IConnectionStatement_BehaviorDescriptor.java" />
     <file name="ICypherExpression_BehaviorDescriptor.java" />
     <file name="INamedIdentifier_BehaviorDescriptor.java" />
@@ -95,10 +98,13 @@
     <file name="NamedUntypedRelationship_BehaviorDescriptor.java" />
     <file name="Node_BehaviorDescriptor.java" />
     <file name="NodesPathFunction_BehaviorDescriptor.java" />
+    <file name="NonePredicateFunction_BehaviorDescriptor.java" />
     <file name="OrderByExpression_BehaviorDescriptor.java" />
     <file name="OrderByStatement_BehaviorDescriptor.java" />
     <file name="Parameter_BehaviorDescriptor.java" />
     <file name="PathFunction_BehaviorDescriptor.java" />
+    <file name="PredicateExpression_BehaviorDescriptor.java" />
+    <file name="PredicateFunction_BehaviorDescriptor.java" />
     <file name="PropertyContainer_BehaviorDescriptor.java" />
     <file name="Property_BehaviorDescriptor.java" />
     <file name="QueryEmptyStatement_BehaviorDescriptor.java" />
@@ -115,6 +121,7 @@
     <file name="RoundMathFunction_BehaviorDescriptor.java" />
     <file name="SetStatement_BehaviorDescriptor.java" />
     <file name="SignMathFunction_BehaviorDescriptor.java" />
+    <file name="SinglePredicateFunction_BehaviorDescriptor.java" />
     <file name="SkipStatement_BehaviorDescriptor.java" />
     <file name="SqrtMathFunction_BehaviorDescriptor.java" />
     <file name="StartStatement_BehaviorDescriptor.java" />
