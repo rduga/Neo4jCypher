@@ -21,7 +21,7 @@ public class check_ApStringLiteral_NonTypesystemRule extends AbstractNonTypesyst
     if (!(ApStringLiteral_Behavior.call_isCorrect_1221565233201(apStringLiteral))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
-        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(apStringLiteral, "Incorrect string literal", "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "1221566486911", null, errorTarget);
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(apStringLiteral, "Incorrect apostrophed string literal", "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "1221566486911", null, errorTarget);
       }
     }
   }

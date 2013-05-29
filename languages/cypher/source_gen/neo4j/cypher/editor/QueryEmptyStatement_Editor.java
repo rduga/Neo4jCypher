@@ -7,6 +7,8 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 
 public class QueryEmptyStatement_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -16,6 +18,10 @@ public class QueryEmptyStatement_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_g1t8u9_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_g1t8u9_a");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.EDITABLE, true);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }

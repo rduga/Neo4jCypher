@@ -58,7 +58,7 @@ public class ApStringLiteral_Behavior {
           isUnicodeMode = false;
           unicodeDigitNumber = 0;
         }
-      } else if (c == '"') {
+      } else if (c == '\'') {
         return false;
       }
     }

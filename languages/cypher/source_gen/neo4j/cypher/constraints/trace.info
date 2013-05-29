@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="33" endPosition="0" unitName="neo4j.cypher.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="37" endPosition="0" unitName="neo4j.cypher.constraints.ConstraintsAspectDescriptor" />
+  <root nodeId="1325020284374000547" modelId="r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)">
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="13" startPosition="78" endLine="14" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeAncesctorBreakingPoint" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="16" startPosition="42" endLine="17" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="21" startPosition="46" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="26" startPosition="169" endLine="27" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="27" startPosition="84" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="29" startPosition="51" endLine="30" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="31" startPosition="5" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="32" startPosition="0" endLine="33" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1325020284374078791" fileName="AggregateFunction_Constraints.java" startLine="36" startPosition="139" endLine="37" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="1325020284374078776" fileName="AggregateFunction_Constraints.java" startLine="37" startPosition="48" endLine="38" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="AggregateFunction_Constraints#()V" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="28" startPosition="0" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeAncestorMethod#()Z" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="35" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAnAncestor#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="24" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeAncestor#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <scopeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="16" startPosition="42" endLine="17" endPosition="54" />
+    <scopeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="21" startPosition="46" endLine="22" endPosition="16" />
+    <scopeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="29" startPosition="51" endLine="30" endPosition="71" />
+    <scopeInfo nodeId="1325020284374000549" fileName="AggregateFunction_Constraints.java" startLine="36" startPosition="139" endLine="38" endPosition="106" />
+    <scopeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="35" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="1325020284374000547" varName="childConcept" />
+      <varInfo nodeId="1325020284374000547" varName="childNode" />
+      <varInfo nodeId="1325020284374000547" varName="node" />
+      <varInfo nodeId="1325020284374000547" varName="operationContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="26" startPosition="169" endLine="33" endPosition="18">
+      <varInfo nodeId="1325020284374000547" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="24" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="1325020284374000547" varName="checkingNodeContext" />
+      <varInfo nodeId="1325020284374000547" varName="childConcept" />
+      <varInfo nodeId="1325020284374000547" varName="childNode" />
+      <varInfo nodeId="1325020284374000547" varName="context" />
+      <varInfo nodeId="1325020284374000547" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="13" startPosition="0" endLine="41" endPosition="0" unitName="neo4j.cypher.constraints.AggregateFunction_Constraints" />
+  </root>
   <root nodeId="2979687674397766683" modelId="r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)">
     <nodeInfo nodeId="2979687674397766683" fileName="ReadWriteQueryExpression_Constraints.java" startLine="8" startPosition="49" endLine="9" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="2979687674397766683" fileName="ReadWriteQueryExpression_Constraints.java" startLine="7" startPosition="85" endLine="10" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ReadWriteQueryExpression_Constraints#()V" />
@@ -17,8 +57,8 @@
     <nodeInfo nodeId="5206628397327010374" fileName="ReturnStatement_Constraints.java" startLine="29" startPosition="51" endLine="30" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5206628397327010374" fileName="ReturnStatement_Constraints.java" startLine="31" startPosition="5" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="5206628397327010374" fileName="ReturnStatement_Constraints.java" startLine="32" startPosition="0" endLine="33" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5206628397327010377" fileName="ReturnStatement_Constraints.java" startLine="36" startPosition="139" endLine="37" endPosition="1460" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5206628397327350243" fileName="ReturnStatement_Constraints.java" startLine="37" startPosition="1460" endLine="38" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5206628397327010377" fileName="ReturnStatement_Constraints.java" startLine="36" startPosition="139" endLine="37" endPosition="1429" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327350243" fileName="ReturnStatement_Constraints.java" startLine="37" startPosition="1429" endLine="38" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
     <nodeInfo nodeId="5206628397327010374" fileName="ReturnStatement_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ReturnStatement_Constraints#()V" />
     <nodeInfo nodeId="5206628397327010374" fileName="ReturnStatement_Constraints.java" startLine="28" startPosition="0" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="5206628397327010374" fileName="ReturnStatement_Constraints.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeAncestorMethod#()Z" />
@@ -47,6 +87,46 @@
       <varInfo nodeId="5206628397327010374" varName="node" />
     </scopeInfo>
     <unitInfo nodeId="5206628397327010374" fileName="ReturnStatement_Constraints.java" startLine="13" startPosition="0" endLine="41" endPosition="0" unitName="neo4j.cypher.constraints.ReturnStatement_Constraints" />
+  </root>
+  <root nodeId="5206628397327733824" modelId="r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)">
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="13" startPosition="75" endLine="14" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeAncesctorBreakingPoint" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="16" startPosition="39" endLine="17" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="21" startPosition="46" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="26" startPosition="169" endLine="27" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="27" startPosition="84" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="29" startPosition="51" endLine="30" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="31" startPosition="5" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="32" startPosition="0" endLine="33" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327733827" fileName="WhereStatement_Constraints.java" startLine="36" startPosition="139" endLine="37" endPosition="1459" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327733897" fileName="WhereStatement_Constraints.java" startLine="37" startPosition="1459" endLine="38" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="WhereStatement_Constraints#()V" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="28" startPosition="0" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeAncestorMethod#()Z" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="35" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAnAncestor#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <nodeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="24" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeAncestor#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <scopeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="16" startPosition="39" endLine="17" endPosition="51" />
+    <scopeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="21" startPosition="46" endLine="22" endPosition="16" />
+    <scopeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="29" startPosition="51" endLine="30" endPosition="71" />
+    <scopeInfo nodeId="5206628397327733826" fileName="WhereStatement_Constraints.java" startLine="36" startPosition="139" endLine="38" endPosition="14" />
+    <scopeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="35" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="5206628397327733824" varName="childConcept" />
+      <varInfo nodeId="5206628397327733824" varName="childNode" />
+      <varInfo nodeId="5206628397327733824" varName="node" />
+      <varInfo nodeId="5206628397327733824" varName="operationContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="26" startPosition="169" endLine="33" endPosition="18">
+      <varInfo nodeId="5206628397327733824" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="24" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="5206628397327733824" varName="checkingNodeContext" />
+      <varInfo nodeId="5206628397327733824" varName="childConcept" />
+      <varInfo nodeId="5206628397327733824" varName="childNode" />
+      <varInfo nodeId="5206628397327733824" varName="context" />
+      <varInfo nodeId="5206628397327733824" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="5206628397327733824" fileName="WhereStatement_Constraints.java" startLine="13" startPosition="0" endLine="41" endPosition="0" unitName="neo4j.cypher.constraints.WhereStatement_Constraints" />
   </root>
   <root nodeId="5530189148631460158" modelId="r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)">
     <nodeInfo nodeId="5530189148631460158" fileName="OrderByStatement_Constraints.java" startLine="13" startPosition="77" endLine="14" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeParentBreakingPoint" />

@@ -50,6 +50,7 @@ public class StartStatement_Editor extends DefaultNodeEditor {
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+      style.set(StyleAttributes.SELECTABLE, true);
     }
     editorCell.setRole(handler.getElementRole());
     return editorCell;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="1325020284374323634" modelId="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)">
+    <nodeInfo nodeId="1237463991647" fileName="CypherIntegerConstant_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1237463991647" fileName="CypherIntegerConstant_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1325020284374323634" fileName="CypherIntegerConstant_TextGen.java" startLine="9" startPosition="65" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="1237463991647" fileName="CypherIntegerConstant_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="68" />
+    <scopeInfo nodeId="1325020284374323634" fileName="CypherIntegerConstant_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="68" />
+    <scopeInfo nodeId="1325020284374323634" fileName="CypherIntegerConstant_TextGen.java" startLine="9" startPosition="65" endLine="13" endPosition="0">
+      <varInfo nodeId="1325020284374323634" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="1325020284374323634" fileName="CypherIntegerConstant_TextGen.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="neo4j.cypher.textGen.CypherIntegerConstant_TextGen" />
+  </root>
+</debugInfo>
+

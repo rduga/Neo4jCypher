@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="6kv86gtdtmossbxcmk0xwszgzax0n1y">
+<dependencies version="2" modelHash="-brx5mh5zl36kzaiq2hwpn7w2u0jk7pl">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-  <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.logging(MPS.Core/jetbrains.mps.logging@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-  <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
   <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" />
   <dep model="r:95397225-9080-48bc-b1aa-0ce7c4f3d2ce(jetbrains.mps.lang.traceable.behavior)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-1y3n3w2qnrgyolwzstsf61yw3h822bf" />
-  <common hash="gqa4y05w126ga4k3qbxlnmbf3zdyl7" dependsOnNodes="true">
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-61zarzt0xpk4ne47pccbfo6rwcyzmlo" />
+  <common hash="7n0g9r5ajo8uu5og61ai1fnthj2r0jp" dependsOnNodes="true">
+    <dep root="1325020284374205962" />
+    <dep root="1325020284374268226" />
+    <dep root="1325020284374323643" />
     <dep root="4395952758104628250" />
+    <dep root="4721745511893728624" />
     <dep root="5206628397327256671" />
     <dep root="5206628397327338995" />
     <dep root="5206628397327427259" />
@@ -33,7 +36,6 @@
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" />
     <dep model="r:95397225-9080-48bc-b1aa-0ce7c4f3d2ce(jetbrains.mps.lang.traceable.behavior)" />
@@ -58,8 +60,18 @@
     <file name="CountAggregate_BehaviorDescriptor.java" />
     <file name="CreateStatement_BehaviorDescriptor.java" />
     <file name="CreateUniqueStatement_BehaviorDescriptor.java" />
+    <file name="CypherAndExpression_BehaviorDescriptor.java" />
     <file name="CypherDotExpression_BehaviorDescriptor.java" />
+    <file name="CypherEqualsExpression_BehaviorDescriptor.java" />
     <file name="CypherExpression_BehaviorDescriptor.java" />
+    <file name="CypherIntegerConstant_BehaviorDescriptor.java" />
+    <file name="CypherMinusExpression_BehaviorDescriptor.java" />
+    <file name="CypherMulExpression_BehaviorDescriptor.java" />
+    <file name="CypherNotEqualsExpression_BehaviorDescriptor.java" />
+    <file name="CypherNotExpression_BehaviorDescriptor.java" />
+    <file name="CypherOrExpression_BehaviorDescriptor.java" />
+    <file name="CypherPlusExpression_BehaviorDescriptor.java" />
+    <file name="CypherRemExpression_BehaviorDescriptor.java" />
     <file name="CypherStatement_BehaviorDescriptor.java" />
     <file name="DeleteStatement_BehaviorDescriptor.java" />
     <file name="DescOrderBy_BehaviorDescriptor.java" />
@@ -76,17 +88,22 @@
     <file name="IOrderByExpression_BehaviorDescriptor.java" />
     <file name="IQueryStatement_BehaviorDescriptor.java" />
     <file name="IReturnExpression_BehaviorDescriptor.java" />
+    <file name="IWhereExpression_BehaviorDescriptor.java" />
     <file name="IdIndex_BehaviorDescriptor.java" />
     <file name="ImpermanentConnection_BehaviorDescriptor.java" />
     <file name="Index_BehaviorDescriptor.java" />
     <file name="KeyValueIndex_BehaviorDescriptor.java" />
+    <file name="LTrimMStringFunction_BehaviorDescriptor.java" />
     <file name="LastCollFunction_BehaviorDescriptor.java" />
+    <file name="LeftMStringFunction_BehaviorDescriptor.java" />
     <file name="LengthPathFunction_BehaviorDescriptor.java" />
+    <file name="LowerMStringFunction_BehaviorDescriptor.java" />
     <file name="LuceneIndex_BehaviorDescriptor.java" />
     <file name="MatchStatement_BehaviorDescriptor.java" />
     <file name="MathFunction_BehaviorDescriptor.java" />
     <file name="MaxAggregate_BehaviorDescriptor.java" />
     <file name="MinAggregate_BehaviorDescriptor.java" />
+    <file name="ModifyStringFunction_BehaviorDescriptor.java" />
     <file name="NamedIndex_BehaviorDescriptor.java" />
     <file name="NamedNodeRef_BehaviorDescriptor.java" />
     <file name="NamedNode_BehaviorDescriptor.java" />
@@ -111,13 +128,16 @@
     <file name="QueryExpression_BehaviorDescriptor.java" />
     <file name="QuerySheet_BehaviorDescriptor.java" />
     <file name="QueryStatement_BehaviorDescriptor.java" />
+    <file name="RTrimMStringFunction_BehaviorDescriptor.java" />
     <file name="ReadOnlyQueryExpression_BehaviorDescriptor.java" />
     <file name="ReadWriteQueryExpression_BehaviorDescriptor.java" />
     <file name="RelationshipType_BehaviorDescriptor.java" />
     <file name="Relationship_BehaviorDescriptor.java" />
     <file name="RelsPathFunction_BehaviorDescriptor.java" />
+    <file name="ReplaceMStringFunction_BehaviorDescriptor.java" />
     <file name="ReturnStatementBlock_BehaviorDescriptor.java" />
     <file name="ReturnStatement_BehaviorDescriptor.java" />
+    <file name="RightMStringFunction_BehaviorDescriptor.java" />
     <file name="RoundMathFunction_BehaviorDescriptor.java" />
     <file name="SetStatement_BehaviorDescriptor.java" />
     <file name="SignMathFunction_BehaviorDescriptor.java" />
@@ -125,8 +145,12 @@
     <file name="SkipStatement_BehaviorDescriptor.java" />
     <file name="SqrtMathFunction_BehaviorDescriptor.java" />
     <file name="StartStatement_BehaviorDescriptor.java" />
+    <file name="StrStringFunction_BehaviorDescriptor.java" />
+    <file name="StringFunction_BehaviorDescriptor.java" />
+    <file name="SubstringMStringFunction_BehaviorDescriptor.java" />
     <file name="SumAggregate_BehaviorDescriptor.java" />
     <file name="TailCollFunction_BehaviorDescriptor.java" />
+    <file name="TrimMStringFunction_BehaviorDescriptor.java" />
     <file name="UnnamedNode_BehaviorDescriptor.java" />
     <file name="UnnamedTypedLRRelationship_BehaviorDescriptor.java" />
     <file name="UnnamedTypedRLRelationship_BehaviorDescriptor.java" />
@@ -134,6 +158,7 @@
     <file name="UnnamedUntypedLRRelationship_BehaviorDescriptor.java" />
     <file name="UnnamedUntypedRLRelationship_BehaviorDescriptor.java" />
     <file name="UnnamedUntypedRelationship_BehaviorDescriptor.java" />
+    <file name="UpperMStringFunction_BehaviorDescriptor.java" />
     <file name="WhereStatement_BehaviorDescriptor.java" />
   </common>
   <source id="4395952758104628250" name="KeyValueIndex_Behavior" hash="5pn6fx1p02yt1isvh76fsvgsimm7rkj">
@@ -144,12 +169,11 @@
     <dep model="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
     <file name="KeyValueIndex_Behavior.java" />
   </source>
-  <source id="5206628397327256671" name="ApStringLiteral_Behavior" hash="-5lyj0d7v0visvj96c1drx766tdudtwd">
+  <source id="5206628397327256671" name="ApStringLiteral_Behavior" hash="-4ysw9uoh21n1jofforqr3fx7qa8d7wo">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
@@ -157,31 +181,25 @@
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
     <file name="ApStringLiteral_Behavior.java" />
   </source>
-  <source id="5206628397327338995" name="INamedIdentifier_Behavior" hash="-678hhpvzau0sj8he08z4em87d67tk3j">
+  <source id="5206628397327338995" name="INamedIdentifier_Behavior" hash="-8fpdwaie1st34tbo11qnj092r9ay65a">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
     <file name="INamedIdentifier_Behavior.java" />
   </source>
-  <source id="5206628397327427259" name="INamedNullableIdentifier_Behavior" hash="-3j55dsadfgxd49t8emdvrtknfij9hgp">
+  <source id="5206628397327427259" name="INamedNullableIdentifier_Behavior" hash="-2w0u9nttzc0i4fm2rwgld8gbhqmjd24">
     <dep root="5206628397327338995" />
-    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
-    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.logging(MPS.Core/jetbrains.mps.logging@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
     <file name="INamedNullableIdentifier_Behavior.java" />
@@ -190,10 +208,66 @@
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
     <file name="Parameter_Behavior.java" />
+  </source>
+  <source id="1325020284374205962" name="SubstringMStringFunction_Behavior" hash="7g9xqkjmu217a92thr3mikq3oqflxxm">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
+    <file name="SubstringMStringFunction_Behavior.java" />
+  </source>
+  <source id="1325020284374268226" name="CypherPlusExpression_Behavior" hash="8ap7n8qbt5uqvxd61fvbwfvl9lcpv4a">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
+    <file name="CypherPlusExpression_Behavior.java" />
+  </source>
+  <source id="1325020284374323643" name="CypherIntegerConstant_Behavior" hash="-67usl2ebn12xq2tzi7i6ou81xgigg52">
+    <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+    <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
+    <file name="CypherIntegerConstant_Behavior.java" />
+  </source>
+  <source id="4721745511893728624" name="CypherMinusExpression_Behavior" hash="-6w28us8g07hfil86r78r3qjevh7ocn0">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
+    <file name="CypherMinusExpression_Behavior.java" />
   </source>
 </dependencies>
 

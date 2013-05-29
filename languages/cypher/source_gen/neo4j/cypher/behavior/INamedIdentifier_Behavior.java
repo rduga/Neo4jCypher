@@ -26,7 +26,7 @@ public class INamedIdentifier_Behavior {
 
     // no backtited value - only alphanumeric chars, first char must be alpha 
     if (name.length() > 0) {
-      if (!(name.matches("[a-zA-Z][a-zA-Z0-9]*"))) {
+      if (!(name.matches("[a-zA-Z$[_]][a-zA-Z0-9$[_]]*"))) {
         return false;
       }
     }
