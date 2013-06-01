@@ -118,43 +118,6 @@
   <unitInfo fileName="UnnamedUntypedRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedUntypedRelationship_BehaviorDescriptor" />
   <unitInfo fileName="UpperMStringFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UpperMStringFunction_BehaviorDescriptor" />
   <unitInfo fileName="WhereStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.WhereStatement_BehaviorDescriptor" />
-  <root nodeId="1325020284374205962" modelId="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)">
-    <nodeInfo nodeId="1325020284374273199" fileName="SubstringMStringFunction_Behavior.java" startLine="12" startPosition="102" endLine="13" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="1325020284374273201" fileName="SubstringMStringFunction_Behavior.java" startLine="14" startPosition="9" endLine="15" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1325020284374273241" fileName="SubstringMStringFunction_Behavior.java" startLine="16" startPosition="36" endLine="17" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4721745511893818355" fileName="SubstringMStringFunction_Behavior.java" startLine="18" startPosition="7" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="4721745511893786127" fileName="SubstringMStringFunction_Behavior.java" startLine="21" startPosition="5" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="1325020284374216777" fileName="SubstringMStringFunction_Behavior.java" startLine="22" startPosition="0" endLine="23" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1325020284374205962" fileName="SubstringMStringFunction_Behavior.java" startLine="8" startPosition="48" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
-    <nodeInfo nodeId="1325020284374273212" fileName="SubstringMStringFunction_Behavior.java" startLine="15" startPosition="82" endLine="18" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="1325020284374273264" fileName="SubstringMStringFunction_Behavior.java" startLine="26" startPosition="70" endLine="30" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1325020284374273264" fileName="SubstringMStringFunction_Behavior.java" startLine="25" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="as_x5ltvq_a0a0a1a1a1#(Ljava/lang/Object;Ljava/lang/Class;)null" />
-    <nodeInfo nodeId="4721745511893818353" fileName="SubstringMStringFunction_Behavior.java" startLine="13" startPosition="14" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="1325020284374205962" fileName="SubstringMStringFunction_Behavior.java" startLine="11" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isNegativeInteger_1325020284374205965#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Z" />
-    <scopeInfo nodeId="1325020284374205964" fileName="SubstringMStringFunction_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
-    <scopeInfo nodeId="4721745511893818356" fileName="SubstringMStringFunction_Behavior.java" startLine="20" startPosition="0" endLine="20" endPosition="55">
-      <varInfo nodeId="4721745511893818357" varName="exception" />
-    </scopeInfo>
-    <scopeInfo nodeId="4721745511893818359" fileName="SubstringMStringFunction_Behavior.java" startLine="20" startPosition="55" endLine="20" endPosition="55" />
-    <scopeInfo nodeId="1325020284374273213" fileName="SubstringMStringFunction_Behavior.java" startLine="16" startPosition="36" endLine="17" endPosition="61" />
-    <scopeInfo nodeId="1325020284374205962" fileName="SubstringMStringFunction_Behavior.java" startLine="8" startPosition="48" endLine="11" endPosition="0">
-      <varInfo nodeId="1325020284374205962" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1325020284374273264" fileName="SubstringMStringFunction_Behavior.java" startLine="26" startPosition="70" endLine="30" endPosition="6" />
-    <scopeInfo nodeId="4721745511893818354" fileName="SubstringMStringFunction_Behavior.java" startLine="14" startPosition="9" endLine="19" endPosition="0">
-      <varInfo nodeId="1325020284374273202" varName="eval" />
-    </scopeInfo>
-    <scopeInfo nodeId="1325020284374273264" fileName="SubstringMStringFunction_Behavior.java" startLine="25" startPosition="0" endLine="32" endPosition="0">
-      <varInfo nodeId="1325020284374273264" varName="o" />
-      <varInfo nodeId="1325020284374273264" varName="type" />
-    </scopeInfo>
-    <scopeInfo nodeId="1325020284374205968" fileName="SubstringMStringFunction_Behavior.java" startLine="12" startPosition="102" endLine="23" endPosition="17" />
-    <scopeInfo nodeId="1325020284374205962" fileName="SubstringMStringFunction_Behavior.java" startLine="11" startPosition="0" endLine="25" endPosition="0">
-      <varInfo nodeId="1325020284374215265" varName="expression" />
-      <varInfo nodeId="1325020284374205962" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1325020284374205962" fileName="SubstringMStringFunction_Behavior.java" startLine="8" startPosition="0" endLine="33" endPosition="0" unitName="neo4j.cypher.behavior.SubstringMStringFunction_Behavior" />
-  </root>
   <root nodeId="1325020284374268226" modelId="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)">
     <nodeInfo nodeId="1213877269062" fileName="CypherPlusExpression_Behavior.java" startLine="14" startPosition="83" endLine="15" endPosition="141" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1213877269071" fileName="CypherPlusExpression_Behavior.java" startLine="15" startPosition="141" endLine="16" endPosition="143" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -214,6 +177,43 @@
       <varInfo nodeId="1325020284374323643" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="1325020284374323643" fileName="CypherIntegerConstant_Behavior.java" startLine="9" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.behavior.CypherIntegerConstant_Behavior" />
+  </root>
+  <root nodeId="2103634311711000971" modelId="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)">
+    <nodeInfo nodeId="1325020284374273199" fileName="ModifyStringFunction_Behavior.java" startLine="12" startPosition="102" endLine="13" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="1325020284374273201" fileName="ModifyStringFunction_Behavior.java" startLine="14" startPosition="9" endLine="15" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1325020284374273241" fileName="ModifyStringFunction_Behavior.java" startLine="16" startPosition="36" endLine="17" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4721745511893818355" fileName="ModifyStringFunction_Behavior.java" startLine="18" startPosition="7" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4721745511893786127" fileName="ModifyStringFunction_Behavior.java" startLine="21" startPosition="5" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1325020284374216777" fileName="ModifyStringFunction_Behavior.java" startLine="22" startPosition="0" endLine="23" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2103634311711000971" fileName="ModifyStringFunction_Behavior.java" startLine="8" startPosition="44" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="1325020284374273212" fileName="ModifyStringFunction_Behavior.java" startLine="15" startPosition="82" endLine="18" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1325020284374273264" fileName="ModifyStringFunction_Behavior.java" startLine="26" startPosition="70" endLine="30" endPosition="6" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1325020284374273264" fileName="ModifyStringFunction_Behavior.java" startLine="25" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="as_3vklef_a0a0a1a1a1#(Ljava/lang/Object;Ljava/lang/Class;)null" />
+    <nodeInfo nodeId="4721745511893818353" fileName="ModifyStringFunction_Behavior.java" startLine="13" startPosition="14" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="2103634311711000971" fileName="ModifyStringFunction_Behavior.java" startLine="11" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isNegativeInteger_1325020284374205965#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;)Z" />
+    <scopeInfo nodeId="2103634311711000973" fileName="ModifyStringFunction_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="4721745511893818356" fileName="ModifyStringFunction_Behavior.java" startLine="20" startPosition="0" endLine="20" endPosition="55">
+      <varInfo nodeId="4721745511893818357" varName="exception" />
+    </scopeInfo>
+    <scopeInfo nodeId="4721745511893818359" fileName="ModifyStringFunction_Behavior.java" startLine="20" startPosition="55" endLine="20" endPosition="55" />
+    <scopeInfo nodeId="1325020284374273213" fileName="ModifyStringFunction_Behavior.java" startLine="16" startPosition="36" endLine="17" endPosition="61" />
+    <scopeInfo nodeId="2103634311711000971" fileName="ModifyStringFunction_Behavior.java" startLine="8" startPosition="44" endLine="11" endPosition="0">
+      <varInfo nodeId="2103634311711000971" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1325020284374273264" fileName="ModifyStringFunction_Behavior.java" startLine="26" startPosition="70" endLine="30" endPosition="6" />
+    <scopeInfo nodeId="4721745511893818354" fileName="ModifyStringFunction_Behavior.java" startLine="14" startPosition="9" endLine="19" endPosition="0">
+      <varInfo nodeId="1325020284374273202" varName="eval" />
+    </scopeInfo>
+    <scopeInfo nodeId="1325020284374273264" fileName="ModifyStringFunction_Behavior.java" startLine="25" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="1325020284374273264" varName="o" />
+      <varInfo nodeId="1325020284374273264" varName="type" />
+    </scopeInfo>
+    <scopeInfo nodeId="1325020284374205968" fileName="ModifyStringFunction_Behavior.java" startLine="12" startPosition="102" endLine="23" endPosition="17" />
+    <scopeInfo nodeId="2103634311711000971" fileName="ModifyStringFunction_Behavior.java" startLine="11" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="1325020284374215265" varName="expression" />
+      <varInfo nodeId="2103634311711000971" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="2103634311711000971" fileName="ModifyStringFunction_Behavior.java" startLine="8" startPosition="0" endLine="33" endPosition="0" unitName="neo4j.cypher.behavior.ModifyStringFunction_Behavior" />
   </root>
   <root nodeId="4395952758104628250" modelId="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)">
     <nodeInfo nodeId="4395952758104630168" fileName="KeyValueIndex_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

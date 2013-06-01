@@ -5,7 +5,7 @@ package neo4j.cypher.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.baseLanguage.behavior.Expression_Behavior;
 
-public class SubstringMStringFunction_Behavior {
+public class ModifyStringFunction_Behavior {
   public static void init(SNode thisNode) {
   }
 
@@ -14,7 +14,7 @@ public class SubstringMStringFunction_Behavior {
     try {
       Object eval = Expression_Behavior.call_eval_1213877519769(expression, null);
       if (eval instanceof Integer) {
-        return as_x5ltvq_a0a0a1a1a1(eval, Integer.class) < 0;
+        return as_3vklef_a0a0a1a1a1(eval, Integer.class) < 0;
       }
 
     } catch (UnsupportedOperationException exception) {
@@ -23,7 +23,7 @@ public class SubstringMStringFunction_Behavior {
     return false;
   }
 
-  private static <T> T as_x5ltvq_a0a0a1a1a1(Object o, Class<T> type) {
+  private static <T> T as_3vklef_a0a0a1a1a1(Object o, Class<T> type) {
     return (type.isInstance(o) ?
       (T) o :
       null

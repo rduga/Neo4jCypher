@@ -7,7 +7,7 @@ import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
-import neo4j.cypher.behavior.SubstringMStringFunction_Behavior;
+import neo4j.cypher.behavior.ModifyStringFunction_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
@@ -19,14 +19,14 @@ public class check_SubstringMStringFunction_NonTypesystemRule extends AbstractNo
   }
 
   public void applyRule(final SNode substringMStringFunction, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (SubstringMStringFunction_Behavior.call_isNegativeInteger_1325020284374205965(substringMStringFunction, SLinkOperations.getTarget(substringMStringFunction, "start", true))) {
+    if (ModifyStringFunction_Behavior.call_isNegativeInteger_1325020284374205965(substringMStringFunction, SLinkOperations.getTarget(substringMStringFunction, "start", true))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(SLinkOperations.getTarget(substringMStringFunction, "start", true), "Must be non negative integer", "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "1325020284374216843", null, errorTarget);
       }
     }
 
-    if (SubstringMStringFunction_Behavior.call_isNegativeInteger_1325020284374205965(substringMStringFunction, SLinkOperations.getTarget(substringMStringFunction, "length", true))) {
+    if (ModifyStringFunction_Behavior.call_isNegativeInteger_1325020284374205965(substringMStringFunction, SLinkOperations.getTarget(substringMStringFunction, "length", true))) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(SLinkOperations.getTarget(substringMStringFunction, "length", true), "Must be non negative integer", "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "1325020284374216860", null, errorTarget);
