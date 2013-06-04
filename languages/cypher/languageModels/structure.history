@@ -330,5 +330,35 @@
     </dependencies>
     <rename id="qgu4.5206628397327875941" type="CONCEPT" from="NotCypherExpression" to="CypherNotExpression" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="54" />
+    </dependencies>
+    <rename id="qgu4.3830435865999738717" type="CONCEPT" from="NodesPathFunction" to="NodesCollFunction" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="55" />
+    </dependencies>
+    <rename id="qgu4.3830435865999738721" type="CONCEPT" from="RelsPathFunction" to="RelsCollFunction" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="56" />
+    </dependencies>
+    <rename id="qgu4.3830435865999738721" type="CONCEPT" from="RelsCollFunction" to="RelationshipsCollFunction" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="57" />
+    </dependencies>
+    <rename id="qgu4.3830435865999738722" type="CONCEPT" from="LengthPathFunction" to="LengthScalarFunction" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="58" />
+    </dependencies>
+    <rename id="qgu4.3830435865999703329" type="CONCEPT" from="HeadCollFunction" to="HeadScalarFunction" />
+  </StructureModification>
 </history>
 

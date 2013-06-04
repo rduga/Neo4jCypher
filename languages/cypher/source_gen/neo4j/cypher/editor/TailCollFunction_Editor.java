@@ -15,38 +15,38 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 
-public class CollectionFunction_Editor extends DefaultNodeEditor {
+public class TailCollFunction_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_4woskb_a(editorContext, node);
+    return this.createCollection_emiel8_a(editorContext, node);
   }
 
-  private EditorCell createCollection_4woskb_a(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_emiel8_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4woskb_a");
-    editorCell.addEditorCell(this.createConceptProperty_4woskb_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4woskb_b0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_4woskb_c0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4woskb_d0(editorContext, node));
+    editorCell.setCellId("Collection_emiel8_a");
+    editorCell.addEditorCell(this.createConceptProperty_emiel8_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_emiel8_b0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_emiel8_c0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_emiel8_d0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_4woskb_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_emiel8_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_4woskb_b0");
+    editorCell.setCellId("Constant_emiel8_b0");
     BaseLanguageStyle_StyleSheet.getLeftParenAfterName(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_4woskb_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_emiel8_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_4woskb_d0");
+    editorCell.setCellId("Constant_emiel8_d0");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_4woskb_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_emiel8_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("expression");
     provider.setNoTargetText("<no expression>");
@@ -63,7 +63,7 @@ public class CollectionFunction_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConceptProperty_4woskb_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_emiel8_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");

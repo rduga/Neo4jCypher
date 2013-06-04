@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="77" endPosition="0" unitName="neo4j.cypher.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="85" endPosition="0" unitName="neo4j.cypher.typesystem.TypesystemDescriptor" />
   <root nodeId="1325020284374084116" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
     <nodeInfo nodeId="1325020284374084143" fileName="typeof_StringFunction_InferenceRule.java" startLine="21" startPosition="5" endLine="22" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1325020284374084143" fileName="typeof_StringFunction_InferenceRule.java" startLine="22" startPosition="56" endLine="23" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1127,6 +1127,178 @@
     <scopeInfo nodeId="5206628397327739589" fileName="typeof_WhereStatement_InferenceRule.java" startLine="59" startPosition="0" endLine="71" endPosition="0" />
     <unitInfo nodeId="5206628397327739589" fileName="typeof_WhereStatement_InferenceRule.java" startLine="44" startPosition="0" endLine="72" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_WhereStatement_InferenceRule$QuotationClass_e1rj7a_a0a0a0" />
     <unitInfo nodeId="5206628397327739530" fileName="typeof_WhereStatement_InferenceRule.java" startLine="17" startPosition="0" endLine="73" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_WhereStatement_InferenceRule" />
+  </root>
+  <root nodeId="7918996842015188038" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
+    <nodeInfo nodeId="7918996842015188069" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="21" startPosition="5" endLine="22" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188069" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="22" startPosition="58" endLine="23" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188069" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="23" startPosition="189" endLine="24" endPosition="334" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="28" startPosition="46" endLine="29" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="33" startPosition="5" endLine="34" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="34" startPosition="117" endLine="35" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="39" startPosition="30" endLine="40" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="47" startPosition="76" endLine="48" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="48" startPosition="26" endLine="49" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="49" startPosition="67" endLine="50" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="51" startPosition="7" endLine="52" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="52" startPosition="160" endLine="53" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="53" startPosition="43" endLine="54" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="55" startPosition="7" endLine="56" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="59" startPosition="31" endLine="60" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="60" startPosition="26" endLine="61" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="61" startPosition="67" endLine="62" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="63" startPosition="7" endLine="64" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="64" startPosition="160" endLine="65" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="65" startPosition="43" endLine="66" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="67" startPosition="7" endLine="68" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="16" startPosition="123" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_IdScalarFunction_InferenceRule#()V" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="43" startPosition="52" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_jn6axt_a0a0a0#()V" />
+    <nodeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="32" startPosition="68" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="7918996842015188069" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="20" startPosition="129" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="50" startPosition="32" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="50" startPosition="32" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="62" startPosition="32" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="62" startPosition="32" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="31" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="19" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="46" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#(Ljetbrains/mps/typesystem/inference/TypeCheckingContext;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="58" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
+    <scopeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="17" startPosition="50" endLine="17" endPosition="50" />
+    <scopeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="44" startPosition="43" endLine="44" endPosition="43" />
+    <scopeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="28" startPosition="46" endLine="29" endPosition="53" />
+    <scopeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="39" startPosition="30" endLine="40" endPosition="17" />
+    <scopeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="16" startPosition="123" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="33" startPosition="5" endLine="35" endPosition="45">
+      <varInfo nodeId="7918996842015188038" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="43" startPosition="52" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="7918996842015188069" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="21" startPosition="5" endLine="24" endPosition="334">
+      <varInfo nodeId="7918996842015188069" varName="_info_12389875345" />
+      <varInfo nodeId="7918996842015188069" varName="_nodeToCheck_1029348928467" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="51" startPosition="7" endLine="54" endPosition="31">
+      <varInfo nodeId="7918996842015188074" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="63" startPosition="7" endLine="66" endPosition="31">
+      <varInfo nodeId="7918996842015188074" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="32" startPosition="68" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="7918996842015188039" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="20" startPosition="129" endLine="25" endPosition="5" />
+    <scopeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="50" startPosition="32" endLine="55" endPosition="7" />
+    <scopeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="62" startPosition="32" endLine="67" endPosition="7" />
+    <scopeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="31" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="7918996842015188038" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="19" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="7918996842015188038" varName="idScalarFunction" />
+      <varInfo nodeId="7918996842015188038" varName="status" />
+      <varInfo nodeId="7918996842015188038" varName="typeCheckingContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="47" startPosition="76" endLine="56" endPosition="20">
+      <varInfo nodeId="7918996842015188074" varName="_parameterValues_129834374" />
+      <varInfo nodeId="7918996842015188074" varName="quotedNode_1" />
+      <varInfo nodeId="7918996842015188074" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="59" startPosition="31" endLine="68" endPosition="20">
+      <varInfo nodeId="7918996842015188074" varName="_parameterValues_129834374" />
+      <varInfo nodeId="7918996842015188074" varName="quotedNode_1" />
+      <varInfo nodeId="7918996842015188074" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="46" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="7918996842015188074" varName="typeCheckingContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="58" startPosition="0" endLine="70" endPosition="0" />
+    <unitInfo nodeId="7918996842015188074" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="43" startPosition="0" endLine="71" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_IdScalarFunction_InferenceRule$QuotationClass_jn6axt_a0a0a0" />
+    <unitInfo nodeId="7918996842015188038" fileName="typeof_IdScalarFunction_InferenceRule.java" startLine="16" startPosition="0" endLine="72" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_IdScalarFunction_InferenceRule" />
+  </root>
+  <root nodeId="7918996842015188077" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
+    <nodeInfo nodeId="7918996842015188104" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="21" startPosition="5" endLine="22" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188104" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="22" startPosition="62" endLine="23" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188104" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="23" startPosition="189" endLine="24" endPosition="338" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="28" startPosition="46" endLine="29" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="33" startPosition="5" endLine="34" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="34" startPosition="117" endLine="35" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="39" startPosition="30" endLine="40" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="47" startPosition="76" endLine="48" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="48" startPosition="26" endLine="49" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="49" startPosition="67" endLine="50" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="51" startPosition="7" endLine="52" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="52" startPosition="160" endLine="53" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="53" startPosition="43" endLine="54" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="55" startPosition="7" endLine="56" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="59" startPosition="31" endLine="60" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="60" startPosition="26" endLine="61" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="61" startPosition="67" endLine="62" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="63" startPosition="7" endLine="64" endPosition="160" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="64" startPosition="160" endLine="65" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="65" startPosition="43" endLine="66" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="67" startPosition="7" endLine="68" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="16" startPosition="127" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_LengthScalarFunction_InferenceRule#()V" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="43" startPosition="52" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="QuotationClass_pvcdtz_a0a0a0#()V" />
+    <nodeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="32" startPosition="68" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="7918996842015188104" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="20" startPosition="133" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="50" startPosition="32" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="50" startPosition="32" endLine="55" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="62" startPosition="32" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="62" startPosition="32" endLine="67" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="31" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="19" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="46" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#(Ljetbrains/mps/typesystem/inference/TypeCheckingContext;)Ljetbrains/mps/smodel/SNode;" />
+    <nodeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="58" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNode#()Ljetbrains/mps/smodel/SNode;" />
+    <scopeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="17" startPosition="54" endLine="17" endPosition="54" />
+    <scopeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="44" startPosition="43" endLine="44" endPosition="43" />
+    <scopeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="28" startPosition="46" endLine="29" endPosition="57" />
+    <scopeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="39" startPosition="30" endLine="40" endPosition="17" />
+    <scopeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="16" startPosition="127" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="33" startPosition="5" endLine="35" endPosition="45">
+      <varInfo nodeId="7918996842015188077" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="43" startPosition="52" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="7918996842015188104" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="21" startPosition="5" endLine="24" endPosition="338">
+      <varInfo nodeId="7918996842015188104" varName="_info_12389875345" />
+      <varInfo nodeId="7918996842015188104" varName="_nodeToCheck_1029348928467" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="51" startPosition="7" endLine="54" endPosition="31">
+      <varInfo nodeId="7918996842015188109" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="63" startPosition="7" endLine="66" endPosition="31">
+      <varInfo nodeId="7918996842015188109" varName="quotedNode1_2" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="32" startPosition="68" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="7918996842015188078" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="20" startPosition="133" endLine="25" endPosition="5" />
+    <scopeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="50" startPosition="32" endLine="55" endPosition="7" />
+    <scopeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="62" startPosition="32" endLine="67" endPosition="7" />
+    <scopeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="31" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="7918996842015188077" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="19" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="7918996842015188077" varName="lengthScalarFunction" />
+      <varInfo nodeId="7918996842015188077" varName="status" />
+      <varInfo nodeId="7918996842015188077" varName="typeCheckingContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="47" startPosition="76" endLine="56" endPosition="20">
+      <varInfo nodeId="7918996842015188109" varName="_parameterValues_129834374" />
+      <varInfo nodeId="7918996842015188109" varName="quotedNode_1" />
+      <varInfo nodeId="7918996842015188109" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="59" startPosition="31" endLine="68" endPosition="20">
+      <varInfo nodeId="7918996842015188109" varName="_parameterValues_129834374" />
+      <varInfo nodeId="7918996842015188109" varName="quotedNode_1" />
+      <varInfo nodeId="7918996842015188109" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="46" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="7918996842015188109" varName="typeCheckingContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="58" startPosition="0" endLine="70" endPosition="0" />
+    <unitInfo nodeId="7918996842015188109" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="43" startPosition="0" endLine="71" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_LengthScalarFunction_InferenceRule$QuotationClass_pvcdtz_a0a0a0" />
+    <unitInfo nodeId="7918996842015188077" fileName="typeof_LengthScalarFunction_InferenceRule.java" startLine="16" startPosition="0" endLine="72" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_LengthScalarFunction_InferenceRule" />
   </root>
 </debugInfo>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-8sn3cjlm5ftau5xx1leq39ry5u3q5gd">
+<dependencies version="2" modelHash="-6ri3wa6thqtp0xa76vt2n72ajgjkvzg">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
@@ -18,8 +18,8 @@
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-61zarzt0xpk4ne47pccbfo6rwcyzmlo" />
-  <common hash="7n0g9r5ajo8uu5og61ai1fnthj2r0jp" dependsOnNodes="true">
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="9hf7ixypw4446xschk7pz78wb7n8lt7" />
+  <common hash="-2hilx5cn59tznl95a2q3aloy8hskei8" dependsOnNodes="true">
     <dep root="1325020284374268226" />
     <dep root="1325020284374323643" />
     <dep root="2103634311711000971" />
@@ -53,6 +53,7 @@
     <file name="AscOrderBy_BehaviorDescriptor.java" />
     <file name="AssignmentStatement_BehaviorDescriptor.java" />
     <file name="BehaviorAspectDescriptor.java" />
+    <file name="CoalesceScalarFunction_BehaviorDescriptor.java" />
     <file name="CollectionFunction_BehaviorDescriptor.java" />
     <file name="Collection_BehaviorDescriptor.java" />
     <file name="ConnectionSheet_BehaviorDescriptor.java" />
@@ -78,8 +79,10 @@
     <file name="DistinctExpression_BehaviorDescriptor.java" />
     <file name="EmbeddedConnection_BehaviorDescriptor.java" />
     <file name="EmptyConnectionStatement_BehaviorDescriptor.java" />
+    <file name="ExtractCollFunction_BehaviorDescriptor.java" />
+    <file name="FilterCollFunction_BehaviorDescriptor.java" />
     <file name="Function_BehaviorDescriptor.java" />
-    <file name="HeadCollFunction_BehaviorDescriptor.java" />
+    <file name="HeadScalarFunction_BehaviorDescriptor.java" />
     <file name="ICollectionExpression_BehaviorDescriptor.java" />
     <file name="IConnectionStatement_BehaviorDescriptor.java" />
     <file name="ICypherExpression_BehaviorDescriptor.java" />
@@ -90,13 +93,15 @@
     <file name="IReturnExpression_BehaviorDescriptor.java" />
     <file name="IWhereExpression_BehaviorDescriptor.java" />
     <file name="IdIndex_BehaviorDescriptor.java" />
+    <file name="IdScalarFunction_BehaviorDescriptor.java" />
     <file name="ImpermanentConnection_BehaviorDescriptor.java" />
     <file name="Index_BehaviorDescriptor.java" />
     <file name="KeyValueIndex_BehaviorDescriptor.java" />
     <file name="LTrimMStringFunction_BehaviorDescriptor.java" />
-    <file name="LastCollFunction_BehaviorDescriptor.java" />
+    <file name="LabelsCollFunction_BehaviorDescriptor.java" />
+    <file name="LastScalarFunction_BehaviorDescriptor.java" />
     <file name="LeftMStringFunction_BehaviorDescriptor.java" />
-    <file name="LengthPathFunction_BehaviorDescriptor.java" />
+    <file name="LengthScalarFunction_BehaviorDescriptor.java" />
     <file name="LowerMStringFunction_BehaviorDescriptor.java" />
     <file name="LuceneIndex_BehaviorDescriptor.java" />
     <file name="MatchStatement_BehaviorDescriptor.java" />
@@ -107,6 +112,8 @@
     <file name="NamedIndex_BehaviorDescriptor.java" />
     <file name="NamedNodeRef_BehaviorDescriptor.java" />
     <file name="NamedNode_BehaviorDescriptor.java" />
+    <file name="NamedRelationshipRef_BehaviorDescriptor.java" />
+    <file name="NamedRelationship_BehaviorDescriptor.java" />
     <file name="NamedTypedLRRelationship_BehaviorDescriptor.java" />
     <file name="NamedTypedRLRelationship_BehaviorDescriptor.java" />
     <file name="NamedTypedRelationship_BehaviorDescriptor.java" />
@@ -114,7 +121,7 @@
     <file name="NamedUntypedRLRelationship_BehaviorDescriptor.java" />
     <file name="NamedUntypedRelationship_BehaviorDescriptor.java" />
     <file name="Node_BehaviorDescriptor.java" />
-    <file name="NodesPathFunction_BehaviorDescriptor.java" />
+    <file name="NodesCollFunction_BehaviorDescriptor.java" />
     <file name="NonePredicateFunction_BehaviorDescriptor.java" />
     <file name="OrderByExpression_BehaviorDescriptor.java" />
     <file name="OrderByStatement_BehaviorDescriptor.java" />
@@ -122,6 +129,7 @@
     <file name="PathFunction_BehaviorDescriptor.java" />
     <file name="PredicateExpression_BehaviorDescriptor.java" />
     <file name="PredicateFunction_BehaviorDescriptor.java" />
+    <file name="PropertyContainerRef_BehaviorDescriptor.java" />
     <file name="PropertyContainer_BehaviorDescriptor.java" />
     <file name="Property_BehaviorDescriptor.java" />
     <file name="QueryEmptyStatement_BehaviorDescriptor.java" />
@@ -129,16 +137,19 @@
     <file name="QuerySheet_BehaviorDescriptor.java" />
     <file name="QueryStatement_BehaviorDescriptor.java" />
     <file name="RTrimMStringFunction_BehaviorDescriptor.java" />
+    <file name="RangeCollFunction_BehaviorDescriptor.java" />
     <file name="ReadOnlyQueryExpression_BehaviorDescriptor.java" />
     <file name="ReadWriteQueryExpression_BehaviorDescriptor.java" />
+    <file name="ReduceCollFunction_BehaviorDescriptor.java" />
     <file name="RelationshipType_BehaviorDescriptor.java" />
     <file name="Relationship_BehaviorDescriptor.java" />
-    <file name="RelsPathFunction_BehaviorDescriptor.java" />
+    <file name="RelationshipsCollFunction_BehaviorDescriptor.java" />
     <file name="ReplaceMStringFunction_BehaviorDescriptor.java" />
     <file name="ReturnStatementBlock_BehaviorDescriptor.java" />
     <file name="ReturnStatement_BehaviorDescriptor.java" />
     <file name="RightMStringFunction_BehaviorDescriptor.java" />
     <file name="RoundMathFunction_BehaviorDescriptor.java" />
+    <file name="ScalarFunction_BehaviorDescriptor.java" />
     <file name="SetStatement_BehaviorDescriptor.java" />
     <file name="SignMathFunction_BehaviorDescriptor.java" />
     <file name="SinglePredicateFunction_BehaviorDescriptor.java" />
@@ -151,7 +162,9 @@
     <file name="SumAggregate_BehaviorDescriptor.java" />
     <file name="TailCollFunction_BehaviorDescriptor.java" />
     <file name="TrimMStringFunction_BehaviorDescriptor.java" />
+    <file name="TypeScalarFunction_BehaviorDescriptor.java" />
     <file name="UnnamedNode_BehaviorDescriptor.java" />
+    <file name="UnnamedRelationship_BehaviorDescriptor.java" />
     <file name="UnnamedTypedLRRelationship_BehaviorDescriptor.java" />
     <file name="UnnamedTypedRLRelationship_BehaviorDescriptor.java" />
     <file name="UnnamedTypedRelationship_BehaviorDescriptor.java" />

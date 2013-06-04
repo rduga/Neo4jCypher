@@ -6,7 +6,7 @@ import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class UnnamedTypedRelationship_BehaviorDescriptor extends Relationship_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor {
+public class UnnamedTypedRelationship_BehaviorDescriptor extends UnnamedRelationship_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor {
   public UnnamedTypedRelationship_BehaviorDescriptor() {
   }
 
