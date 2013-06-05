@@ -118,6 +118,7 @@
     <classNode dependClassName="neo4j.cypher.behavior.DistinctExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.EmbeddedConnection_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.EmptyConnectionStatement_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.EmptyNode_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.ExtractCollFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.FilterCollFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.HeadScalarFunction_BehaviorDescriptor" />
@@ -412,6 +413,12 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.IConnectionStatement_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.EmptyNode_BehaviorDescriptor" file="EmptyNode_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.Node_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.ExtractCollFunction_BehaviorDescriptor" file="ExtractCollFunction_BehaviorDescriptor.java">

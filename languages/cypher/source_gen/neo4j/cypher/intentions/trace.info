@@ -1,6 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
+  <root nodeId="4409026550619394865" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="20" startPosition="30" endLine="21" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="24" startPosition="36" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="28" startPosition="37" endLine="29" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="32" startPosition="44" endLine="33" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619394870" fileName="ConvertToLRRelationship_Intention.java" startLine="36" startPosition="85" endLine="37" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="41" startPosition="58" endLine="42" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="43" startPosition="5" endLine="44" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619407272" fileName="ConvertToLRRelationship_Intention.java" startLine="47" startPosition="90" endLine="48" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619397328" fileName="ConvertToLRRelationship_Intention.java" startLine="51" startPosition="76" endLine="52" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4409026550619405982" fileName="ConvertToLRRelationship_Intention.java" startLine="52" startPosition="117" endLine="53" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619397565" fileName="ConvertToLRRelationship_Intention.java" startLine="53" startPosition="97" endLine="54" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619397395" fileName="ConvertToLRRelationship_Intention.java" startLine="54" startPosition="175" endLine="55" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="58" startPosition="37" endLine="59" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="16" startPosition="91" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConvertToLRRelationship_Intention#()V" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="40" startPosition="84" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="57" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="39" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="50" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="17" startPosition="46" endLine="17" endPosition="46" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="20" startPosition="30" endLine="21" endPosition="49" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="24" startPosition="36" endLine="25" endPosition="17" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="28" startPosition="37" endLine="29" endPosition="17" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="32" startPosition="44" endLine="33" endPosition="17" />
+    <scopeInfo nodeId="4409026550619394867" fileName="ConvertToLRRelationship_Intention.java" startLine="36" startPosition="85" endLine="37" endPosition="46" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="41" startPosition="58" endLine="42" endPosition="19" />
+    <scopeInfo nodeId="4409026550619407271" fileName="ConvertToLRRelationship_Intention.java" startLine="47" startPosition="90" endLine="48" endPosition="134" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="58" startPosition="37" endLine="59" endPosition="37" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="16" startPosition="91" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="4409026550619394865" varName="editorContext" />
+      <varInfo nodeId="4409026550619394865" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="40" startPosition="84" endLine="44" endPosition="16" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="4409026550619394865" varName="editorContext" />
+      <varInfo nodeId="4409026550619394865" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619397327" fileName="ConvertToLRRelationship_Intention.java" startLine="51" startPosition="76" endLine="55" endPosition="167">
+      <varInfo nodeId="4409026550619397329" varName="lrRelationship" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="39" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="4409026550619394865" varName="editorContext" />
+      <varInfo nodeId="4409026550619394865" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="50" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="4409026550619394865" varName="editorContext" />
+      <varInfo nodeId="4409026550619394865" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="16" startPosition="0" endLine="62" endPosition="0" unitName="neo4j.cypher.intentions.ConvertToLRRelationship_Intention" />
+  </root>
+  <root nodeId="4409026550619407825" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="20" startPosition="30" endLine="21" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="24" startPosition="36" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="28" startPosition="37" endLine="29" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="32" startPosition="44" endLine="33" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619407830" fileName="ConvertToRLRelationship_Intention.java" startLine="36" startPosition="85" endLine="37" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="41" startPosition="58" endLine="42" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="43" startPosition="5" endLine="44" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619407834" fileName="ConvertToRLRelationship_Intention.java" startLine="47" startPosition="90" endLine="48" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619407847" fileName="ConvertToRLRelationship_Intention.java" startLine="51" startPosition="76" endLine="52" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4409026550619407853" fileName="ConvertToRLRelationship_Intention.java" startLine="52" startPosition="117" endLine="53" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619407861" fileName="ConvertToRLRelationship_Intention.java" startLine="53" startPosition="97" endLine="54" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619407870" fileName="ConvertToRLRelationship_Intention.java" startLine="54" startPosition="175" endLine="55" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="58" startPosition="37" endLine="59" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="16" startPosition="91" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConvertToRLRelationship_Intention#()V" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="40" startPosition="84" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="57" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="39" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="50" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="17" startPosition="46" endLine="17" endPosition="46" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="20" startPosition="30" endLine="21" endPosition="49" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="24" startPosition="36" endLine="25" endPosition="17" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="28" startPosition="37" endLine="29" endPosition="17" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="32" startPosition="44" endLine="33" endPosition="17" />
+    <scopeInfo nodeId="4409026550619407827" fileName="ConvertToRLRelationship_Intention.java" startLine="36" startPosition="85" endLine="37" endPosition="46" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="41" startPosition="58" endLine="42" endPosition="19" />
+    <scopeInfo nodeId="4409026550619407833" fileName="ConvertToRLRelationship_Intention.java" startLine="47" startPosition="90" endLine="48" endPosition="134" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="58" startPosition="37" endLine="59" endPosition="37" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="16" startPosition="91" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="4409026550619407825" varName="editorContext" />
+      <varInfo nodeId="4409026550619407825" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="40" startPosition="84" endLine="44" endPosition="16" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="4409026550619407825" varName="editorContext" />
+      <varInfo nodeId="4409026550619407825" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619407846" fileName="ConvertToRLRelationship_Intention.java" startLine="51" startPosition="76" endLine="55" endPosition="167">
+      <varInfo nodeId="4409026550619407848" varName="lrRelationship" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="39" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="4409026550619407825" varName="editorContext" />
+      <varInfo nodeId="4409026550619407825" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="50" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="4409026550619407825" varName="editorContext" />
+      <varInfo nodeId="4409026550619407825" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="4409026550619407825" fileName="ConvertToRLRelationship_Intention.java" startLine="16" startPosition="0" endLine="62" endPosition="0" unitName="neo4j.cypher.intentions.ConvertToRLRelationship_Intention" />
+  </root>
+  <root nodeId="4409026550619408498" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="20" startPosition="30" endLine="21" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="24" startPosition="36" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="28" startPosition="37" endLine="29" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="32" startPosition="44" endLine="33" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619408503" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="36" startPosition="85" endLine="37" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="41" startPosition="58" endLine="42" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="43" startPosition="5" endLine="44" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619408507" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="47" startPosition="90" endLine="48" endPosition="142" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619408519" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="51" startPosition="76" endLine="52" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4409026550619408525" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="52" startPosition="125" endLine="53" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619408533" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="53" startPosition="97" endLine="54" endPosition="175" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619408542" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="54" startPosition="175" endLine="55" endPosition="167" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619407879" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="55" startPosition="167" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="59" startPosition="37" endLine="60" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="16" startPosition="99" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConvertToUndirectedRelationship_Intention#()V" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="40" startPosition="84" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="39" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="50" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="17" startPosition="54" endLine="17" endPosition="54" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="20" startPosition="30" endLine="21" endPosition="49" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="24" startPosition="36" endLine="25" endPosition="17" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="28" startPosition="37" endLine="29" endPosition="17" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="32" startPosition="44" endLine="33" endPosition="17" />
+    <scopeInfo nodeId="4409026550619408500" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="36" startPosition="85" endLine="37" endPosition="54" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="41" startPosition="58" endLine="42" endPosition="19" />
+    <scopeInfo nodeId="4409026550619408506" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="47" startPosition="90" endLine="48" endPosition="142" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="59" startPosition="37" endLine="60" endPosition="37" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="16" startPosition="99" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="4409026550619408498" varName="editorContext" />
+      <varInfo nodeId="4409026550619408498" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="40" startPosition="84" endLine="44" endPosition="16" />
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="4409026550619408498" varName="editorContext" />
+      <varInfo nodeId="4409026550619408498" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="58" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="4409026550619408518" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="51" startPosition="76" endLine="56" endPosition="0">
+      <varInfo nodeId="4409026550619408520" varName="lrRelationship" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="39" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="4409026550619408498" varName="editorContext" />
+      <varInfo nodeId="4409026550619408498" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="50" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="4409026550619408498" varName="editorContext" />
+      <varInfo nodeId="4409026550619408498" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="4409026550619408498" fileName="ConvertToUndirectedRelationship_Intention.java" startLine="16" startPosition="0" endLine="63" endPosition="0" unitName="neo4j.cypher.intentions.ConvertToUndirectedRelationship_Intention" />
+  </root>
   <root nodeId="5206628397327142130" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
     <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="21" startPosition="36" endLine="22" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
