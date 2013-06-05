@@ -37,7 +37,7 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getContextNode(), "neo4j.cypher.structure.QueryExpression", false, false), "neo4j.cypher.structure.NamedNode", false, new String[]{});
+            return SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getContextNode(), "neo4j.cypher.structure.QueryExpression", false, false), "neo4j.cypher.structure.Node", false, new String[]{});
           }
 
           @Override

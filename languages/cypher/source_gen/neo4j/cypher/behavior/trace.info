@@ -10,7 +10,7 @@
   <unitInfo fileName="AsExpression_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.behavior.AsExpression_BehaviorDescriptor" />
   <unitInfo fileName="AscOrderBy_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.AscOrderBy_BehaviorDescriptor" />
   <unitInfo fileName="AssignmentStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.AssignmentStatement_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="228" endPosition="0" unitName="neo4j.cypher.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="230" endPosition="0" unitName="neo4j.cypher.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CoalesceScalarFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.CoalesceScalarFunction_BehaviorDescriptor" />
   <unitInfo fileName="CollectionFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.CollectionFunction_BehaviorDescriptor" />
   <unitInfo fileName="Collection_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.Collection_BehaviorDescriptor" />
@@ -45,6 +45,7 @@
   <unitInfo fileName="ICollectionExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.ICollectionExpression_BehaviorDescriptor" />
   <unitInfo fileName="IConnectionStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IConnectionStatement_BehaviorDescriptor" />
   <unitInfo fileName="ICypherExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.ICypherExpression_BehaviorDescriptor" />
+  <unitInfo fileName="IMatchExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IMatchExpression_BehaviorDescriptor" />
   <unitInfo fileName="INamedIdentifier_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="neo4j.cypher.behavior.INamedIdentifier_BehaviorDescriptor" />
   <unitInfo fileName="INamedNullableIdentifier_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="neo4j.cypher.behavior.INamedNullableIdentifier_BehaviorDescriptor" />
   <unitInfo fileName="INamedPropertyContainer_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.INamedPropertyContainer_BehaviorDescriptor" />
@@ -71,7 +72,6 @@
   <unitInfo fileName="ModifyStringFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.ModifyStringFunction_BehaviorDescriptor" />
   <unitInfo fileName="NamedIndex_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.behavior.NamedIndex_BehaviorDescriptor" />
   <unitInfo fileName="NamedNodeRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.NamedNodeRef_BehaviorDescriptor" />
-  <unitInfo fileName="NamedNode_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.NamedNode_BehaviorDescriptor" />
   <unitInfo fileName="NamedPropertyContainerRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.NamedPropertyContainerRef_BehaviorDescriptor" />
   <unitInfo fileName="NamedRelationshipRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.NamedRelationshipRef_BehaviorDescriptor" />
   <unitInfo fileName="NamedRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.NamedRelationship_BehaviorDescriptor" />
@@ -87,6 +87,8 @@
   <unitInfo fileName="OrderByExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.OrderByExpression_BehaviorDescriptor" />
   <unitInfo fileName="OrderByStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.OrderByStatement_BehaviorDescriptor" />
   <unitInfo fileName="Parameter_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.behavior.Parameter_BehaviorDescriptor" />
+  <unitInfo fileName="PathExpression_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.behavior.PathExpression_BehaviorDescriptor" />
+  <unitInfo fileName="PathRef_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.PathRef_BehaviorDescriptor" />
   <unitInfo fileName="PredicateExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.PredicateExpression_BehaviorDescriptor" />
   <unitInfo fileName="PredicateFunction_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.behavior.PredicateFunction_BehaviorDescriptor" />
   <unitInfo fileName="PropertyContainer_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.behavior.PropertyContainer_BehaviorDescriptor" />
@@ -123,7 +125,6 @@
   <unitInfo fileName="TimestampScalarFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.TimestampScalarFunction_BehaviorDescriptor" />
   <unitInfo fileName="TrimMStringFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.TrimMStringFunction_BehaviorDescriptor" />
   <unitInfo fileName="TypeScalarFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.TypeScalarFunction_BehaviorDescriptor" />
-  <unitInfo fileName="UnnamedNode_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedNode_BehaviorDescriptor" />
   <unitInfo fileName="UnnamedRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedRelationship_BehaviorDescriptor" />
   <unitInfo fileName="UnnamedTypedLRRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedTypedLRRelationship_BehaviorDescriptor" />
   <unitInfo fileName="UnnamedTypedRLRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.UnnamedTypedRLRelationship_BehaviorDescriptor" />

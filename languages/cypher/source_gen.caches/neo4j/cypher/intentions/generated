@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="7lpm8f4mmu89aox9j0j1o7twed0ug4i">
+<dependencies version="2" modelHash="-6c2qif6qzf83d4p27f9sihhk7554bwq">
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.intentions(MPS.Editor/jetbrains.mps.intentions@java_stub)" />
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.smodel.action(MPS.Editor/jetbrains.mps.smodel.action@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
@@ -16,8 +16,8 @@
   <dep model="r:00000000-0000-4000-0000-011c89590354(jetbrains.mps.lang.intentions.generator.baseLanguage.template.main@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="cq05ldunw4nut5sjl4we65rsq0a1lon" />
-  <common hash="-2jnvcho5w009d92ezb57b6a3i3k39fv" dependsOnNodes="true">
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="csjr1rrpcwr34zvcn4ncqfvlmgum23" />
+  <common hash="bjomcj5tyuow988akbhquu5jp6cw0q1" dependsOnNodes="true">
     <dep root="5206628397327142130" />
     <dep root="7352030329465574050" />
     <dep root="7352030329465701064" />

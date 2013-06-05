@@ -366,5 +366,11 @@
     </dependencies>
     <rename id="qgu4.4409026550618686383" type="CONCEPT" from="CollectionType" to="CypherCollectionType" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="60" />
+    </dependencies>
+    <rename id="qgu4.1268543411552161297" type="CONCEPT" from="NamedNode" to="Node" />
+  </StructureModification>
 </history>
 
