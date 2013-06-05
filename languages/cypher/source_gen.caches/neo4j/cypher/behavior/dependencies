@@ -125,6 +125,7 @@
     <classNode dependClassName="neo4j.cypher.behavior.IdScalarFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.ImpermanentConnection_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.KeyValueIndex_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.LRRelationship_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.LTrimMStringFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.LabelsCollFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.LastScalarFunction_BehaviorDescriptor" />
@@ -138,12 +139,6 @@
     <classNode dependClassName="neo4j.cypher.behavior.NamedNodeRef_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.NamedPropertyContainerRef_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.NamedRelationshipRef_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedTypedLRRelationship_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedTypedRLRelationship_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedTypedRelationship_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedUntypedLRRelationship_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedUntypedRLRelationship_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedUntypedRelationship_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.Node_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.NodesCollFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.NonePredicateFunction_BehaviorDescriptor" />
@@ -156,6 +151,7 @@
     <classNode dependClassName="neo4j.cypher.behavior.QueryEmptyStatement_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.QuerySheet_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.QueryStatement_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.RLRelationship_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.RTrimMStringFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.RangeCollFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.ReadOnlyQueryExpression_BehaviorDescriptor" />
@@ -182,12 +178,7 @@
     <classNode dependClassName="neo4j.cypher.behavior.TimestampScalarFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.TrimMStringFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.TypeScalarFunction_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.UnnamedTypedLRRelationship_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.UnnamedTypedRLRelationship_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.UnnamedTypedRelationship_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.UnnamedUntypedLRRelationship_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.UnnamedUntypedRLRelationship_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.UnnamedUntypedRelationship_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.UndirectedRelationship_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.UpperMStringFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.WhereStatement_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
@@ -473,7 +464,6 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
   </dependency>
-  <dependency className="neo4j.cypher.behavior.INamedPropertyContainer_BehaviorDescriptor" file="INamedPropertyContainer_BehaviorDescriptor.java" />
   <dependency className="neo4j.cypher.behavior.IOrderByExpression_BehaviorDescriptor" file="IOrderByExpression_BehaviorDescriptor.java">
     <classNode dependClassName="neo4j.cypher.behavior.ICypherExpression_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
@@ -521,6 +511,12 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="neo4j.cypher.behavior.NamedIndex_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.LRRelationship_BehaviorDescriptor" file="LRRelationship_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.LTrimMStringFunction_BehaviorDescriptor" file="LTrimMStringFunction_BehaviorDescriptor.java">
@@ -634,56 +630,10 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="neo4j.cypher.behavior.NamedRelationship_BehaviorDescriptor" file="NamedRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.INamedPropertyContainer_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.NamedTypedLRRelationship_BehaviorDescriptor" file="NamedTypedLRRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedRelationship_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.NamedTypedRLRelationship_BehaviorDescriptor" file="NamedTypedRLRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedRelationship_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.NamedTypedRelationship_BehaviorDescriptor" file="NamedTypedRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedRelationship_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.NamedUntypedLRRelationship_BehaviorDescriptor" file="NamedUntypedLRRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedRelationship_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.NamedUntypedRLRelationship_BehaviorDescriptor" file="NamedUntypedRLRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedRelationship_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.NamedUntypedRelationship_BehaviorDescriptor" file="NamedUntypedRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.NamedRelationship_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
   <dependency className="neo4j.cypher.behavior.Node_BehaviorDescriptor" file="Node_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.INamedPropertyContainer_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.PropertyContainer_BehaviorDescriptor" />
-    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.NodesCollFunction_BehaviorDescriptor" file="NodesCollFunction_BehaviorDescriptor.java">
@@ -820,6 +770,12 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="neo4j.cypher.behavior.IQueryStatement_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.RLRelationship_BehaviorDescriptor" file="RLRelationship_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.RTrimMStringFunction_BehaviorDescriptor" file="RTrimMStringFunction_BehaviorDescriptor.java">
@@ -994,47 +950,7 @@
     <classNode dependClassName="neo4j.cypher.behavior.ScalarFunction_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="neo4j.cypher.behavior.UnnamedRelationship_BehaviorDescriptor" file="UnnamedRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.UnnamedTypedLRRelationship_BehaviorDescriptor" file="UnnamedTypedLRRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.UnnamedRelationship_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.UnnamedTypedRLRelationship_BehaviorDescriptor" file="UnnamedTypedRLRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.UnnamedTypedRelationship_BehaviorDescriptor" file="UnnamedTypedRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="neo4j.cypher.behavior.UnnamedRelationship_BehaviorDescriptor" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.UnnamedUntypedLRRelationship_BehaviorDescriptor" file="UnnamedUntypedLRRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.UnnamedUntypedRLRelationship_BehaviorDescriptor" file="UnnamedUntypedRLRelationship_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="neo4j.cypher.behavior.UnnamedUntypedRelationship_BehaviorDescriptor" file="UnnamedUntypedRelationship_BehaviorDescriptor.java">
+  <dependency className="neo4j.cypher.behavior.UndirectedRelationship_BehaviorDescriptor" file="UndirectedRelationship_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />

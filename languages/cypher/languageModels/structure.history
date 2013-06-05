@@ -372,5 +372,23 @@
     </dependencies>
     <rename id="qgu4.1268543411552161297" type="CONCEPT" from="NamedNode" to="Node" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="61" />
+    </dependencies>
+    <rename id="qgu4.2686030116060668985" type="CONCEPT" from="NamedTypedLRRelationship" to="LRRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="62" />
+    </dependencies>
+    <rename id="qgu4.2686030116060677025" type="CONCEPT" from="NamedTypedRLRelationship" to="RLRelationship" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="63" />
+    </dependencies>
+    <rename id="qgu4.2686030116060685549" type="CONCEPT" from="NamedTypedRelationship" to="UndirectedRelationship" />
+  </StructureModification>
 </history>
 
