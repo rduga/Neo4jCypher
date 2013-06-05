@@ -11,9 +11,10 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -29,36 +30,72 @@ public class LRRelationship_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_fsr2fb_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_fsr2fb_a");
-    editorCell.addEditorCell(this.createConstant_fsr2fb_a0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_fsr2fb_b0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_fsr2fb_c0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_fsr2fb_d0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_fsr2fb_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_fsr2fb_b0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_fsr2fb_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_fsr2fb_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_fsr2fb_e0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_fsr2fb_f0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_fsr2fb_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_fsr2fb_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "-[");
-    editorCell.setCellId("Constant_fsr2fb_a0");
+    editorCell.setCellId("Constant_fsr2fb_b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_fsr2fb_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_fsr2fb_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]->");
-    editorCell.setCellId("Constant_fsr2fb_d0");
+    editorCell.setCellId("Constant_fsr2fb_e0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_fsr2fb_c0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new LRRelationship_Editor.typeListHandler_fsr2fb_c0(node, "type", editorContext);
+  private EditorCell createRefNodeList_fsr2fb_d0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new LRRelationship_Editor.typeListHandler_fsr2fb_d0(node, "type", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_type");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private EditorCell createProperty_fsr2fb_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_fsr2fb_a0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("leftExpression");
+    provider.setNoTargetText("<no leftExpression>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_fsr2fb_f0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("rightExpression");
+    provider.setNoTargetText("<no rightExpression>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createProperty_fsr2fb_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -76,8 +113,8 @@ public class LRRelationship_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class typeListHandler_fsr2fb_c0 extends RefNodeListHandler {
-    public typeListHandler_fsr2fb_c0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class typeListHandler_fsr2fb_d0 extends RefNodeListHandler {
+    public typeListHandler_fsr2fb_d0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

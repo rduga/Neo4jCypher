@@ -34,6 +34,6 @@ public class MatchStatement_Constraints extends BaseConstraintsDescriptor {
   }
 
   public static boolean static_canBeAnAncestor(SNode node, SNode childNode, SNode childConcept, final IOperationContext operationContext) {
-    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression");
+    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.BinaryOperation") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherIntegerConstant") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherPlusExpression");
   }
 }
