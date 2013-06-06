@@ -12,7 +12,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="dgaizxxw009igtocn2rnorl46sy6ur1" />
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-cqrn8qrc0zvg30mni7jvsjdia42ywze" />
   <common hash="bvbjcoayk2m1j80jfvz0dx4ourfh0ld" dependsOnNodes="true">
     <dep root="1325020284374000547" />
     <dep root="2979687674397766683" />

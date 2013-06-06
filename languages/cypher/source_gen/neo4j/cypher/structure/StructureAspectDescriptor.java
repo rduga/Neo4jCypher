@@ -210,7 +210,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 96:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.ReduceCollFunction", "neo4j.cypher.structure.CollectionFunction", false, new String[]{"neo4j.cypher.structure.CollectionFunction"}, new String[]{}, new String[]{});
       case 97:
-        return new CompiledConceptDescriptor("neo4j.cypher.structure.Relationship", "jetbrains.mps.baseLanguage.structure.BinaryOperation", false, new String[]{"jetbrains.mps.baseLanguage.structure.BinaryOperation", "neo4j.cypher.structure.IPropertyContainer", "neo4j.cypher.structure.IMatchExpression"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("neo4j.cypher.structure.Relationship", "jetbrains.mps.baseLanguage.structure.BinaryOperation", false, new String[]{"jetbrains.mps.baseLanguage.structure.BinaryOperation", "neo4j.cypher.structure.IPropertyContainer", "neo4j.cypher.structure.IMatchExpression"}, new String[]{"concrete"}, new String[]{});
       case 98:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.RelationshipType", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.baseLanguage.structure.IValidIdentifier"}, new String[]{}, new String[]{});
       case 99:
