@@ -48,8 +48,8 @@ public class RelationshipsCollFunction_Editor extends DefaultNodeEditor {
 
   private EditorCell createRefNode_by8n4m_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("pathRef");
-    provider.setNoTargetText("<no pathRef>");
+    provider.setRole("namedRelationshipRef");
+    provider.setNoTargetText("<no namedRelationshipRef>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

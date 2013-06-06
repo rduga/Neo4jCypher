@@ -11,10 +11,27 @@ import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
 public class MatchStatement_Constraints extends BaseConstraintsDescriptor {
+  private static SNodePointer canBeParentBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "8069893813418366080");
   private static SNodePointer canBeAncesctorBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "4409026550618950102");
 
   public MatchStatement_Constraints() {
     super("neo4j.cypher.structure.MatchStatement");
+  }
+
+  @Override
+  public boolean hasOwnCanBeParentMethod() {
+    return true;
+  }
+
+  @Override
+  public boolean canBeParent(SNode node, @Nullable SNode childNode, SNode childConcept, SNode link, IOperationContext operationContext, @Nullable CheckingNodeContext checkingNodeContext) {
+    boolean result = static_canBeAParent(node, childNode, childConcept, link, operationContext);
+
+    if (!(result) && checkingNodeContext != null) {
+      checkingNodeContext.setBreakingNode(canBeParentBreakingPoint);
+    }
+
+    return result;
   }
 
   @Override
@@ -31,6 +48,10 @@ public class MatchStatement_Constraints extends BaseConstraintsDescriptor {
     }
 
     return result;
+  }
+
+  public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
+    return !(SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.RelationshipType"));
   }
 
   public static boolean static_canBeAnAncestor(SNode node, SNode childNode, SNode childConcept, final IOperationContext operationContext) {

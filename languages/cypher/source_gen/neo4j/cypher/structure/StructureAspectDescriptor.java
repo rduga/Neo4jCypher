@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.runtime.impl.CompiledConceptDescriptor;
 import jetbrains.mps.smodel.runtime.interpreted.StructureAspectInterpreted;
 
 public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.StructureAspectDescriptor {
-  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"neo4j.cypher.structure.AbsMathFunction", "neo4j.cypher.structure.AggregateFunction", "neo4j.cypher.structure.AllExpression", "neo4j.cypher.structure.AllIndex", "neo4j.cypher.structure.AllPredicateFunction", "neo4j.cypher.structure.AnyPredicateFunction", "neo4j.cypher.structure.ApStringLiteral", "neo4j.cypher.structure.AsExpression", "neo4j.cypher.structure.AscOrderBy", "neo4j.cypher.structure.AssignmentStatement", "neo4j.cypher.structure.CoalesceScalarFunction", "neo4j.cypher.structure.Collection", "neo4j.cypher.structure.CollectionFunction", "neo4j.cypher.structure.ConnectionSheet", "neo4j.cypher.structure.ConnectionStatement", "neo4j.cypher.structure.CountAggregate", "neo4j.cypher.structure.CreateStatement", "neo4j.cypher.structure.CreateUniqueStatement", "neo4j.cypher.structure.CypherAndExpression", "neo4j.cypher.structure.CypherCollectionType", "neo4j.cypher.structure.CypherDotExpression", "neo4j.cypher.structure.CypherEqualsExpression", "neo4j.cypher.structure.CypherExpression", "neo4j.cypher.structure.CypherIntegerConstant", "neo4j.cypher.structure.CypherMinusExpression", "neo4j.cypher.structure.CypherMulExpression", "neo4j.cypher.structure.CypherNotEqualsExpression", "neo4j.cypher.structure.CypherNotExpression", "neo4j.cypher.structure.CypherOrExpression", "neo4j.cypher.structure.CypherPlusExpression", "neo4j.cypher.structure.CypherRemExpression", "neo4j.cypher.structure.CypherStatement", "neo4j.cypher.structure.DeleteStatement", "neo4j.cypher.structure.DescOrderBy", "neo4j.cypher.structure.DistinctExpression", "neo4j.cypher.structure.EmbeddedConnection", "neo4j.cypher.structure.EmptyConnectionStatement", "neo4j.cypher.structure.EmptyNode", "neo4j.cypher.structure.ExtractCollFunction", "neo4j.cypher.structure.FilterCollFunction", "neo4j.cypher.structure.Function", "neo4j.cypher.structure.HeadScalarFunction", "neo4j.cypher.structure.ICollectionExpression", "neo4j.cypher.structure.IConnectionStatement", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.IMatchExpression", "neo4j.cypher.structure.INamedIdentifier", "neo4j.cypher.structure.INamedNullableIdentifier", "neo4j.cypher.structure.IOrderByExpression", "neo4j.cypher.structure.IPropertyContainer", "neo4j.cypher.structure.IQueryStatement", "neo4j.cypher.structure.IReturnExpression", "neo4j.cypher.structure.IWhereExpression", "neo4j.cypher.structure.IdIndex", "neo4j.cypher.structure.IdScalarFunction", "neo4j.cypher.structure.ImpermanentConnection", "neo4j.cypher.structure.Index", "neo4j.cypher.structure.KeyValueIndex", "neo4j.cypher.structure.LRRelationship", "neo4j.cypher.structure.LTrimMStringFunction", "neo4j.cypher.structure.LabelsCollFunction", "neo4j.cypher.structure.LastScalarFunction", "neo4j.cypher.structure.LeftMStringFunction", "neo4j.cypher.structure.LengthScalarFunction", "neo4j.cypher.structure.LowerMStringFunction", "neo4j.cypher.structure.LuceneIndex", "neo4j.cypher.structure.MatchStatement", "neo4j.cypher.structure.MathFunction", "neo4j.cypher.structure.MaxAggregate", "neo4j.cypher.structure.MinAggregate", "neo4j.cypher.structure.ModifyStringFunction", "neo4j.cypher.structure.NamedIndex", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedPropertyContainerRef", "neo4j.cypher.structure.NamedRelationshipRef", "neo4j.cypher.structure.Node", "neo4j.cypher.structure.NodesCollFunction", "neo4j.cypher.structure.NonePredicateFunction", "neo4j.cypher.structure.OrderByExpression", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.Parameter", "neo4j.cypher.structure.PathExpression", "neo4j.cypher.structure.PathRef", "neo4j.cypher.structure.PredicateExpression", "neo4j.cypher.structure.PredicateFunction", "neo4j.cypher.structure.Property", "neo4j.cypher.structure.PropertyContainer", "neo4j.cypher.structure.QueryEmptyStatement", "neo4j.cypher.structure.QueryExpression", "neo4j.cypher.structure.QuerySheet", "neo4j.cypher.structure.QueryStatement", "neo4j.cypher.structure.RLRelationship", "neo4j.cypher.structure.RTrimMStringFunction", "neo4j.cypher.structure.RangeCollFunction", "neo4j.cypher.structure.ReadOnlyQueryExpression", "neo4j.cypher.structure.ReadWriteQueryExpression", "neo4j.cypher.structure.ReduceCollFunction", "neo4j.cypher.structure.Relationship", "neo4j.cypher.structure.RelationshipType", "neo4j.cypher.structure.RelationshipsCollFunction", "neo4j.cypher.structure.ReplaceMStringFunction", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.ReturnStatementBlock", "neo4j.cypher.structure.RightMStringFunction", "neo4j.cypher.structure.RoundMathFunction", "neo4j.cypher.structure.ScalarFunction", "neo4j.cypher.structure.SetStatement", "neo4j.cypher.structure.SignMathFunction", "neo4j.cypher.structure.SinglePredicateFunction", "neo4j.cypher.structure.SkipStatement", "neo4j.cypher.structure.SqrtMathFunction", "neo4j.cypher.structure.StartStatement", "neo4j.cypher.structure.StrStringFunction", "neo4j.cypher.structure.StringFunction", "neo4j.cypher.structure.SubstringMStringFunction", "neo4j.cypher.structure.SumAggregate", "neo4j.cypher.structure.TailCollFunction", "neo4j.cypher.structure.TimestampScalarFunction", "neo4j.cypher.structure.TrimMStringFunction", "neo4j.cypher.structure.TypeScalarFunction", "neo4j.cypher.structure.UndirectedRelationship", "neo4j.cypher.structure.UpperMStringFunction", "neo4j.cypher.structure.WhereStatement"};
+  private static String[] stringSwitchCases_1htk8d_a0a0a = new String[]{"neo4j.cypher.structure.AbsMathFunction", "neo4j.cypher.structure.AggregateFunction", "neo4j.cypher.structure.AllExpression", "neo4j.cypher.structure.AllIndex", "neo4j.cypher.structure.AllPredicateFunction", "neo4j.cypher.structure.AnyPredicateFunction", "neo4j.cypher.structure.ApStringLiteral", "neo4j.cypher.structure.AsExpression", "neo4j.cypher.structure.AscOrderBy", "neo4j.cypher.structure.AssignmentStatement", "neo4j.cypher.structure.CoalesceScalarFunction", "neo4j.cypher.structure.Collection", "neo4j.cypher.structure.CollectionFunction", "neo4j.cypher.structure.ConnectionSheet", "neo4j.cypher.structure.ConnectionStatement", "neo4j.cypher.structure.CountAggregate", "neo4j.cypher.structure.CreateStatement", "neo4j.cypher.structure.CreateUniqueStatement", "neo4j.cypher.structure.CypherAndExpression", "neo4j.cypher.structure.CypherCollectionType", "neo4j.cypher.structure.CypherDotExpression", "neo4j.cypher.structure.CypherEqualsExpression", "neo4j.cypher.structure.CypherExpression", "neo4j.cypher.structure.CypherIntegerConstant", "neo4j.cypher.structure.CypherMinusExpression", "neo4j.cypher.structure.CypherMulExpression", "neo4j.cypher.structure.CypherNotEqualsExpression", "neo4j.cypher.structure.CypherNotExpression", "neo4j.cypher.structure.CypherOrExpression", "neo4j.cypher.structure.CypherPlusExpression", "neo4j.cypher.structure.CypherRemExpression", "neo4j.cypher.structure.CypherStatement", "neo4j.cypher.structure.DeleteStatement", "neo4j.cypher.structure.DescOrderBy", "neo4j.cypher.structure.DistinctExpression", "neo4j.cypher.structure.EmbeddedConnection", "neo4j.cypher.structure.EmptyConnectionStatement", "neo4j.cypher.structure.EmptyNode", "neo4j.cypher.structure.ExtractCollFunction", "neo4j.cypher.structure.FilterCollFunction", "neo4j.cypher.structure.Function", "neo4j.cypher.structure.HeadScalarFunction", "neo4j.cypher.structure.ICollectionExpression", "neo4j.cypher.structure.IConnectionStatement", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.IMatchExpression", "neo4j.cypher.structure.INamedIdentifier", "neo4j.cypher.structure.INamedNullableIdentifier", "neo4j.cypher.structure.IOrderByExpression", "neo4j.cypher.structure.IPropertyContainer", "neo4j.cypher.structure.IQueryStatement", "neo4j.cypher.structure.IReturnExpression", "neo4j.cypher.structure.IWhereExpression", "neo4j.cypher.structure.IdIndex", "neo4j.cypher.structure.IdScalarFunction", "neo4j.cypher.structure.ImpermanentConnection", "neo4j.cypher.structure.Index", "neo4j.cypher.structure.KeyValueIndex", "neo4j.cypher.structure.LRRelationship", "neo4j.cypher.structure.LTrimMStringFunction", "neo4j.cypher.structure.LabelsCollFunction", "neo4j.cypher.structure.LastScalarFunction", "neo4j.cypher.structure.LeftMStringFunction", "neo4j.cypher.structure.LengthScalarFunction", "neo4j.cypher.structure.LowerMStringFunction", "neo4j.cypher.structure.LuceneIndex", "neo4j.cypher.structure.MatchStatement", "neo4j.cypher.structure.MathFunction", "neo4j.cypher.structure.MaxAggregate", "neo4j.cypher.structure.MinAggregate", "neo4j.cypher.structure.ModifyStringFunction", "neo4j.cypher.structure.NamedIndex", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedPropertyContainerRef", "neo4j.cypher.structure.NamedRelationshipRef", "neo4j.cypher.structure.Node", "neo4j.cypher.structure.NodesCollFunction", "neo4j.cypher.structure.NonePredicateFunction", "neo4j.cypher.structure.OrderByExpression", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.Parameter", "neo4j.cypher.structure.PredicateExpression", "neo4j.cypher.structure.PredicateFunction", "neo4j.cypher.structure.Property", "neo4j.cypher.structure.PropertyContainer", "neo4j.cypher.structure.QueryEmptyStatement", "neo4j.cypher.structure.QueryExpression", "neo4j.cypher.structure.QuerySheet", "neo4j.cypher.structure.QueryStatement", "neo4j.cypher.structure.RLRelationship", "neo4j.cypher.structure.RTrimMStringFunction", "neo4j.cypher.structure.RangeCollFunction", "neo4j.cypher.structure.ReadOnlyQueryExpression", "neo4j.cypher.structure.ReadWriteQueryExpression", "neo4j.cypher.structure.ReduceCollFunction", "neo4j.cypher.structure.Relationship", "neo4j.cypher.structure.RelationshipType", "neo4j.cypher.structure.RelationshipsCollFunction", "neo4j.cypher.structure.ReplaceMStringFunction", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.ReturnStatementBlock", "neo4j.cypher.structure.RightMStringFunction", "neo4j.cypher.structure.RoundMathFunction", "neo4j.cypher.structure.ScalarFunction", "neo4j.cypher.structure.SetStatement", "neo4j.cypher.structure.SignMathFunction", "neo4j.cypher.structure.SinglePredicateFunction", "neo4j.cypher.structure.SkipStatement", "neo4j.cypher.structure.SqrtMathFunction", "neo4j.cypher.structure.StartStatement", "neo4j.cypher.structure.StrStringFunction", "neo4j.cypher.structure.StringFunction", "neo4j.cypher.structure.SubstringMStringFunction", "neo4j.cypher.structure.SumAggregate", "neo4j.cypher.structure.TailCollFunction", "neo4j.cypher.structure.TimestampScalarFunction", "neo4j.cypher.structure.TrimMStringFunction", "neo4j.cypher.structure.TypeScalarFunction", "neo4j.cypher.structure.UndirectedRelationship", "neo4j.cypher.structure.UpperMStringFunction", "neo4j.cypher.structure.WhereStatement"};
 
   public StructureAspectDescriptor() {
   }
@@ -160,9 +160,9 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 71:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.NamedIndex", "neo4j.cypher.structure.Index", false, new String[]{"neo4j.cypher.structure.Index", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
       case 72:
-        return new CompiledConceptDescriptor("neo4j.cypher.structure.NamedNodeRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"node"});
+        return new CompiledConceptDescriptor("neo4j.cypher.structure.NamedNodeRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.IMatchExpression"}, new String[]{}, new String[]{"node"});
       case 73:
-        return new CompiledConceptDescriptor("neo4j.cypher.structure.NamedPropertyContainerRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.IReturnExpression", "neo4j.cypher.structure.IOrderByExpression", "neo4j.cypher.structure.IMatchExpression"}, new String[]{}, new String[]{"propertyContainer"});
+        return new CompiledConceptDescriptor("neo4j.cypher.structure.NamedPropertyContainerRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.IReturnExpression", "neo4j.cypher.structure.IOrderByExpression"}, new String[]{}, new String[]{"propertyContainer"});
       case 74:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.NamedRelationshipRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{"namedRelationship"});
       case 75:
@@ -178,88 +178,84 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 80:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.Parameter", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.lang.core.structure.INamedConcept", "neo4j.cypher.structure.IReturnExpression", "neo4j.cypher.structure.IOrderByExpression"}, new String[]{}, new String[]{});
       case 81:
-        return new CompiledConceptDescriptor("neo4j.cypher.structure.PathExpression", "jetbrains.mps.baseLanguage.structure.BinaryOperation", false, new String[]{"jetbrains.mps.baseLanguage.structure.BinaryOperation", "neo4j.cypher.structure.INamedIdentifier", "neo4j.cypher.structure.IMatchExpression"}, new String[]{}, new String[]{});
-      case 82:
-        return new CompiledConceptDescriptor("neo4j.cypher.structure.PathRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.IWhereExpression"}, new String[]{}, new String[]{"pathExpression"});
-      case 83:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.PredicateExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.IReturnExpression"}, new String[]{}, new String[]{});
-      case 84:
+      case 82:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.PredicateFunction", "neo4j.cypher.structure.Function", false, new String[]{"neo4j.cypher.structure.Function", "neo4j.cypher.structure.INamedIdentifier"}, new String[]{}, new String[]{});
-      case 85:
+      case 83:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.Property", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "neo4j.cypher.structure.INamedNullableIdentifier", "jetbrains.mps.baseLanguage.structure.IOperation"}, new String[]{}, new String[]{});
-      case 86:
+      case 84:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.PropertyContainer", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.INamedIdentifier"}, new String[]{}, new String[]{});
-      case 87:
+      case 85:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.QueryEmptyStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement", "neo4j.cypher.structure.IQueryStatement"}, new String[]{}, new String[]{});
-      case 88:
+      case 86:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.QueryExpression", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression"}, new String[]{}, new String[]{});
-      case 89:
+      case 87:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.QuerySheet", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept"}, new String[]{}, new String[]{});
-      case 90:
+      case 88:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.QueryStatement", "jetbrains.mps.baseLanguage.structure.Statement", false, new String[]{"jetbrains.mps.baseLanguage.structure.Statement", "jetbrains.mps.baseLanguage.structure.IValidIdentifier", "neo4j.cypher.structure.IQueryStatement"}, new String[]{}, new String[]{});
-      case 91:
+      case 89:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.RLRelationship", "neo4j.cypher.structure.Relationship", false, new String[]{"neo4j.cypher.structure.Relationship"}, new String[]{}, new String[]{});
-      case 92:
+      case 90:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.RTrimMStringFunction", "neo4j.cypher.structure.ModifyStringFunction", false, new String[]{"neo4j.cypher.structure.ModifyStringFunction"}, new String[]{}, new String[]{});
-      case 93:
+      case 91:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.RangeCollFunction", "neo4j.cypher.structure.CollectionFunction", false, new String[]{"neo4j.cypher.structure.CollectionFunction"}, new String[]{}, new String[]{});
-      case 94:
+      case 92:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.ReadOnlyQueryExpression", "neo4j.cypher.structure.QueryExpression", false, new String[]{"neo4j.cypher.structure.QueryExpression"}, new String[]{}, new String[]{});
-      case 95:
+      case 93:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.ReadWriteQueryExpression", "neo4j.cypher.structure.QueryExpression", false, new String[]{"neo4j.cypher.structure.QueryExpression"}, new String[]{}, new String[]{});
-      case 96:
+      case 94:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.ReduceCollFunction", "neo4j.cypher.structure.CollectionFunction", false, new String[]{"neo4j.cypher.structure.CollectionFunction"}, new String[]{}, new String[]{});
-      case 97:
+      case 95:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.Relationship", "jetbrains.mps.baseLanguage.structure.BinaryOperation", false, new String[]{"jetbrains.mps.baseLanguage.structure.BinaryOperation", "neo4j.cypher.structure.IPropertyContainer", "neo4j.cypher.structure.IMatchExpression"}, new String[]{"concrete"}, new String[]{});
-      case 98:
+      case 96:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.RelationshipType", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.baseLanguage.structure.IValidIdentifier"}, new String[]{}, new String[]{});
-      case 99:
+      case 97:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.RelationshipsCollFunction", "neo4j.cypher.structure.CollectionFunction", false, new String[]{"neo4j.cypher.structure.CollectionFunction"}, new String[]{}, new String[]{});
-      case 100:
+      case 98:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.ReplaceMStringFunction", "neo4j.cypher.structure.ModifyStringFunction", false, new String[]{"neo4j.cypher.structure.ModifyStringFunction"}, new String[]{}, new String[]{});
-      case 101:
+      case 99:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.CypherStatement", false, new String[]{"neo4j.cypher.structure.CypherStatement"}, new String[]{}, new String[]{});
-      case 102:
+      case 100:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.ReturnStatementBlock", "neo4j.cypher.structure.CypherStatement", false, new String[]{"neo4j.cypher.structure.CypherStatement"}, new String[]{}, new String[]{});
-      case 103:
+      case 101:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.RightMStringFunction", "neo4j.cypher.structure.ModifyStringFunction", false, new String[]{"neo4j.cypher.structure.ModifyStringFunction"}, new String[]{}, new String[]{});
-      case 104:
+      case 102:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.RoundMathFunction", "neo4j.cypher.structure.MathFunction", false, new String[]{"neo4j.cypher.structure.MathFunction"}, new String[]{}, new String[]{});
-      case 105:
+      case 103:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.ScalarFunction", "neo4j.cypher.structure.Function", false, new String[]{"neo4j.cypher.structure.Function"}, new String[]{}, new String[]{});
-      case 106:
+      case 104:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.SetStatement", "neo4j.cypher.structure.CypherStatement", false, new String[]{"neo4j.cypher.structure.CypherStatement"}, new String[]{}, new String[]{});
-      case 107:
+      case 105:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.SignMathFunction", "neo4j.cypher.structure.MathFunction", false, new String[]{"neo4j.cypher.structure.MathFunction"}, new String[]{}, new String[]{});
-      case 108:
+      case 106:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.SinglePredicateFunction", "neo4j.cypher.structure.PredicateFunction", false, new String[]{"neo4j.cypher.structure.PredicateFunction"}, new String[]{}, new String[]{});
-      case 109:
+      case 107:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.SkipStatement", "neo4j.cypher.structure.CypherStatement", false, new String[]{"neo4j.cypher.structure.CypherStatement"}, new String[]{"skipItems", "limitItems"}, new String[]{});
-      case 110:
+      case 108:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.SqrtMathFunction", "neo4j.cypher.structure.MathFunction", false, new String[]{"neo4j.cypher.structure.MathFunction"}, new String[]{}, new String[]{});
-      case 111:
+      case 109:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.StartStatement", "neo4j.cypher.structure.CypherStatement", false, new String[]{"neo4j.cypher.structure.CypherStatement"}, new String[]{}, new String[]{});
-      case 112:
+      case 110:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.StrStringFunction", "neo4j.cypher.structure.StringFunction", false, new String[]{"neo4j.cypher.structure.StringFunction"}, new String[]{}, new String[]{});
-      case 113:
+      case 111:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.StringFunction", "neo4j.cypher.structure.Function", false, new String[]{"neo4j.cypher.structure.Function"}, new String[]{}, new String[]{});
-      case 114:
+      case 112:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.SubstringMStringFunction", "neo4j.cypher.structure.ModifyStringFunction", false, new String[]{"neo4j.cypher.structure.ModifyStringFunction"}, new String[]{}, new String[]{});
-      case 115:
+      case 113:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.SumAggregate", "neo4j.cypher.structure.AggregateFunction", false, new String[]{"neo4j.cypher.structure.AggregateFunction"}, new String[]{}, new String[]{});
-      case 116:
+      case 114:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.TailCollFunction", "neo4j.cypher.structure.CollectionFunction", false, new String[]{"neo4j.cypher.structure.CollectionFunction"}, new String[]{}, new String[]{});
-      case 117:
+      case 115:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.TimestampScalarFunction", "neo4j.cypher.structure.ScalarFunction", false, new String[]{"neo4j.cypher.structure.ScalarFunction"}, new String[]{}, new String[]{});
-      case 118:
+      case 116:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.TrimMStringFunction", "neo4j.cypher.structure.ModifyStringFunction", false, new String[]{"neo4j.cypher.structure.ModifyStringFunction"}, new String[]{}, new String[]{});
-      case 119:
+      case 117:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.TypeScalarFunction", "neo4j.cypher.structure.ScalarFunction", false, new String[]{"neo4j.cypher.structure.ScalarFunction"}, new String[]{}, new String[]{});
-      case 120:
+      case 118:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.UndirectedRelationship", "neo4j.cypher.structure.Relationship", false, new String[]{"neo4j.cypher.structure.Relationship"}, new String[]{}, new String[]{});
-      case 121:
+      case 119:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.UpperMStringFunction", "neo4j.cypher.structure.ModifyStringFunction", false, new String[]{"neo4j.cypher.structure.ModifyStringFunction"}, new String[]{}, new String[]{});
-      case 122:
+      case 120:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.WhereStatement", "neo4j.cypher.structure.CypherStatement", false, new String[]{"neo4j.cypher.structure.CypherStatement"}, new String[]{}, new String[]{});
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);

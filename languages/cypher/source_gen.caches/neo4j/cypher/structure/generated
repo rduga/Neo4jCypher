@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-cqrn8qrc0zvg30mni7jvsjdia42ywze">
+<dependencies version="2" modelHash="dhadsgkvcqhla16czombub1cl790vej">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -86,8 +86,6 @@
     <dep root="4395952758104566948" />
     <dep root="4409026550618686383" />
     <dep root="4409026550618781183" />
-    <dep root="4409026550618923555" />
-    <dep root="4409026550618950091" />
     <dep root="4409026550618950109" />
     <dep root="4409026550619307840" />
     <dep root="4409026550619358918" />
@@ -254,7 +252,7 @@
   <source id="4395952758104119216" name="ImpermanentConnection" hash="-chlxkd2jm7sa7ulawiscmg15e1z5nqt">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4395952758104302029" name="NamedNodeRef" hash="abd9vak00jkyqrucnlf1539ml11bjve">
+  <source id="4395952758104302029" name="NamedNodeRef" hash="9tx7jnw4bfnap1bksawwnn2da8enkkj">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4395952758104399755" name="Property" hash="-et4winp21actzee6fe51vjqgy93bsvk">
@@ -320,10 +318,10 @@
   <source id="3830435865999720226" name="SignMathFunction" hash="-dftqin139b0jsmp2r1rwtqyanfy20hx">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="3830435865999738717" name="NodesCollFunction" hash="b4uw0nosk2i8wvsuezn25619v3c3h2f">
+  <source id="3830435865999738717" name="NodesCollFunction" hash="dhdid5yd4saul99q6q5bijpj3nvb1q8">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="3830435865999738721" name="RelationshipsCollFunction" hash="8d2ikqtozgvilw2tiqggxbcfn1paazk">
+  <source id="3830435865999738721" name="RelationshipsCollFunction" hash="4949vunn98qvzx0ju84mdius9dam9gb">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="3830435865999738722" name="LengthScalarFunction" hash="5ao5i2zw11j5j781uz3jhsyuvz37wd2">
@@ -485,7 +483,7 @@
   <source id="7918996842015175652" name="CoalesceScalarFunction" hash="-6qnzhdlkze7s701t7u6ikpe9ymf63v4">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="7918996842015188022" name="NamedPropertyContainerRef" hash="2ygcmgo3ip8h7x0zv5gk5er9mzvpm88">
+  <source id="7918996842015188022" name="NamedPropertyContainerRef" hash="35kd9do36sxapf9ocl9en8rn5xlc3fs">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="7918996842015188116" name="NamedRelationshipRef" hash="1b7hg24sblf0bujn1dc77oudtwgfce8">
@@ -495,12 +493,6 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4409026550618781183" name="TimestampScalarFunction" hash="-5t6c31lzji50fdxwis64uekej55xrug">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="4409026550618923555" name="PathExpression" hash="-ctndvqdps481ewuymd2q5fmmxls3oj6">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="4409026550618950091" name="PathRef" hash="9on3604raps9c764wld243atx4oxsba">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4409026550618950109" name="IMatchExpression" hash="7y7dquxme4fmo7uzqvmepotk69x4tdp">

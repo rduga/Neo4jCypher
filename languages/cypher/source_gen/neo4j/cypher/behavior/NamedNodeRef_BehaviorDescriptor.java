@@ -4,7 +4,7 @@ package neo4j.cypher.behavior;
 
 import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 
-public class NamedNodeRef_BehaviorDescriptor extends Expression_BehaviorDescriptor {
+public class NamedNodeRef_BehaviorDescriptor extends Expression_BehaviorDescriptor implements IMatchExpression_BehaviorDescriptor {
   public NamedNodeRef_BehaviorDescriptor() {
   }
 

@@ -45,7 +45,7 @@ public class LRRelationship_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_fsr2fb_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "--");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "-");
     editorCell.setCellId("Constant_fsr2fb_b0");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

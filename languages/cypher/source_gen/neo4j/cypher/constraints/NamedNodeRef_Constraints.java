@@ -13,7 +13,11 @@ import jetbrains.mps.smodel.runtime.ReferenceScopeProvider;
 import jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
   private static SNodePointer breakingNode_t1tmaf_a0a1a0a0a1a0b0a1a0 = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "7352030329465767395");
@@ -37,7 +41,11 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getContextNode(), "neo4j.cypher.structure.QueryExpression", false, false), "neo4j.cypher.structure.Node", false, new String[]{});
+            return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getContextNode(), "neo4j.cypher.structure.QueryExpression", false, false), "neo4j.cypher.structure.Node", false, new String[]{})).where(new IWhereFilter<SNode>() {
+              public boolean accept(SNode it) {
+                return isNotEmpty_t1tmaf_a0a0a0a0a0a0a0a0a0b0a1a0b0a(SPropertyOperations.getString(it, "name"));
+              }
+            });
           }
 
           @Override
@@ -48,5 +56,9 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
       }
     });
     return references;
+  }
+
+  public static boolean isNotEmpty_t1tmaf_a0a0a0a0a0a0a0a0a0b0a1a0b0a(String str) {
+    return str != null && str.length() > 0;
   }
 }
