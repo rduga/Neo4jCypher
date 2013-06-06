@@ -17,6 +17,7 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
     add(new ConvertToRLRelationship_Intention(), "4409026550619407825");
     add(new ConvertToUndirectedRelationship_Intention(), "4409026550619408498");
     add(new Desc2Asc_Intention(), "7352030329465701064");
+    add(new MakeUntypedRelationship_Intention(), "4409026550619521803");
     add(new SplitApStringIntoContatenation_Intention(), "5206628397327142130");
   }
 }

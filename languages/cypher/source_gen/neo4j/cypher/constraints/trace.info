@@ -57,7 +57,7 @@
     <nodeInfo nodeId="4409026550618950101" fileName="MatchStatement_Constraints.java" startLine="29" startPosition="51" endLine="30" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4409026550618950101" fileName="MatchStatement_Constraints.java" startLine="31" startPosition="5" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="4409026550618950101" fileName="MatchStatement_Constraints.java" startLine="32" startPosition="0" endLine="33" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4409026550618950104" fileName="MatchStatement_Constraints.java" startLine="36" startPosition="139" endLine="37" endPosition="406" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550618950104" fileName="MatchStatement_Constraints.java" startLine="36" startPosition="139" endLine="37" endPosition="286" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4409026550618950101" fileName="MatchStatement_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="MatchStatement_Constraints#()V" />
     <nodeInfo nodeId="4409026550618950101" fileName="MatchStatement_Constraints.java" startLine="28" startPosition="0" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4409026550618950101" fileName="MatchStatement_Constraints.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAnAncestor#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
@@ -66,7 +66,7 @@
     <scopeInfo nodeId="4409026550618950101" fileName="MatchStatement_Constraints.java" startLine="16" startPosition="39" endLine="17" endPosition="51" />
     <scopeInfo nodeId="4409026550618950101" fileName="MatchStatement_Constraints.java" startLine="21" startPosition="46" endLine="22" endPosition="16" />
     <scopeInfo nodeId="4409026550618950101" fileName="MatchStatement_Constraints.java" startLine="29" startPosition="51" endLine="30" endPosition="71" />
-    <scopeInfo nodeId="4409026550618950103" fileName="MatchStatement_Constraints.java" startLine="36" startPosition="139" endLine="37" endPosition="406" />
+    <scopeInfo nodeId="4409026550618950103" fileName="MatchStatement_Constraints.java" startLine="36" startPosition="139" endLine="37" endPosition="286" />
     <scopeInfo nodeId="4409026550618950101" fileName="MatchStatement_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
     <scopeInfo nodeId="4409026550618950101" fileName="MatchStatement_Constraints.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
       <varInfo nodeId="4409026550618950101" varName="childConcept" />
