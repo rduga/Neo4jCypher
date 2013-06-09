@@ -6,13 +6,10 @@ import jetbrains.mps.intentions.BaseIntention;
 import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.smodel.action.SNodeFactoryOperations;
-import neo4j.cypher.behavior.Relationship_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
-public class ConvertToLRRelationship_Intention extends BaseIntention implements Intention {
-  public ConvertToLRRelationship_Intention() {
+public class SwitchRelationshipHops_Intention extends BaseIntention implements Intention {
+  public SwitchRelationshipHops_Intention() {
   }
 
   public String getConcept() {
@@ -32,7 +29,7 @@ public class ConvertToLRRelationship_Intention extends BaseIntention implements 
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Converts relationship to LR type";
+    return "Switch on/off number of hops for variable length relationship";
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
@@ -43,12 +40,11 @@ public class ConvertToLRRelationship_Intention extends BaseIntention implements 
   }
 
   public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return !(SConceptOperations.isSubConceptOf(SNodeOperations.getConceptDeclaration(node), "neo4j.cypher.structure.LRRelationship"));
+    return SPropertyOperations.getBoolean(node, "concrete");
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode newRelationship = SNodeFactoryOperations.replaceWithNewChild(node, "neo4j.cypher.structure.LRRelationship");
-    Relationship_Behavior.call_copyConfigOf_4839691926370495851(newRelationship, node);
+    SPropertyOperations.set(node, "specifyHops", "" + (!(SPropertyOperations.getBoolean(node, "specifyHops"))));
   }
 
   public String getLocationString() {

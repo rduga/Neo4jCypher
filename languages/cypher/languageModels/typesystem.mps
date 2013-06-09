@@ -114,6 +114,10 @@
       <property name="name" nameId="tpck.1169194664001" value="typeof_RangeCollFunction" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.expression.function.collection" />
     </node>
+    <node type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="4839691926370249815">
+      <property name="name" nameId="tpck.1169194664001" value="typeof_CollectAggregate" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.expression.function.aggregate" />
+    </node>
   </roots>
   <root id="5206628397327256708">
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="5206628397327256709">
@@ -930,6 +934,33 @@
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="4409026550618889135">
       <property name="name" nameId="tpck.1169194664001" value="rangeCollFunction" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="qgu4.7918996842015093066" resolveInfo="RangeCollFunction" />
+    </node>
+  </root>
+  <root id="4839691926370249815">
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="4839691926370249816">
+      <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="4839691926370303759">
+        <node role="rightExpression" roleId="tpd4.1174660783414" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="4839691926370303763">
+          <node role="normalType" roleId="tpd4.1185788644032" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="4839691926370303764">
+            <node role="quotedNode" roleId="tp3r.1196350785114" type="qgu4.CypherCollectionType" typeId="qgu4.4409026550618686383" id="4839691926370303766" />
+          </node>
+        </node>
+        <node role="leftExpression" roleId="tpd4.1174660783413" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="4839691926370303762">
+          <node role="normalType" roleId="tpd4.1185788644032" type="tpd4.TypeOfExpression" typeId="tpd4.1174657487114" id="4839691926370249819">
+            <node role="term" roleId="tpd4.1174657509053" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4839691926370249842">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="4839691926370249821">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="4839691926370249817" resolveInfo="collectAggregate" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4839691926370303738">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="qgu4.5206628397327714030" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="4839691926370249817">
+      <property name="name" nameId="tpck.1169194664001" value="collectAggregate" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="qgu4.4839691926370239931" resolveInfo="CollectAggregate" />
     </node>
   </root>
 </model>

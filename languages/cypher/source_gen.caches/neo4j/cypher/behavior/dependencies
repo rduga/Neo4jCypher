@@ -81,6 +81,12 @@
     <classNode dependClassName="neo4j.cypher.behavior.CypherStatement_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="neo4j.cypher.behavior.AvgAggregate_BehaviorDescriptor" file="AvgAggregate_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.AggregateFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="neo4j.cypher.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
@@ -94,7 +100,9 @@
     <classNode dependClassName="neo4j.cypher.behavior.ApStringLiteral_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.AsExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.AscOrderBy_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.AvgAggregate_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.CoalesceScalarFunction_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.CollectAggregate_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.Collection_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.ConnectionSheet_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.CountAggregate_BehaviorDescriptor" />
@@ -146,6 +154,8 @@
     <classNode dependClassName="neo4j.cypher.behavior.NonePredicateFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.OrderByStatement_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.Parameter_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.PercentileContAggregate_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.PercentileDiscAggregate_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.PredicateExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.Property_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.QueryEmptyStatement_BehaviorDescriptor" />
@@ -187,6 +197,12 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="neo4j.cypher.behavior.ScalarFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.CollectAggregate_BehaviorDescriptor" file="CollectAggregate_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.AggregateFunction_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.behavior.CollectionFunction_BehaviorDescriptor" file="CollectionFunction_BehaviorDescriptor.java">
@@ -695,6 +711,24 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="neo4j.cypher.behavior.PercentileAggregateFunction_BehaviorDescriptor" file="PercentileAggregateFunction_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.AggregateFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.PercentileContAggregate_BehaviorDescriptor" file="PercentileContAggregate_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.AggregateFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.PercentileDiscAggregate_BehaviorDescriptor" file="PercentileDiscAggregate_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.AggregateFunction_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="neo4j.cypher.behavior.PredicateExpression_BehaviorDescriptor" file="PredicateExpression_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -813,6 +847,7 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="neo4j.cypher.behavior.IMatchExpression_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>

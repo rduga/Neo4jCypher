@@ -7,7 +7,7 @@ import jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class RelationshipType_BehaviorDescriptor extends Expression_BehaviorDescriptor implements IValidIdentifier_BehaviorDescriptor {
+public class RelationshipType_BehaviorDescriptor extends Expression_BehaviorDescriptor implements IValidIdentifier_BehaviorDescriptor, IMatchExpression_BehaviorDescriptor {
   public RelationshipType_BehaviorDescriptor() {
   }
 

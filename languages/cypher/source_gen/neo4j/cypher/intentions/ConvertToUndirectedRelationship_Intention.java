@@ -9,9 +9,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import neo4j.cypher.behavior.Relationship_Behavior;
 
 public class ConvertToUndirectedRelationship_Intention extends BaseIntention implements Intention {
   public ConvertToUndirectedRelationship_Intention() {
@@ -49,11 +47,8 @@ public class ConvertToUndirectedRelationship_Intention extends BaseIntention imp
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode lrRelationship = SNodeFactoryOperations.replaceWithNewChild(node, "neo4j.cypher.structure.UndirectedRelationship");
-    SPropertyOperations.set(lrRelationship, "name", SPropertyOperations.getString(node, "name"));
-    ListSequence.fromList(SLinkOperations.getTargets(lrRelationship, "property", true)).addSequence(ListSequence.fromList(SLinkOperations.getTargets(node, "property", true)));
-    ListSequence.fromList(SLinkOperations.getTargets(lrRelationship, "type", true)).addSequence(ListSequence.fromList(SLinkOperations.getTargets(node, "type", true)));
-
+    SNode newRelationship = SNodeFactoryOperations.replaceWithNewChild(node, "neo4j.cypher.structure.UndirectedRelationship");
+    Relationship_Behavior.call_copyConfigOf_4839691926370495851(newRelationship, node);
   }
 
   public String getLocationString() {

@@ -29,7 +29,7 @@ public class Node_Constraints extends BaseConstraintsDescriptor {
       @Override
       public boolean validateValue(SNode node, String propertyValue, IScope scope) {
         String propertyName = "name";
-        return INamedIdentifier_Behavior.isCorrectIdentifierName_5206628397327427489(SPropertyOperations.getString(node, "name"));
+        return INamedIdentifier_Behavior.isCorrectIdentifierName_5206628397327427489((SPropertyOperations.getString(propertyValue)));
       }
     });
     return properties;

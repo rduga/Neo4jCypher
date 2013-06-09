@@ -11,23 +11,35 @@ public class Relationship_Behavior {
   public static void init(SNode thisNode) {
   }
 
+  public static void call_copyConfigOf_4839691926370495851(SNode thisNode, SNode other) {
+    SPropertyOperations.set(thisNode, "name", SPropertyOperations.getString(other, "name"));
+
+    SPropertyOperations.set(thisNode, "concrete", "" + (SPropertyOperations.getBoolean(other, "concrete")));
+    SPropertyOperations.set(thisNode, "specifyHops", "" + (SPropertyOperations.getBoolean(other, "specifyHops")));
+    SPropertyOperations.set(thisNode, "minHops", "" + (SPropertyOperations.getInteger(other, "minHops")));
+    SPropertyOperations.set(thisNode, "maxHops", "" + (SPropertyOperations.getInteger(other, "maxHops")));
+
+    ListSequence.fromList(SLinkOperations.getTargets(thisNode, "property", true)).addSequence(ListSequence.fromList(SLinkOperations.getTargets(other, "property", true)));
+    ListSequence.fromList(SLinkOperations.getTargets(thisNode, "type", true)).addSequence(ListSequence.fromList(SLinkOperations.getTargets(other, "type", true)));
+  }
+
   public static boolean call_isRealAnonymous_4409026550619645624(SNode thisNode) {
-    return isEmpty_ck02f0_a0a0a1(SPropertyOperations.getString(thisNode, "name")) && ListSequence.fromList(SLinkOperations.getTargets(thisNode, "type", true)).isEmpty();
+    return isEmpty_ck02f0_a0a0a2(SPropertyOperations.getString(thisNode, "name")) && ListSequence.fromList(SLinkOperations.getTargets(thisNode, "type", true)).isEmpty();
   }
 
   public static boolean call_isNamed_4409026550619536514(SNode thisNode) {
-    return isNotEmpty_ck02f0_a0a0c(SPropertyOperations.getString(thisNode, "name"));
+    return isNotEmpty_ck02f0_a0a0d(SPropertyOperations.getString(thisNode, "name"));
   }
 
   public static boolean call_isTyped_4409026550619536574(SNode thisNode) {
     return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "type", true)).isNotEmpty();
   }
 
-  public static boolean isEmpty_ck02f0_a0a0a1(String str) {
+  public static boolean isEmpty_ck02f0_a0a0a2(String str) {
     return str == null || str.length() == 0;
   }
 
-  public static boolean isNotEmpty_ck02f0_a0a0c(String str) {
+  public static boolean isNotEmpty_ck02f0_a0a0d(String str) {
     return str != null && str.length() > 0;
   }
 }

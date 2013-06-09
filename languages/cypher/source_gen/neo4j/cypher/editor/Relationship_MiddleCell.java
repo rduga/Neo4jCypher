@@ -64,7 +64,24 @@ public class Relationship_MiddleCell extends AbstractCellProvider {
       editorCell.addEditorCell(this.createConstant_h1s2v3_c0a(editorContext, node));
     }
     editorCell.addEditorCell(this.createRefNodeList_h1s2v3_d0a(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_h1s2v3_e0a(editorContext, node));
+    if (renderingCondition_h1s2v3_a4a0(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_h1s2v3_e0a(editorContext, node));
+    }
+    editorCell.addEditorCell(this.createConstant_h1s2v3_f0a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_h1s2v3_e0a(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
+    editorCell.setCellId("Collection_h1s2v3_e0a");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createConstant_h1s2v3_a4a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_h1s2v3_b4a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_h1s2v3_c4a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_h1s2v3_d4a0(editorContext, node));
     return editorCell;
   }
 
@@ -88,9 +105,33 @@ public class Relationship_MiddleCell extends AbstractCellProvider {
     return editorCell;
   }
 
-  private EditorCell createConstant_h1s2v3_e0a(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_h1s2v3_a4a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
+    editorCell.setCellId("Constant_h1s2v3_a4a0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+      style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+    }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_h1s2v3_c4a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "..");
+    editorCell.setCellId("Constant_h1s2v3_c4a0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+      style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+    }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_h1s2v3_f0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]");
-    editorCell.setCellId("Constant_h1s2v3_e0a");
+    editorCell.setCellId("Constant_h1s2v3_f0a");
     BaseLanguageStyle_StyleSheet.getRightBracket(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
@@ -127,8 +168,49 @@ public class Relationship_MiddleCell extends AbstractCellProvider {
     return editorCell;
   }
 
+  private EditorCell createProperty_h1s2v3_b4a0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("minHops");
+    provider.setNoTargetText("<no minHops>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_minHops");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createProperty_h1s2v3_d4a0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("maxHops");
+    provider.setNoTargetText("");
+    provider.setAllowsEmptyTarget(true);
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_maxHops");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
   private static boolean renderingCondition_h1s2v3_a2a0(SNode node, EditorContext editorContext, IScope scope) {
     return ListSequence.fromList(SLinkOperations.getTargets(node, "type", true)).isNotEmpty();
+  }
+
+  private static boolean renderingCondition_h1s2v3_a4a0(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(node, "specifyHops");
   }
 
   private static boolean renderingCondition_h1s2v3_a0a(SNode node, EditorContext editorContext, IScope scope) {

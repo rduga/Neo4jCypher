@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="dhadsgkvcqhla16czombub1cl790vej">
+<dependencies version="2" modelHash="827fp10r9ssfd4zyhyeamtl0ldxjy88">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -92,6 +92,11 @@
     <dep root="4721745511893716795" />
     <dep root="4721745511893767979" />
     <dep root="4721745511893767986" />
+    <dep root="4839691926370239929" />
+    <dep root="4839691926370239931" />
+    <dep root="4839691926370303769" />
+    <dep root="4839691926370303771" />
+    <dep root="4839691926370303777" />
     <dep root="5206628397327069922" />
     <dep root="5206628397327330408" />
     <dep root="5206628397327427253" />
@@ -189,16 +194,16 @@
   <source id="7169725830544999549" name="PropertyContainer" hash="-4w54xp24fq5o58fft9qaomrbpxqwqwx">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="7169725830545051563" name="Relationship" hash="-6ipdn7vke686k2oukzsknp46qjsiqip">
+  <source id="7169725830545051563" name="Relationship" hash="-7v41tdb23eb419ebyc06l1hw6vs37rx">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2686030116060608322" name="RelationshipType" hash="7l6lgdtu15c8jsrpfdvimlp0ceto78x">
+  <source id="2686030116060608322" name="RelationshipType" hash="-33acc9qk2o1vo8hrhe98wmcfvyww91q">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2686030116060668985" name="LRRelationship" hash="5ad6exw1iho1xti70g35nx6ivw6xe8">
+  <source id="2686030116060668985" name="LRRelationship" hash="4t7arsq0eiwibuj8z9yha7gycukhtwt">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="2686030116060677025" name="RLRelationship" hash="-dx1oevots9yufpii78km1oc3h2woz16">
+  <source id="2686030116060677025" name="RLRelationship" hash="-381qmqxyfod4tbp2mxtuszn2n3d6dld">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="2686030116060685549" name="UndirectedRelationship" hash="-cokiip8wgmk2urvnvt6jfdzvk0rn1dl">
@@ -252,7 +257,7 @@
   <source id="4395952758104119216" name="ImpermanentConnection" hash="-chlxkd2jm7sa7ulawiscmg15e1z5nqt">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4395952758104302029" name="NamedNodeRef" hash="9tx7jnw4bfnap1bksawwnn2da8enkkj">
+  <source id="4395952758104302029" name="NamedNodeRef" hash="-1yfjy68ht8q4vn7u6hsjrhohprz8991">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4395952758104399755" name="Property" hash="-et4winp21actzee6fe51vjqgy93bsvk">
@@ -502,6 +507,21 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4409026550619358918" name="EmptyNode" hash="4l69412gun2j8xsnsygh26g2ejk4ky">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4839691926370239929" name="AvgAggregate" hash="-cyl0d21srqe20teuk7eqf8lk59czg49">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4839691926370239931" name="CollectAggregate" hash="eael19zn1cnnhp4ekh5lo7j3j8ni8wa">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4839691926370303769" name="PercentileDiscAggregate" hash="arimnfgayzqta7jx2lycu5nm6ga0wwt">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4839691926370303771" name="PercentileContAggregate" hash="3e6kwwguu6lknxhk0zj1vvxgqm10oyl">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4839691926370303777" name="PercentileAggregateFunction" hash="-ciwl3eogpxr3a4fko6s3sjzbt741z9e">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>
