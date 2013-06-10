@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="4t4d3ir49bix6amx2fajhcpyeurwi6f">
+<dependencies version="2" modelHash="-48pezfimj7tmcoa7xq9tbbpyvdn0ko2">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -100,6 +100,9 @@
     <dep root="4839691926370514356" />
     <dep root="4839691926370534642" />
     <dep root="4839691926370705307" />
+    <dep root="4839691926370744023" />
+    <dep root="4839691926370744026" />
+    <dep root="4839691926370744028" />
     <dep root="5206628397327069922" />
     <dep root="5206628397327330408" />
     <dep root="5206628397327427253" />
@@ -534,6 +537,15 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4839691926370705307" name="NamedPathRef" hash="8b0a7fm752cd1qy1y4kcbx1o8flt5an">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4839691926370744023" name="PathFunction" hash="3sj1n30cxhxw2lhnlsb6e42v27ccs1x">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4839691926370744026" name="ShortestPathFunction" hash="-6g8mfk3vsep2jngrulg9j42p8ye98qo">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4839691926370744028" name="AllShortestPaths" hash="2x8eznwvc6i08o47ses8n4e07iheg7c">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

@@ -7345,11 +7345,11 @@
     <nodeInfo nodeId="4839691926370537085" fileName="PathExpression_Editor.java" startLine="44" startPosition="82" endLine="45" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4839691926370537085" fileName="PathExpression_Editor.java" startLine="44" startPosition="82" endLine="45" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4839691926370537085" fileName="PathExpression_Editor.java" startLine="45" startPosition="82" endLine="46" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4839691926370658139" fileName="PathExpression_Editor.java" startLine="49" startPosition="88" endLine="50" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370658139" fileName="PathExpression_Editor.java" startLine="50" startPosition="87" endLine="51" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4839691926370658139" fileName="PathExpression_Editor.java" startLine="50" startPosition="87" endLine="51" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370658139" fileName="PathExpression_Editor.java" startLine="51" startPosition="47" endLine="52" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370658139" fileName="PathExpression_Editor.java" startLine="52" startPosition="34" endLine="53" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370743609" fileName="PathExpression_Editor.java" startLine="49" startPosition="88" endLine="50" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370743609" fileName="PathExpression_Editor.java" startLine="50" startPosition="86" endLine="51" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370743609" fileName="PathExpression_Editor.java" startLine="50" startPosition="86" endLine="51" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370743609" fileName="PathExpression_Editor.java" startLine="51" startPosition="47" endLine="52" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370743609" fileName="PathExpression_Editor.java" startLine="52" startPosition="34" endLine="53" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4839691926370537091" fileName="PathExpression_Editor.java" startLine="56" startPosition="89" endLine="57" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4839691926370537091" fileName="PathExpression_Editor.java" startLine="57" startPosition="87" endLine="58" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4839691926370537091" fileName="PathExpression_Editor.java" startLine="57" startPosition="87" endLine="58" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -7392,7 +7392,7 @@
     <nodeInfo nodeId="4839691926370537085" fileName="PathExpression_Editor.java" startLine="38" startPosition="96" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="4839691926370658137" fileName="PathExpression_Editor.java" startLine="71" startPosition="59" endLine="77" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4839691926370537089" fileName="PathExpression_Editor.java" startLine="89" startPosition="59" endLine="95" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4839691926370658139" fileName="PathExpression_Editor.java" startLine="48" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_sboxpj_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4839691926370743609" fileName="PathExpression_Editor.java" startLine="48" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_sboxpj_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="4839691926370537091" fileName="PathExpression_Editor.java" startLine="55" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_sboxpj_b1a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="4839691926370537072" fileName="PathExpression_Editor.java" startLine="25" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_sboxpj_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
     <nodeInfo nodeId="4839691926370537085" fileName="PathExpression_Editor.java" startLine="36" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_sboxpj_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
@@ -7406,7 +7406,7 @@
     <scopeInfo nodeId="4839691926370537072" fileName="PathExpression_Editor.java" startLine="32" startPosition="5" endLine="33" endPosition="80" />
     <scopeInfo nodeId="4839691926370537085" fileName="PathExpression_Editor.java" startLine="43" startPosition="5" endLine="44" endPosition="82" />
     <scopeInfo nodeId="4839691926370537085" fileName="PathExpression_Editor.java" startLine="44" startPosition="82" endLine="45" endPosition="82" />
-    <scopeInfo nodeId="4839691926370658139" fileName="PathExpression_Editor.java" startLine="50" startPosition="87" endLine="51" endPosition="47" />
+    <scopeInfo nodeId="4839691926370743609" fileName="PathExpression_Editor.java" startLine="50" startPosition="86" endLine="51" endPosition="47" />
     <scopeInfo nodeId="4839691926370537091" fileName="PathExpression_Editor.java" startLine="57" startPosition="87" endLine="58" endPosition="48" />
     <scopeInfo nodeId="4839691926370537089" fileName="PathExpression_Editor.java" startLine="85" startPosition="58" endLine="86" endPosition="42" />
     <scopeInfo nodeId="4839691926370537106" fileName="PathExpression_Editor.java" startLine="98" startPosition="111" endLine="99" endPosition="57" />
@@ -7428,8 +7428,8 @@
       <varInfo nodeId="4839691926370537057" varName="editorContext" />
       <varInfo nodeId="4839691926370537057" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370658139" fileName="PathExpression_Editor.java" startLine="49" startPosition="88" endLine="53" endPosition="22">
-      <varInfo nodeId="4839691926370658139" varName="editorCell" />
+    <scopeInfo nodeId="4839691926370743609" fileName="PathExpression_Editor.java" startLine="49" startPosition="88" endLine="53" endPosition="22">
+      <varInfo nodeId="4839691926370743609" varName="editorCell" />
     </scopeInfo>
     <scopeInfo nodeId="4839691926370537091" fileName="PathExpression_Editor.java" startLine="56" startPosition="89" endLine="60" endPosition="22">
       <varInfo nodeId="4839691926370537091" varName="editorCell" />
@@ -7440,9 +7440,9 @@
       <varInfo nodeId="4839691926370537105" varName="scope" />
     </scopeInfo>
     <scopeInfo nodeId="4839691926370537085" fileName="PathExpression_Editor.java" startLine="38" startPosition="96" endLine="43" endPosition="5" />
-    <scopeInfo nodeId="4839691926370658139" fileName="PathExpression_Editor.java" startLine="48" startPosition="0" endLine="55" endPosition="0">
-      <varInfo nodeId="4839691926370658139" varName="editorContext" />
-      <varInfo nodeId="4839691926370658139" varName="node" />
+    <scopeInfo nodeId="4839691926370743609" fileName="PathExpression_Editor.java" startLine="48" startPosition="0" endLine="55" endPosition="0">
+      <varInfo nodeId="4839691926370743609" varName="editorContext" />
+      <varInfo nodeId="4839691926370743609" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="4839691926370537091" fileName="PathExpression_Editor.java" startLine="55" startPosition="0" endLine="62" endPosition="0">
       <varInfo nodeId="4839691926370537091" varName="editorContext" />
@@ -7594,6 +7594,136 @@
     </scopeInfo>
     <unitInfo nodeId="4839691926370705313" fileName="NamedPathRef_Editor.java" startLine="47" startPosition="0" endLine="79" endPosition="0" unitName="neo4j.cypher.editor.NamedPathRef_Editor$_Inline_r362aj_a0a" />
     <unitInfo nodeId="4839691926370705310" fileName="NamedPathRef_Editor.java" startLine="17" startPosition="0" endLine="80" endPosition="0" unitName="neo4j.cypher.editor.NamedPathRef_Editor" />
+  </root>
+  <root nodeId="4839691926370744031" modelId="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)">
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="54" startPosition="58" endLine="54" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370744031" fileName="PathFunction_Editor.java" startLine="19" startPosition="79" endLine="20" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="23" startPosition="89" endLine="24" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="24" startPosition="96" endLine="25" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="24" startPosition="96" endLine="25" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="25" startPosition="48" endLine="26" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="25" startPosition="48" endLine="26" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="26" startPosition="88" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="26" startPosition="88" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="28" startPosition="80" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="28" startPosition="80" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370744039" fileName="PathFunction_Editor.java" startLine="33" startPosition="88" endLine="34" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744039" fileName="PathFunction_Editor.java" startLine="34" startPosition="87" endLine="35" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744039" fileName="PathFunction_Editor.java" startLine="35" startPosition="47" endLine="36" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744039" fileName="PathFunction_Editor.java" startLine="36" startPosition="85" endLine="37" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744039" fileName="PathFunction_Editor.java" startLine="37" startPosition="34" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370744044" fileName="PathFunction_Editor.java" startLine="41" startPosition="88" endLine="42" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744044" fileName="PathFunction_Editor.java" startLine="42" startPosition="87" endLine="43" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744044" fileName="PathFunction_Editor.java" startLine="43" startPosition="47" endLine="44" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744044" fileName="PathFunction_Editor.java" startLine="44" startPosition="77" endLine="45" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744044" fileName="PathFunction_Editor.java" startLine="45" startPosition="34" endLine="46" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="49" startPosition="87" endLine="50" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="50" startPosition="81" endLine="51" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="51" startPosition="35" endLine="52" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="52" startPosition="48" endLine="53" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="53" startPosition="26" endLine="54" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="54" startPosition="58" endLine="55" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="55" startPosition="73" endLine="56" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="56" startPosition="57" endLine="57" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="58" startPosition="35" endLine="59" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="59" startPosition="72" endLine="60" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="60" startPosition="78" endLine="61" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="62" startPosition="10" endLine="63" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="66" startPosition="95" endLine="67" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="67" startPosition="89" endLine="68" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="68" startPosition="30" endLine="69" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="69" startPosition="43" endLine="70" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="70" startPosition="26" endLine="71" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="71" startPosition="58" endLine="72" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="71" startPosition="58" endLine="72" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="72" startPosition="50" endLine="73" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="73" startPosition="73" endLine="74" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="74" startPosition="57" endLine="75" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="76" startPosition="35" endLine="77" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="77" startPosition="72" endLine="78" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="78" startPosition="78" endLine="79" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="80" startPosition="10" endLine="81" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370744039" fileName="PathFunction_Editor.java" startLine="34" startPosition="87" endLine="36" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370744044" fileName="PathFunction_Editor.java" startLine="42" startPosition="87" endLine="44" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="53" startPosition="26" endLine="55" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="70" startPosition="26" endLine="73" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4839691926370744031" fileName="PathFunction_Editor.java" startLine="18" startPosition="60" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="57" startPosition="59" endLine="63" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="75" startPosition="59" endLine="81" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4839691926370744039" fileName="PathFunction_Editor.java" startLine="32" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_vxjbzb_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4839691926370744044" fileName="PathFunction_Editor.java" startLine="40" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_vxjbzb_d0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="22" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_vxjbzb_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="48" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_vxjbzb_c0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="65" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConceptProperty_vxjbzb_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <scopeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="54" startPosition="58" endLine="54" endPosition="58" />
+    <scopeInfo nodeId="4839691926370744031" fileName="PathFunction_Editor.java" startLine="19" startPosition="79" endLine="20" endPosition="63" />
+    <scopeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="24" startPosition="96" endLine="25" endPosition="48" />
+    <scopeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="25" startPosition="48" endLine="26" endPosition="88" />
+    <scopeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="26" startPosition="88" endLine="27" endPosition="81" />
+    <scopeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="80" />
+    <scopeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="28" startPosition="80" endLine="29" endPosition="81" />
+    <scopeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="71" startPosition="58" endLine="72" endPosition="50" />
+    <scopeInfo nodeId="4839691926370744039" fileName="PathFunction_Editor.java" startLine="34" startPosition="87" endLine="36" endPosition="85" />
+    <scopeInfo nodeId="4839691926370744044" fileName="PathFunction_Editor.java" startLine="42" startPosition="87" endLine="44" endPosition="77" />
+    <scopeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="53" startPosition="26" endLine="55" endPosition="73" />
+    <scopeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="58" startPosition="35" endLine="61" endPosition="105">
+      <varInfo nodeId="4839691926370744042" varName="manager" />
+      <varInfo nodeId="4839691926370744042" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="70" startPosition="26" endLine="73" endPosition="73" />
+    <scopeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="76" startPosition="35" endLine="79" endPosition="105">
+      <varInfo nodeId="4839691926370744037" varName="manager" />
+      <varInfo nodeId="4839691926370744037" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744031" fileName="PathFunction_Editor.java" startLine="18" startPosition="60" endLine="22" endPosition="0">
+      <varInfo nodeId="4839691926370744031" varName="editorContext" />
+      <varInfo nodeId="4839691926370744031" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744039" fileName="PathFunction_Editor.java" startLine="33" startPosition="88" endLine="38" endPosition="22">
+      <varInfo nodeId="4839691926370744039" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744044" fileName="PathFunction_Editor.java" startLine="41" startPosition="88" endLine="46" endPosition="22">
+      <varInfo nodeId="4839691926370744044" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="23" startPosition="89" endLine="30" endPosition="22">
+      <varInfo nodeId="4839691926370744033" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744039" fileName="PathFunction_Editor.java" startLine="32" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="4839691926370744039" varName="editorContext" />
+      <varInfo nodeId="4839691926370744039" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744044" fileName="PathFunction_Editor.java" startLine="40" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="4839691926370744044" varName="editorContext" />
+      <varInfo nodeId="4839691926370744044" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744033" fileName="PathFunction_Editor.java" startLine="22" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="4839691926370744033" varName="editorContext" />
+      <varInfo nodeId="4839691926370744033" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="49" startPosition="87" endLine="63" endPosition="22">
+      <varInfo nodeId="4839691926370744042" varName="attributeConcept" />
+      <varInfo nodeId="4839691926370744042" varName="attributeKind" />
+      <varInfo nodeId="4839691926370744042" varName="editorCell" />
+      <varInfo nodeId="4839691926370744042" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="66" startPosition="95" endLine="81" endPosition="22">
+      <varInfo nodeId="4839691926370744037" varName="attributeConcept" />
+      <varInfo nodeId="4839691926370744037" varName="attributeKind" />
+      <varInfo nodeId="4839691926370744037" varName="editorCell" />
+      <varInfo nodeId="4839691926370744037" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744042" fileName="PathFunction_Editor.java" startLine="48" startPosition="0" endLine="65" endPosition="0">
+      <varInfo nodeId="4839691926370744042" varName="editorContext" />
+      <varInfo nodeId="4839691926370744042" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370744037" fileName="PathFunction_Editor.java" startLine="65" startPosition="0" endLine="83" endPosition="0">
+      <varInfo nodeId="4839691926370744037" varName="editorContext" />
+      <varInfo nodeId="4839691926370744037" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="4839691926370744031" fileName="PathFunction_Editor.java" startLine="18" startPosition="0" endLine="84" endPosition="0" unitName="neo4j.cypher.editor.PathFunction_Editor" />
   </root>
   <root nodeId="5206628397327069923" modelId="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)">
     <nodeInfo nodeId="5206628397327069923" fileName="ApStringLiteral_Editor.java" startLine="22" startPosition="79" endLine="23" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

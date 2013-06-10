@@ -8,14 +8,13 @@ import jetbrains.mps.smodel.SNode;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
-public class Relationship_Constraints extends BaseConstraintsDescriptor {
-  private static SNodePointer canBeParentBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "8069893813418312338");
+public class PathFunction_Constraints extends BaseConstraintsDescriptor {
+  private static SNodePointer canBeParentBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "4839691926370779344");
 
-  public Relationship_Constraints() {
-    super("neo4j.cypher.structure.Relationship");
+  public PathFunction_Constraints() {
+    super("neo4j.cypher.structure.PathFunction");
   }
 
   @Override
@@ -35,10 +34,6 @@ public class Relationship_Constraints extends BaseConstraintsDescriptor {
   }
 
   public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
-    if (link == SLinkOperations.findLinkDeclaration("neo4j.cypher.structure.Relationship", "leftExpression") || link == SLinkOperations.findLinkDeclaration("neo4j.cypher.structure.Relationship", "rightExpression")) {
-      return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression") && !(SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IInnerMatchExpression")) && !(SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.PathFunction"));
-    }
-
-    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression");
+    return !(SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IInnerMatchExpression")) && !(SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.PathFunction"));
   }
 }
