@@ -9,6 +9,8 @@ import java.util.HashMap;
 import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.smodel.IScope;
+import neo4j.cypher.behavior.INamedIdentifier_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class INamedIdentifier_Constraints extends BaseConstraintsDescriptor {
   public INamedIdentifier_Constraints() {
@@ -27,8 +29,7 @@ public class INamedIdentifier_Constraints extends BaseConstraintsDescriptor {
       @Override
       public boolean validateValue(SNode node, String propertyValue, IScope scope) {
         String propertyName = "name";
-        // <node> 
-        return true;
+        return INamedIdentifier_Behavior.isCorrectIdentifierName_5206628397327427489(SPropertyOperations.getString(node, "name"));
       }
     });
     return properties;

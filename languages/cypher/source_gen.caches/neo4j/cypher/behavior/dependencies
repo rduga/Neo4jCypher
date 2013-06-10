@@ -154,6 +154,7 @@
     <classNode dependClassName="neo4j.cypher.behavior.NonePredicateFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.OrderByStatement_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.Parameter_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.PathExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.PercentileContAggregate_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.PercentileDiscAggregate_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.PredicateExpression_BehaviorDescriptor" />
@@ -465,6 +466,10 @@
   <dependency className="neo4j.cypher.behavior.ICollectionExpression_BehaviorDescriptor" file="ICollectionExpression_BehaviorDescriptor.java" />
   <dependency className="neo4j.cypher.behavior.IConnectionStatement_BehaviorDescriptor" file="IConnectionStatement_BehaviorDescriptor.java" />
   <dependency className="neo4j.cypher.behavior.ICypherExpression_BehaviorDescriptor" file="ICypherExpression_BehaviorDescriptor.java" />
+  <dependency className="neo4j.cypher.behavior.IInnerMatchExpression_BehaviorDescriptor" file="IInnerMatchExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="neo4j.cypher.behavior.ICypherExpression_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+  </dependency>
   <dependency className="neo4j.cypher.behavior.IMatchExpression_BehaviorDescriptor" file="IMatchExpression_BehaviorDescriptor.java">
     <classNode dependClassName="neo4j.cypher.behavior.ICypherExpression_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
@@ -711,6 +716,16 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="neo4j.cypher.behavior.PathExpression_BehaviorDescriptor" file="PathExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="neo4j.cypher.behavior.INamedIdentifier_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="neo4j.cypher.behavior.PercentileAggregateFunction_BehaviorDescriptor" file="PercentileAggregateFunction_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -847,6 +862,7 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="neo4j.cypher.behavior.IInnerMatchExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.IMatchExpression_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />

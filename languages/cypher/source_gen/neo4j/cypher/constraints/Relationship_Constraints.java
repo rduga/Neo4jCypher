@@ -8,6 +8,7 @@ import jetbrains.mps.smodel.SNode;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
 public class Relationship_Constraints extends BaseConstraintsDescriptor {
@@ -34,6 +35,10 @@ public class Relationship_Constraints extends BaseConstraintsDescriptor {
   }
 
   public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
-    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.Relationship");
+    if (link == SLinkOperations.findLinkDeclaration("neo4j.cypher.structure.Relationship", "leftExpression") || link == SLinkOperations.findLinkDeclaration("neo4j.cypher.structure.Relationship", "rightExpression")) {
+      return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression") && !(SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IInnerMatchExpression"));
+    }
+
+    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression");
   }
 }

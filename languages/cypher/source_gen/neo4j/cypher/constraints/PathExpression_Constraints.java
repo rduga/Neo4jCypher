@@ -10,12 +10,12 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
-public class MatchStatement_Constraints extends BaseConstraintsDescriptor {
-  private static SNodePointer canBeParentBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "8069893813418366080");
-  private static SNodePointer canBeAncesctorBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "4409026550618950102");
+public class PathExpression_Constraints extends BaseConstraintsDescriptor {
+  private static SNodePointer canBeParentBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "4839691926370625592");
+  private static SNodePointer canBeAncesctorBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "4839691926370625600");
 
-  public MatchStatement_Constraints() {
-    super("neo4j.cypher.structure.MatchStatement");
+  public PathExpression_Constraints() {
+    super("neo4j.cypher.structure.PathExpression");
   }
 
   @Override
@@ -51,10 +51,10 @@ public class MatchStatement_Constraints extends BaseConstraintsDescriptor {
   }
 
   public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
-    return !(SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.RelationshipType"));
+    return !(SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IInnerMatchExpression"));
   }
 
   public static boolean static_canBeAnAncestor(SNode node, SNode childNode, SNode childConcept, final IOperationContext operationContext) {
-    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.Relationship") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.RelationshipType");
+    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression");
   }
 }

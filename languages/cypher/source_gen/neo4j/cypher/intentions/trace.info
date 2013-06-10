@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="26" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="27" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
   <root nodeId="4409026550619394865" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
     <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="18" startPosition="30" endLine="19" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4409026550619394865" fileName="ConvertToLRRelationship_Intention.java" startLine="22" startPosition="36" endLine="23" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -334,6 +334,46 @@
       <varInfo nodeId="4839691926370448490" varName="node" />
     </scopeInfo>
     <unitInfo nodeId="4839691926370448490" fileName="SwitchRelationshipHops_Intention.java" startLine="11" startPosition="0" endLine="54" endPosition="0" unitName="neo4j.cypher.intentions.SwitchRelationshipHops_Intention" />
+  </root>
+  <root nodeId="4839691926370537144" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370537149" fileName="SwitchNamedPath_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370537184" fileName="SwitchNamedPath_Intention.java" startLine="35" startPosition="76" endLine="36" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="39" startPosition="37" endLine="40" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="11" startPosition="83" endLine="13" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SwitchNamedPath_Intention#()V" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="34" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="38" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="12" startPosition="38" endLine="12" endPosition="38" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="51" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="17" />
+    <scopeInfo nodeId="4839691926370537146" fileName="SwitchNamedPath_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="45" />
+    <scopeInfo nodeId="4839691926370537148" fileName="SwitchNamedPath_Intention.java" startLine="35" startPosition="76" endLine="36" endPosition="100" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="39" startPosition="37" endLine="40" endPosition="37" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="11" startPosition="83" endLine="13" endPosition="3" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="14" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="18" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="22" startPosition="0" endLine="26" endPosition="0" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="26" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="30" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="4839691926370537144" varName="editorContext" />
+      <varInfo nodeId="4839691926370537144" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="34" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="4839691926370537144" varName="editorContext" />
+      <varInfo nodeId="4839691926370537144" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <unitInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="11" startPosition="0" endLine="43" endPosition="0" unitName="neo4j.cypher.intentions.SwitchNamedPath_Intention" />
   </root>
   <root nodeId="5206628397327142130" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
     <nodeInfo nodeId="5206628397327142130" fileName="SplitApStringIntoContatenation_Intention.java" startLine="17" startPosition="30" endLine="18" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
