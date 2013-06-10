@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo />
+<debugInfo>
+  <root nodeId="2103634311711065343" modelId="r:9791e82d-c5eb-4440-b52c-28c559599e1d(neo4j.cypher.sandbox.sandbox)">
+    <nodeInfo nodeId="2103634311711065354" fileName="SampleClass.java" startLine="7" startPosition="42" endLine="8" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="2103634311711065377" fileName="SampleClass.java" startLine="8" startPosition="35" endLine="9" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="309801451901101860" fileName="SampleClass.java" startLine="9" startPosition="26" endLine="10" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8672755178246466135" fileName="SampleClass.java" startLine="10" startPosition="16" endLine="11" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="2103634311711065345" fileName="SampleClass.java" startLine="6" startPosition="26" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="2103634311711065348" fileName="SampleClass.java" startLine="7" startPosition="42" endLine="11" endPosition="7">
+      <varInfo nodeId="2103634311711065355" varName="a" />
+      <varInfo nodeId="309801451901101861" varName="l" />
+    </scopeInfo>
+    <scopeInfo nodeId="2103634311711065345" fileName="SampleClass.java" startLine="6" startPosition="26" endLine="13" endPosition="0">
+      <varInfo nodeId="2103634311711065349" varName="args" />
+    </scopeInfo>
+    <unitInfo nodeId="2103634311711065343" fileName="SampleClass.java" startLine="6" startPosition="0" endLine="14" endPosition="0" unitName="neo4j.cypher.sandbox.sandbox.SampleClass" />
+  </root>
+</debugInfo>
 
