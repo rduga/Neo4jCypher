@@ -140,7 +140,8 @@
     <classNode dependClassName="neo4j.cypher.behavior.IdIndex_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.IdScalarFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.ImpermanentConnection_BehaviorDescriptor" />
-    <classNode dependClassName="neo4j.cypher.behavior.KeyValueIndex_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.KeyValueNodeIndex_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.KeyValueRelationshipIndex_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.LRRelationship_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.LTrimMStringFunction_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.LabelsCollFunction_BehaviorDescriptor" />
@@ -541,13 +542,19 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="neo4j.cypher.behavior.KeyValueIndex_Behavior" file="KeyValueIndex_Behavior.java">
+  <dependency className="neo4j.cypher.behavior.KeyValueNodeIndex_Behavior" file="KeyValueNodeIndex_Behavior.java">
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
   </dependency>
-  <dependency className="neo4j.cypher.behavior.KeyValueIndex_BehaviorDescriptor" file="KeyValueIndex_BehaviorDescriptor.java">
+  <dependency className="neo4j.cypher.behavior.KeyValueNodeIndex_BehaviorDescriptor" file="KeyValueNodeIndex_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="neo4j.cypher.behavior.NamedIndex_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.behavior.KeyValueRelationshipIndex_BehaviorDescriptor" file="KeyValueRelationshipIndex_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="neo4j.cypher.behavior.NamedIndex_BehaviorDescriptor" />
@@ -642,8 +649,8 @@
   <dependency className="neo4j.cypher.behavior.NamedIndex_BehaviorDescriptor" file="NamedIndex_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="neo4j.cypher.behavior.Index_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />

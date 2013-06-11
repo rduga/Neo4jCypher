@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-48pezfimj7tmcoa7xq9tbbpyvdn0ko2">
+<dependencies version="2" modelHash="7oxv9tl8fdwby5ryv4165ud9ahbpe6r">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -8,7 +8,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="1st62wb89vrqeamfs8ciktdc6jn3gw7">
+  <common hash="8sa245e0veqw9u6j5hh98bpl9js7zjr">
     <dep root="1268543411551983790" />
     <dep root="1268543411551995397" />
     <dep root="1268543411552025423" />
@@ -103,6 +103,7 @@
     <dep root="4839691926370744023" />
     <dep root="4839691926370744026" />
     <dep root="4839691926370744028" />
+    <dep root="4839691926370883888" />
     <dep root="5206628397327069922" />
     <dep root="5206628397327330408" />
     <dep root="5206628397327427253" />
@@ -173,22 +174,22 @@
   <source id="1268543411552161297" name="Node" hash="-aa4a9n1ltj0470apeva95jaz7dz746l">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1268543411552224123" name="Index" hash="1dvqxr8wqdm29q0ru126e3dnjiqzcy5">
+  <source id="1268543411552224123" name="Index" hash="1mmw4eocts1kr6gkaiobs9sodlkya4q">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1268543411552224126" name="KeyValueIndex" hash="-2jlpzfujr1oywytvnn0g1mvblm5koxz">
+  <source id="1268543411552224126" name="KeyValueNodeIndex" hash="-9ov788l19swo5ib6svmdl071m5798l0">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1268543411552224129" name="LuceneIndex" hash="cle1jobys15uam5cpagkv5wapxeb16o">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1268543411552224132" name="IdIndex" hash="22osgg3b1len8xs2l9r0ym9drbtcm68">
+  <source id="1268543411552224132" name="IdIndex" hash="7egarcf59i824y0cb1tjig2mervg2pq">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1268543411552224159" name="NamedIndex" hash="-32za8honrlazxwvgfanpfn9669tl3kb">
+  <source id="1268543411552224159" name="NamedIndex" hash="3au111gqoa0j5pjl963w2ftobiob5qw">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1268543411552224188" name="AllIndex" hash="-afqv6up67j8xl1n588teib8cvclk25u">
+  <source id="1268543411552224188" name="AllIndex" hash="-bzk4x95yxn0l3mlm6rmjfogricx7z9f">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1268543411552273140" name="QueryEmptyStatement" hash="-1jp1ms6kbzoota7fsf4nagt1np7p8oo">
@@ -546,6 +547,9 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4839691926370744028" name="AllShortestPaths" hash="2x8eznwvc6i08o47ses8n4e07iheg7c">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="4839691926370883888" name="KeyValueRelationshipIndex" hash="5j2h39dexhef3gybxvplvvc32iemjcz">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

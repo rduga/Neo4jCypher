@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="4ytvp7nbf1uj31wm2jmbh6z925vwm2x">
+<dependencies version="2" modelHash="-chnl4ybplhep8n3ni0b1nyin68jykp7">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
@@ -22,9 +22,9 @@
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-48pezfimj7tmcoa7xq9tbbpyvdn0ko2" />
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="7oxv9tl8fdwby5ryv4165ud9ahbpe6r" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
-  <common hash="35zkdgwvuuqk6qo5vg52sir05joq95o" dependsOnNodes="true">
+  <common hash="57o9n3x15hb4prpss3s6cr3gm1ajdm0" dependsOnNodes="true">
     <dep root="1325020284374268226" />
     <dep root="1325020284374323643" />
     <dep root="2103634311711000971" />
@@ -110,7 +110,8 @@
     <file name="IdScalarFunction_BehaviorDescriptor.java" />
     <file name="ImpermanentConnection_BehaviorDescriptor.java" />
     <file name="Index_BehaviorDescriptor.java" />
-    <file name="KeyValueIndex_BehaviorDescriptor.java" />
+    <file name="KeyValueNodeIndex_BehaviorDescriptor.java" />
+    <file name="KeyValueRelationshipIndex_BehaviorDescriptor.java" />
     <file name="LRRelationship_BehaviorDescriptor.java" />
     <file name="LTrimMStringFunction_BehaviorDescriptor.java" />
     <file name="LabelsCollFunction_BehaviorDescriptor.java" />
@@ -182,7 +183,7 @@
     <file name="UpperMStringFunction_BehaviorDescriptor.java" />
     <file name="WhereStatement_BehaviorDescriptor.java" />
   </common>
-  <source id="4395952758104628250" name="KeyValueIndex_Behavior" hash="5pn6fx1p02yt1isvh76fsvgsimm7rkj">
+  <source id="4395952758104628250" name="KeyValueNodeIndex_Behavior" hash="8hkmmtyxq8mzcz8j6j94okg94gcgg3e">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -192,7 +193,7 @@
     <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
-    <file name="KeyValueIndex_Behavior.java" />
+    <file name="KeyValueNodeIndex_Behavior.java" />
   </source>
   <source id="5206628397327256671" name="ApStringLiteral_Behavior" hash="-4ysw9uoh21n1jofforqr3fx7qa8d7wo">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />

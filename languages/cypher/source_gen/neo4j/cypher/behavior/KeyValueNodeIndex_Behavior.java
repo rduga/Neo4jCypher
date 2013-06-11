@@ -7,7 +7,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
-public class KeyValueIndex_Behavior {
+public class KeyValueNodeIndex_Behavior {
   public static void init(SNode thisNode) {
     SPropertyOperations.set(thisNode, "name", "node_auto_index");
     SPropertyOperations.set(thisNode, "key", "key");
