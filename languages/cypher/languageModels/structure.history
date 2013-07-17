@@ -396,5 +396,23 @@
     </dependencies>
     <rename id="qgu4.1268543411552224126" type="CONCEPT" from="KeyValueIndex" to="KeyValueNodeIndex" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="65" />
+    </dependencies>
+    <rename id="qgu4.4409026550618686383" type="CONCEPT" from="CypherCollectionType" to="CollectionCypherType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="66" />
+    </dependencies>
+    <rename id="qgu4.4409026550618686383" type="CONCEPT" from="CollectionCypherType" to="CypherCollectionType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="67" />
+    </dependencies>
+    <rename id="qgu4.5784729841983439742" type="CONCEPT" from="PathCypherType" to="CypherPathType" />
+  </StructureModification>
 </history>
 

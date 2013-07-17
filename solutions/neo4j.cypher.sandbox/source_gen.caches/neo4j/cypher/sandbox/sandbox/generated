@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="b5k82l98uwr556ciiv2fjitxu5hrclt">
+<dependencies version="2" modelHash="-7dy0s5sio3mo6tarzn2jmld9vo6e7j9">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <common hash="-9iyb27ajlastdes835rd2egsca2i9gn">
+  <common hash="3bp72kidkzlpdb8ugx6cmxd8z8utig8">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="6532105715028822553" name="cypher" hash="-a29anp0lpmz2kehvvdx8hgwq6oqc143">
+  <source id="6532105715028822553" name="cypher" hash="8nehud6dzumwbmxcj3kh11cdoet0nks">
     <file name="cypher" />
   </source>
-  <source id="2103634311711065343" name="SampleClass" hash="epwg7w1chzfqisv13tn43z6iwozigpe">
+  <source id="2103634311711065343" name="SampleClass" hash="1a3vjny81waicgiw4qvncmddt043f5z">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
     <file name="SampleClass.java" />

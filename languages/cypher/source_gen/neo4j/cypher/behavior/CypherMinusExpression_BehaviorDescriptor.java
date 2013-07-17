@@ -6,7 +6,7 @@ import jetbrains.mps.baseLanguage.behavior.MinusExpression_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.project.IModule;
 
-public class CypherMinusExpression_BehaviorDescriptor extends MinusExpression_BehaviorDescriptor {
+public class CypherMinusExpression_BehaviorDescriptor extends MinusExpression_BehaviorDescriptor implements ICypherOperation_BehaviorDescriptor {
   public CypherMinusExpression_BehaviorDescriptor() {
   }
 

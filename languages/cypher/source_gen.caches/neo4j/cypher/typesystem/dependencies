@@ -3,13 +3,15 @@
   <dependency className="neo4j.cypher.typesystem.TypesystemDescriptor" file="TypesystemDescriptor.java">
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime" />
     <classNode dependClassName="neo4j.cypher.typesystem.check_ApStringLiteral_NonTypesystemRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.check_INamedNullableIdentifier_NonTypesystemRule" />
-    <classNode dependClassName="neo4j.cypher.typesystem.check_INamedPropertyContainer_NonTypesystemRule" />
+    <classNode dependClassName="neo4j.cypher.typesystem.check_INamedPropertyContainerUniqueness_NonTypesystemRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.check_LeftMStringFunction_NonTypesystemRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.check_Parameter_NonTypesystemRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.check_RightMStringFunction_NonTypesystemRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.check_SubstringMStringFunction_NonTypesystemRule" />
+    <classNode dependClassName="neo4j.cypher.typesystem.node_extends_relationship_SubtypingRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.typeof_ApStringLiteral_InferenceRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.typeof_CollectAggregate_InferenceRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.typeof_CollectionFunction_InferenceRule" />
@@ -21,8 +23,15 @@
     <classNode dependClassName="neo4j.cypher.typesystem.typeof_LeftMStringFunction_InferenceRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.typeof_LengthScalarFunction_InferenceRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.typeof_ModifyStringFunction_InferenceRule" />
+    <classNode dependClassName="neo4j.cypher.typesystem.typeof_NamedNodeRef_InferenceRule" />
+    <classNode dependClassName="neo4j.cypher.typesystem.typeof_NamedPathRef_InferenceRule" />
+    <classNode dependClassName="neo4j.cypher.typesystem.typeof_NamedPropertyContainerRef_InferenceRule" />
+    <classNode dependClassName="neo4j.cypher.typesystem.typeof_NamedRelationshipRef_InferenceRule" />
+    <classNode dependClassName="neo4j.cypher.typesystem.typeof_Node_InferenceRule" />
+    <classNode dependClassName="neo4j.cypher.typesystem.typeof_PathExpression_InferenceRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.typeof_PredicateExpression_InferenceRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.typeof_RangeCollFunction_InferenceRule" />
+    <classNode dependClassName="neo4j.cypher.typesystem.typeof_Relationship_InferenceRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.typeof_RightMStringFunction_InferenceRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.typeof_StringFunction_InferenceRule" />
     <classNode dependClassName="neo4j.cypher.typesystem.typeof_SubstringMStringFunction_InferenceRule" />
@@ -58,8 +67,14 @@
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractNonTypesystemRule_Runtime" />
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
   </dependency>
-  <dependency className="neo4j.cypher.typesystem.check_INamedPropertyContainer_NonTypesystemRule" file="check_INamedPropertyContainer_NonTypesystemRule.java">
+  <dependency className="neo4j.cypher.typesystem.check_INamedPropertyContainerUniqueness_NonTypesystemRule" file="check_INamedPropertyContainerUniqueness_NonTypesystemRule.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.errors.IErrorReporter" />
+    <classNode dependClassName="jetbrains.mps.errors.messageTargets.MessageTarget" />
+    <classNode dependClassName="jetbrains.mps.errors.messageTargets.NodeMessageTarget" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
@@ -122,6 +137,18 @@
     <classNode dependClassName="neo4j.cypher.behavior.ModifyStringFunction_Behavior" />
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractNonTypesystemRule_Runtime" />
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
+  </dependency>
+  <dependency className="neo4j.cypher.typesystem.node_extends_relationship_SubtypingRule" file="node_extends_relationship_SubtypingRule.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.ISubtypingRule_Runtime" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime" />
   </dependency>
   <dependency className="neo4j.cypher.typesystem.typeof_ApStringLiteral_InferenceRule" file="typeof_ApStringLiteral_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
@@ -272,6 +299,83 @@
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime" />
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
   </dependency>
+  <dependency className="neo4j.cypher.typesystem.typeof_NamedNodeRef_InferenceRule" file="typeof_NamedNodeRef_InferenceRule.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.EquationInfo" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
+  </dependency>
+  <dependency className="neo4j.cypher.typesystem.typeof_NamedPathRef_InferenceRule" file="typeof_NamedPathRef_InferenceRule.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.EquationInfo" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
+  </dependency>
+  <dependency className="neo4j.cypher.typesystem.typeof_NamedPropertyContainerRef_InferenceRule" file="typeof_NamedPropertyContainerRef_InferenceRule.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.EquationInfo" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
+  </dependency>
+  <dependency className="neo4j.cypher.typesystem.typeof_NamedRelationshipRef_InferenceRule" file="typeof_NamedRelationshipRef_InferenceRule.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.EquationInfo" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
+  </dependency>
+  <dependency className="neo4j.cypher.typesystem.typeof_Node_InferenceRule" file="typeof_Node_InferenceRule.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.EquationInfo" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
+  </dependency>
+  <dependency className="neo4j.cypher.typesystem.typeof_PathExpression_InferenceRule" file="typeof_PathExpression_InferenceRule.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.EquationInfo" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
+  </dependency>
   <dependency className="neo4j.cypher.typesystem.typeof_PredicateExpression_InferenceRule" file="typeof_PredicateExpression_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashSet" />
@@ -287,6 +391,20 @@
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
   </dependency>
   <dependency className="neo4j.cypher.typesystem.typeof_RangeCollFunction_InferenceRule" file="typeof_RangeCollFunction_InferenceRule.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.EquationInfo" />
+    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime" />
+    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
+  </dependency>
+  <dependency className="neo4j.cypher.typesystem.typeof_Relationship_InferenceRule" file="typeof_Relationship_InferenceRule.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.Set" />

@@ -4,7 +4,7 @@ package neo4j.cypher.behavior;
 
 import jetbrains.mps.baseLanguage.behavior.RemExpression_BehaviorDescriptor;
 
-public class CypherRemExpression_BehaviorDescriptor extends RemExpression_BehaviorDescriptor {
+public class CypherRemExpression_BehaviorDescriptor extends RemExpression_BehaviorDescriptor implements ICypherOperation_BehaviorDescriptor {
   public CypherRemExpression_BehaviorDescriptor() {
   }
 

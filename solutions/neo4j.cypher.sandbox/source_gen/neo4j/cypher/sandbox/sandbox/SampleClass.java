@@ -8,6 +8,17 @@ public class SampleClass {
     double a = 3 + 4 / 3.2 + (323);
     System.out.println(a);
     int l = 345;
+    int i = <!TextGen not found for 'neo4j.cypher.structure.MinAggregate'!>;
+    Object s = null;
+    String as = <!TextGen not found for 'neo4j.cypher.structure.ApStringLiteral'!>;
+    int j3 = 3 + 5;
+
+    int j3 = 22;
+    int k = j3 + j3;
+    System.out.println(k);
     // 
+  }
+
+  public static void sdfsd(int a) {
   }
 }

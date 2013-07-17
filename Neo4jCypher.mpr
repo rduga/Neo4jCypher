@@ -6,8 +6,8 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${project}/languages/cypher/cypher.mpl" />
-      <modulePath path="${project}/solutions/neo4j.cypher.sandbox/neo4j.cypher.sandbox.msd" />
+      <modulePath path="${project}/languages/cypher/cypher.mpl" folder="" />
+      <modulePath path="${project}/solutions/neo4j.cypher.sandbox/neo4j.cypher.sandbox.msd" folder="" />
     </projectModules>
     <genConfs />
   </component>

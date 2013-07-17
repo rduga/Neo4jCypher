@@ -4,7 +4,7 @@ package neo4j.cypher.behavior;
 
 import jetbrains.mps.baseLanguage.behavior.NotExpression_BehaviorDescriptor;
 
-public class CypherNotExpression_BehaviorDescriptor extends NotExpression_BehaviorDescriptor implements IWhereExpression_BehaviorDescriptor {
+public class CypherNotExpression_BehaviorDescriptor extends NotExpression_BehaviorDescriptor implements ICypherOperation_BehaviorDescriptor, IWhereExpression_BehaviorDescriptor {
   public CypherNotExpression_BehaviorDescriptor() {
   }
 

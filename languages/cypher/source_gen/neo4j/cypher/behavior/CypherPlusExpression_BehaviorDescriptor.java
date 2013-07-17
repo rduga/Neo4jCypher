@@ -6,7 +6,7 @@ import jetbrains.mps.baseLanguage.behavior.PlusExpression_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.project.IModule;
 
-public class CypherPlusExpression_BehaviorDescriptor extends PlusExpression_BehaviorDescriptor {
+public class CypherPlusExpression_BehaviorDescriptor extends PlusExpression_BehaviorDescriptor implements ICypherOperation_BehaviorDescriptor {
   public CypherPlusExpression_BehaviorDescriptor() {
   }
 

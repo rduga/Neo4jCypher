@@ -4,7 +4,7 @@ package neo4j.cypher.behavior;
 
 import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 
-public abstract class OrderByExpression_BehaviorDescriptor extends Expression_BehaviorDescriptor implements ICypherExpression_BehaviorDescriptor {
+public abstract class OrderByExpression_BehaviorDescriptor extends Expression_BehaviorDescriptor implements ICypherExpression_BehaviorDescriptor, IOrderByExpression_BehaviorDescriptor {
   public OrderByExpression_BehaviorDescriptor() {
   }
 

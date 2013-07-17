@@ -6,7 +6,7 @@ import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.project.IModule;
 
-public class ApStringLiteral_BehaviorDescriptor extends Expression_BehaviorDescriptor {
+public class ApStringLiteral_BehaviorDescriptor extends Expression_BehaviorDescriptor implements ICypherExpression_BehaviorDescriptor {
   public ApStringLiteral_BehaviorDescriptor() {
   }
 

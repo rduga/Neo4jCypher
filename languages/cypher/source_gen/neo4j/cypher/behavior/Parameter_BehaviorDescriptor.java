@@ -7,7 +7,7 @@ import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class Parameter_BehaviorDescriptor extends Expression_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, IReturnExpression_BehaviorDescriptor, IOrderByExpression_BehaviorDescriptor {
+public class Parameter_BehaviorDescriptor extends Expression_BehaviorDescriptor implements ICypherExpression_BehaviorDescriptor, INamedConcept_BehaviorDescriptor, IReturnExpression_BehaviorDescriptor, IOrderByExpression_BehaviorDescriptor {
   public Parameter_BehaviorDescriptor() {
   }
 

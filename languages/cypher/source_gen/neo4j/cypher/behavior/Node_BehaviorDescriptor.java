@@ -6,7 +6,7 @@ import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class Node_BehaviorDescriptor extends Expression_BehaviorDescriptor implements IPropertyContainer_BehaviorDescriptor, IMatchExpression_BehaviorDescriptor {
+public class Node_BehaviorDescriptor extends Expression_BehaviorDescriptor implements ICypherExpression_BehaviorDescriptor, IPropertyContainer_BehaviorDescriptor, IMatchExpression_BehaviorDescriptor {
   public Node_BehaviorDescriptor() {
   }
 

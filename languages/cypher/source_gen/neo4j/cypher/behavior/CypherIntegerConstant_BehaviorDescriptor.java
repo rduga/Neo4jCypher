@@ -6,7 +6,7 @@ import jetbrains.mps.baseLanguage.behavior.IntegerLiteral_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.project.IModule;
 
-public class CypherIntegerConstant_BehaviorDescriptor extends IntegerLiteral_BehaviorDescriptor {
+public class CypherIntegerConstant_BehaviorDescriptor extends IntegerLiteral_BehaviorDescriptor implements ICypherExpression_BehaviorDescriptor {
   public CypherIntegerConstant_BehaviorDescriptor() {
   }
 

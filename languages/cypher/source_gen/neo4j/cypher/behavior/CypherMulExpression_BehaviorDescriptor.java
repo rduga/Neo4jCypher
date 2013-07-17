@@ -4,7 +4,7 @@ package neo4j.cypher.behavior;
 
 import jetbrains.mps.baseLanguage.behavior.MulExpression_BehaviorDescriptor;
 
-public class CypherMulExpression_BehaviorDescriptor extends MulExpression_BehaviorDescriptor {
+public class CypherMulExpression_BehaviorDescriptor extends MulExpression_BehaviorDescriptor implements ICypherOperation_BehaviorDescriptor {
   public CypherMulExpression_BehaviorDescriptor() {
   }
 

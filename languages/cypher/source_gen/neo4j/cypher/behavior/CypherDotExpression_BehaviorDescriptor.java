@@ -4,7 +4,7 @@ package neo4j.cypher.behavior;
 
 import jetbrains.mps.baseLanguage.behavior.DotExpression_BehaviorDescriptor;
 
-public class CypherDotExpression_BehaviorDescriptor extends DotExpression_BehaviorDescriptor implements IReturnExpression_BehaviorDescriptor {
+public class CypherDotExpression_BehaviorDescriptor extends DotExpression_BehaviorDescriptor implements ICypherExpression_BehaviorDescriptor, IReturnExpression_BehaviorDescriptor {
   public CypherDotExpression_BehaviorDescriptor() {
   }
 

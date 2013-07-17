@@ -5,6 +5,7 @@ package neo4j.cypher.typesystem;
 import jetbrains.mps.lang.typesystem.runtime.BaseHelginsDescriptor;
 import jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
+import jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime;
 
 public class TypesystemDescriptor extends BaseHelginsDescriptor {
   public TypesystemDescriptor() {
@@ -53,11 +54,39 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
+      InferenceRule_Runtime inferenceRule = new typeof_NamedNodeRef_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_NamedPathRef_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_NamedPropertyContainerRef_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_NamedRelationshipRef_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_Node_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_PathExpression_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
       InferenceRule_Runtime inferenceRule = new typeof_PredicateExpression_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
       InferenceRule_Runtime inferenceRule = new typeof_RangeCollFunction_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_Relationship_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
@@ -93,7 +122,7 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myNonTypesystemRules.add(nonTypesystemRule);
     }
     {
-      NonTypesystemRule_Runtime nonTypesystemRule = new check_INamedPropertyContainer_NonTypesystemRule();
+      NonTypesystemRule_Runtime nonTypesystemRule = new check_INamedPropertyContainerUniqueness_NonTypesystemRule();
       this.myNonTypesystemRules.add(nonTypesystemRule);
     }
     {
@@ -111,6 +140,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     {
       NonTypesystemRule_Runtime nonTypesystemRule = new check_SubstringMStringFunction_NonTypesystemRule();
       this.myNonTypesystemRules.add(nonTypesystemRule);
+    }
+    {
+      SubtypingRule_Runtime subtypingRule = new node_extends_relationship_SubtypingRule();
+      this.mySubtypingRules.add(subtypingRule);
     }
   }
 }
