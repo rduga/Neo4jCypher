@@ -8,13 +8,13 @@ public class SampleClass {
     double a = 3 + 4 / 3.2 + (323);
     System.out.println(a);
     int l = 345;
-    int i = <!TextGen not found for 'neo4j.cypher.structure.MinAggregate'!>;
+    int i = 433;
     Object s = null;
-    String as = <!TextGen not found for 'neo4j.cypher.structure.ApStringLiteral'!>;
+    String a4 = "sd";
     int j3 = 3 + 5;
 
-    int j3 = 22;
-    int k = j3 + j3;
+    int j33 = 22;
+    int k = j3 + j33;
     System.out.println(k);
     // 
   }

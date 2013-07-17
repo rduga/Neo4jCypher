@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="55" endPosition="0" unitName="neo4j.cypher.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="57" endPosition="0" unitName="neo4j.cypher.constraints.ConstraintsAspectDescriptor" />
   <root nodeId="1325020284374000547" modelId="r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)">
     <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="13" startPosition="78" endLine="14" endPosition="168" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeAncesctorBreakingPoint" />
     <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="16" startPosition="42" endLine="17" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -420,6 +420,47 @@
       <varInfo nodeId="6440869843963823838" varName="operationContext" />
     </scopeInfo>
     <unitInfo nodeId="6440869843963823838" fileName="AssignmentStatement_Constraints.java" startLine="14" startPosition="0" endLine="44" endPosition="0" unitName="neo4j.cypher.constraints.AssignmentStatement_Constraints" />
+  </root>
+  <root nodeId="6670155983237983232" modelId="r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)">
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="13" startPosition="78" endLine="14" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="16" startPosition="42" endLine="17" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="21" startPosition="43" endLine="22" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="26" startPosition="200" endLine="27" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="27" startPosition="96" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="29" startPosition="51" endLine="30" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="31" startPosition="5" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="32" startPosition="0" endLine="33" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6670155983237981206" fileName="ICypherExpression_Constraints.java" startLine="36" startPosition="148" endLine="37" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ICypherExpression_Constraints#()V" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="28" startPosition="0" endLine="31" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="35" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAChild#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="19" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeChildMethod#()Z" />
+    <nodeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="24" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeChild#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <scopeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="16" startPosition="42" endLine="17" endPosition="54" />
+    <scopeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="21" startPosition="43" endLine="22" endPosition="16" />
+    <scopeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="29" startPosition="51" endLine="30" endPosition="67" />
+    <scopeInfo nodeId="6670155983237983234" fileName="ICypherExpression_Constraints.java" startLine="36" startPosition="148" endLine="37" endPosition="111" />
+    <scopeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="15" startPosition="0" endLine="18" endPosition="3" />
+    <scopeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="35" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="6670155983237983232" varName="childConcept" />
+      <varInfo nodeId="6670155983237983232" varName="link" />
+      <varInfo nodeId="6670155983237983232" varName="node" />
+      <varInfo nodeId="6670155983237983232" varName="operationContext" />
+      <varInfo nodeId="6670155983237983232" varName="parentNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="26" startPosition="200" endLine="33" endPosition="18">
+      <varInfo nodeId="6670155983237983232" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="24" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="6670155983237983232" varName="checkingNodeContext" />
+      <varInfo nodeId="6670155983237983232" varName="childConcept" />
+      <varInfo nodeId="6670155983237983232" varName="link" />
+      <varInfo nodeId="6670155983237983232" varName="node" />
+      <varInfo nodeId="6670155983237983232" varName="operationContext" />
+      <varInfo nodeId="6670155983237983232" varName="parentNode" />
+    </scopeInfo>
+    <unitInfo nodeId="6670155983237983232" fileName="ICypherExpression_Constraints.java" startLine="13" startPosition="0" endLine="40" endPosition="0" unitName="neo4j.cypher.constraints.ICypherExpression_Constraints" />
   </root>
   <root nodeId="7352030329465766957" modelId="r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)">
     <nodeInfo nodeId="7352030329465766957" fileName="OrderByExpression_Constraints.java" startLine="13" startPosition="78" endLine="14" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeParentBreakingPoint" />
