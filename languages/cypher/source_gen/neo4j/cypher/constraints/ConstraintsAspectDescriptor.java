@@ -7,7 +7,7 @@ import java.util.Arrays;
 import jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor;
 
 public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor {
-  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"neo4j.cypher.structure.AggregateFunction", "neo4j.cypher.structure.AssignmentStatement", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.INamedIdentifier", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedPathRef", "neo4j.cypher.structure.NamedPropertyContainerRef", "neo4j.cypher.structure.NamedRelationshipRef", "neo4j.cypher.structure.Node", "neo4j.cypher.structure.OrderByExpression", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.PathExpression", "neo4j.cypher.structure.PathFunction", "neo4j.cypher.structure.ReadWriteQueryExpression", "neo4j.cypher.structure.Relationship", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.WhereStatement"};
+  private static String[] stringSwitchCases_2qnle6_a0a0a = new String[]{"neo4j.cypher.structure.AggregateFunction", "neo4j.cypher.structure.AssignmentStatement", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.INamedIdentifier", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedPathRef", "neo4j.cypher.structure.NamedPropertyContainerRef", "neo4j.cypher.structure.NamedRelationshipRef", "neo4j.cypher.structure.Node", "neo4j.cypher.structure.OrderByExpression", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.PathExpression", "neo4j.cypher.structure.PathFunction", "neo4j.cypher.structure.Property", "neo4j.cypher.structure.ReadWriteQueryExpression", "neo4j.cypher.structure.Relationship", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.WhereStatement"};
 
   public ConstraintsAspectDescriptor() {
   }
@@ -20,17 +20,17 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new OrderByExpression_Constraints();
       case 4:
         return new NamedNodeRef_Constraints();
-      case 13:
+      case 14:
         return new ReadWriteQueryExpression_Constraints();
-      case 15:
-        return new ReturnStatement_Constraints();
       case 16:
+        return new ReturnStatement_Constraints();
+      case 17:
         return new WhereStatement_Constraints();
       case 0:
         return new AggregateFunction_Constraints();
       case 3:
         return new INamedIdentifier_Constraints();
-      case 14:
+      case 15:
         return new Relationship_Constraints();
       case 7:
         return new NamedRelationshipRef_Constraints();
@@ -48,6 +48,8 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new AssignmentStatement_Constraints();
       case 2:
         return new ICypherExpression_Constraints();
+      case 13:
+        return new Property_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);

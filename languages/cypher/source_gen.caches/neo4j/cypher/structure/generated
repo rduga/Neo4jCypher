@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-2cjzsx555y53eyzg0ojt54z2of8al02">
+<dependencies version="2" modelHash="40m9lg5lmja9olvdx65mkf53dt9w5yt">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -496,7 +496,7 @@
   <source id="7918996842015175652" name="CoalesceScalarFunction" hash="-6qnzhdlkze7s701t7u6ikpe9ymf63v4">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="7918996842015188022" name="NamedPropertyContainerRef" hash="9k6t7pkr4564edcrxmsf9kfdc7aikno">
+  <source id="7918996842015188022" name="NamedPropertyContainerRef" hash="bt927kvdbjda5j9ys1ucrzqm4dub62z">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="7918996842015188116" name="NamedRelationshipRef" hash="-dxxblkb4vyp1hjl5dev2casu4apnlyx">

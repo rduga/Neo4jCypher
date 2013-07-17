@@ -83,6 +83,10 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.expression" />
       <link role="concept" roleId="tp1t.1213093996982" targetNodeId="qgu4.5530189148631311038" resolveInfo="ICypherExpression" />
     </node>
+    <node type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="2891622916112223966">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.propertyContainer" />
+      <link role="concept" roleId="tp1t.1213093996982" targetNodeId="qgu4.4395952758104399755" resolveInfo="Property" />
+    </node>
   </roots>
   <root id="5530189148631460158">
     <node role="canBeParent" roleId="tp1t.1213106478122" type="tp1t.ConstraintFunction_CanBeAParent" typeId="tp1t.1203001093456" id="5530189148631467249">
@@ -894,6 +898,22 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2891622916112182673">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="2891622916112182674">
             <property name="value" nameId="tpee.1068580123138" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="2891622916112223966">
+    <node role="property" roleId="tp1t.1213098023997" type="tp1t.NodePropertyConstraint" typeId="tp1t.1147467115080" id="2891622916112223967">
+      <link role="applicableProperty" roleId="tp1t.1147467295099" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+      <node role="propertyValidator" roleId="tp1t.1212097481299" type="tp1t.ConstraintFunction_PropertyValidator" typeId="tp1t.1212096972063" id="2891622916112223968">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2891622916112223969">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2891622916112235173">
+            <node role="expression" roleId="tpee.1068580123156" type="tp25.StaticConceptMethodCall" typeId="tp25.1206019730951" id="5206628397327433659">
+              <link role="concept" roleId="tp25.1206019820684" targetNodeId="qgu4.5206628397327427253" resolveInfo="INamedNullableIdentifier" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="npgh.5206628397327427654" resolveInfo="isCorrectNullableIdentifierName" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConstraintsFunctionParameter_propertyValue" typeId="tp1t.1153138554286" id="2891622916112235176" />
+            </node>
           </node>
         </node>
       </node>

@@ -2142,45 +2142,37 @@
     <unitInfo nodeId="5206628397327342231" fileName="check_INamedPropertyContainerUniqueness_NonTypesystemRule.java" startLine="18" startPosition="0" endLine="58" endPosition="0" unitName="neo4j.cypher.typesystem.check_INamedPropertyContainerUniqueness_NonTypesystemRule" />
   </root>
   <root nodeId="5206628397327427256" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
-    <nodeInfo nodeId="5206628397327428087" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="23" startPosition="7" endLine="24" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5206628397327428087" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="24" startPosition="60" endLine="25" endPosition="254" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="30" startPosition="46" endLine="31" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="35" startPosition="5" endLine="36" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="36" startPosition="117" endLine="37" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="41" startPosition="30" endLine="42" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="17" startPosition="142" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_INamedNullableIdentifier_NonTypesystemRule#()V" />
-    <nodeInfo nodeId="5206628397327428087" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="22" startPosition="163" endLine="26" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
-    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="34" startPosition="68" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="5206628397327428053" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="21" startPosition="136" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
-    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="18" startPosition="61" endLine="18" endPosition="61" />
-    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="30" startPosition="46" endLine="31" endPosition="61" />
-    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="41" startPosition="30" endLine="42" endPosition="17" />
-    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="17" startPosition="142" endLine="19" endPosition="3" />
-    <scopeInfo nodeId="5206628397327428087" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="23" startPosition="7" endLine="25" endPosition="254">
-      <varInfo nodeId="5206628397327428087" varName="_reporter_2309309498" />
-      <varInfo nodeId="5206628397327428087" varName="errorTarget" />
-    </scopeInfo>
-    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="35" startPosition="5" endLine="37" endPosition="45">
+    <nodeInfo nodeId="2891622916112223970" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="16" startPosition="136" endLine="17" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="20" startPosition="46" endLine="21" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="25" startPosition="5" endLine="26" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="26" startPosition="117" endLine="27" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="31" startPosition="30" endLine="32" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="12" startPosition="142" endLine="14" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_INamedNullableIdentifier_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="24" startPosition="68" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="30" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="13" startPosition="61" endLine="13" endPosition="61" />
+    <scopeInfo nodeId="5206628397327427257" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="16" startPosition="136" endLine="17" endPosition="14" />
+    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="20" startPosition="46" endLine="21" endPosition="61" />
+    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="31" startPosition="30" endLine="32" endPosition="17" />
+    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="12" startPosition="142" endLine="14" endPosition="3" />
+    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="25" startPosition="5" endLine="27" endPosition="45">
       <varInfo nodeId="5206628397327427256" varName="b" />
     </scopeInfo>
-    <scopeInfo nodeId="5206628397327428054" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="22" startPosition="163" endLine="26" endPosition="7" />
-    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="29" startPosition="0" endLine="33" endPosition="0" />
-    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="34" startPosition="68" endLine="38" endPosition="5" />
-    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="40" startPosition="0" endLine="44" endPosition="0" />
-    <scopeInfo nodeId="5206628397327427257" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="21" startPosition="136" endLine="27" endPosition="5" />
-    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="33" startPosition="0" endLine="40" endPosition="0">
-      <varInfo nodeId="5206628397327427256" varName="argument" />
-    </scopeInfo>
-    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="29" endPosition="0">
+    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="15" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="5206628397327427256" varName="namedNullableIdentifier" />
       <varInfo nodeId="5206628397327427256" varName="status" />
       <varInfo nodeId="5206628397327427256" varName="typeCheckingContext" />
     </scopeInfo>
-    <unitInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="17" startPosition="0" endLine="45" endPosition="0" unitName="neo4j.cypher.typesystem.check_INamedNullableIdentifier_NonTypesystemRule" />
+    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="24" startPosition="68" endLine="28" endPosition="5" />
+    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="5206628397327427256" varName="argument" />
+    </scopeInfo>
+    <unitInfo nodeId="5206628397327427256" fileName="check_INamedNullableIdentifier_NonTypesystemRule.java" startLine="12" startPosition="0" endLine="35" endPosition="0" unitName="neo4j.cypher.typesystem.check_INamedNullableIdentifier_NonTypesystemRule" />
   </root>
   <root nodeId="5206628397327538052" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
     <nodeInfo nodeId="5206628397327538096" fileName="check_Parameter_NonTypesystemRule.java" startLine="23" startPosition="7" endLine="24" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

@@ -711,6 +711,7 @@
     <classNode dependClassName="neo4j.cypher.behavior.ICypherExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.IOrderByExpression_BehaviorDescriptor" />
     <classNode dependClassName="neo4j.cypher.behavior.IReturnExpression_BehaviorDescriptor" />
+    <classNode dependClassName="neo4j.cypher.behavior.IWhereExpression_BehaviorDescriptor" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>

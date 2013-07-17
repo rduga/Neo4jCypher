@@ -182,7 +182,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 82:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.NamedPathRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.IReturnExpression"}, new String[]{}, new String[]{"pathExpression"});
       case 83:
-        return new CompiledConceptDescriptor("neo4j.cypher.structure.NamedPropertyContainerRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.IReturnExpression", "neo4j.cypher.structure.IOrderByExpression"}, new String[]{}, new String[]{"propertyContainer"});
+        return new CompiledConceptDescriptor("neo4j.cypher.structure.NamedPropertyContainerRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.IReturnExpression", "neo4j.cypher.structure.IWhereExpression", "neo4j.cypher.structure.IOrderByExpression"}, new String[]{}, new String[]{"propertyContainer"});
       case 84:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.NamedRelationshipRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.ICypherExpression"}, new String[]{}, new String[]{"namedRelationship"});
       case 85:

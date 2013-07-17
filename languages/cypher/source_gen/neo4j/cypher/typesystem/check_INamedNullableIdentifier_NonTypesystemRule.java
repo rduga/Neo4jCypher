@@ -7,11 +7,6 @@ import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
-import neo4j.cypher.behavior.INamedNullableIdentifier_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.errors.messageTargets.MessageTarget;
-import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
-import jetbrains.mps.errors.IErrorReporter;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class check_INamedNullableIdentifier_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
@@ -19,12 +14,7 @@ public class check_INamedNullableIdentifier_NonTypesystemRule extends AbstractNo
   }
 
   public void applyRule(final SNode namedNullableIdentifier, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (!(INamedNullableIdentifier_Behavior.isCorrectNullableIdentifierName_5206628397327427654(SPropertyOperations.getString(namedNullableIdentifier, "name")))) {
-      {
-        MessageTarget errorTarget = new NodeMessageTarget();
-        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(namedNullableIdentifier, "Incorrect nullable identifier name", "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "5206628397327428087", null, errorTarget);
-      }
-    }
+    // <node> 
   }
 
   public String getApplicableConceptFQName() {
