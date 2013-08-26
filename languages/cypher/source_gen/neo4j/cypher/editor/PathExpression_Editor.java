@@ -26,41 +26,33 @@ public class PathExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_sboxpj_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_sboxpj_a");
-    editorCell.addEditorCell(this.createConstant_sboxpj_a0(editorContext, node));
-    if (renderingCondition_sboxpj_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_sboxpj_b0(editorContext, node));
+    if (renderingCondition_sboxpj_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_sboxpj_a0(editorContext, node));
     }
-    editorCell.addEditorCell(this.createRefNode_sboxpj_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_sboxpj_b0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_sboxpj_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_sboxpj_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_sboxpj_b0");
+    editorCell.setCellId("Collection_sboxpj_a0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createProperty_sboxpj_a1a(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_sboxpj_b1a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_sboxpj_a0a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_sboxpj_b0a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_sboxpj_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_sboxpj_a0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_sboxpj_b1a(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_sboxpj_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
-    editorCell.setCellId("Constant_sboxpj_b1a");
+    editorCell.setCellId("Constant_sboxpj_b0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_sboxpj_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_sboxpj_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("expression");
     provider.setNoTargetText("<no expression>");
@@ -77,7 +69,7 @@ public class PathExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_sboxpj_a1a(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_sboxpj_a0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -95,7 +87,7 @@ public class PathExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition_sboxpj_a1a(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_sboxpj_a0a(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "named");
   }
 }

@@ -25,7 +25,7 @@ public class SwitchNamedPath_Intention extends BaseIntention implements Intentio
   }
 
   public boolean isAvailableInChildNodes() {
-    return false;
+    return true;
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {

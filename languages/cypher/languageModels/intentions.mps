@@ -66,6 +66,7 @@
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="4839691926370537144">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.expression.match" />
       <property name="name" nameId="tpck.1169194664001" value="SwitchNamedPath" />
+      <property name="isAvailableInChildNodes" nameId="tp3j.2522969319638091386" value="true" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="qgu4.4839691926370534642" resolveInfo="PathExpression" />
     </node>
     <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="6670155983237884464">

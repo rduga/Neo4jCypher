@@ -419,7 +419,7 @@
     <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4839691926370537149" fileName="SwitchNamedPath_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4839691926370537184" fileName="SwitchNamedPath_Intention.java" startLine="35" startPosition="76" endLine="36" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="39" startPosition="37" endLine="40" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -435,7 +435,7 @@
     <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="15" startPosition="30" endLine="16" endPosition="51" />
     <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="19" startPosition="36" endLine="20" endPosition="17" />
     <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="23" startPosition="37" endLine="24" endPosition="17" />
-    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="17" />
+    <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="27" startPosition="44" endLine="28" endPosition="16" />
     <scopeInfo nodeId="4839691926370537146" fileName="SwitchNamedPath_Intention.java" startLine="31" startPosition="85" endLine="32" endPosition="45" />
     <scopeInfo nodeId="4839691926370537148" fileName="SwitchNamedPath_Intention.java" startLine="35" startPosition="76" endLine="36" endPosition="100" />
     <scopeInfo nodeId="4839691926370537144" fileName="SwitchNamedPath_Intention.java" startLine="39" startPosition="37" endLine="40" endPosition="37" />
