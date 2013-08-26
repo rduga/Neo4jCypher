@@ -12,6 +12,7 @@ public class SampleClass {
     Object s = null;
     String a4 = "sd";
     int j3 = 3 + 5;
+    int k2 = 2;
 
     int j33 = 22;
     int k = j3 + j33;

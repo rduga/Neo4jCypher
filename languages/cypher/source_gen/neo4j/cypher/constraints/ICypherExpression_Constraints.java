@@ -8,6 +8,8 @@ import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ICypherExpression_Constraints extends BaseConstraintsDescriptor {
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "6670155983237983233");
@@ -34,7 +36,7 @@ public class ICypherExpression_Constraints extends BaseConstraintsDescriptor {
 
   public static boolean static_canBeAChild(SNode node, SNode parentNode, SNode link, SNode childConcept, final IOperationContext operationContext) {
     // TODO this doesnt work properly 
+    return SConceptOperations.isSubConceptOf(SNodeOperations.getConceptDeclaration(parentNode), "neo4j.cypher.structure.QueryExpression") || (SNodeOperations.getAncestor(parentNode, "neo4j.cypher.structure.QueryExpression", false, false) != null);
     // <node> 
-    return true;
   }
 }

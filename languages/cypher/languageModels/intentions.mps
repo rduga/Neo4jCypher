@@ -73,6 +73,16 @@
       <property name="name" nameId="tpck.1169194664001" value="ConvertNodeToNodeRef" />
       <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="qgu4.1268543411552161297" resolveInfo="Node" />
     </node>
+    <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="4677677581647584218">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.statement.create" />
+      <property name="name" nameId="tpck.1169194664001" value="SwitchCreateCreateUnique" />
+      <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="qgu4.3830435865999835353" resolveInfo="CreateStatement" />
+    </node>
+    <node type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="4677677581647863394">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.propertyContainer.node" />
+      <property name="name" nameId="tpck.1169194664001" value="SwitchNodeDefAssignmentView" />
+      <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="qgu4.4677677581647714404" resolveInfo="NodeDef" />
+    </node>
   </roots>
   <root id="7352030329465574050">
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="7352030329465574051">
@@ -839,6 +849,72 @@
           </node>
           <node role="iterable" roleId="tpee.1144226360166" type="tpee.LocalVariableReference" typeId="tpee.1068581242866" id="6670155983237895317">
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6670155983237895223" resolveInfo="nameNodes" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="4677677581647584218">
+    <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="4677677581647584219">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4677677581647584220">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4677677581647584223">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4677677581647584224">
+            <property name="value" nameId="tpee.1070475926801" value="Switch create statement to be unique or not" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="executeFunction" roleId="tp3j.2522969319638198291" type="tp3j.ExecuteBlock" typeId="tp3j.1192795911897" id="4677677581647584221">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4677677581647584222">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4677677581647584225">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="4677677581647584274">
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.NotExpression" typeId="tpee.1081516740877" id="4677677581647584277">
+              <node role="expression" roleId="tpee.1081516765348" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4677677581647584300">
+                <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="4677677581647584279" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4677677581647584305">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="qgu4.4677677581647437600" resolveInfo="unique" />
+                </node>
+              </node>
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4677677581647584247">
+              <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="4677677581647584226" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4677677581647584252">
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="qgu4.4677677581647437600" resolveInfo="unique" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="4677677581647863394">
+    <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="4677677581647863395">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4677677581647863396">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4677677581647863399">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4677677581647863400">
+            <property name="value" nameId="tpee.1070475926801" value="Switch from/to assignment node definition view" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="executeFunction" roleId="tp3j.2522969319638198291" type="tp3j.ExecuteBlock" typeId="tp3j.1192795911897" id="4677677581647863397">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4677677581647863398">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4677677581647863401">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="4677677581647863450">
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.NotExpression" typeId="tpee.1081516740877" id="4677677581647863453">
+              <node role="expression" roleId="tpee.1081516765348" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4677677581647863476">
+                <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="4677677581647863455" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4677677581647863481">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="qgu4.4677677581647863240" resolveInfo="assignmentView" />
+                </node>
+              </node>
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4677677581647863423">
+              <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="4677677581647863402" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4677677581647863428">
+                <link role="property" roleId="tp25.1138056395725" targetNodeId="qgu4.4677677581647863240" resolveInfo="assignmentView" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
