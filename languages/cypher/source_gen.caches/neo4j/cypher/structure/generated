@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-3a2lbha5p05orul36b2ghvjj3tm2l2j">
+<dependencies version="2" modelHash="engx4y4eqzvv55g0k8q22510fk9nfyy">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -51,6 +51,7 @@
     <dep root="2979687674397788067" />
     <dep root="309801451901101851" />
     <dep root="309801451901101853" />
+    <dep root="3168367791397806367" />
     <dep root="3830435865999703329" />
     <dep root="3830435865999703330" />
     <dep root="3830435865999720216" />
@@ -179,7 +180,7 @@
   <source id="1268543411552161296" name="AssignmentStatement" hash="-61d85a5wricbtu12ewgz7ht8mxvagzm">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1268543411552161297" name="Node" hash="8b7m7gmsp4exjt8g2lx5nh0jyyjn8v4">
+  <source id="1268543411552161297" name="Node" hash="-4v6lu5hi45ts9ynnwi0zkfj2g39yhuy">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1268543411552224123" name="Index" hash="1mmw4eocts1kr6gkaiobs9sodlkya4q">
@@ -272,7 +273,7 @@
   <source id="4395952758104302029" name="NamedNodeRef" hash="d88k5e67x2mnph6gb003y73ba4f18dn">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4395952758104399755" name="Property" hash="-et4winp21actzee6fe51vjqgy93bsvk">
+  <source id="4395952758104399755" name="Property" hash="-bdyoim92ch2qveusdgz9is419m96i0q">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4395952758104563294" name="ReturnStatement" hash="aackhrsh6lcjf8fkp9fmgr9q50z3jn4">
@@ -350,7 +351,7 @@
   <source id="3830435865999795756" name="AllExpression" hash="a37q0spy388f77aadqqo1jwv51jwyij">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="3830435865999835353" name="CreateStatement" hash="bpnurauive66nndpl8u1lmp6ak81rj7">
+  <source id="3830435865999835353" name="CreateStatement" hash="-813vcwqez4rs5numlt9xz2zk0ut17ul">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="3830435865999835373" name="SetStatement" hash="b4saooxw1jciikutqn7lqhgchbdyyio">
@@ -582,6 +583,9 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4677677581647905556" name="NamedNodeDefRef" hash="-b5y2fbiyz1w86ag5mbou4py0d38zq94">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="3168367791397806367" name="PropertyOperation" hash="-ab2jkmjwwkh4xcjcp4mttn5o1e6rkad">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>

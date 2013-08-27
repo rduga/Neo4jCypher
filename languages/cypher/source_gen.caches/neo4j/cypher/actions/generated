@@ -22,7 +22,7 @@
   <dep model="r:a258f9a5-18d3-4bea-a833-20735290774c(jetbrains.mps.baseLanguage.overloadedOperators.structure)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="1sz8dkvmnvh0sm97a4tg44ga2dc4imi" />
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="engx4y4eqzvv55g0k8q22510fk9nfyy" />
   <common hash="c2gn6so6jhonxzp3idfzcq37bccq4c6">
     <dep root="1325020284374352195" />
     <dep root="5206628397327285754" />

@@ -55,6 +55,8 @@ public class PathExpression_Constraints extends BaseConstraintsDescriptor {
   }
 
   public static boolean static_canBeAnAncestor(SNode node, SNode childNode, SNode childConcept, final IOperationContext operationContext) {
-    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression");
+    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.ICreateExpression");
+    // FIXME: rduga repair this constraint because of unable to define node property properly 
+    // <node> 
   }
 }

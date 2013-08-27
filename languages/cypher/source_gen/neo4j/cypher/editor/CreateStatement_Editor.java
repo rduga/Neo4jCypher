@@ -63,9 +63,9 @@ public class CreateStatement_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createRefNodeList_8e9g3w_b0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new CreateStatement_Editor.expressionListHandler_8e9g3w_b0(node, "expression", editorContext);
+    AbstractCellListHandler handler = new CreateStatement_Editor.pathExpressionListHandler_8e9g3w_b0(node, "pathExpression", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_expression");
+    editorCell.setCellId("refNodeList_pathExpression");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
@@ -79,8 +79,8 @@ public class CreateStatement_Editor extends DefaultNodeEditor {
     return SPropertyOperations.getBoolean(node, "unique");
   }
 
-  private static class expressionListHandler_8e9g3w_b0 extends RefNodeListHandler {
-    public expressionListHandler_8e9g3w_b0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class pathExpressionListHandler_8e9g3w_b0 extends RefNodeListHandler {
+    public pathExpressionListHandler_8e9g3w_b0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

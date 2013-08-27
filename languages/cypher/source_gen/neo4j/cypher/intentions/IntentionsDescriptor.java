@@ -24,6 +24,7 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
     add(new SwitchCreateCreateUnique_Intention(), "4677677581647584218");
     add(new SwitchNamedPath_Intention(), "4839691926370537144");
     add(new SwitchNodeDefAssignmentView_Intention(), "4677677581647863394");
+    add(new SwitchNodeInDefinitionMode_Intention(), "4205663719920529877");
     add(new SwitchRelationshipHops_Intention(), "4839691926370448490");
   }
 }
