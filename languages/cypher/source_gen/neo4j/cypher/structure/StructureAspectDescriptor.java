@@ -216,7 +216,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 99:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.PredicateFunction", "neo4j.cypher.structure.Function", false, new String[]{"neo4j.cypher.structure.Function", "neo4j.cypher.structure.INamedIdentifier"}, new String[]{}, new String[]{});
       case 100:
-        return new CompiledConceptDescriptor("neo4j.cypher.structure.Property", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "neo4j.cypher.structure.INamedNullableIdentifier", "neo4j.cypher.structure.ICreateExpression"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("neo4j.cypher.structure.Property", "jetbrains.mps.lang.core.structure.BaseConcept", false, new String[]{"jetbrains.mps.lang.core.structure.BaseConcept", "neo4j.cypher.structure.INamedNullableIdentifier", "neo4j.cypher.structure.ICreateExpression", "neo4j.cypher.structure.IMatchExpression"}, new String[]{}, new String[]{});
       case 101:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.PropertyContainer", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.INamedIdentifier"}, new String[]{}, new String[]{});
       case 102:

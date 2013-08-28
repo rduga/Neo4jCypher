@@ -82,6 +82,7 @@
     <classNode dependClassName="neo4j.cypher.intentions.SwitchNodeDefAssignmentView_Intention" />
     <classNode dependClassName="neo4j.cypher.intentions.SwitchNodeInDefinitionMode_Intention" />
     <classNode dependClassName="neo4j.cypher.intentions.SwitchRelationshipHops_Intention" />
+    <classNode dependClassName="neo4j.cypher.intentions.SwitchRelationshipInDefinitionMode_Intention" />
     <classNode extendsClassName="jetbrains.mps.intentions.BaseIntentionsDescriptor" />
   </dependency>
   <dependency className="neo4j.cypher.intentions.MakeUntypedRelationship_Intention" file="MakeUntypedRelationship_Intention.java">
@@ -146,6 +147,15 @@
   </dependency>
   <dependency className="neo4j.cypher.intentions.SwitchRelationshipHops_Intention" file="SwitchRelationshipHops_Intention.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode extendsClassName="jetbrains.mps.intentions.BaseIntention" />
+    <classNode extendsClassName="jetbrains.mps.intentions.Intention" />
+  </dependency>
+  <dependency className="neo4j.cypher.intentions.SwitchRelationshipInDefinitionMode_Intention" file="SwitchRelationshipInDefinitionMode_Intention.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.nodeEditor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />

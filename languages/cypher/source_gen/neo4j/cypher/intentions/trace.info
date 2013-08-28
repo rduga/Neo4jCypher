@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="31" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="32" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
+  <root nodeId="3682822877829264477" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="28" startPosition="44" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829264482" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="37" startPosition="58" endLine="38" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="39" startPosition="5" endLine="40" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829264487" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829264495" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="51" startPosition="37" endLine="52" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="12" startPosition="102" endLine="14" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SwitchRelationshipInDefinitionMode_Intention#()V" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="36" startPosition="84" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="15" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="42" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="35" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="13" startPosition="57" endLine="13" endPosition="57" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="49" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="28" startPosition="44" endLine="29" endPosition="16" />
+    <scopeInfo nodeId="3682822877829264479" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="56" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="37" startPosition="58" endLine="38" endPosition="19" />
+    <scopeInfo nodeId="3682822877829264486" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="111" />
+    <scopeInfo nodeId="3682822877829264481" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="122" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="51" startPosition="37" endLine="52" endPosition="37" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="12" startPosition="102" endLine="14" endPosition="3" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="19" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="23" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="31" startPosition="0" endLine="35" endPosition="0">
+      <varInfo nodeId="3682822877829264477" varName="editorContext" />
+      <varInfo nodeId="3682822877829264477" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="36" startPosition="84" endLine="40" endPosition="16" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="42" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="3682822877829264477" varName="editorContext" />
+      <varInfo nodeId="3682822877829264477" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="46" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="3682822877829264477" varName="editorContext" />
+      <varInfo nodeId="3682822877829264477" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="50" startPosition="0" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="35" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="3682822877829264477" varName="editorContext" />
+      <varInfo nodeId="3682822877829264477" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="12" startPosition="0" endLine="55" endPosition="0" unitName="neo4j.cypher.intentions.SwitchRelationshipInDefinitionMode_Intention" />
+  </root>
   <root nodeId="4205663719920529877" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
     <nodeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

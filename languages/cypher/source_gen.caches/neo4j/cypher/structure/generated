@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="rpwxmwv6ce3nbs1okc1obmxa1sfpe1">
+<dependencies version="2" modelHash="-c1monmqyc2xp1y4rp07u1ll6sg7qgic">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -273,7 +273,7 @@
   <source id="4395952758104302029" name="NamedNodeRef" hash="d88k5e67x2mnph6gb003y73ba4f18dn">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4395952758104399755" name="Property" hash="-bdyoim92ch2qveusdgz9is419m96i0q">
+  <source id="4395952758104399755" name="Property" hash="-2bw8r692z4jcv1vpwqp2y0huxdbly3d">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4395952758104563294" name="ReturnStatement" hash="aackhrsh6lcjf8fkp9fmgr9q50z3jn4">

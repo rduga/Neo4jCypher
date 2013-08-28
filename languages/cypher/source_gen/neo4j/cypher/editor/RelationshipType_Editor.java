@@ -19,7 +19,7 @@ public class RelationshipType_Editor extends DefaultNodeEditor {
   private EditorCell createProperty_8dp10d_a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
-    provider.setNoTargetText("<no name>");
+    provider.setNoTargetText("<no type>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
