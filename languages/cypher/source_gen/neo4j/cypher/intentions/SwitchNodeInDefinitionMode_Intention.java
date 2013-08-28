@@ -30,7 +30,7 @@ public class SwitchNodeInDefinitionMode_Intention extends BaseIntention implemen
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Switch on/off node definition mode to define node properties";
+    return "Switch on/off node definition mode";
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
@@ -41,7 +41,7 @@ public class SwitchNodeInDefinitionMode_Intention extends BaseIntention implemen
   }
 
   public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return SNodeOperations.getAncestor(node, "neo4j.cypher.structure.CreateStatement", false, false) != null;
+    return (SNodeOperations.getAncestor(node, "neo4j.cypher.structure.CreateStatement", false, false) != null);
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {

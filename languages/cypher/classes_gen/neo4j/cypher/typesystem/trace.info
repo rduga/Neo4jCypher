@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="10" startPosition="0" endLine="154" endPosition="0" unitName="neo4j.cypher.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="10" startPosition="0" endLine="158" endPosition="0" unitName="neo4j.cypher.typesystem.TypesystemDescriptor" />
   <root nodeId="1325020284374084116" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
     <nodeInfo nodeId="1325020284374084143" fileName="typeof_StringFunction_InferenceRule.java" startLine="21" startPosition="5" endLine="22" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1325020284374084143" fileName="typeof_StringFunction_InferenceRule.java" startLine="22" startPosition="56" endLine="23" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1158,6 +1158,56 @@
       <varInfo nodeId="3322546954560732186" varName="typeCheckingContext" />
     </scopeInfo>
     <unitInfo nodeId="3322546954560732186" fileName="typeof_NamedRelationshipRef_InferenceRule.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_NamedRelationshipRef_InferenceRule" />
+  </root>
+  <root nodeId="3682822877829125227" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
+    <nodeInfo nodeId="3682822877829156793" fileName="check_Relationship_NonTypesystemRule.java" startLine="28" startPosition="13" endLine="29" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3682822877829156793" fileName="check_Relationship_NonTypesystemRule.java" startLine="29" startPosition="66" endLine="30" endPosition="240" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="38" startPosition="46" endLine="39" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="43" startPosition="5" endLine="44" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="44" startPosition="117" endLine="45" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="49" startPosition="30" endLine="50" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="19" startPosition="130" endLine="21" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_Relationship_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="3682822877829156793" fileName="check_Relationship_NonTypesystemRule.java" startLine="27" startPosition="57" endLine="31" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="37" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="42" startPosition="68" endLine="46" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="48" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="3682822877829164500" fileName="check_Relationship_NonTypesystemRule.java" startLine="26" startPosition="37" endLine="32" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="41" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="3682822877829156789" fileName="check_Relationship_NonTypesystemRule.java" startLine="25" startPosition="116" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="3682822877829156597" fileName="check_Relationship_NonTypesystemRule.java" startLine="24" startPosition="209" endLine="34" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3682822877829125230" fileName="check_Relationship_NonTypesystemRule.java" startLine="23" startPosition="125" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="20" startPosition="49" endLine="20" endPosition="49" />
+    <scopeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="38" startPosition="46" endLine="39" endPosition="49" />
+    <scopeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="49" startPosition="30" endLine="50" endPosition="17" />
+    <scopeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="19" startPosition="130" endLine="21" endPosition="3" />
+    <scopeInfo nodeId="3682822877829156793" fileName="check_Relationship_NonTypesystemRule.java" startLine="28" startPosition="13" endLine="30" endPosition="240">
+      <varInfo nodeId="3682822877829156793" varName="_reporter_2309309498" />
+      <varInfo nodeId="3682822877829156793" varName="errorTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="43" startPosition="5" endLine="45" endPosition="45">
+      <varInfo nodeId="3682822877829125227" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="3682822877829164502" fileName="check_Relationship_NonTypesystemRule.java" startLine="27" startPosition="57" endLine="31" endPosition="13" />
+    <scopeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="42" startPosition="68" endLine="46" endPosition="5" />
+    <scopeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="48" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="3682822877829156790" fileName="check_Relationship_NonTypesystemRule.java" startLine="26" startPosition="37" endLine="32" endPosition="11" />
+    <scopeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="41" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="3682822877829125227" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="3682822877829156789" fileName="check_Relationship_NonTypesystemRule.java" startLine="25" startPosition="116" endLine="34" endPosition="0">
+      <varInfo nodeId="3682822877829156789" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="3682822877829125232" fileName="check_Relationship_NonTypesystemRule.java" startLine="24" startPosition="209" endLine="34" endPosition="9" />
+    <scopeInfo nodeId="3682822877829125228" fileName="check_Relationship_NonTypesystemRule.java" startLine="23" startPosition="125" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="22" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="3682822877829125227" varName="relationship" />
+      <varInfo nodeId="3682822877829125227" varName="status" />
+      <varInfo nodeId="3682822877829125227" varName="typeCheckingContext" />
+    </scopeInfo>
+    <unitInfo nodeId="3682822877829156789" fileName="check_Relationship_NonTypesystemRule.java" startLine="25" startPosition="97" endLine="34" endPosition="7" unitName="neo4j.cypher.typesystem.check_Relationship_NonTypesystemRule$1" />
+    <unitInfo nodeId="3682822877829125227" fileName="check_Relationship_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="53" endPosition="0" unitName="neo4j.cypher.typesystem.check_Relationship_NonTypesystemRule" />
   </root>
   <root nodeId="4409026550618694204" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
     <nodeInfo nodeId="4409026550618694232" fileName="typeof_Collection_InferenceRule.java" startLine="21" startPosition="5" endLine="22" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

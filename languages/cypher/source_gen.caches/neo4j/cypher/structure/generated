@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="engx4y4eqzvv55g0k8q22510fk9nfyy">
+<dependencies version="2" modelHash="rpwxmwv6ce3nbs1okc1obmxa1sfpe1">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -180,7 +180,7 @@
   <source id="1268543411552161296" name="AssignmentStatement" hash="-61d85a5wricbtu12ewgz7ht8mxvagzm">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="1268543411552161297" name="Node" hash="-4v6lu5hi45ts9ynnwi0zkfj2g39yhuy">
+  <source id="1268543411552161297" name="Node" hash="eoxqf7xahxlpaz4yqp4xiyyf426g9jq">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="1268543411552224123" name="Index" hash="1mmw4eocts1kr6gkaiobs9sodlkya4q">
@@ -513,7 +513,7 @@
   <source id="4409026550618950109" name="IMatchExpression" hash="dvq199sczm8pqgwy370qhwcq3l7ew71">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4409026550619307840" name="IPropertyContainer" hash="-6clcssgp4m0sfm9o2kkuq89p5mp7cd2">
+  <source id="4409026550619307840" name="IPropertyContainer" hash="79kberg1s65lcs685wd2xaszkhhfaa1">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4409026550619358918" name="EmptyNode" hash="4l69412gun2j8xsnsygh26g2ejk4ky">

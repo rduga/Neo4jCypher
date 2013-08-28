@@ -6,10 +6,10 @@
     <nodeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="28" startPosition="44" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4205663719920529882" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4205663719920529882" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="37" startPosition="58" endLine="38" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="39" startPosition="5" endLine="40" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4205663719920529995" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4205663719920529995" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4205663719920529884" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="51" startPosition="37" endLine="52" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="12" startPosition="94" endLine="14" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SwitchNodeInDefinitionMode_Intention#()V" />
@@ -28,9 +28,9 @@
     <scopeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" />
     <scopeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="24" startPosition="37" endLine="25" endPosition="17" />
     <scopeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="28" startPosition="44" endLine="29" endPosition="16" />
-    <scopeInfo nodeId="4205663719920529879" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="74" />
+    <scopeInfo nodeId="4205663719920529879" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="32" startPosition="85" endLine="33" endPosition="48" />
     <scopeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="37" startPosition="58" endLine="38" endPosition="19" />
-    <scopeInfo nodeId="4205663719920529994" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="109" />
+    <scopeInfo nodeId="4205663719920529994" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="43" startPosition="90" endLine="44" endPosition="111" />
     <scopeInfo nodeId="4205663719920529881" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="47" startPosition="76" endLine="48" endPosition="122" />
     <scopeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="51" startPosition="37" endLine="52" endPosition="37" />
     <scopeInfo nodeId="4205663719920529877" fileName="SwitchNodeInDefinitionMode_Intention.java" startLine="12" startPosition="94" endLine="14" endPosition="3" />

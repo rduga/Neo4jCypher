@@ -246,16 +246,14 @@
     <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="48" startPosition="5" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="49" startPosition="0" endLine="50" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4839691926370625594" fileName="PathExpression_Constraints.java" startLine="53" startPosition="148" endLine="54" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4839691926370625602" fileName="PathExpression_Constraints.java" startLine="57" startPosition="139" endLine="58" endPosition="197" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4205663719920736722" fileName="PathExpression_Constraints.java" startLine="58" startPosition="197" endLine="59" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="4205663719920736670" fileName="PathExpression_Constraints.java" startLine="59" startPosition="94" endLine="60" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="8280451629333722963" fileName="PathExpression_Constraints.java" startLine="57" startPosition="139" endLine="58" endPosition="1647" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="16" startPosition="0" endLine="19" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PathExpression_Constraints#()V" />
     <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="29" startPosition="0" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="45" startPosition="0" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="52" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAParent#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="56" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAnAncestor#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
     <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="20" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeParentMethod#()Z" />
     <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="36" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeAncestorMethod#()Z" />
-    <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="56" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAnAncestor#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
     <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="25" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeParent#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
     <nodeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="41" startPosition="0" endLine="52" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeAncestor#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
     <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="17" startPosition="39" endLine="18" endPosition="51" />
@@ -264,8 +262,8 @@
     <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="38" startPosition="46" endLine="39" endPosition="16" />
     <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="46" startPosition="51" endLine="47" endPosition="71" />
     <scopeInfo nodeId="4839691926370625593" fileName="PathExpression_Constraints.java" startLine="53" startPosition="148" endLine="54" endPosition="110" />
+    <scopeInfo nodeId="4839691926370625601" fileName="PathExpression_Constraints.java" startLine="57" startPosition="139" endLine="58" endPosition="1647" />
     <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="16" startPosition="0" endLine="19" endPosition="3" />
-    <scopeInfo nodeId="4839691926370625601" fileName="PathExpression_Constraints.java" startLine="57" startPosition="139" endLine="60" endPosition="14" />
     <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
       <varInfo nodeId="4839691926370625591" varName="childConcept" />
       <varInfo nodeId="4839691926370625591" varName="childNode" />
@@ -273,14 +271,14 @@
       <varInfo nodeId="4839691926370625591" varName="node" />
       <varInfo nodeId="4839691926370625591" varName="operationContext" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="20" startPosition="0" endLine="25" endPosition="0" />
-    <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="56" startPosition="0" endLine="62" endPosition="0">
+    <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="56" startPosition="0" endLine="60" endPosition="0">
       <varInfo nodeId="4839691926370625591" varName="childConcept" />
       <varInfo nodeId="4839691926370625591" varName="childNode" />
       <varInfo nodeId="4839691926370625591" varName="node" />
       <varInfo nodeId="4839691926370625591" varName="operationContext" />
     </scopeInfo>
+    <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="20" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="36" startPosition="0" endLine="41" endPosition="0" />
     <scopeInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="27" startPosition="188" endLine="34" endPosition="18">
       <varInfo nodeId="4839691926370625591" varName="result" />
     </scopeInfo>
@@ -302,7 +300,7 @@
       <varInfo nodeId="4839691926370625591" varName="context" />
       <varInfo nodeId="4839691926370625591" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="13" startPosition="0" endLine="63" endPosition="0" unitName="neo4j.cypher.constraints.PathExpression_Constraints" />
+    <unitInfo nodeId="4839691926370625591" fileName="PathExpression_Constraints.java" startLine="13" startPosition="0" endLine="61" endPosition="0" unitName="neo4j.cypher.constraints.PathExpression_Constraints" />
   </root>
   <root nodeId="4839691926370705316" modelId="r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)">
     <nodeInfo nodeId="4839691926370705316" fileName="NamedPathRef_Constraints.java" startLine="22" startPosition="73" endLine="23" endPosition="179" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="breakingNode_crvowm_a0a1a0a0a1a0b0a1a0" />

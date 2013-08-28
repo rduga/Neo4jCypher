@@ -130,7 +130,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 56:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.IOrderByExpression", null, true, new String[]{}, new String[]{}, new String[]{});
       case 57:
-        return new CompiledConceptDescriptor("neo4j.cypher.structure.IPropertyContainer", null, true, new String[]{"neo4j.cypher.structure.INamedIdentifier"}, new String[]{}, new String[]{});
+        return new CompiledConceptDescriptor("neo4j.cypher.structure.IPropertyContainer", null, true, new String[]{"neo4j.cypher.structure.INamedIdentifier"}, new String[]{"inDefinitionMode"}, new String[]{});
       case 58:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.IQueryStatement", null, true, new String[]{}, new String[]{}, new String[]{});
       case 59:
@@ -188,7 +188,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 85:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.NamedRelationshipRef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.ICypherExpression"}, new String[]{}, new String[]{"namedRelationship"});
       case 86:
-        return new CompiledConceptDescriptor("neo4j.cypher.structure.Node", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.IPropertyContainer", "neo4j.cypher.structure.IMatchExpression", "neo4j.cypher.structure.ICreateExpression"}, new String[]{"inDefinitionMode"}, new String[]{});
+        return new CompiledConceptDescriptor("neo4j.cypher.structure.Node", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.IPropertyContainer", "neo4j.cypher.structure.IMatchExpression", "neo4j.cypher.structure.ICreateExpression"}, new String[]{}, new String[]{});
       case 87:
         return new CompiledConceptDescriptor("neo4j.cypher.structure.NodeDef", "jetbrains.mps.baseLanguage.structure.Expression", false, new String[]{"jetbrains.mps.baseLanguage.structure.Expression", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.INamedIdentifier", "neo4j.cypher.structure.ICreateExpression"}, new String[]{"assignmentView"}, new String[]{});
       case 88:
