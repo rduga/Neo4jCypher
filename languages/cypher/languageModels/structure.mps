@@ -692,6 +692,10 @@
       <property name="name" nameId="tpck.1169194664001" value="PropertyOperation" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     </node>
+    <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="769752699177622180">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.expression.delete" />
+      <property name="name" nameId="tpck.1169194664001" value="IDeleteExpression" />
+    </node>
   </roots>
   <root id="1268543411551983790">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1268543411552025426">
@@ -1970,6 +1974,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4409026550618622630">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7352030329465701338" resolveInfo="IOrderByExpression" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="769752699177622259">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="769752699177622180" resolveInfo="IDeleteExpression" />
+    </node>
   </root>
   <root id="7918996842015188116">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7918996842015188124">
@@ -2097,6 +2104,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4839691926370705308">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5530189148631283264" resolveInfo="IReturnExpression" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="769752699177622257">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="769752699177622180" resolveInfo="IDeleteExpression" />
+    </node>
   </root>
   <root id="4839691926370744023">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4839691926370744036">
@@ -2190,5 +2200,6 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
     </node>
   </root>
+  <root id="769752699177622180" />
 </model>
 

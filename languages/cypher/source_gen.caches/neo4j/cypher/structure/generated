@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="bsdwufr2jsafus1rfa749t9ifbf1q4f">
+<dependencies version="2" modelHash="dyyb2dhc2aqir73853j92aja9noj74e">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -139,6 +139,7 @@
     <dep root="7352030329465701338" />
     <dep root="7352030329465733481" />
     <dep root="7506834120768593490" />
+    <dep root="769752699177622180" />
     <dep root="7918996842015093048" />
     <dep root="7918996842015093050" />
     <dep root="7918996842015093066" />
@@ -495,7 +496,7 @@
   <source id="7918996842015175652" name="CoalesceScalarFunction" hash="-6qnzhdlkze7s701t7u6ikpe9ymf63v4">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="7918996842015188022" name="NamedPropertyContainerRef" hash="bt927kvdbjda5j9ys1ucrzqm4dub62z">
+  <source id="7918996842015188022" name="NamedPropertyContainerRef" hash="fu1txhkpc49h4zl02mh8j9ymeo6ry8">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="7918996842015188116" name="NamedRelationshipRef" hash="-dxxblkb4vyp1hjl5dev2casu4apnlyx">
@@ -537,7 +538,7 @@
   <source id="4839691926370534642" name="PathExpression" hash="-ed7uy66kuzhglj5mke3xda0y9mbbcc8">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4839691926370705307" name="NamedPathRef" hash="arard9g54hcnxgcsoaf9uhqm6n2z61z">
+  <source id="4839691926370705307" name="NamedPathRef" hash="2neeml4sowmwfqdbzea2r7sltc80cnh">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4839691926370744023" name="PathFunction" hash="3sj1n30cxhxw2lhnlsb6e42v27ccs1x">
@@ -574,6 +575,9 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="3168367791397806367" name="PropertyOperation" hash="-ab2jkmjwwkh4xcjcp4mttn5o1e6rkad">
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+  </source>
+  <source id="769752699177622180" name="IDeleteExpression" hash="7ei4qlu72cxci1io189h1kvvwclpevs">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
 </dependencies>
