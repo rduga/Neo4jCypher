@@ -10,6 +10,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class SetAssignmentStatement_Constraints extends BaseConstraintsDescriptor {
   private static SNodePointer canBeParentBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "769752699177906470");
@@ -56,12 +57,18 @@ public class SetAssignmentStatement_Constraints extends BaseConstraintsDescripto
       return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.ISetExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.DotExpression");
     }
 
+    if (link == SLinkOperations.findLinkDeclaration("neo4j.cypher.structure.SetAssignmentStatement", "rightExpression")) {
+      if (SConceptOperations.isSubConceptOf(SNodeOperations.getConceptDeclaration(SLinkOperations.getTarget(SNodeOperations.cast(node, "neo4j.cypher.structure.SetAssignmentStatement"), "leftExpression", true)), "neo4j.cypher.structure.ISetExpression")) {
+        return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.ISetExpression");
+      }
+    }
+
     return true;
   }
 
   public static boolean static_canBeAnAncestor(SNode node, SNode childNode, SNode childConcept, final IOperationContext operationContext) {
     // FIXME: rduga: filter set assignment constraints 
-    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IReturnExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.DotExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.PropertyOperation") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.BooleanConstant") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.ApStringLiteral") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherIntegerConstant") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.FloatingPointConstant") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.StringLiteral") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherPlusExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherMinusExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherMulExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.DivExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.RemExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.ParenthesizedExpression");
+    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IReturnExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.DotExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.PropertyOperation") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.BooleanConstant") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.ApStringLiteral") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherIntegerConstant") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.FloatingPointConstant") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.StringLiteral") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherPlusExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherMinusExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherMulExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.DivExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.RemExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.ParenthesizedExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.NullLiteral");
     // <node> 
   }
 }
