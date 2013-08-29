@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-c1monmqyc2xp1y4rp07u1ll6sg7qgic">
+<dependencies version="2" modelHash="bsdwufr2jsafus1rfa749t9ifbf1q4f">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -90,9 +90,6 @@
     <dep root="4409026550619307840" />
     <dep root="4409026550619358918" />
     <dep root="4677677581647714397" />
-    <dep root="4677677581647714404" />
-    <dep root="4677677581647718488" />
-    <dep root="4677677581647905556" />
     <dep root="4721745511893716795" />
     <dep root="4721745511893767979" />
     <dep root="4721745511893767986" />
@@ -574,15 +571,6 @@
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4677677581647714397" name="ICreateExpression" hash="-86cqcqyqptpkc59bwylh8q8m43pbolf">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="4677677581647714404" name="NodeDef" hash="d89jno64p1ud84gcp1mq2f1lp4ionph">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="4677677581647718488" name="PropertyDef" hash="-1gp4dwpwxxsoh456yqjgct0va35tdn6">
-    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-  </source>
-  <source id="4677677581647905556" name="NamedNodeDefRef" hash="-b5y2fbiyz1w86ag5mbou4py0d38zq94">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="3168367791397806367" name="PropertyOperation" hash="-ab2jkmjwwkh4xcjcp4mttn5o1e6rkad">

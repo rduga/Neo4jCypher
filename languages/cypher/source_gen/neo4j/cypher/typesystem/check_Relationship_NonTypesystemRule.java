@@ -7,13 +7,13 @@ import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.smodel.SModelUtil_new;
 
@@ -22,7 +22,7 @@ public class check_Relationship_NonTypesystemRule extends AbstractNonTypesystemR
   }
 
   public void applyRule(final SNode relationship, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (SNodeOperations.getAncestor(relationship, "neo4j.cypher.structure.CreateStatement", false, false) != null) {
+    if (SPropertyOperations.getBoolean(relationship, "concrete") && SNodeOperations.getAncestor(relationship, "neo4j.cypher.structure.CreateStatement", false, false) != null) {
       if (ListSequence.fromList(SLinkOperations.getTargets(relationship, "type", true)).isEmpty()) {
         {
           MessageTarget errorTarget = new NodeMessageTarget();
