@@ -28,7 +28,7 @@ public class QueriesGenerated {
     return SNodeOperations.getAncestor(_context.getParentNode(), "neo4j.cypher.structure.CypherStatement", false, false) != null;
   }
 
-  public static void nodeFactory_NodeSetup_AssignmentStatement_5206628397327285756(final IOperationContext operationContext, final NodeSetupContext _context) {
+  public static void nodeFactory_NodeSetup_StartAssignmentStatement_5206628397327285756(final IOperationContext operationContext, final NodeSetupContext _context) {
     // <node> 
   }
 

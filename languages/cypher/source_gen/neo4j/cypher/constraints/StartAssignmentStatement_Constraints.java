@@ -11,11 +11,11 @@ import jetbrains.mps.smodel.runtime.CheckingNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
-public class AssignmentStatement_Constraints extends BaseConstraintsDescriptor {
+public class StartAssignmentStatement_Constraints extends BaseConstraintsDescriptor {
   private static SNodePointer canBeParentBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "6440869843963823839");
 
-  public AssignmentStatement_Constraints() {
-    super("neo4j.cypher.structure.AssignmentStatement");
+  public StartAssignmentStatement_Constraints() {
+    super("neo4j.cypher.structure.StartAssignmentStatement");
   }
 
   @Override
@@ -35,7 +35,7 @@ public class AssignmentStatement_Constraints extends BaseConstraintsDescriptor {
   }
 
   public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
-    if (link == SLinkOperations.findLinkDeclaration("neo4j.cypher.structure.AssignmentStatement", "node") && SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.EmptyNode")) {
+    if (link == SLinkOperations.findLinkDeclaration("neo4j.cypher.structure.StartAssignmentStatement", "node") && SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.EmptyNode")) {
       return false;
     }
     return true;

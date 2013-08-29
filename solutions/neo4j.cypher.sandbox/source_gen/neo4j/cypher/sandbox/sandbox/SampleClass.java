@@ -10,6 +10,7 @@ public class SampleClass {
     int l = 345;
     int i = 433;
     Object s = null;
+    s = 23;
     String a4 = "sd";
     int j3 = 3 + 5;
     int k2 = 2;

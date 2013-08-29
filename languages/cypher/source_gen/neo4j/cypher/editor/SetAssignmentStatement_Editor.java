@@ -13,31 +13,31 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
-public class AssignmentStatement_Editor extends DefaultNodeEditor {
+public class SetAssignmentStatement_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_kj4j9_a(editorContext, node);
+    return this.createCollection_dwib2u_a(editorContext, node);
   }
 
-  private EditorCell createCollection_kj4j9_a(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_dwib2u_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_kj4j9_a");
-    editorCell.addEditorCell(this.createRefNode_kj4j9_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_kj4j9_b0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_kj4j9_c0(editorContext, node));
+    editorCell.setCellId("Collection_dwib2u_a");
+    editorCell.addEditorCell(this.createRefNode_dwib2u_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_dwib2u_b0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_dwib2u_c0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_kj4j9_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_dwib2u_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
-    editorCell.setCellId("Constant_kj4j9_b0");
+    editorCell.setCellId("Constant_dwib2u_b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_kj4j9_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_dwib2u_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("node");
-    provider.setNoTargetText("<no node>");
+    provider.setRole("leftExpression");
+    provider.setNoTargetText("<no leftExpression>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -51,10 +51,10 @@ public class AssignmentStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_kj4j9_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_dwib2u_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("index");
-    provider.setNoTargetText("asdasdasdas");
+    provider.setRole("rightExpression");
+    provider.setNoTargetText("<no rightExpression>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

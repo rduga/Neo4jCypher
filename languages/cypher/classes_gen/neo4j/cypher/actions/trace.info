@@ -31,8 +31,8 @@
     </scopeInfo>
   </root>
   <root nodeId="5206628397327285754" modelId="r:ae4b435d-e2de-45ff-8308-3989c5d9b5ff(neo4j.cypher.actions)">
-    <nodeInfo nodeId="5206628397327285856" fileName="QueriesGenerated.java" startLine="31" startPosition="159" endLine="32" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <scopeInfo nodeId="5206628397327285757" fileName="QueriesGenerated.java" startLine="31" startPosition="159" endLine="32" endPosition="14" />
+    <nodeInfo nodeId="5206628397327285856" fileName="QueriesGenerated.java" startLine="31" startPosition="164" endLine="32" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <scopeInfo nodeId="5206628397327285757" fileName="QueriesGenerated.java" startLine="31" startPosition="164" endLine="32" endPosition="14" />
   </root>
 </debugInfo>
 

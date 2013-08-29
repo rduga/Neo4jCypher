@@ -4,7 +4,7 @@
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <language namespace="fa0e36f7-2d65-493a-8638-2d9c4dbffdf7(neo4j.cypher)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="68" />
+  <import index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="69" />
   <import index="tpdt" modelUID="r:00000000-0000-4000-0000-011c895902dd(jetbrains.mps.baseLanguage.blTypes.structure)" version="-1" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
   <import index="2l8g" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#com.sun.org.apache.bcel.internal.generic(JDK/com.sun.org.apache.bcel.internal.generic@java_stub)" version="-1" />
@@ -160,6 +160,10 @@
     <node type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="3682822877829125227">
       <property name="name" nameId="tpck.1169194664001" value="check_Relationship" />
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.propertyContainer.relationship" />
+    </node>
+    <node type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="1331800591704892162">
+      <property name="name" nameId="tpck.1169194664001" value="typeof_SetAssignmentStatement" />
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.statement.set" />
     </node>
   </roots>
   <root id="5206628397327256708">
@@ -1568,6 +1572,19 @@
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="3682822877829125229">
       <property name="name" nameId="tpck.1169194664001" value="relationship" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="qgu4.7169725830545051563" resolveInfo="Relationship" />
+    </node>
+  </root>
+  <root id="1331800591704892162">
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="1331800591704892163">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="1331800591704892165">
+        <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="1331800591704892166">
+          <property name="text" nameId="tpee.6329021646629104958" value="FIXME: rduga define typeof assignment statement" />
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1331800591704892164">
+      <property name="name" nameId="tpck.1169194664001" value="setAssignmentStatement" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="qgu4.769752699177760055" resolveInfo="SetAssignmentStatement" />
     </node>
   </root>
 </model>
