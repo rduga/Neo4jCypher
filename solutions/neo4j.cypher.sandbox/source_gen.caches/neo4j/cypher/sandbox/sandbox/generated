@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-2pi247sg6yf3pihvrzalki4f5he7y1w">
+<dependencies version="2" modelHash="2l0jqbpn7j489ov3l0r8z1nwx1z27vd">
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-3a2lbha5p05orul36b2ghvjj3tm2l2j" />
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="bsdwufr2jsafus1rfa749t9ifbf1q4f" />
   <common hash="3bp72kidkzlpdb8ugx6cmxd8z8utig8">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="6532105715028822553" name="cypher" hash="-5puhz2oyv4t9zfxnjpbigyyztzog47q">
+  <source id="6532105715028822553" name="cypher" hash="-eigib430kw0ns0y61x545gtn9s8sl3c">
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
     <file name="cypher" />
   </source>
