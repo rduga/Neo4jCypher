@@ -6,7 +6,7 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class Property_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedNullableIdentifier_BehaviorDescriptor, ICreateExpression_BehaviorDescriptor, IMatchExpression_BehaviorDescriptor {
+public class Property_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedNullableIdentifier_BehaviorDescriptor, IMatchExpression_BehaviorDescriptor, ICreateExpression_BehaviorDescriptor {
   public Property_BehaviorDescriptor() {
   }
 

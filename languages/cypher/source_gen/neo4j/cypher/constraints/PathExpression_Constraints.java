@@ -51,10 +51,12 @@ public class PathExpression_Constraints extends BaseConstraintsDescriptor {
   }
 
   public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
-    return !(SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IInnerMatchExpression"));
+    return (SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.ICreateExpression")) && !(SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IInnerMatchExpression"));
   }
 
   public static boolean static_canBeAnAncestor(SNode node, SNode childNode, SNode childConcept, final IOperationContext operationContext) {
-    return SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.ICreateExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.DotExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.PropertyOperation") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.BooleanConstant") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.ApStringLiteral") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherIntegerConstant") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.FloatingPointConstant") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.StringLiteral") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherPlusExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherMinusExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.CypherMulExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.DivExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.RemExpression") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation") || SConceptOperations.isSubConceptOf(childConcept, "jetbrains.mps.baseLanguage.structure.ParenthesizedExpression");
+    // <node> 
+    return true;
+    // <node> 
   }
 }

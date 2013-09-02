@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="ck7eddizuymyyffy1wlxq10ee1me5da">
+<dependencies version="2" modelHash="33ly4fsyew1mnv6yyd70iksy9kwv33o">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
@@ -14,16 +14,14 @@
   <dep model="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c8959030e(jetbrains.mps.lang.constraints.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-  <dep model="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)" hash="1u2945i5d6myw8i65tpqruygjdab3bt" />
+  <dep model="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)" hash="-19vj759kc897w905pkyh8lih6e2zbg9" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="c4ll93enfos95qqkkmbnmxnbfculsy0" />
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-54yk3ucarkhtxf78qrk6d8dk224gv2p" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
-  <common hash="-76imfuzz9aitbj5gn8v08oavros814p" dependsOnNodes="true">
+  <common hash="d7qkzudtmh6j7xcf3iuybobz0q4g1al" dependsOnNodes="true">
     <dep root="1325020284374000547" />
-    <dep root="2891622916112223966" />
-    <dep root="2979687674397766683" />
     <dep root="4677677581647714315" />
     <dep root="4677677581647803809" />
     <dep root="4839691926370503390" />
@@ -106,14 +104,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="NamedNodeRef_Constraints.java" />
   </source>
-  <source id="2979687674397766683" name="ReadWriteQueryExpression_Constraints" hash="-9v31kgzioa5m84r3tjtw7uwa9e07sgg">
-    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c8959030e(jetbrains.mps.lang.constraints.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
-    <file name="ReadWriteQueryExpression_Constraints.java" />
-  </source>
-  <source id="5206628397327010374" name="ReturnStatement_Constraints" hash="7j1561zin3p37911xj0fwv8nxmwan5o">
+  <source id="5206628397327010374" name="ReturnStatement_Constraints" hash="35ewcukn1glk8o9sye5q8u9j7ej1knl">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
@@ -239,7 +230,7 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="NamedPropertyContainerRef_Constraints.java" />
   </source>
-  <source id="4839691926370625591" name="PathExpression_Constraints" hash="-8zafv0fj47f2ou7b6jyvnqw5kbgck0t">
+  <source id="4839691926370625591" name="PathExpression_Constraints" hash="8nmwaes1k3vz70z8hcliy0f3e45ekmk">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
@@ -320,13 +311,6 @@
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
     <file name="ICypherExpression_Constraints.java" />
   </source>
-  <source id="2891622916112223966" name="Property_Constraints" hash="3eqm84si4u3wzng6lwjj0imrv8494bv">
-    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c8959030e(jetbrains.mps.lang.constraints.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
-    <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
-    <file name="Property_Constraints.java" />
-  </source>
   <source id="7506834120768604704" name="WithStatement_Constraints" hash="-dxhhc79ntgaz3mjm43gzqe2z6hiv2y">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -342,7 +326,7 @@
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
     <file name="WithStatement_Constraints.java" />
   </source>
-  <source id="4677677581647714315" name="CreateStatement_Constraints" hash="8uzlpdtoujy6we3l4zwetui2sbphsqy">
+  <source id="4677677581647714315" name="CreateStatement_Constraints" hash="bki7dxren0nm4fzyff2ztdvjwokj4ql">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
@@ -370,7 +354,7 @@
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
     <file name="INamedNullableIdentifier_Constraints.java" />
   </source>
-  <source id="769752699177622177" name="DeleteStatement_Constraints" hash="-2bldhft65ve3z3r60abffc9eshiy61x">
+  <source id="769752699177622177" name="DeleteStatement_Constraints" hash="-a6grtry884zf4ctbpdn9co4nuwnsx4g">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
@@ -385,7 +369,7 @@
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
     <file name="DeleteStatement_Constraints.java" />
   </source>
-  <source id="769752699177833313" name="SetAssignmentStatement_Constraints" hash="-as3korzpj1wi6odpfwbo7odqpokmwnm">
+  <source id="769752699177833313" name="SetAssignmentStatement_Constraints" hash="3iafvkrbjrae0ivus1qa7kn4kk1hlin">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel(MPS.Core/jetbrains.mps.smodel@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />

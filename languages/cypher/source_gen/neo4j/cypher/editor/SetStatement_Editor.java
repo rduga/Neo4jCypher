@@ -51,6 +51,7 @@ public class SetStatement_Editor extends DefaultNodeEditor {
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
       style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     }
     editorCell.setRole(handler.getElementRole());

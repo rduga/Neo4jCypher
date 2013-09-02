@@ -6,7 +6,7 @@ import jetbrains.mps.baseLanguage.behavior.BinaryOperation_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public abstract class Relationship_BehaviorDescriptor extends BinaryOperation_BehaviorDescriptor implements ICypherExpression_BehaviorDescriptor, IPropertyContainer_BehaviorDescriptor, IMatchExpression_BehaviorDescriptor {
+public abstract class Relationship_BehaviorDescriptor extends BinaryOperation_BehaviorDescriptor implements ICypherExpression_BehaviorDescriptor, IPropertyContainer_BehaviorDescriptor, IMatchExpression_BehaviorDescriptor, ICreateExpression_BehaviorDescriptor {
   public Relationship_BehaviorDescriptor() {
   }
 

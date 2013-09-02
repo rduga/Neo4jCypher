@@ -1,1 +1,3 @@
 - set/match property as/with primitive value
+- correct delete parts of query - ie. when cursor before CREATE and press delete key, delete only CreateStatement
+- node reference visibility only for nodes which are before actual reference
