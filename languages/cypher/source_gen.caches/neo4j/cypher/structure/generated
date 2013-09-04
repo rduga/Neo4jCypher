@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-54yk3ucarkhtxf78qrk6d8dk224gv2p">
+<dependencies version="2" modelHash="-5pshbdliyncx1swckke1uerz0t4xdvv">
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -8,7 +8,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="dycifxgwoy1zqnsj1ogxd685v0slp45">
+  <common hash="-epf0myobaqim50efl0ik011gc0spjc9">
     <dep root="1268543411551983790" />
     <dep root="1268543411551995397" />
     <dep root="1268543411552025423" />
@@ -242,7 +242,7 @@
   <source id="4395952758104028942" name="Function" hash="2bb6hphtsumig4pc7349q1960k4bsy3">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4395952758104028947" name="MatchStatement" hash="-b7zav1e7oee4lv6adyvyokuhqeeenv0">
+  <source id="4395952758104028947" name="MatchStatement" hash="50fn03v22wo4mos6ij4z7xy37ou1raq">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="4395952758104028948" name="WhereStatement" hash="-b2ql3oe0w2ipw5i8kg4vb3f76oupcmx">
@@ -281,7 +281,7 @@
   <source id="4395952758104563294" name="ReturnStatement" hash="aackhrsh6lcjf8fkp9fmgr9q50z3jn4">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
-  <source id="4395952758104566948" name="StartStatement" hash="-3hkgjkngj7l621z08ua38cdgjui7wj9">
+  <source id="4395952758104566948" name="StartStatement" hash="4dhevecnb7mxjqbi162lofo4rvmhetx">
     <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   </source>
   <source id="5530189148631283264" name="IReturnExpression" hash="1v3r7eebhv0mv6wygop006ikk1taae1">

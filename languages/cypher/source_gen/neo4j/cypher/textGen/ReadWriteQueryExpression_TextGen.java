@@ -11,15 +11,19 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 public class ReadWriteQueryExpression_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     this.append("readwriteQueryExpression");
+    this.appendNewLine();
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "startStatement", true), this.getSNode());
-    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "matchStatement", true), this.getSNode());
-    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "whereStatement", true), this.getSNode());
+    if ((SLinkOperations.getTarget(node, "matchStatement", true) != null)) {
+      TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "matchStatement", true), this.getSNode());
+    }
+    if ((SLinkOperations.getTarget(node, "whereStatement", true) != null)) {
+      TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "whereStatement", true), this.getSNode());
+    }
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "writeStatement", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "writeStatement", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }
     }
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "returnStatementBlock", true), this.getSNode());
-
   }
 }

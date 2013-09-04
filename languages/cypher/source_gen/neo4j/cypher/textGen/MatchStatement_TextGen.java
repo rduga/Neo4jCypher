@@ -4,10 +4,24 @@ package neo4j.cypher.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.textGen.TextGenManager;
 
 public class MatchStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("matchStatement");
+    this.append("MATCH");
     this.appendNewLine();
+    this.increaseDepth();
+    if (ListSequence.fromList(SLinkOperations.getTargets(node, "pathExpression", true)).isNotEmpty()) {
+      for (SNode item : SLinkOperations.getTargets(node, "pathExpression", true)) {
+        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
+        if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "pathExpression", true)).last()) {
+          this.append(",\n");
+        }
+      }
+    }
+    this.appendNewLine();
+    this.decreaseDepth();
   }
 }

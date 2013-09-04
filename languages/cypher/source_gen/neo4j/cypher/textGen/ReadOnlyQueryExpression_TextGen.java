@@ -12,8 +12,13 @@ public class ReadOnlyQueryExpression_TextGen extends SNodeTextGen {
     this.append("readOnlyQueryExpression");
     this.appendNewLine();
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "startStatement", true), this.getSNode());
-    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "matchStatement", true), this.getSNode());
-    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "whereStatement", true), this.getSNode());
+    if ((SLinkOperations.getTarget(node, "matchStatement", true) != null)) {
+      TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "matchStatement", true), this.getSNode());
+    }
+    if ((SLinkOperations.getTarget(node, "whereStatement", true) != null)) {
+      TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "whereStatement", true), this.getSNode());
+
+    }
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "returnStatementBlock", true), this.getSNode());
   }
 }

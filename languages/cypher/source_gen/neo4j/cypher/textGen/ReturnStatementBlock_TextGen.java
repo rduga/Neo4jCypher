@@ -4,10 +4,19 @@ package neo4j.cypher.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.textGen.TextGenManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ReturnStatementBlock_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("returnStatementBlock");
-    this.appendNewLine();
+    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "returnStatement", true), this.getSNode());
+
+    if ((SLinkOperations.getTarget(node, "orderByStatement", true) != null)) {
+      TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "orderByStatement", true), this.getSNode());
+    }
+
+    if ((SLinkOperations.getTarget(node, "skipStatement", true) != null)) {
+      TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "skipStatement", true), this.getSNode());
+    }
   }
 }

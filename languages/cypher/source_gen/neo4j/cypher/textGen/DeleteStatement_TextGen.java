@@ -4,10 +4,22 @@ package neo4j.cypher.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.textGen.TextGenManager;
 
 public class DeleteStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("deleteStatement");
+    this.append("DELETE");
+    this.appendNewLine();
+    if (ListSequence.fromList(SLinkOperations.getTargets(node, "expression", true)).isNotEmpty()) {
+      for (SNode item : SLinkOperations.getTargets(node, "expression", true)) {
+        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
+        if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "expression", true)).last()) {
+          this.append(",\n");
+        }
+      }
+    }
     this.appendNewLine();
   }
 }

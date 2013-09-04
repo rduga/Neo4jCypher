@@ -7,10 +7,11 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
@@ -21,7 +22,6 @@ import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class ReadWriteQueryExpression_Editor extends DefaultNodeEditor {
@@ -32,16 +32,28 @@ public class ReadWriteQueryExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_wj5stm_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_wj5stm_a");
-    editorCell.addEditorCell(this.createRefNode_wj5stm_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_wj5stm_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_wj5stm_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_wj5stm_c0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_wj5stm_d0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_wj5stm_e0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_wj5stm_d0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_wj5stm_e0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_wj5stm_f0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_wj5stm_d0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new ReadWriteQueryExpression_Editor.writeStatementListHandler_wj5stm_d0(node, "writeStatement", editorContext);
+  private EditorCell createConstant_wj5stm_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "read write query:");
+    editorCell.setCellId("Constant_wj5stm_a0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createRefNodeList_wj5stm_e0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new ReadWriteQueryExpression_Editor.writeStatementListHandler_wj5stm_e0(node, "writeStatement", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_writeStatement");
     {
@@ -52,7 +64,7 @@ public class ReadWriteQueryExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_wj5stm_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_wj5stm_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("startStatement");
     provider.setNoTargetText("<no startStatement>");
@@ -73,7 +85,7 @@ public class ReadWriteQueryExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_wj5stm_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_wj5stm_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("matchStatement");
     provider.setNoTargetText("<no matchStatement>");
@@ -94,7 +106,7 @@ public class ReadWriteQueryExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_wj5stm_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_wj5stm_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("whereStatement");
     provider.setNoTargetText("<no whereStatement>");
@@ -115,7 +127,7 @@ public class ReadWriteQueryExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_wj5stm_e0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_wj5stm_f0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("returnStatementBlock");
     provider.setNoTargetText("<no returnStatementBlock>");
@@ -136,8 +148,8 @@ public class ReadWriteQueryExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class writeStatementListHandler_wj5stm_d0 extends RefNodeListHandler {
-    public writeStatementListHandler_wj5stm_d0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class writeStatementListHandler_wj5stm_e0 extends RefNodeListHandler {
+    public writeStatementListHandler_wj5stm_e0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -160,7 +172,7 @@ public class ReadWriteQueryExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_wj5stm_a3a(editorContext, node);
+      return this.createConstant_wj5stm_a4a(editorContext, node);
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
@@ -175,9 +187,9 @@ public class ReadWriteQueryExpression_Editor extends DefaultNodeEditor {
       }
     }
 
-    private EditorCell createConstant_wj5stm_a3a(EditorContext editorContext, SNode node) {
+    private EditorCell createConstant_wj5stm_a4a(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no writeStatements>");
-      editorCell.setCellId("Constant_wj5stm_a3a");
+      editorCell.setCellId("Constant_wj5stm_a4a");
       {
         Style style = editorCell.getStyle();
         style.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);

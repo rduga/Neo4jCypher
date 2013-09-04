@@ -7,10 +7,11 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
@@ -22,14 +23,26 @@ public class ReadOnlyQueryExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_5f8f1j_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_5f8f1j_a");
-    editorCell.addEditorCell(this.createRefNode_5f8f1j_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_5f8f1j_a0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_5f8f1j_b0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_5f8f1j_c0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_5f8f1j_d0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_5f8f1j_e0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNode_5f8f1j_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_5f8f1j_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "read only query:");
+    editorCell.setCellId("Constant_5f8f1j_a0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_5f8f1j_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("startStatement");
     provider.setNoTargetText("<no startStatement>");
@@ -50,7 +63,7 @@ public class ReadOnlyQueryExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_5f8f1j_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_5f8f1j_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("matchStatement");
     provider.setNoTargetText("<no matchStatement>");
@@ -71,7 +84,7 @@ public class ReadOnlyQueryExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_5f8f1j_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_5f8f1j_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("whereStatement");
     provider.setNoTargetText("<no whereStatement>");
@@ -92,7 +105,7 @@ public class ReadOnlyQueryExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_5f8f1j_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_5f8f1j_e0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("returnStatementBlock");
     provider.setNoTargetText("<no returnStatementBlock>");

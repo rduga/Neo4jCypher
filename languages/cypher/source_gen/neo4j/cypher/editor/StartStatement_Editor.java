@@ -45,9 +45,9 @@ public class StartStatement_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createRefNodeList_9h390f_b0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new StartStatement_Editor.startStatementListHandler_9h390f_b0(node, "startStatement", editorContext);
+    AbstractCellListHandler handler = new StartStatement_Editor.startStatementsListHandler_9h390f_b0(node, "startStatements", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
-    editorCell.setCellId("refNodeList_startStatement");
+    editorCell.setCellId("refNodeList_startStatements");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
@@ -57,8 +57,8 @@ public class StartStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class startStatementListHandler_9h390f_b0 extends RefNodeListHandler {
-    public startStatementListHandler_9h390f_b0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class startStatementsListHandler_9h390f_b0 extends RefNodeListHandler {
+    public startStatementsListHandler_9h390f_b0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

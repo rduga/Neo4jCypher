@@ -4,10 +4,16 @@ package neo4j.cypher.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.textGen.TextGenManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class WhereStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("whereStatement");
+    this.append("WHERE");
     this.appendNewLine();
+    this.increaseDepth();
+    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "expression", true), this.getSNode());
+    this.appendNewLine();
+    this.decreaseDepth();
   }
 }

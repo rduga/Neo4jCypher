@@ -4,10 +4,22 @@ package neo4j.cypher.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.textGen.TextGenManager;
 
 public class SetStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("setStatement");
+    this.append("SET");
+    this.appendNewLine();
+    if (ListSequence.fromList(SLinkOperations.getTargets(node, "setAssignmentStatement", true)).isNotEmpty()) {
+      for (SNode item : SLinkOperations.getTargets(node, "setAssignmentStatement", true)) {
+        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
+        if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "setAssignmentStatement", true)).last()) {
+          this.append(",\n");
+        }
+      }
+    }
     this.appendNewLine();
   }
 }
