@@ -6,22 +6,27 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.textGen.TextGenManager;
 
 public class ReturnStatement_TextGen extends SNodeTextGen {
-  public void doGenerateText(SNode node) {
+  public void doGenerateText(final SNode node) {
     this.append("RETURN");
     this.appendNewLine();
     this.increaseDepth();
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "returnExpression", true)).isNotEmpty()) {
-      for (SNode item : SLinkOperations.getTargets(node, "returnExpression", true)) {
-        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
-        if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "returnExpression", true)).last()) {
-          this.append(",\n");
+    // <node> 
+    // <node> 
+
+    ListSequence.fromList(SLinkOperations.getTargets(node, "returnExpression", true)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        ReturnStatement_TextGen.this.indentBuffer();
+        TextGenManager.instance().appendNodeText(ReturnStatement_TextGen.this.getContext(), ReturnStatement_TextGen.this.getBuffer(), it, ReturnStatement_TextGen.this.getSNode());
+        if (it != ListSequence.fromList(SLinkOperations.getTargets(node, "returnExpression", true)).last()) {
+          ReturnStatement_TextGen.this.append(",");
         }
+        ReturnStatement_TextGen.this.appendNewLine();
       }
-    }
-    this.appendNewLine();
+    });
     this.decreaseDepth();
 
   }

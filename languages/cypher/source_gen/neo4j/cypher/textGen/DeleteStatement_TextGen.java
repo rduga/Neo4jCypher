@@ -6,20 +6,25 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.textGen.TextGenManager;
 
 public class DeleteStatement_TextGen extends SNodeTextGen {
-  public void doGenerateText(SNode node) {
+  public void doGenerateText(final SNode node) {
     this.append("DELETE");
     this.appendNewLine();
-    if (ListSequence.fromList(SLinkOperations.getTargets(node, "expression", true)).isNotEmpty()) {
-      for (SNode item : SLinkOperations.getTargets(node, "expression", true)) {
-        TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
-        if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "expression", true)).last()) {
-          this.append(",\n");
+    // <node> 
+    // <node> 
+
+    ListSequence.fromList(SLinkOperations.getTargets(node, "expression", true)).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        DeleteStatement_TextGen.this.indentBuffer();
+        TextGenManager.instance().appendNodeText(DeleteStatement_TextGen.this.getContext(), DeleteStatement_TextGen.this.getBuffer(), it, DeleteStatement_TextGen.this.getSNode());
+        if (it != ListSequence.fromList(SLinkOperations.getTargets(node, "expression", true)).last()) {
+          DeleteStatement_TextGen.this.append(",");
         }
+        DeleteStatement_TextGen.this.appendNewLine();
       }
-    }
-    this.appendNewLine();
+    });
   }
 }

@@ -10,13 +10,13 @@ import jetbrains.mps.textGen.TextGenManager;
 public class SkipStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     if ((SLinkOperations.getTarget(node, "skipItems", true) != null)) {
-      this.append("SKIP");
+      this.append("SKIP ");
       TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "skipItems", true), this.getSNode());
       this.append(" ");
     }
 
     if ((SLinkOperations.getTarget(node, "limitItems", true) != null)) {
-      this.append("LIMIT");
+      this.append("LIMIT ");
       TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "limitItems", true), this.getSNode());
     }
 

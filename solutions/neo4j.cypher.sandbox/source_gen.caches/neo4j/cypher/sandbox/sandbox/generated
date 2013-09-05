@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="8hikwzq2g9z94dymzuaelod4xwh1fyw">
-  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-  <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
+<dependencies version="2" modelHash="a135n5zf58awy22eluvl2tq6tzviunx">
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="c4ll93enfos95qqkkmbnmxnbfculsy0" />
-  <common hash="-dnk8ozfe1o59uu21boljivvjg5wkkfa">
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-5pshbdliyncx1swckke1uerz0t4xdvv" />
+  <common hash="6vho9xo7ivt3z5znjhxj0wfie17jd2v">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
-  <source id="6532105715028822553" name="cypher" hash="dd8o2zff43zp6arf62iqgvfe290nn9o">
+  <source id="6532105715028822553" name="cypher" hash="-en52zi6x94oskre7wuvw2xnqxy83ocd">
     <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" />
-    <file name="cypher" />
-  </source>
-  <source id="2103634311711065343" name="SampleClass" hash="-92geyyiv2fnhcoclyhran9gn163dtaw">
-    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cb(jetbrains.mps.baseLanguage.generator.java.closures@generator)" />
-    <file name="SampleClass.java" />
+    <file name="cypher.cypherq" />
   </source>
 </dependencies>
 

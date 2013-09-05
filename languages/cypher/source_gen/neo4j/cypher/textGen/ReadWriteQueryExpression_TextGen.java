@@ -10,8 +10,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class ReadWriteQueryExpression_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("readwriteQueryExpression");
-    this.appendNewLine();
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "startStatement", true), this.getSNode());
     if ((SLinkOperations.getTarget(node, "matchStatement", true) != null)) {
       TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "matchStatement", true), this.getSNode());

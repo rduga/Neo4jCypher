@@ -12,6 +12,7 @@ public class WhereStatement_TextGen extends SNodeTextGen {
     this.append("WHERE");
     this.appendNewLine();
     this.increaseDepth();
+    this.indentBuffer();
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "expression", true), this.getSNode());
     this.appendNewLine();
     this.decreaseDepth();

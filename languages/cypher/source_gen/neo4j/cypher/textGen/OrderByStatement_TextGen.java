@@ -19,5 +19,6 @@ public class OrderByStatement_TextGen extends SNodeTextGen {
         }
       }
     }
+    this.appendNewLine();
   }
 }

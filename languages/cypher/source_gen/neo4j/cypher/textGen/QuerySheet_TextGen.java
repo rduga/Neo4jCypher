@@ -15,6 +15,7 @@ public class QuerySheet_TextGen extends SNodeTextGen {
     this.append(SPropertyOperations.getString(node, "name"));
     this.appendNewLine();
     this.appendNewLine();
+    this.indentBuffer();
     this.increaseDepth();
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "statement", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "statement", true)) {
