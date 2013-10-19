@@ -28,8 +28,8 @@ public class NamedNodeRef_Editor extends DefaultNodeEditor {
 
   private EditorCell createRefCell_szc99m_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("node");
-    provider.setNoTargetText("<no node>");
+    provider.setRole("node1");
+    provider.setNoTargetText("<no node1>");
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new NamedNodeRef_Editor._Inline_szc99m_a0a());
     editorCell = provider.createEditorCell(editorContext);

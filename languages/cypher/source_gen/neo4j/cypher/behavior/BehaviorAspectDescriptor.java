@@ -58,8 +58,6 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new ConnectionSheet_BehaviorDescriptor();
       case 36:
         return new EmptyConnectionStatement_BehaviorDescriptor();
-      case 35:
-        return new EmbeddedConnection_BehaviorDescriptor();
       case 43:
         return new ImpermanentConnection_BehaviorDescriptor();
       case 58:
@@ -234,6 +232,8 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new SetAssignmentStatement_BehaviorDescriptor();
       case 109:
         return new WriteOnlyQueryExpression_BehaviorDescriptor();
+      case 35:
+        return new EmbeddedConnection_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }

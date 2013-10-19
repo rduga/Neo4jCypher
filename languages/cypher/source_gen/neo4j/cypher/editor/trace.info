@@ -1036,9 +1036,9 @@
     <nodeInfo nodeId="1268543411552224152" fileName="StartAssignmentStatement_Editor.java" startLine="32" startPosition="47" endLine="33" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1268543411552224152" fileName="StartAssignmentStatement_Editor.java" startLine="33" startPosition="34" endLine="34" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1268543411552224150" fileName="StartAssignmentStatement_Editor.java" startLine="37" startPosition="87" endLine="38" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1268543411552224150" fileName="StartAssignmentStatement_Editor.java" startLine="38" startPosition="81" endLine="39" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1268543411552224150" fileName="StartAssignmentStatement_Editor.java" startLine="39" startPosition="29" endLine="40" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1268543411552224150" fileName="StartAssignmentStatement_Editor.java" startLine="40" startPosition="42" endLine="41" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1268543411552224150" fileName="StartAssignmentStatement_Editor.java" startLine="38" startPosition="81" endLine="39" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1268543411552224150" fileName="StartAssignmentStatement_Editor.java" startLine="39" startPosition="30" endLine="40" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1268543411552224150" fileName="StartAssignmentStatement_Editor.java" startLine="40" startPosition="43" endLine="41" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1268543411552224150" fileName="StartAssignmentStatement_Editor.java" startLine="41" startPosition="26" endLine="42" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1268543411552224150" fileName="StartAssignmentStatement_Editor.java" startLine="42" startPosition="58" endLine="43" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1268543411552224150" fileName="StartAssignmentStatement_Editor.java" startLine="43" startPosition="73" endLine="44" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -5725,146 +5725,6 @@
     </scopeInfo>
     <unitInfo nodeId="4395952758104119202" fileName="EmptyConnectionStatement_Editor.java" startLine="11" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.editor.EmptyConnectionStatement_Editor" />
   </root>
-  <root nodeId="4395952758104119208" modelId="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)">
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="57" startPosition="58" endLine="57" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119208" fileName="EmbeddedConnection_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="24" startPosition="89" endLine="25" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="25" startPosition="96" endLine="26" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="25" startPosition="96" endLine="26" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="26" startPosition="48" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="26" startPosition="48" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="30" startPosition="80" endLine="31" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4395952758104119213" fileName="EmbeddedConnection_Editor.java" startLine="34" startPosition="88" endLine="35" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104119213" fileName="EmbeddedConnection_Editor.java" startLine="35" startPosition="106" endLine="36" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119213" fileName="EmbeddedConnection_Editor.java" startLine="35" startPosition="106" endLine="36" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119213" fileName="EmbeddedConnection_Editor.java" startLine="36" startPosition="47" endLine="37" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119213" fileName="EmbeddedConnection_Editor.java" startLine="37" startPosition="34" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="41" startPosition="88" endLine="42" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="42" startPosition="91" endLine="43" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="44" startPosition="5" endLine="45" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="45" startPosition="42" endLine="46" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="47" startPosition="5" endLine="48" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="48" startPosition="34" endLine="49" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="52" startPosition="87" endLine="53" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="53" startPosition="81" endLine="54" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="54" startPosition="37" endLine="55" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="55" startPosition="50" endLine="56" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="56" startPosition="26" endLine="57" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="57" startPosition="58" endLine="58" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="58" startPosition="73" endLine="59" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="59" startPosition="57" endLine="60" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="61" startPosition="35" endLine="62" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="62" startPosition="72" endLine="63" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="63" startPosition="78" endLine="64" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="65" startPosition="10" endLine="66" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="69" startPosition="88" endLine="70" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="70" startPosition="82" endLine="71" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="71" startPosition="29" endLine="72" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="72" startPosition="42" endLine="73" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="73" startPosition="26" endLine="74" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="74" startPosition="58" endLine="75" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="76" startPosition="5" endLine="77" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="77" startPosition="42" endLine="78" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="79" startPosition="5" endLine="80" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="80" startPosition="73" endLine="81" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="81" startPosition="57" endLine="82" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="83" startPosition="35" endLine="84" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="84" startPosition="72" endLine="85" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="85" startPosition="78" endLine="86" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="87" startPosition="10" endLine="88" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="56" startPosition="26" endLine="58" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119208" fileName="EmbeddedConnection_Editor.java" startLine="19" startPosition="66" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="43" startPosition="47" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="75" startPosition="42" endLine="79" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="42" startPosition="91" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="74" startPosition="58" endLine="79" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="60" startPosition="59" endLine="66" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="82" startPosition="59" endLine="88" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4395952758104119213" fileName="EmbeddedConnection_Editor.java" startLine="33" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_33k75u_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="73" startPosition="26" endLine="80" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="23" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_33k75u_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="40" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_33k75u_c0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="51" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_33k75u_d0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <nodeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="68" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_33k75u_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
-    <scopeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="57" startPosition="58" endLine="57" endPosition="58" />
-    <scopeInfo nodeId="4395952758104119208" fileName="EmbeddedConnection_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" />
-    <scopeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="25" startPosition="96" endLine="26" endPosition="48" />
-    <scopeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="26" startPosition="48" endLine="27" endPosition="81" />
-    <scopeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="81" />
-    <scopeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="81" />
-    <scopeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" />
-    <scopeInfo nodeId="4395952758104119213" fileName="EmbeddedConnection_Editor.java" startLine="35" startPosition="106" endLine="36" endPosition="47" />
-    <scopeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="44" startPosition="5" endLine="46" endPosition="60">
-      <varInfo nodeId="4395952758104119224" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="56" startPosition="26" endLine="58" endPosition="73" />
-    <scopeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="76" startPosition="5" endLine="78" endPosition="62">
-      <varInfo nodeId="4395952758104119215" varName="style" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="61" startPosition="35" endLine="64" endPosition="105">
-      <varInfo nodeId="4395952758104231114" varName="manager" />
-      <varInfo nodeId="4395952758104231114" varName="opContext" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="83" startPosition="35" endLine="86" endPosition="105">
-      <varInfo nodeId="4395952758104119215" varName="manager" />
-      <varInfo nodeId="4395952758104119215" varName="opContext" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104119208" fileName="EmbeddedConnection_Editor.java" startLine="19" startPosition="66" endLine="23" endPosition="0">
-      <varInfo nodeId="4395952758104119208" varName="editorContext" />
-      <varInfo nodeId="4395952758104119208" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104119213" fileName="EmbeddedConnection_Editor.java" startLine="34" startPosition="88" endLine="38" endPosition="22">
-      <varInfo nodeId="4395952758104119213" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="42" startPosition="91" endLine="47" endPosition="5" />
-    <scopeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="74" startPosition="58" endLine="79" endPosition="5" />
-    <scopeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="24" startPosition="89" endLine="31" endPosition="22">
-      <varInfo nodeId="4395952758104119210" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104119213" fileName="EmbeddedConnection_Editor.java" startLine="33" startPosition="0" endLine="40" endPosition="0">
-      <varInfo nodeId="4395952758104119213" varName="editorContext" />
-      <varInfo nodeId="4395952758104119213" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="73" startPosition="26" endLine="80" endPosition="73" />
-    <scopeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="41" startPosition="88" endLine="49" endPosition="22">
-      <varInfo nodeId="4395952758104119224" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104119210" fileName="EmbeddedConnection_Editor.java" startLine="23" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="4395952758104119210" varName="editorContext" />
-      <varInfo nodeId="4395952758104119210" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104119224" fileName="EmbeddedConnection_Editor.java" startLine="40" startPosition="0" endLine="51" endPosition="0">
-      <varInfo nodeId="4395952758104119224" varName="editorContext" />
-      <varInfo nodeId="4395952758104119224" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="52" startPosition="87" endLine="66" endPosition="22">
-      <varInfo nodeId="4395952758104231114" varName="attributeConcept" />
-      <varInfo nodeId="4395952758104231114" varName="attributeKind" />
-      <varInfo nodeId="4395952758104231114" varName="editorCell" />
-      <varInfo nodeId="4395952758104231114" varName="provider" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104231114" fileName="EmbeddedConnection_Editor.java" startLine="51" startPosition="0" endLine="68" endPosition="0">
-      <varInfo nodeId="4395952758104231114" varName="editorContext" />
-      <varInfo nodeId="4395952758104231114" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="69" startPosition="88" endLine="88" endPosition="22">
-      <varInfo nodeId="4395952758104119215" varName="attributeConcept" />
-      <varInfo nodeId="4395952758104119215" varName="attributeKind" />
-      <varInfo nodeId="4395952758104119215" varName="editorCell" />
-      <varInfo nodeId="4395952758104119215" varName="provider" />
-    </scopeInfo>
-    <scopeInfo nodeId="4395952758104119215" fileName="EmbeddedConnection_Editor.java" startLine="68" startPosition="0" endLine="90" endPosition="0">
-      <varInfo nodeId="4395952758104119215" varName="editorContext" />
-      <varInfo nodeId="4395952758104119215" varName="node" />
-    </scopeInfo>
-    <unitInfo nodeId="4395952758104119208" fileName="EmbeddedConnection_Editor.java" startLine="19" startPosition="0" endLine="91" endPosition="0" unitName="neo4j.cypher.editor.EmbeddedConnection_Editor" />
-  </root>
   <root nodeId="4395952758104288722" modelId="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)">
     <nodeInfo nodeId="4395952758104288722" fileName="ImpermanentConnection_Editor.java" startLine="19" startPosition="79" endLine="20" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4395952758104288724" fileName="ImpermanentConnection_Editor.java" startLine="23" startPosition="89" endLine="24" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -6033,9 +5893,9 @@
     <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="24" startPosition="48" endLine="25" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="25" startPosition="80" endLine="26" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="29" startPosition="87" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="31" startPosition="29" endLine="32" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="32" startPosition="42" endLine="33" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="31" startPosition="30" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="32" startPosition="43" endLine="33" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="33" startPosition="26" endLine="34" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="34" startPosition="84" endLine="35" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4395952758104302036" fileName="NamedNodeRef_Editor.java" startLine="35" startPosition="58" endLine="36" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -11606,6 +11466,92 @@
       <varInfo nodeId="7918996842015188144" varName="node" />
     </scopeInfo>
     <unitInfo nodeId="7918996842015188138" fileName="TypeScalarFunction_Editor.java" startLine="18" startPosition="0" endLine="84" endPosition="0" unitName="neo4j.cypher.editor.TypeScalarFunction_Editor" />
+  </root>
+  <root nodeId="8020740480871949054" modelId="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)">
+    <nodeInfo nodeId="8020740480871949054" fileName="EmbeddedConnection_Editor.java" startLine="15" startPosition="79" endLine="16" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="19" startPosition="89" endLine="20" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="20" startPosition="96" endLine="21" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="20" startPosition="96" endLine="21" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="21" startPosition="48" endLine="22" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="21" startPosition="48" endLine="22" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="22" startPosition="81" endLine="23" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="22" startPosition="81" endLine="23" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="23" startPosition="81" endLine="24" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="23" startPosition="81" endLine="24" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="24" startPosition="81" endLine="25" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="28" startPosition="88" endLine="29" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="29" startPosition="105" endLine="30" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="31" startPosition="5" endLine="32" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="32" startPosition="42" endLine="33" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="34" startPosition="5" endLine="35" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="35" startPosition="34" endLine="36" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="39" startPosition="88" endLine="40" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="40" startPosition="91" endLine="41" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="42" startPosition="5" endLine="43" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="43" startPosition="42" endLine="44" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="45" startPosition="5" endLine="46" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="46" startPosition="34" endLine="47" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480871949067" fileName="EmbeddedConnection_Editor.java" startLine="50" startPosition="88" endLine="51" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8020740480871949067" fileName="EmbeddedConnection_Editor.java" startLine="51" startPosition="94" endLine="52" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8020740480871949067" fileName="EmbeddedConnection_Editor.java" startLine="51" startPosition="94" endLine="52" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949067" fileName="EmbeddedConnection_Editor.java" startLine="52" startPosition="47" endLine="53" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480871949067" fileName="EmbeddedConnection_Editor.java" startLine="53" startPosition="34" endLine="54" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480871949054" fileName="EmbeddedConnection_Editor.java" startLine="14" startPosition="66" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="30" startPosition="47" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="41" startPosition="47" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="29" startPosition="105" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="40" startPosition="91" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8020740480871949067" fileName="EmbeddedConnection_Editor.java" startLine="49" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_33k75u_c0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="18" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_33k75u_a#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="27" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_33k75u_a0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <nodeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="38" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_33k75u_b0#(Ljetbrains/mps/nodeEditor/EditorContext;Ljetbrains/mps/smodel/SNode;)Ljetbrains/mps/nodeEditor/cells/EditorCell;" />
+    <scopeInfo nodeId="8020740480871949054" fileName="EmbeddedConnection_Editor.java" startLine="15" startPosition="79" endLine="16" endPosition="63" />
+    <scopeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="20" startPosition="96" endLine="21" endPosition="48" />
+    <scopeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="21" startPosition="48" endLine="22" endPosition="81" />
+    <scopeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="22" startPosition="81" endLine="23" endPosition="81" />
+    <scopeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="23" startPosition="81" endLine="24" endPosition="81" />
+    <scopeInfo nodeId="8020740480871949067" fileName="EmbeddedConnection_Editor.java" startLine="51" startPosition="94" endLine="52" endPosition="47" />
+    <scopeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="31" startPosition="5" endLine="33" endPosition="62">
+      <varInfo nodeId="8020740480871949059" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="42" startPosition="5" endLine="44" endPosition="60">
+      <varInfo nodeId="8020740480871949061" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480871949054" fileName="EmbeddedConnection_Editor.java" startLine="14" startPosition="66" endLine="18" endPosition="0">
+      <varInfo nodeId="8020740480871949054" varName="editorContext" />
+      <varInfo nodeId="8020740480871949054" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480871949067" fileName="EmbeddedConnection_Editor.java" startLine="50" startPosition="88" endLine="54" endPosition="22">
+      <varInfo nodeId="8020740480871949067" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="29" startPosition="105" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="40" startPosition="91" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="19" startPosition="89" endLine="25" endPosition="22">
+      <varInfo nodeId="8020740480871949056" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480871949067" fileName="EmbeddedConnection_Editor.java" startLine="49" startPosition="0" endLine="56" endPosition="0">
+      <varInfo nodeId="8020740480871949067" varName="editorContext" />
+      <varInfo nodeId="8020740480871949067" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="28" startPosition="88" endLine="36" endPosition="22">
+      <varInfo nodeId="8020740480871949059" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="39" startPosition="88" endLine="47" endPosition="22">
+      <varInfo nodeId="8020740480871949061" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480871949056" fileName="EmbeddedConnection_Editor.java" startLine="18" startPosition="0" endLine="27" endPosition="0">
+      <varInfo nodeId="8020740480871949056" varName="editorContext" />
+      <varInfo nodeId="8020740480871949056" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480871949059" fileName="EmbeddedConnection_Editor.java" startLine="27" startPosition="0" endLine="38" endPosition="0">
+      <varInfo nodeId="8020740480871949059" varName="editorContext" />
+      <varInfo nodeId="8020740480871949059" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480871949061" fileName="EmbeddedConnection_Editor.java" startLine="38" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="8020740480871949061" varName="editorContext" />
+      <varInfo nodeId="8020740480871949061" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="8020740480871949054" fileName="EmbeddedConnection_Editor.java" startLine="14" startPosition="0" endLine="57" endPosition="0" unitName="neo4j.cypher.editor.EmbeddedConnection_Editor" />
   </root>
 </debugInfo>
 

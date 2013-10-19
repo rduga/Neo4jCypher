@@ -45,7 +45,7 @@ public class ConvertNodeToNodeRef_Intention extends BaseIntention implements Int
       } else {
         if (SPropertyOperations.getString(namedNode, "name").equals(SPropertyOperations.getString(node, "name"))) {
           SNode newNodeRef = SConceptOperations.createNewNode("neo4j.cypher.structure.NamedNodeRef", null);
-          SLinkOperations.setTarget(newNodeRef, "node", namedNode, false);
+          SLinkOperations.setTarget(newNodeRef, "node1", namedNode, false);
           SNodeOperations.replaceWithAnother(node, newNodeRef);
           break;
         }

@@ -12,7 +12,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
 public class PathExpression_Constraints extends BaseConstraintsDescriptor {
   private static SNodePointer canBeParentBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "4839691926370625592");
-  private static SNodePointer canBeAncesctorBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "4839691926370625600");
 
   public PathExpression_Constraints() {
     super("neo4j.cypher.structure.PathExpression");
@@ -34,29 +33,7 @@ public class PathExpression_Constraints extends BaseConstraintsDescriptor {
     return result;
   }
 
-  @Override
-  public boolean hasOwnCanBeAncestorMethod() {
-    return true;
-  }
-
-  @Override
-  public boolean canBeAncestor(SNode node, @Nullable SNode childNode, SNode childConcept, IOperationContext context, @Nullable CheckingNodeContext checkingNodeContext) {
-    boolean result = static_canBeAnAncestor(node, childNode, childConcept, context);
-
-    if (!(result) && checkingNodeContext != null) {
-      checkingNodeContext.setBreakingNode(canBeAncesctorBreakingPoint);
-    }
-
-    return result;
-  }
-
   public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
     return (SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IMatchExpression") || SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.ICreateExpression")) && !(SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.IInnerMatchExpression"));
-  }
-
-  public static boolean static_canBeAnAncestor(SNode node, SNode childNode, SNode childConcept, final IOperationContext operationContext) {
-    // <node> 
-    return true;
-    // <node> 
   }
 }

@@ -10,7 +10,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class StartAssignmentStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     this.indentBuffer();
-    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "node", true), this.getSNode());
+    TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "node1", true), this.getSNode());
     this.append(" = ");
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "index", true), this.getSNode());
   }

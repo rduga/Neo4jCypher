@@ -35,7 +35,7 @@ public class StartAssignmentStatement_Constraints extends BaseConstraintsDescrip
   }
 
   public static boolean static_canBeAParent(SNode node, SNode childNode, SNode childConcept, SNode link, final IOperationContext operationContext) {
-    if (link == SLinkOperations.findLinkDeclaration("neo4j.cypher.structure.StartAssignmentStatement", "node") && SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.EmptyNode")) {
+    if (link == SLinkOperations.findLinkDeclaration("neo4j.cypher.structure.StartAssignmentStatement", "node1") && SConceptOperations.isSubConceptOf(childConcept, "neo4j.cypher.structure.EmptyNode")) {
       return false;
     }
     return true;

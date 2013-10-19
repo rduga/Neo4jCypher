@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="71">
+<model modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="73">
   <persistence version="7" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
+  <language namespace="ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)" />
+  <language namespace="fa0e36f7-2d65-493a-8638-2d9c4dbffdf7(neo4j.cypher)" />
+  <language namespace="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="71" />
+  <import index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="73" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
+  <import index="smka" modelUID="f:java_stub#7866978e-a0f0-4cc7-81bc-4d213d9375e1#jetbrains.mps.lang.smodel.structure(jetbrains.mps.lang.smodel/jetbrains.mps.lang.smodel.structure@java_stub)" version="-1" />
+  <import index="moz9" modelUID="f:java_stub#ceab5195-25ea-4f22-9b92-103b95ca8c0c#jetbrains.mps.lang.core.structure(jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure@java_stub)" version="-1" />
   <import index="3ior" modelUID="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)" version="2" />
+  <import index="f5hh" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#com.sun.jdi(JDK/com.sun.jdi@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <roots>
@@ -38,7 +44,6 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1268543411552161296">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.statement.start" />
       <property name="name" nameId="tpck.1169194664001" value="StartAssignmentStatement" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="5530189148631419531" resolveInfo="CypherStatement" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1268543411552161297">
       <property name="name" nameId="tpck.1169194664001" value="Node" />
@@ -179,11 +184,6 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="connection.statement" />
       <property name="name" nameId="tpck.1169194664001" value="IConnectionStatement" />
     </node>
-    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4395952758104119207">
-      <property name="virtualPackage" nameId="tpck.1193676396447" value="connection.statement" />
-      <property name="name" nameId="tpck.1169194664001" value="EmbeddedConnection" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4395952758104106909" resolveInfo="ConnectionStatement" />
-    </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4395952758104119216">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="connection.statement" />
       <property name="name" nameId="tpck.1169194664001" value="ImpermanentConnection" />
@@ -202,7 +202,6 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4395952758104563294">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.statement.return" />
       <property name="name" nameId="tpck.1169194664001" value="ReturnStatement" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="5530189148631419531" resolveInfo="CypherStatement" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4395952758104566948">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.statement.start" />
@@ -230,7 +229,6 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5530189148631438178">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.statement.orderby" />
       <property name="name" nameId="tpck.1169194664001" value="OrderByStatement" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="5530189148631419531" resolveInfo="CypherStatement" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7352030329465478745">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.expression.orderby" />
@@ -339,7 +337,6 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2979687674397743082">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.statement.skip" />
       <property name="name" nameId="tpck.1169194664001" value="SkipStatement" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="5530189148631419531" resolveInfo="CypherStatement" />
     </node>
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2979687674397788067">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.statement.return" />
@@ -699,7 +696,6 @@
     <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="769752699177760055">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.statement.write.set" />
       <property name="name" nameId="tpck.1169194664001" value="SetAssignmentStatement" />
-      <link role="extends" roleId="tpce.1071489389519" targetNodeId="5530189148631419531" resolveInfo="CypherStatement" />
     </node>
     <node type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="769752699177906561">
       <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.expression.set" />
@@ -713,6 +709,15 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="query.expression" />
       <property name="name" nameId="tpck.1169194664001" value="WriteOnlyQueryExpression" />
       <link role="extends" roleId="tpce.1071489389519" targetNodeId="1268543411552025423" resolveInfo="QueryExpression" />
+    </node>
+    <node type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8020740480871949053">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="connection.statement" />
+      <property name="name" nameId="tpck.1169194664001" value="EmbeddedConnection" />
+      <link role="extends" roleId="tpce.1071489389519" targetNodeId="4395952758104106909" resolveInfo="ConnectionStatement" />
+    </node>
+    <node type="tpee.EnumClass" typeId="tpee.1083245097125" id="8020740480872419274">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.statement" />
+      <property name="name" nameId="tpck.1169194664001" value="CypherStatementOrder" />
     </node>
   </roots>
   <root id="1268543411551983790">
@@ -812,7 +817,7 @@
   <root id="1268543411552161296">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1268543411552161302">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="node" />
+      <property name="role" nameId="tpce.1071599776563" value="node1" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1268543411552161297" resolveInfo="Node" />
     </node>
@@ -1119,14 +1124,6 @@
     </node>
   </root>
   <root id="4395952758104119198" />
-  <root id="4395952758104119207">
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4395952758104218299">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="databasePath" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3ior.5481553824944787378" resolveInfo="BuildSourceProjectRelativePath" />
-    </node>
-  </root>
   <root id="4395952758104119216">
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4395952758104288733">
       <property name="name" nameId="tpck.1169194664001" value="memorySize" />
@@ -1136,7 +1133,7 @@
   <root id="4395952758104302029">
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4395952758104302030">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="node" />
+      <property name="role" nameId="tpce.1071599776563" value="node1" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1268543411552161297" resolveInfo="Node" />
     </node>
@@ -2288,6 +2285,99 @@
       <property name="value" nameId="tpce.1105725733873" value="woq" />
       <link role="conceptPropertyDeclaration" roleId="tpce.1105725439818" targetNodeId="tpck.1137473891462" resolveInfo="alias" />
     </node>
+  </root>
+  <root id="8020740480871949053" />
+  <root id="8020740480872419274">
+    <node role="method" roleId="tpee.1107880067339" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="8020740480872419358">
+      <property name="name" nameId="tpck.1169194664001" value="getOrder" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.IntegerType" typeId="tpee.1070534370425" id="8020740480872419365" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8020740480872419360" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8020740480872419361">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8020740480872419366">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.LocalInstanceFieldReference" typeId="tpee.7785501532031639928" id="8020740480872419364">
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8020740480872419292" resolveInfo="order" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="8020740480872419354">
+      <property name="name" nameId="tpck.1169194664001" value="START_STATEMENT" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8020740480872419278" resolveInfo="CypherStatementOrder" />
+      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8020740480872419355">
+        <property name="value" nameId="tpee.1068580320021" value="0" />
+      </node>
+    </node>
+    <node role="field" roleId="tpee.1068390468199" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="8020740480872419292">
+      <property name="name" nameId="tpck.1169194664001" value="order" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="8020740480872419293" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="8020740480872419295" />
+    </node>
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="8020740480872419284">
+      <property name="name" nameId="tpck.1169194664001" value="MATCH_STATEMENT" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8020740480872419278" resolveInfo="CypherStatementOrder" />
+      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8020740480872419285">
+        <property name="value" nameId="tpee.1068580320021" value="1" />
+      </node>
+    </node>
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="8020740480872419356">
+      <property name="name" nameId="tpck.1169194664001" value="WHERE_STATEMENT" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8020740480872419278" resolveInfo="CypherStatementOrder" />
+      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8020740480872419357">
+        <property name="value" nameId="tpee.1068580320021" value="2" />
+      </node>
+    </node>
+    <node role="constructor" roleId="tpee.1068390468201" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="8020740480872419278">
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="8020740480872419279" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8020740480872419280" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8020740480872419281">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8020740480872419296">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="8020740480872419346">
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8020740480872419318">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.ThisExpression" typeId="tpee.1070475354124" id="8020740480872419297" />
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.FieldReferenceOperation" typeId="tpee.1197029447546" id="8020740480872419324">
+                <link role="fieldDeclaration" roleId="tpee.1197029500499" targetNodeId="8020740480872419292" resolveInfo="order" />
+              </node>
+            </node>
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.ParameterReference" typeId="tpee.1068581242874" id="8020740480872419349">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8020740480872419290" resolveInfo="order" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="8020740480872419290">
+        <property name="name" nameId="tpck.1169194664001" value="order" />
+        <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="8020740480872419291" />
+      </node>
+    </node>
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="8020740480872419277">
+      <property name="name" nameId="tpck.1169194664001" value="DELETE_STATEMENT" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8020740480872419278" resolveInfo="CypherStatementOrder" />
+      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8020740480872419283">
+        <property name="value" nameId="tpee.1068580320021" value="3" />
+      </node>
+    </node>
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="8020740480872419276">
+      <property name="name" nameId="tpck.1169194664001" value="CREATE_STATEMENT" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8020740480872419278" resolveInfo="CypherStatementOrder" />
+      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8020740480872419282">
+        <property name="value" nameId="tpee.1068580320021" value="3" />
+      </node>
+    </node>
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="8020740480872419288">
+      <property name="name" nameId="tpck.1169194664001" value="SET_STATEMENT" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8020740480872419278" resolveInfo="CypherStatementOrder" />
+      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8020740480872419289">
+        <property name="value" nameId="tpee.1068580320021" value="3" />
+      </node>
+    </node>
+    <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="8020740480872419286">
+      <property name="name" nameId="tpck.1169194664001" value="RETURN_STATEMENT" />
+      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8020740480872419278" resolveInfo="CypherStatementOrder" />
+      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8020740480872419287">
+        <property name="value" nameId="tpee.1068580320021" value="4" />
+      </node>
+    </node>
+    <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8020740480872419275" />
   </root>
 </model>
 

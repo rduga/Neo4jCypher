@@ -36,8 +36,8 @@ public class StartAssignmentStatement_Editor extends DefaultNodeEditor {
 
   private EditorCell createRefNode_y962s6_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("node");
-    provider.setNoTargetText("<no node>");
+    provider.setRole("node1");
+    provider.setNoTargetText("<no node1>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

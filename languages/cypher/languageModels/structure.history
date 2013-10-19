@@ -432,5 +432,17 @@
     </dependencies>
     <rename id="qgu4.1268543411552268231" type="CHILD" from="startStatement" to="startStatements" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="71" />
+    </dependencies>
+    <rename id="qgu4.4395952758104302030" type="REFERENCE" from="node" to="node1" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="72" />
+    </dependencies>
+    <rename id="qgu4.1268543411552161302" type="CHILD" from="node" to="node1" />
+  </StructureModification>
 </history>
 

@@ -875,7 +875,7 @@
     <unitInfo nodeId="2103634311711075249" fileName="typeof_RightMStringFunction_InferenceRule.java" startLine="17" startPosition="0" endLine="73" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_RightMStringFunction_InferenceRule" />
   </root>
   <root nodeId="2513482657747332945" modelId="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)">
-    <nodeInfo nodeId="7627636904326983731" fileName="typeof_NamedNodeRef_InferenceRule.java" startLine="20" startPosition="125" endLine="21" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="8020740480872006142" fileName="typeof_NamedNodeRef_InferenceRule.java" startLine="20" startPosition="125" endLine="21" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
     <nodeInfo nodeId="7627636904326983722" fileName="typeof_NamedNodeRef_InferenceRule.java" startLine="22" startPosition="5" endLine="23" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7627636904326983722" fileName="typeof_NamedNodeRef_InferenceRule.java" startLine="23" startPosition="54" endLine="24" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7627636904326983722" fileName="typeof_NamedNodeRef_InferenceRule.java" startLine="24" startPosition="189" endLine="25" endPosition="330" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

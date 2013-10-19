@@ -9,6 +9,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class NamedNodeRef_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append(SPropertyOperations.getString(SLinkOperations.getTarget(node, "node", false), "name"));
+    this.append(SPropertyOperations.getString(SLinkOperations.getTarget(node, "node1", false), "name"));
   }
 }
