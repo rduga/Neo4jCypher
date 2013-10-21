@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="31" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
+  <unitInfo fileName="IntentionsDescriptor.java" startLine="9" startPosition="0" endLine="32" endPosition="0" unitName="neo4j.cypher.intentions.IntentionsDescriptor" />
   <root nodeId="3682822877829264477" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
     <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="16" startPosition="30" endLine="17" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3682822877829264477" fileName="SwitchRelationshipInDefinitionMode_Intention.java" startLine="20" startPosition="36" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -732,6 +732,95 @@
       <varInfo nodeId="7352030329465701064" varName="node" />
     </scopeInfo>
     <unitInfo nodeId="7352030329465701064" fileName="Desc2Asc_Intention.java" startLine="13" startPosition="0" endLine="48" endPosition="0" unitName="neo4j.cypher.intentions.Desc2Asc_Intention" />
+  </root>
+  <root nodeId="8020740480872446728" modelId="r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)">
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="19" startPosition="91" endLine="20" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="29" startPosition="36" endLine="30" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="33" startPosition="37" endLine="34" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="37" startPosition="44" endLine="38" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480872446733" fileName="IWriteStatementGrouping_Intention.java" startLine="41" startPosition="85" endLine="42" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="46" startPosition="58" endLine="47" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="48" startPosition="5" endLine="49" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480872446737" fileName="IWriteStatementGrouping_Intention.java" startLine="52" startPosition="90" endLine="53" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480872450480" fileName="IWriteStatementGrouping_Intention.java" startLine="56" startPosition="76" endLine="57" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8951776161408909208" fileName="IWriteStatementGrouping_Intention.java" startLine="57" startPosition="71" endLine="58" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8020740480872450477" fileName="IWriteStatementGrouping_Intention.java" startLine="58" startPosition="73" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8020740480872446977" fileName="IWriteStatementGrouping_Intention.java" startLine="61" startPosition="35" endLine="62" endPosition="292" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480872451269" fileName="IWriteStatementGrouping_Intention.java" startLine="64" startPosition="228" endLine="65" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480872452991" fileName="IWriteStatementGrouping_Intention.java" startLine="65" startPosition="43" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8951776161408909213" fileName="IWriteStatementGrouping_Intention.java" startLine="67" startPosition="18" endLine="68" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8951776161408909255" fileName="IWriteStatementGrouping_Intention.java" startLine="68" startPosition="56" endLine="69" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480872450556" fileName="IWriteStatementGrouping_Intention.java" startLine="71" startPosition="9" endLine="72" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8951776161408909293" fileName="IWriteStatementGrouping_Intention.java" startLine="72" startPosition="30" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="8951776161408909346" fileName="IWriteStatementGrouping_Intention.java" startLine="73" startPosition="0" endLine="74" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="8951776161408911458" fileName="IWriteStatementGrouping_Intention.java" startLine="75" startPosition="71" endLine="76" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8951776161408909564" fileName="IWriteStatementGrouping_Intention.java" startLine="76" startPosition="31" endLine="77" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8951776161408909672" fileName="IWriteStatementGrouping_Intention.java" startLine="77" startPosition="108" endLine="78" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="84" startPosition="37" endLine="85" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="3" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="IWriteStatementGrouping_Intention#()V" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="45" startPosition="84" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8951776161408909202" fileName="IWriteStatementGrouping_Intention.java" startLine="67" startPosition="16" endLine="70" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="24" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getConcept#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="28" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isParameterized#()Z" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="32" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isErrorIntention#()Z" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isAvailableInChildNodes#()Z" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="40" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getDescription#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Ljava/lang/String;" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="51" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableToNode#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="83" startPosition="0" endLine="87" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getLocationString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8951776161408909298" fileName="IWriteStatementGrouping_Intention.java" startLine="74" startPosition="78" endLine="79" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="44" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicable#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)Z" />
+    <nodeInfo nodeId="8020740480872450589" fileName="IWriteStatementGrouping_Intention.java" startLine="63" startPosition="39" endLine="70" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8020740480872450488" fileName="IWriteStatementGrouping_Intention.java" startLine="62" startPosition="292" endLine="71" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8020740480872446973" fileName="IWriteStatementGrouping_Intention.java" startLine="60" startPosition="246" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="visit#(Ljetbrains/mps/smodel/SNode;)V" />
+    <nodeInfo nodeId="8020740480872446859" fileName="IWriteStatementGrouping_Intention.java" startLine="59" startPosition="0" endLine="81" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="55" startPosition="0" endLine="83" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/smodel/SNode;Ljetbrains/mps/nodeEditor/EditorContext;)V" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="22" startPosition="46" endLine="22" endPosition="46" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="25" startPosition="30" endLine="26" endPosition="52" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="29" startPosition="36" endLine="30" endPosition="17" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="33" startPosition="37" endLine="34" endPosition="17" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="37" startPosition="44" endLine="38" endPosition="17" />
+    <scopeInfo nodeId="8020740480872446730" fileName="IWriteStatementGrouping_Intention.java" startLine="41" startPosition="85" endLine="42" endPosition="53" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="46" startPosition="58" endLine="47" endPosition="19" />
+    <scopeInfo nodeId="8020740480872446736" fileName="IWriteStatementGrouping_Intention.java" startLine="52" startPosition="90" endLine="53" endPosition="132" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="84" startPosition="37" endLine="85" endPosition="37" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="21" startPosition="0" endLine="23" endPosition="3" />
+    <scopeInfo nodeId="8020740480872450591" fileName="IWriteStatementGrouping_Intention.java" startLine="64" startPosition="228" endLine="66" endPosition="0" />
+    <scopeInfo nodeId="8951776161408909203" fileName="IWriteStatementGrouping_Intention.java" startLine="67" startPosition="18" endLine="69" endPosition="36" />
+    <scopeInfo nodeId="8951776161408909299" fileName="IWriteStatementGrouping_Intention.java" startLine="75" startPosition="71" endLine="78" endPosition="41" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="24" startPosition="0" endLine="28" endPosition="0" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="28" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="32" startPosition="0" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="36" startPosition="0" endLine="40" endPosition="0" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="40" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="8020740480872446728" varName="editorContext" />
+      <varInfo nodeId="8020740480872446728" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="45" startPosition="84" endLine="49" endPosition="16" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="51" startPosition="0" endLine="55" endPosition="0">
+      <varInfo nodeId="8020740480872446728" varName="editorContext" />
+      <varInfo nodeId="8020740480872446728" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="83" startPosition="0" endLine="87" endPosition="0" />
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="44" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="8020740480872446728" varName="editorContext" />
+      <varInfo nodeId="8020740480872446728" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480872450489" fileName="IWriteStatementGrouping_Intention.java" startLine="63" startPosition="39" endLine="70" endPosition="11" />
+    <scopeInfo nodeId="8020740480872446974" fileName="IWriteStatementGrouping_Intention.java" startLine="61" startPosition="35" endLine="79" endPosition="9" />
+    <scopeInfo nodeId="8020740480872446973" fileName="IWriteStatementGrouping_Intention.java" startLine="60" startPosition="246" endLine="81" endPosition="0">
+      <varInfo nodeId="8020740480872446973" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480872446732" fileName="IWriteStatementGrouping_Intention.java" startLine="56" startPosition="76" endLine="81" endPosition="7">
+      <varInfo nodeId="8020740480872450481" varName="beforeNode" />
+      <varInfo nodeId="8951776161408909209" varName="firstOfGroup" />
+    </scopeInfo>
+    <scopeInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="55" startPosition="0" endLine="83" endPosition="0">
+      <varInfo nodeId="8020740480872446728" varName="editorContext" />
+      <varInfo nodeId="8020740480872446728" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="8020740480872446973" fileName="IWriteStatementGrouping_Intention.java" startLine="60" startPosition="227" endLine="81" endPosition="5" unitName="neo4j.cypher.intentions.IWriteStatementGrouping_Intention$1" />
+    <unitInfo nodeId="8020740480872446728" fileName="IWriteStatementGrouping_Intention.java" startLine="19" startPosition="0" endLine="88" endPosition="0" unitName="neo4j.cypher.intentions.IWriteStatementGrouping_Intention" />
   </root>
 </debugInfo>
 

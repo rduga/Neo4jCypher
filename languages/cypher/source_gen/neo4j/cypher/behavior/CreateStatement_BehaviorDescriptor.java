@@ -12,6 +12,10 @@ public class CreateStatement_BehaviorDescriptor extends CypherStatement_Behavior
     return CreateStatement_Behavior.virtual_getOrder_6384283002380928985(thisNode);
   }
 
+  public void virtual_joinWithTheSameNodeType_8020740480872452998(SNode thisNode, SNode otherIWriteStatement) {
+    CreateStatement_Behavior.virtual_joinWithTheSameNodeType_8020740480872452998(thisNode, otherIWriteStatement);
+  }
+
   @Override
   public String getConceptFqName() {
     return "neo4j.cypher.structure.CreateStatement";
