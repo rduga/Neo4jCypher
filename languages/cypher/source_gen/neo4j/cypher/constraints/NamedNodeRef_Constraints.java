@@ -17,13 +17,14 @@ import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.SNode;
 import neo4j.cypher.behavior.CypherStatement_Behavior;
 import java.util.List;
-import jetbrains.mps.smodel.SNode;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
   private static Logger LOG = Logger.getLogger(NamedNodeRef_Constraints.class);
@@ -48,26 +49,50 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
+            // <node> 
+
             if (SNodeOperations.isInstanceOf(_context.getContextNode(), "neo4j.cypher.structure.NamedNodeRef")) {
               LOG.info("reference for node name:" + SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(_context.getContextNode(), "neo4j.cypher.structure.NamedNodeRef"), "node1", false), "name"));
             }
 
             // order for reference visibility 
-            final int currCypherStatementOrder = CypherStatement_Behavior.call_getOrder_6384283002380928985(SNodeOperations.getAncestor(_context.getContextNode(), "neo4j.cypher.structure.CypherStatement", false, false));
+            final SNode currCypherStatement = (SNodeOperations.isInstanceOf(_context.getContextNode(), "neo4j.cypher.structure.CypherStatement") ?
+              SNodeOperations.cast(_context.getContextNode(), "neo4j.cypher.structure.CypherStatement") :
+              SNodeOperations.getAncestor(_context.getContextNode(), "neo4j.cypher.structure.CypherStatement", false, false)
+            );
+            final int currCypherStatementOrder = CypherStatement_Behavior.call_getOrder_6384283002380928985(currCypherStatement);
 
             final List<SNode> nodes = new ArrayList<SNode>();
 
-            // <node> 
+            // traversing all nodes, add reference to that which have less or equal ordering number 
             ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getContextNode(), "neo4j.cypher.structure.QueryExpression", false, false), "neo4j.cypher.structure.CypherStatement", false, new String[]{})).visitAll(new IVisitor<SNode>() {
               public void visit(SNode it) {
                 int currNodeOrder = CypherStatement_Behavior.call_getOrder_6384283002380928985(SNodeOperations.cast(it, "neo4j.cypher.structure.CypherStatement"));
-                if (currNodeOrder <= currCypherStatementOrder) {
-                  ListSequence.fromList(nodes).addSequence(ListSequence.fromList(SNodeOperations.getDescendants(it, "neo4j.cypher.structure.Node", false, new String[]{})));
+
+                boolean addAll = false;
+
+                LOG.info("currNodeOrder:" + currNodeOrder + " alias:" + SConceptPropertyOperations.getString(it, "alias") + " curr cypher statement:" + SConceptPropertyOperations.getString(currCypherStatement, "alias") + " order:" + currCypherStatementOrder);
+
+                if (currNodeOrder < currCypherStatementOrder) {
+                  addAll = true;
+                } else if (currNodeOrder == currCypherStatementOrder) {
+                  LOG.info("the same orders, indeces of them are (curr node order, reference node order): " + SNodeOperations.getIndexInParent(currCypherStatement) + " " + SNodeOperations.getIndexInParent(it));
+
+                  if (SNodeOperations.getIndexInParent(it) <= SNodeOperations.getIndexInParent(currCypherStatement)) {
+                    LOG.info("added nodes with indeces");
+                    addAll = true;
+                  }
+                }
+
+                if (addAll) {
+                  ListSequence.fromList(nodes).addSequence(ListSequence.fromList(SNodeOperations.getDescendants(it, "neo4j.cypher.structure.Node", false, new String[]{})).where(new IWhereFilter<SNode>() {
+                    public boolean accept(SNode it) {
+                      return isNotEmpty_t1tmaf_a0a0a0a0a0a0a0i0a0a0a0l0a0a0a0b0a1a0b0a(SPropertyOperations.getString(it, "name"));
+                    }
+                  }));
                 }
               }
             });
-
-            List<SNode> visibleNodes = new ArrayList<SNode>();
 
             ListSequence.fromList(nodes).visitAll(new IVisitor<SNode>() {
               public void visit(SNode it) {
@@ -77,7 +102,6 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
 
               }
             });
-
 
             return nodes;
           }
@@ -92,7 +116,11 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
     return references;
   }
 
-  public static boolean isNotEmpty_t1tmaf_a0a0a0a0a0a0a0h0a0a0a0b0a1a0b0a(String str) {
+  public static boolean isNotEmpty_t1tmaf_a0a0a0a0a0a0a0a0a0a0b0a1a0b0a(String str) {
+    return str != null && str.length() > 0;
+  }
+
+  public static boolean isNotEmpty_t1tmaf_a0a0a0a0a0a0a0i0a0a0a0l0a0a0a0b0a1a0b0a(String str) {
     return str != null && str.length() > 0;
   }
 }

@@ -27,7 +27,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590353(jetbrains.mps.lang.intentions.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590354(jetbrains.mps.lang.intentions.generator.baseLanguage.template.main@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c89590580(jetbrains.mps.baseLanguage.logging.generator.baseLanguage.template.main@generator)" />
-  <dep model="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)" hash="-4x05rvq7ryc9ahzdvu7op3uabbn3uth" />
+  <dep model="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)" hash="5qf7qkv9br3q4qvyomtrfs292bdy80p" />
   <dep model="r:a258f9a5-18d3-4bea-a833-20735290774c(jetbrains.mps.baseLanguage.overloadedOperators.structure)" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
