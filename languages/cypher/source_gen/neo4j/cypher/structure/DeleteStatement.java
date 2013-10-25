@@ -4,7 +4,6 @@ package neo4j.cypher.structure;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.Iterator;
-import jetbrains.mps.baseLanguage.structure.Expression;
 import java.util.List;
 import jetbrains.mps.lang.core.structure.Attribute;
 import jetbrains.mps.smodel.SModel;
@@ -51,19 +50,19 @@ public class DeleteStatement extends CypherStatement implements IWriteStatement 
     return this.getChildCount(DeleteStatement.EXPRESSION);
   }
 
-  public Iterator<Expression> expressions() {
-    return this.children(Expression.class, DeleteStatement.EXPRESSION);
+  public Iterator<DeleteExpression> expressions() {
+    return this.children(DeleteExpression.class, DeleteStatement.EXPRESSION);
   }
 
-  public List<Expression> getExpressions() {
-    return this.getChildren(Expression.class, DeleteStatement.EXPRESSION);
+  public List<DeleteExpression> getExpressions() {
+    return this.getChildren(DeleteExpression.class, DeleteStatement.EXPRESSION);
   }
 
-  public void addExpression(Expression node) {
+  public void addExpression(DeleteExpression node) {
     this.addChild(DeleteStatement.EXPRESSION, node);
   }
 
-  public void insertExpression(Expression prev, Expression node) {
+  public void insertExpression(DeleteExpression prev, DeleteExpression node) {
     this.insertChild(prev, DeleteStatement.EXPRESSION, node);
   }
 

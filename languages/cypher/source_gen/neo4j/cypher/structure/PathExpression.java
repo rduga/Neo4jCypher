@@ -11,7 +11,7 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
-public class PathExpression extends Expression implements ICypherExpression, INamedIdentifier {
+public class PathExpression extends Expression implements ICypherExpression, INamedIdentifier, IOrderedExpression {
   public static final String concept = "neo4j.cypher.structure.PathExpression";
   public static final String SHORT_DESCRIPTION = "shortDescription";
   public static final String ALIAS = "alias";

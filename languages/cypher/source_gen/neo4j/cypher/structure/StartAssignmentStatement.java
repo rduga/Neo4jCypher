@@ -4,17 +4,48 @@ package neo4j.cypher.structure;
 
 import jetbrains.mps.lang.core.structure.BaseConcept;
 import jetbrains.mps.smodel.SNode;
+import java.util.Iterator;
+import jetbrains.mps.lang.core.structure.Attribute;
+import java.util.List;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.project.GlobalScope;
 
-public class StartAssignmentStatement extends BaseConcept {
+public class StartAssignmentStatement extends BaseConcept implements IOrderedExpression {
   public static final String concept = "neo4j.cypher.structure.StartAssignmentStatement";
+  public static final String SHORT_DESCRIPTION = "shortDescription";
+  public static final String ALIAS = "alias";
+  public static final String VIRTUAL_PACKAGE = "virtualPackage";
   public static final String NODE1 = "node1";
   public static final String INDEX = "index";
+  public static final String SMODEL_ATTRIBUTE = "smodelAttribute";
 
   public StartAssignmentStatement(SNode node) {
     super(node);
+  }
+
+  public String getShortDescription() {
+    return this.getProperty(StartAssignmentStatement.SHORT_DESCRIPTION);
+  }
+
+  public void setShortDescription(String value) {
+    this.setProperty(StartAssignmentStatement.SHORT_DESCRIPTION, value);
+  }
+
+  public String getAlias() {
+    return this.getProperty(StartAssignmentStatement.ALIAS);
+  }
+
+  public void setAlias(String value) {
+    this.setProperty(StartAssignmentStatement.ALIAS, value);
+  }
+
+  public String getVirtualPackage() {
+    return this.getProperty(StartAssignmentStatement.VIRTUAL_PACKAGE);
+  }
+
+  public void setVirtualPackage(String value) {
+    this.setProperty(StartAssignmentStatement.VIRTUAL_PACKAGE, value);
   }
 
   public Node getNode1() {
@@ -31,6 +62,26 @@ public class StartAssignmentStatement extends BaseConcept {
 
   public void setIndex(Index node) {
     super.setChild(StartAssignmentStatement.INDEX, node);
+  }
+
+  public int getSmodelAttributesCount() {
+    return this.getChildCount(StartAssignmentStatement.SMODEL_ATTRIBUTE);
+  }
+
+  public Iterator<Attribute> smodelAttributes() {
+    return this.children(Attribute.class, StartAssignmentStatement.SMODEL_ATTRIBUTE);
+  }
+
+  public List<Attribute> getSmodelAttributes() {
+    return this.getChildren(Attribute.class, StartAssignmentStatement.SMODEL_ATTRIBUTE);
+  }
+
+  public void addSmodelAttribute(Attribute node) {
+    this.addChild(StartAssignmentStatement.SMODEL_ATTRIBUTE, node);
+  }
+
+  public void insertSmodelAttribute(Attribute prev, Attribute node) {
+    this.insertChild(prev, StartAssignmentStatement.SMODEL_ATTRIBUTE, node);
   }
 
   public static StartAssignmentStatement newInstance(SModel sm, boolean init) {

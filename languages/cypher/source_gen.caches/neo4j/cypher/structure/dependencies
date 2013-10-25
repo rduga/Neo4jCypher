@@ -444,7 +444,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.Language" />
     <classNode dependClassName="jetbrains.mps.smodel.MPSModuleRepository" />
   </dependency>
-  <dependency className="neo4j.cypher.structure.DeleteStatement" file="DeleteStatement.java">
+  <dependency className="neo4j.cypher.structure.DeleteExpression" file="DeleteExpression.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Iterator" />
     <classNode dependClassName="java.util.List" />
@@ -454,7 +454,22 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="neo4j.cypher.structure.IDeleteExpression" />
+    <classNode dependClassName="neo4j.cypher.structure.IOrderedExpression" />
+    <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
+  </dependency>
+  <dependency className="neo4j.cypher.structure.DeleteStatement" file="DeleteStatement.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
+    <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModel" />
+    <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="neo4j.cypher.structure.CypherStatement" />
+    <classNode dependClassName="neo4j.cypher.structure.DeleteExpression" />
     <classNode dependClassName="neo4j.cypher.structure.IWriteStatement" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
     <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
@@ -606,6 +621,10 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
+  <dependency className="neo4j.cypher.structure.IOrderedExpression" file="IOrderedExpression.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
+  </dependency>
   <dependency className="neo4j.cypher.structure.IPropertyContainer" file="IPropertyContainer.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Iterator" />
@@ -627,6 +646,10 @@
     <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="neo4j.cypher.structure.IWhereExpression" file="IWhereExpression.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
+  </dependency>
+  <dependency className="neo4j.cypher.structure.IWrite" file="IWrite.java">
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
@@ -993,6 +1016,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="neo4j.cypher.structure.ICypherExpression" />
     <classNode dependClassName="neo4j.cypher.structure.INamedIdentifier" />
+    <classNode dependClassName="neo4j.cypher.structure.IOrderedExpression" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
     <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
@@ -1340,12 +1364,17 @@
   </dependency>
   <dependency className="neo4j.cypher.structure.SetAssignmentStatement" file="SetAssignmentStatement.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.structure.Expression" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="neo4j.cypher.structure.IOrderedExpression" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="neo4j.cypher.structure.SetStatement" file="SetStatement.java">
     <classNode dependClassName="java.lang.String" />
@@ -1409,13 +1438,18 @@
   </dependency>
   <dependency className="neo4j.cypher.structure.StartAssignmentStatement" file="StartAssignmentStatement.java">
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.lang.core.structure.Attribute" />
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="neo4j.cypher.structure.IOrderedExpression" />
     <classNode dependClassName="neo4j.cypher.structure.Index" />
     <classNode dependClassName="neo4j.cypher.structure.Node" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
+    <classNode extendsClassName="jetbrains.mps.smodel.INodeAdapter" />
   </dependency>
   <dependency className="neo4j.cypher.structure.StartStatement" file="StartStatement.java">
     <classNode dependClassName="java.lang.String" />

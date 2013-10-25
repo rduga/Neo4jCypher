@@ -4,7 +4,7 @@ package neo4j.cypher.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 
-public class SetAssignmentStatement_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
+public class SetAssignmentStatement_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IOrderedExpression_BehaviorDescriptor {
   public SetAssignmentStatement_BehaviorDescriptor() {
   }
 

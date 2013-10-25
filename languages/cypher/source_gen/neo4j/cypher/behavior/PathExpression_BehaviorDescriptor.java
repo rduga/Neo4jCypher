@@ -6,7 +6,7 @@ import jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class PathExpression_BehaviorDescriptor extends Expression_BehaviorDescriptor implements ICypherExpression_BehaviorDescriptor, INamedIdentifier_BehaviorDescriptor {
+public class PathExpression_BehaviorDescriptor extends Expression_BehaviorDescriptor implements ICypherExpression_BehaviorDescriptor, INamedIdentifier_BehaviorDescriptor, IOrderedExpression_BehaviorDescriptor {
   public PathExpression_BehaviorDescriptor() {
   }
 

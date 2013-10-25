@@ -340,6 +340,10 @@
       <property name="virtualPackage" nameId="tpck.1193676396447" value="connection.statement" />
       <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="qgu4.8020740480871949053" resolveInfo="EmbeddedConnection" />
     </node>
+    <node type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8807834474661767157">
+      <property name="virtualPackage" nameId="tpck.1193676396447" value="lang.expression.delete" />
+      <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="qgu4.8807834474661724166" resolveInfo="DeleteExpression" />
+    </node>
   </roots>
   <root id="1268543411551995395">
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1268543411552025427">
@@ -2371,6 +2375,11 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8020740480871949067">
         <property name="text" nameId="tpc2.1073389577007" value="dotopath" />
       </node>
+    </node>
+  </root>
+  <root id="8807834474661767157">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8807834474661767159">
+      <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="qgu4.8807834474661767156" />
     </node>
   </root>
 </model>

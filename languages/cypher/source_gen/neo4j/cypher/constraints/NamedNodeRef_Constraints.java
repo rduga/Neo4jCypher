@@ -78,7 +78,40 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
                 } else if (currNodeOrder == currCypherStatementOrder) {
                   LOG.info("the same orders, indeces of them are (curr node order, reference node order): " + SNodeOperations.getIndexInParent(currCypherStatement) + " " + SNodeOperations.getIndexInParent(it));
 
-                  if (SNodeOperations.getIndexInParent(it) <= SNodeOperations.getIndexInParent(currCypherStatement)) {
+                  if (it == currCypherStatement) {
+                    LOG.info("cypher statement nodes are the same");
+                    // FIXME - IOrderedExpression 
+
+                    final SNode nodeOrderedExpression = SNodeOperations.getAncestor(_context.getContextNode(), "neo4j.cypher.structure.IOrderedExpression", false, false);
+
+                    if ((nodeOrderedExpression != null)) {
+                      final List<SNode> visibleCypherStatementNodes = new ArrayList<SNode>();
+
+                      ListSequence.fromList(SNodeOperations.getDescendants(it, "neo4j.cypher.structure.Node", false, new String[]{})).visitAll(new IVisitor<SNode>() {
+                        public void visit(SNode it) {
+
+                          SNode itOrderedExpression = SNodeOperations.getAncestor(it, "neo4j.cypher.structure.IOrderedExpression", false, false);
+
+                          if (isNotEmpty_t1tmaf_a0a3a0a0a0a2a5a2a0g0a0a0a0l0a0a0a0b0a1a0b0a(SPropertyOperations.getString(it, "name")) && (itOrderedExpression != null)) {
+                            // FIXME debug this code 
+                            if (SNodeOperations.getIndexInParent(itOrderedExpression) <= SNodeOperations.getIndexInParent(nodeOrderedExpression)) {
+                              ListSequence.fromList(visibleCypherStatementNodes).addElement(it);
+                            }
+                          } else {
+                            LOG.warning("node out of IOrderedExpression inside the same CypherStatement");
+                            ListSequence.fromList(visibleCypherStatementNodes).addElement(it);
+                          }
+                        }
+                      });
+
+                      ListSequence.fromList(nodes).addSequence(ListSequence.fromList(visibleCypherStatementNodes));
+
+                    } else {
+                      // if we are not in ordered expression, we can see all nodes inside one CypherStatement 
+                      // because we dont know how to order nodes  
+                      addAll = true;
+                    }
+                  } else if (SNodeOperations.getIndexInParent(it) <= SNodeOperations.getIndexInParent(currCypherStatement)) {
                     LOG.info("added nodes with indeces");
                     addAll = true;
                   }
@@ -103,6 +136,8 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
               }
             });
 
+            // delete statement post process 
+
             return nodes;
           }
 
@@ -117,6 +152,10 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
   }
 
   public static boolean isNotEmpty_t1tmaf_a0a0a0a0a0a0a0a0a0a0b0a1a0b0a(String str) {
+    return str != null && str.length() > 0;
+  }
+
+  public static boolean isNotEmpty_t1tmaf_a0a3a0a0a0a2a5a2a0g0a0a0a0l0a0a0a0b0a1a0b0a(String str) {
     return str != null && str.length() > 0;
   }
 
