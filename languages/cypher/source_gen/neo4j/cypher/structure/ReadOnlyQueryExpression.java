@@ -9,12 +9,21 @@ import jetbrains.mps.project.GlobalScope;
 
 public class ReadOnlyQueryExpression extends QueryExpression {
   public static final String concept = "neo4j.cypher.structure.ReadOnlyQueryExpression";
+  public static final String START_STATEMENT = "startStatement";
   public static final String MATCH_STATEMENT = "matchStatement";
   public static final String WHERE_STATEMENT = "whereStatement";
   public static final String RETURN_STATEMENT_BLOCK = "returnStatementBlock";
 
   public ReadOnlyQueryExpression(SNode node) {
     super(node);
+  }
+
+  public StartStatement getStartStatement() {
+    return (StartStatement) this.getChild(StartStatement.class, ReadOnlyQueryExpression.START_STATEMENT);
+  }
+
+  public void setStartStatement(StartStatement node) {
+    super.setChild(ReadOnlyQueryExpression.START_STATEMENT, node);
   }
 
   public MatchStatement getMatchStatement() {

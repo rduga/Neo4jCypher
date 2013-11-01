@@ -55,6 +55,8 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
               LOG.info("reference for node name:" + SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(_context.getContextNode(), "neo4j.cypher.structure.NamedNodeRef"), "node1", false), "name"));
             }
 
+            LOG.info("Start f crossing");
+
             // order for reference visibility 
             final SNode currCypherStatement = (SNodeOperations.isInstanceOf(_context.getContextNode(), "neo4j.cypher.structure.CypherStatement") ?
               SNodeOperations.cast(_context.getContextNode(), "neo4j.cypher.structure.CypherStatement") :
@@ -92,7 +94,7 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
 
                           SNode itOrderedExpression = SNodeOperations.getAncestor(it, "neo4j.cypher.structure.IOrderedExpression", false, false);
 
-                          if (isNotEmpty_t1tmaf_a0a3a0a0a0a2a5a2a0g0a0a0a0l0a0a0a0b0a1a0b0a(SPropertyOperations.getString(it, "name")) && (itOrderedExpression != null)) {
+                          if (isNotEmpty_t1tmaf_a0a3a0a0a0a2a5a2a0g0a0a0a0n0a0a0a0b0a1a0b0a(SPropertyOperations.getString(it, "name")) && (itOrderedExpression != null)) {
                             // FIXME debug this code 
                             if (SNodeOperations.getIndexInParent(itOrderedExpression) <= SNodeOperations.getIndexInParent(nodeOrderedExpression)) {
                               ListSequence.fromList(visibleCypherStatementNodes).addElement(it);
@@ -120,7 +122,7 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
                 if (addAll) {
                   ListSequence.fromList(nodes).addSequence(ListSequence.fromList(SNodeOperations.getDescendants(it, "neo4j.cypher.structure.Node", false, new String[]{})).where(new IWhereFilter<SNode>() {
                     public boolean accept(SNode it) {
-                      return isNotEmpty_t1tmaf_a0a0a0a0a0a0a0i0a0a0a0l0a0a0a0b0a1a0b0a(SPropertyOperations.getString(it, "name"));
+                      return isNotEmpty_t1tmaf_a0a0a0a0a0a0a0i0a0a0a0n0a0a0a0b0a1a0b0a(SPropertyOperations.getString(it, "name"));
                     }
                   }));
                 }
@@ -155,11 +157,11 @@ public class NamedNodeRef_Constraints extends BaseConstraintsDescriptor {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_t1tmaf_a0a3a0a0a0a2a5a2a0g0a0a0a0l0a0a0a0b0a1a0b0a(String str) {
+  public static boolean isNotEmpty_t1tmaf_a0a3a0a0a0a2a5a2a0g0a0a0a0n0a0a0a0b0a1a0b0a(String str) {
     return str != null && str.length() > 0;
   }
 
-  public static boolean isNotEmpty_t1tmaf_a0a0a0a0a0a0a0i0a0a0a0l0a0a0a0b0a1a0b0a(String str) {
+  public static boolean isNotEmpty_t1tmaf_a0a0a0a0a0a0a0i0a0a0a0n0a0a0a0b0a1a0b0a(String str) {
     return str != null && str.length() > 0;
   }
 }

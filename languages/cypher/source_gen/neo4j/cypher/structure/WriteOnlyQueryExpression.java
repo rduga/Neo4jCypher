@@ -11,11 +11,20 @@ import jetbrains.mps.project.GlobalScope;
 
 public class WriteOnlyQueryExpression extends QueryExpression {
   public static final String concept = "neo4j.cypher.structure.WriteOnlyQueryExpression";
+  public static final String START_STATEMENT = "startStatement";
   public static final String CREATE_STATEMENT = "createStatement";
   public static final String WRITE_STATEMENT = "writeStatement";
 
   public WriteOnlyQueryExpression(SNode node) {
     super(node);
+  }
+
+  public StartStatement getStartStatement() {
+    return (StartStatement) this.getChild(StartStatement.class, WriteOnlyQueryExpression.START_STATEMENT);
+  }
+
+  public void setStartStatement(StartStatement node) {
+    super.setChild(WriteOnlyQueryExpression.START_STATEMENT, node);
   }
 
   public CreateStatement getCreateStatement() {

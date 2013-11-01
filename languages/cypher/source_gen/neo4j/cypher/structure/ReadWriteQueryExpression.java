@@ -11,6 +11,7 @@ import jetbrains.mps.project.GlobalScope;
 
 public class ReadWriteQueryExpression extends QueryExpression {
   public static final String concept = "neo4j.cypher.structure.ReadWriteQueryExpression";
+  public static final String START_STATEMENT = "startStatement";
   public static final String MATCH_STATEMENT = "matchStatement";
   public static final String WHERE_STATEMENT = "whereStatement";
   public static final String RETURN_STATEMENT_BLOCK = "returnStatementBlock";
@@ -18,6 +19,14 @@ public class ReadWriteQueryExpression extends QueryExpression {
 
   public ReadWriteQueryExpression(SNode node) {
     super(node);
+  }
+
+  public StartStatement getStartStatement() {
+    return (StartStatement) this.getChild(StartStatement.class, ReadWriteQueryExpression.START_STATEMENT);
+  }
+
+  public void setStartStatement(StartStatement node) {
+    super.setChild(ReadWriteQueryExpression.START_STATEMENT, node);
   }
 
   public MatchStatement getMatchStatement() {

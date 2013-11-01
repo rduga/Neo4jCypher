@@ -10,18 +10,9 @@ import jetbrains.mps.project.GlobalScope;
 
 public class QueryExpression extends Expression {
   public static final String concept = "neo4j.cypher.structure.QueryExpression";
-  public static final String START_STATEMENT = "startStatement";
 
   public QueryExpression(SNode node) {
     super(node);
-  }
-
-  public StartStatement getStartStatement() {
-    return (StartStatement) this.getChild(StartStatement.class, QueryExpression.START_STATEMENT);
-  }
-
-  public void setStartStatement(StartStatement node) {
-    super.setChild(QueryExpression.START_STATEMENT, node);
   }
 
   public static QueryExpression newInstance(SModel sm, boolean init) {

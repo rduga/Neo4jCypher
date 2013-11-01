@@ -1158,7 +1158,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModel" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="neo4j.cypher.structure.StartStatement" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
   <dependency className="neo4j.cypher.structure.QuerySheet" file="QuerySheet.java">
@@ -1228,6 +1227,7 @@
     <classNode dependClassName="neo4j.cypher.structure.MatchStatement" />
     <classNode dependClassName="neo4j.cypher.structure.QueryExpression" />
     <classNode dependClassName="neo4j.cypher.structure.ReturnStatementBlock" />
+    <classNode dependClassName="neo4j.cypher.structure.StartStatement" />
     <classNode dependClassName="neo4j.cypher.structure.WhereStatement" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
@@ -1243,6 +1243,7 @@
     <classNode dependClassName="neo4j.cypher.structure.MatchStatement" />
     <classNode dependClassName="neo4j.cypher.structure.QueryExpression" />
     <classNode dependClassName="neo4j.cypher.structure.ReturnStatementBlock" />
+    <classNode dependClassName="neo4j.cypher.structure.StartStatement" />
     <classNode dependClassName="neo4j.cypher.structure.WhereStatement" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
@@ -1598,6 +1599,7 @@
     <classNode dependClassName="neo4j.cypher.structure.CreateStatement" />
     <classNode dependClassName="neo4j.cypher.structure.IWriteStatement" />
     <classNode dependClassName="neo4j.cypher.structure.QueryExpression" />
+    <classNode dependClassName="neo4j.cypher.structure.StartStatement" />
     <classNode extendsClassName="jetbrains.mps.lang.core.structure.BaseConcept" />
   </dependency>
 </dependenciesRoot>
