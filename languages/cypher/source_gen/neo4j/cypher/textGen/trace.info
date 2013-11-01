@@ -602,32 +602,38 @@
     <unitInfo nodeId="6209596031533587809" fileName="QueryEmptyStatement_TextGen.java" startLine="11" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.textGen.QueryEmptyStatement_TextGen" />
   </root>
   <root nodeId="6209596031533587882" modelId="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)">
-    <nodeInfo nodeId="6209596031533636956" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6209596031533636956" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6209596031533636956" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6209596031533638865" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="13" startPosition="76" endLine="14" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6209596031533638865" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="13" startPosition="76" endLine="14" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6209596031533638865" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="13" startPosition="76" endLine="14" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6209596031533638899" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="16" startPosition="76" endLine="17" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6209596031533638899" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="16" startPosition="76" endLine="17" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6209596031533638899" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="16" startPosition="76" endLine="17" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6209596031533638933" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="18" startPosition="5" endLine="19" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6209596031533638933" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="18" startPosition="5" endLine="19" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="6209596031533638933" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="18" startPosition="5" endLine="19" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4030922243380527910" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="12" startPosition="156" endLine="15" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4030922243380527971" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="15" startPosition="5" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6209596031533587882" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="10" startPosition="67" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
-    <scopeInfo nodeId="6209596031533636956" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" />
-    <scopeInfo nodeId="4030922243380527911" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="13" startPosition="76" endLine="14" endPosition="158" />
-    <scopeInfo nodeId="6209596031533638865" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="13" startPosition="76" endLine="14" endPosition="158" />
-    <scopeInfo nodeId="4030922243380527972" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="16" startPosition="76" endLine="17" endPosition="158" />
-    <scopeInfo nodeId="6209596031533638899" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="16" startPosition="76" endLine="17" endPosition="158" />
-    <scopeInfo nodeId="6209596031533638933" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="18" startPosition="5" endLine="19" endPosition="162" />
-    <scopeInfo nodeId="6209596031533587882" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="11" startPosition="42" endLine="19" endPosition="162" />
-    <scopeInfo nodeId="6209596031533587882" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="10" startPosition="67" endLine="21" endPosition="0">
+    <nodeInfo nodeId="1160499357071266579" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1160499357071266579" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6209596031533636956" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="12" startPosition="22" endLine="13" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6209596031533636956" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="12" startPosition="22" endLine="13" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6209596031533636956" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="12" startPosition="22" endLine="13" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6209596031533638865" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="14" startPosition="76" endLine="15" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6209596031533638865" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="14" startPosition="76" endLine="15" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6209596031533638865" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="14" startPosition="76" endLine="15" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6209596031533638899" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="17" startPosition="76" endLine="18" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6209596031533638899" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="17" startPosition="76" endLine="18" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6209596031533638899" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="17" startPosition="76" endLine="18" endPosition="158" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6209596031533638933" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="19" startPosition="5" endLine="20" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6209596031533638933" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="19" startPosition="5" endLine="20" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6209596031533638933" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="19" startPosition="5" endLine="20" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1160499357071266583" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="20" startPosition="162" endLine="21" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1160499357071266583" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="20" startPosition="162" endLine="21" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4030922243380527910" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="13" startPosition="156" endLine="16" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4030922243380527971" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="16" startPosition="5" endLine="19" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6209596031533587882" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="10" startPosition="67" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Ljetbrains/mps/smodel/SNode;)V" />
+    <scopeInfo nodeId="1160499357071266579" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="22" />
+    <scopeInfo nodeId="6209596031533636956" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="12" startPosition="22" endLine="13" endPosition="156" />
+    <scopeInfo nodeId="4030922243380527911" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="14" startPosition="76" endLine="15" endPosition="158" />
+    <scopeInfo nodeId="6209596031533638865" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="14" startPosition="76" endLine="15" endPosition="158" />
+    <scopeInfo nodeId="4030922243380527972" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="17" startPosition="76" endLine="18" endPosition="158" />
+    <scopeInfo nodeId="6209596031533638899" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="17" startPosition="76" endLine="18" endPosition="158" />
+    <scopeInfo nodeId="6209596031533638933" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="19" startPosition="5" endLine="20" endPosition="162" />
+    <scopeInfo nodeId="1160499357071266583" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="20" startPosition="162" endLine="21" endPosition="22" />
+    <scopeInfo nodeId="6209596031533587882" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="11" startPosition="42" endLine="21" endPosition="22" />
+    <scopeInfo nodeId="6209596031533587882" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="10" startPosition="67" endLine="23" endPosition="0">
       <varInfo nodeId="6209596031533587882" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="6209596031533587882" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="10" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.textGen.ReadOnlyQueryExpression_TextGen" />
+    <unitInfo nodeId="6209596031533587882" fileName="ReadOnlyQueryExpression_TextGen.java" startLine="10" startPosition="0" endLine="24" endPosition="0" unitName="neo4j.cypher.textGen.ReadOnlyQueryExpression_TextGen" />
   </root>
   <root nodeId="6209596031533588017" modelId="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)">
     <nodeInfo nodeId="6209596031533588017" fileName="QueryStatement_TextGen.java" startLine="15" startPosition="44" endLine="16" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
