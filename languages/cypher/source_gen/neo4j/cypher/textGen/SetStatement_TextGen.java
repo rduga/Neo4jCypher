@@ -10,16 +10,15 @@ import jetbrains.mps.textGen.TextGenManager;
 
 public class SetStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("SET");
-    this.appendNewLine();
+    this.append("SET ");
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "setAssignmentStatement", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "setAssignmentStatement", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
         if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "setAssignmentStatement", true)).last()) {
-          this.append(",\n");
+          this.append(", ");
         }
       }
     }
-    this.appendNewLine();
+    this.append(" ");
   }
 }

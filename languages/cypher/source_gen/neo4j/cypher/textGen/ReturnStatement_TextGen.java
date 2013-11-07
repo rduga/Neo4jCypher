@@ -11,20 +11,16 @@ import jetbrains.mps.textGen.TextGenManager;
 
 public class ReturnStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(final SNode node) {
-    this.append("RETURN");
-    this.appendNewLine();
+    this.append("RETURN ");
     this.increaseDepth();
-    // <node> 
-    // <node> 
-
     ListSequence.fromList(SLinkOperations.getTargets(node, "returnExpression", true)).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
-        ReturnStatement_TextGen.this.indentBuffer();
+        // <node> 
         TextGenManager.instance().appendNodeText(ReturnStatement_TextGen.this.getContext(), ReturnStatement_TextGen.this.getBuffer(), it, ReturnStatement_TextGen.this.getSNode());
         if (it != ListSequence.fromList(SLinkOperations.getTargets(node, "returnExpression", true)).last()) {
           ReturnStatement_TextGen.this.append(",");
         }
-        ReturnStatement_TextGen.this.appendNewLine();
+        ReturnStatement_TextGen.this.append(" ");
       }
     });
     this.decreaseDepth();

@@ -21,7 +21,7 @@ public class SkipStatement_TextGen extends SNodeTextGen {
     }
 
     if ((SLinkOperations.getTarget(node, "skipItems", true) != null) || (SLinkOperations.getTarget(node, "limitItems", true) != null)) {
-      this.appendNewLine();
+      this.append(" ");
     }
 
   }

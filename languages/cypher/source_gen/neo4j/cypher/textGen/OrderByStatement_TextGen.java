@@ -15,10 +15,10 @@ public class OrderByStatement_TextGen extends SNodeTextGen {
       for (SNode item : SLinkOperations.getTargets(node, "expressions", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
         if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "expressions", true)).last()) {
-          this.append(",");
+          this.append(", ");
         }
       }
     }
-    this.appendNewLine();
+    this.append(" ");
   }
 }

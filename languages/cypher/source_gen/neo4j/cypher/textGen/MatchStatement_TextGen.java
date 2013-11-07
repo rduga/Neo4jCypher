@@ -17,11 +17,11 @@ public class MatchStatement_TextGen extends SNodeTextGen {
       for (SNode item : SLinkOperations.getTargets(node, "pathExpression", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
         if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "pathExpression", true)).last()) {
-          this.append(",\n");
+          this.append(", ");
         }
       }
     }
-    this.appendNewLine();
+    this.append(" ");
     this.decreaseDepth();
   }
 }

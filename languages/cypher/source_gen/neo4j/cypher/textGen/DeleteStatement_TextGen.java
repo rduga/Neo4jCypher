@@ -11,19 +11,15 @@ import jetbrains.mps.textGen.TextGenManager;
 
 public class DeleteStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(final SNode node) {
-    this.append("DELETE");
-    this.appendNewLine();
-    // <node> 
-    // <node> 
-
+    this.append("DELETE ");
     ListSequence.fromList(SLinkOperations.getTargets(node, "expression", true)).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
-        DeleteStatement_TextGen.this.indentBuffer();
+        // <node> 
         TextGenManager.instance().appendNodeText(DeleteStatement_TextGen.this.getContext(), DeleteStatement_TextGen.this.getBuffer(), it, DeleteStatement_TextGen.this.getSNode());
         if (it != ListSequence.fromList(SLinkOperations.getTargets(node, "expression", true)).last()) {
           DeleteStatement_TextGen.this.append(",");
         }
-        DeleteStatement_TextGen.this.appendNewLine();
+        DeleteStatement_TextGen.this.append(" ");
       }
     });
   }
