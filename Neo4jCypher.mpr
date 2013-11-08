@@ -6,10 +6,12 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${project}/languages/cypher/cypher.mpl" folder="" />
-      <modulePath path="${project}/solutions/neo4j.cypher.sandbox/neo4j.cypher.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/cypher/cypher.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/neo4j.cypher.sandbox/neo4j.cypher.sandbox.msd" folder="" />
     </projectModules>
-    <genConfs />
+  </component>
+  <component name="MPSProjectMigrationState">
+    <option name="step" value="1" />
   </component>
   <component name="ProjectRootManager" version="2" />
   <component name="ProjectVersion">
