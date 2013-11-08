@@ -1,52 +1,7 @@
 Cypher Query Definitions: cypher
 
-START
-    (kk) = node(*),
-    (dfs1231) = node(*)
-MATCH
-    kk
-CREATE
-    kk--dfs1231
-CREATE
-    (nodik{vlastnost1:"hodnota1"})
-SET
-  kk = kk,
-  kk.sdfss = "sdf"
-DELETE
-  kk,
-  dfs1231,
-  kk
-RETURN
-    kk
-ORDER BY kk.dfaaaa
-SKIP 34 LIMIT 63
-
-START
-    (f1) = node(*),
-    (f2) = node(*),
-    (f12466) = node(*)
-MATCH
-    namedpath=f1<--f2-->f1--f1--(sdf),
-    allShortestPaths(f1<--f2--f1),
-    nmd=shortestPath((f12)--()),
-    f1-->(sd)
-WHERE
-    f12466.sdfsdf == "sdfsdf" && f12.asd == true && sdf.`sdfa]` == "sdfsd" && f1 == f2 || !(f1.sdf) && "sdf".sdf && f12466.asd
-RETURN
-    abs(f1.size),
-    f2.asd,
-    f2.asdas,
-    sdf,
-    round(f2.sdf),
-    max(f1),
-    count(*),
-    substring("asda", 12, 34),
-    namedpath,
-    true
-ORDER BY f12.sd ASC,f2.sdfsdf DESC
-
-writeOnlyQueryExpressionCREATE
-    (adf{halo1:465})
-DELETE
-  adf
-
+START (kk) = node(*), (dfs1231) = node(*) MATCH
+    kk CREATE     kk--dfs1231 CREATE     (nodik{vlastnost1:"hodnota1"}) SET <!TextGen not found for 'neo4j.cypher.structure.SetAssignmentStatement'!>, <!TextGen not found for 'neo4j.cypher.structure.SetAssignmentStatement'!> DELETE <!TextGen not found for 'neo4j.cypher.structure.DeleteExpression'!> RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 
+"START (f1) = node(*), (f2) = node(*), (f12466) = node(*) MATCH
+    namedpath=f1<--f2-->f1--f1--(sdf),     allShortestPaths(f1<--f2--f1),     nmd=shortestPath((f12)--()),     f1-->(sd) <!TextGen not found for 'neo4j.cypher.structure.WhereStatement'!>RETURN abs(f1.size), f2.asd, f2.asdas, sdf, round(f2.sdf), max(f1), count(*), substring("asda", 12, 34), namedpath, true ORDER BY f12.sd ASC, f2.sdfsdf DESC "
+CREATE     (adf{halo1:465}) DELETE <!TextGen not found for 'neo4j.cypher.structure.DeleteExpression'!> 

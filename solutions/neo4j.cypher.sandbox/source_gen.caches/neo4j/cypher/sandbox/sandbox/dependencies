@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="neo4j.cypher.sandbox.sandbox.Neo4jCypherExample" file="Neo4jCypherExample.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.lang.System" />
+  </dependency>
   <dependency className="neo4j.cypher.sandbox.sandbox.cypher" file="cypher.cypherq" />
 </dependenciesRoot>
 
