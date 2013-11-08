@@ -4,28 +4,29 @@ package neo4j.cypher.intentions;
 
 import jetbrains.mps.intentions.BaseIntentionsDescriptor;
 import jetbrains.mps.project.structure.modules.ModuleReference;
-import jetbrains.mps.smodel.SModelReference;
+import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
+import jetbrains.mps.intentions.IntentionsManager;
 
 public class IntentionsDescriptor extends BaseIntentionsDescriptor {
   public IntentionsDescriptor() {
-    super(new ModuleReference("neo4j.cypher", "fa0e36f7-2d65-493a-8638-2d9c4dbffdf7"), SModelReference.fromString("r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)"));
+    super(new ModuleReference("fa0e36f7-2d65-493a-8638-2d9c4dbffdf7(neo4j.cypher)"), PersistenceFacade.getInstance().createModelReference("r:4fb5ec9d-ba5b-4bca-9e48-d719ae880364(neo4j.cypher.intentions)"));
   }
 
   public void init() {
-    add(new Asc2Desc_Intention(), "7352030329465574050");
-    add(new ConvertNodeToNodeRef_Intention(), "6670155983237884464");
-    add(new ConvertToLRRelationship_Intention(), "4409026550619394865");
-    add(new ConvertToRLRelationship_Intention(), "4409026550619407825");
-    add(new ConvertToUndirectedRelationship_Intention(), "4409026550619408498");
-    add(new Desc2Asc_Intention(), "7352030329465701064");
-    add(new IWriteStatementGrouping_Intention(), "8020740480872446728");
-    add(new MakeUntypedRelationship_Intention(), "4409026550619521803");
-    add(new SplitApStringIntoContatenation_Intention(), "5206628397327142130");
-    add(new SwitchAnonymousConcreteRelationship_Intention(), "4409026550619611625");
-    add(new SwitchCreateCreateUnique_Intention(), "4677677581647584218");
-    add(new SwitchNamedPath_Intention(), "4839691926370537144");
-    add(new SwitchNodeInDefinitionMode_Intention(), "4205663719920529877");
-    add(new SwitchRelationshipHops_Intention(), "4839691926370448490");
-    add(new SwitchRelationshipInDefinitionMode_Intention(), "3682822877829264477");
+    IntentionsManager.getInstance().registerIntentionFactory(new Asc2Desc_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new ConvertNodeToNodeRef_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new ConvertToLRRelationship_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new ConvertToRLRelationship_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new ConvertToUndirectedRelationship_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new Desc2Asc_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new IWriteStatementGrouping_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new MakeUntypedRelationship_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new SplitApStringIntoContatenation_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new SwitchAnonymousConcreteRelationship_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new SwitchCreateCreateUnique_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new SwitchNamedPath_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new SwitchNodeInDefinitionMode_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new SwitchRelationshipHops_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new SwitchRelationshipInDefinitionMode_Intention());
   }
 }

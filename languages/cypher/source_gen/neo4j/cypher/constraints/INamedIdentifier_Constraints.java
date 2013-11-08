@@ -7,9 +7,12 @@ import java.util.Map;
 import jetbrains.mps.smodel.runtime.PropertyConstraintsDescriptor;
 import java.util.HashMap;
 import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
-import jetbrains.mps.smodel.SNode;
+import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.smodel.IScope;
 import neo4j.cypher.behavior.INamedIdentifier_Behavior;
+import org.jetbrains.mps.openapi.language.SConceptRepository;
+import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class INamedIdentifier_Constraints extends BaseConstraintsDescriptor {
@@ -29,7 +32,7 @@ public class INamedIdentifier_Constraints extends BaseConstraintsDescriptor {
       @Override
       public boolean validateValue(SNode node, String propertyValue, IScope scope) {
         String propertyName = "name";
-        return INamedIdentifier_Behavior.isCorrectIdentifierName_5206628397327427489((SPropertyOperations.getString(propertyValue)));
+        return INamedIdentifier_Behavior.call_isCorrectIdentifierName_5206628397327427489(SConceptRepository.getInstance().getConcept(NameUtil.nodeFQName(SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.INamedIdentifier"))), (SPropertyOperations.getString(propertyValue)));
       }
     });
     return properties;
