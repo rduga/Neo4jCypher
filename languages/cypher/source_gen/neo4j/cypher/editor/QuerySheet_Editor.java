@@ -73,6 +73,8 @@ public class QuerySheet_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_ezpmsa_c0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    style.set(StyleAttributes.EDITABLE, false);
+    style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;

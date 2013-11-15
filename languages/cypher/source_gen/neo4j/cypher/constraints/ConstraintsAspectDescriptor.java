@@ -18,15 +18,15 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new OrderByExpression_Constraints();
       case 6:
         return new NamedNodeRef_Constraints();
-      case 16:
+      case 17:
         return new ReturnStatement_Constraints();
-      case 19:
+      case 20:
         return new WhereStatement_Constraints();
       case 0:
         return new AggregateFunction_Constraints();
       case 4:
         return new INamedIdentifier_Constraints();
-      case 15:
+      case 16:
         return new Relationship_Constraints();
       case 9:
         return new NamedRelationshipRef_Constraints();
@@ -40,11 +40,11 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new NamedPathRef_Constraints();
       case 14:
         return new PathFunction_Constraints();
-      case 18:
+      case 19:
         return new StartAssignmentStatement_Constraints();
       case 3:
         return new ICypherExpression_Constraints();
-      case 20:
+      case 21:
         return new WithStatement_Constraints();
       case 1:
         return new CreateStatement_Constraints();
@@ -52,13 +52,15 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new INamedNullableIdentifier_Constraints();
       case 2:
         return new DeleteStatement_Constraints();
-      case 17:
+      case 18:
         return new SetAssignmentStatement_Constraints();
+      case 15:
+        return new PropertyOperation_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"neo4j.cypher.structure.AggregateFunction", "neo4j.cypher.structure.CreateStatement", "neo4j.cypher.structure.DeleteStatement", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.INamedIdentifier", "neo4j.cypher.structure.INamedNullableIdentifier", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedPathRef", "neo4j.cypher.structure.NamedPropertyContainerRef", "neo4j.cypher.structure.NamedRelationshipRef", "neo4j.cypher.structure.Node", "neo4j.cypher.structure.OrderByExpression", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.PathExpression", "neo4j.cypher.structure.PathFunction", "neo4j.cypher.structure.Relationship", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.SetAssignmentStatement", "neo4j.cypher.structure.StartAssignmentStatement", "neo4j.cypher.structure.WhereStatement", "neo4j.cypher.structure.WithStatement"};
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"neo4j.cypher.structure.AggregateFunction", "neo4j.cypher.structure.CreateStatement", "neo4j.cypher.structure.DeleteStatement", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.INamedIdentifier", "neo4j.cypher.structure.INamedNullableIdentifier", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedPathRef", "neo4j.cypher.structure.NamedPropertyContainerRef", "neo4j.cypher.structure.NamedRelationshipRef", "neo4j.cypher.structure.Node", "neo4j.cypher.structure.OrderByExpression", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.PathExpression", "neo4j.cypher.structure.PathFunction", "neo4j.cypher.structure.PropertyOperation", "neo4j.cypher.structure.Relationship", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.SetAssignmentStatement", "neo4j.cypher.structure.StartAssignmentStatement", "neo4j.cypher.structure.WhereStatement", "neo4j.cypher.structure.WithStatement"};
 }

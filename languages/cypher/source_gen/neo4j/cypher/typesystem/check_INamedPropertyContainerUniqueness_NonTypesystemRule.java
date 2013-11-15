@@ -7,9 +7,9 @@ import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
@@ -20,15 +20,16 @@ public class check_INamedPropertyContainerUniqueness_NonTypesystemRule extends A
   }
 
   public void applyRule(final SNode namedIdentifier, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    // <node> 
-
+    if (SPropertyOperations.getString(namedIdentifier, "name") == null) {
+      return;
+    }
     List<SNode> allTheSameIdentifiers = SNodeOperations.getDescendants(SNodeOperations.getAncestor(namedIdentifier, "neo4j.cypher.structure.QueryExpression", false, false), "neo4j.cypher.structure.INamedIdentifier", false, new String[]{});
 
     for (SNode identif : allTheSameIdentifiers) {
       if (identif == namedIdentifier) {
         break;
       } else {
-        if (SPropertyOperations.getString(identif, "name").equals(SPropertyOperations.getString(namedIdentifier, "name"))) {
+        if (eq_q0gvs0_a0a0a0a3a1(SPropertyOperations.getString(identif, "name"), SPropertyOperations.getString(namedIdentifier, "name"))) {
           {
             MessageTarget errorTarget = new NodeMessageTarget();
             IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(namedIdentifier, "Identifier name " + SPropertyOperations.getString(namedIdentifier, "name") + " is already used", "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "6670155983237862061", null, errorTarget);
@@ -53,5 +54,12 @@ public class check_INamedPropertyContainerUniqueness_NonTypesystemRule extends A
 
   public boolean overrides() {
     return false;
+  }
+
+  private static boolean eq_q0gvs0_a0a0a0a3a1(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
   }
 }
