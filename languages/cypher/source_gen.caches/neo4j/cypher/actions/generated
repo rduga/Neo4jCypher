@@ -18,7 +18,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" />
   <dep model="r:00000000-0000-4000-0000-011c8959051a(jetbrains.mps.baseLanguage.regexp.generator.baseLanguage.template.main@generator)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-6hy39gvl7qptizwx7u6dvzgqosdnxka" />
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="-43roquipzmyw7v0f6lda61gewse1c2l" />
   <common hash="8ofjitx7y6tkaxg8eimvnq8y1du14nb">
     <dep root="1325020284374352195" />
     <dep root="5206628397327285754" />
