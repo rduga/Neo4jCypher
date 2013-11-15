@@ -10,8 +10,7 @@ import jetbrains.mps.textGen.TextGenManager;
 
 public class MatchStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("MATCH");
-    this.appendNewLine();
+    this.append("MATCH ");
     this.increaseDepth();
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "pathExpression", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "pathExpression", true)) {

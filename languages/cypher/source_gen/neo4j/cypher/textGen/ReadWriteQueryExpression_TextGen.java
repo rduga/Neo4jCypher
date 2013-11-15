@@ -10,6 +10,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class ReadWriteQueryExpression_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
+    this.append("\"");
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "startStatement", true), this.getSNode());
     if ((SLinkOperations.getTarget(node, "matchStatement", true) != null)) {
       TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "matchStatement", true), this.getSNode());
@@ -23,5 +24,6 @@ public class ReadWriteQueryExpression_TextGen extends SNodeTextGen {
       }
     }
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "returnStatementBlock", true), this.getSNode());
+    this.append("\"");
   }
 }

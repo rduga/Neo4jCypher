@@ -1,10 +1,7 @@
 Cypher Query Definitions: cypher
 
-START (kk) = node(*), (dfs1231) = node(*) MATCH
-    kk CREATE     kk--dfs1231 CREATE     (nodik{vlastnost1:"hodnota1"}) SET kk = kk, kk.sdfss = "sdf" DELETE dfs1231 RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 
-CREATE     (kk) CREATE     kk--(sdf) CREATE     (nodik{vlastnost1:"hodnota1"}) SET kk = kk, kk.sdfss = "sdf" DELETE sdf 
-"START (kk) = node(*), (dfs1231) = node(*) MATCH
-    kk RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 "
-"START (f1) = node(*), (f2) = node(*), (f12466) = node(*) MATCH
-    namedpath=f1<--f2-->f1--f1--(sdf),     allShortestPaths(f1<--f2--f1),     nmd=shortestPath((f12)--()),     f1-->(sd) WHERE f12466.sdfsdf == "sdfsdf" && f12.asd == true && sdf.`sdfa]` == "sdfsd" && f1 == f2 || !(f1.sdf) && "sdf".sdf && f12466.asd RETURN abs(f1.size), f2.asd, f2.asdas, sdf, round(f2.sdf), max(f1), count(*), substring("asda", 12, 34), namedpath, true ORDER BY f12.sd ASC, f2.sdfsdf DESC "
-CREATE     (woq3784) DELETE woq3784 
+"START (kk) = node(*), (dfs1231) = node(*) MATCH     kk CREATE     kk--dfs1231 CREATE     (nodik{vlastnost1:"hodnota1"}) SET kk = kk, kk.sdfss = \"sdf\" DELETE dfs1231 RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 "
+"CREATE     (kk) CREATE     kk--(sdf) CREATE     (nodik{vlastnost1:"hodnota1"}) SET kk = kk, kk.sdfss = "sdf" DELETE sdf "
+"START (kk) = node(*), (dfs1231) = node(*) MATCH     kk RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 "
+"START (f1) = node(*), (f2) = node(*), (f12466) = node(*) MATCH     namedpath=f1<--f2-->f1--f1--(sdf),     allShortestPaths(f1<--f2--f1),     nmd=shortestPath((f12)--()),     f1-->(sd) WHERE f12466.sdfsdf == \"sdfsdf\" && f12.asd == true && sdf.`sdfa]` == \"sdfsd\" && f1 == f2 || !(f1.sdf) && \"sdf\".sdf && f12466.asd RETURN abs(f1.size), f2.asd, f2.asdas, sdf, round(f2.sdf), max(f1), count(*), substring(\"asda\", 12, 34), namedpath, true ORDER BY f12.sd ASC, f2.sdfsdf DESC "
+"CREATE     (woq3784) DELETE woq3784 "

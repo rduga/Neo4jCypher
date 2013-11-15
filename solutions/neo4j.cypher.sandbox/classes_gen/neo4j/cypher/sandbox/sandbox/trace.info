@@ -5,9 +5,9 @@
     <nodeInfo nodeId="1663756355259133773" fileName="Neo4jCypherExample.java" startLine="8" startPosition="27" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="1663756355259133776" fileName="Neo4jCypherExample.java" startLine="9" startPosition="0" endLine="10" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1663756355259156212" fileName="Neo4jCypherExample.java" startLine="10" startPosition="21" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="1663756355259156215" fileName="Neo4jCypherExample.java" startLine="11" startPosition="0" endLine="12" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1663756355259156215" fileName="Neo4jCypherExample.java" startLine="11" startPosition="0" endLine="12" endPosition="247" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1663756355259051908" fileName="Neo4jCypherExample.java" startLine="7" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <scopeInfo nodeId="1663756355259051911" fileName="Neo4jCypherExample.java" startLine="7" startPosition="42" endLine="12" endPosition="65">
+    <scopeInfo nodeId="1663756355259051911" fileName="Neo4jCypherExample.java" startLine="7" startPosition="42" endLine="12" endPosition="247">
       <varInfo nodeId="1663756355259133777" varName="a" />
       <varInfo nodeId="1663756355259156216" varName="cypherQuery" />
     </scopeInfo>
@@ -17,20 +17,20 @@
     <unitInfo nodeId="1663756355259040233" fileName="Neo4jCypherExample.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.sandbox.sandbox.Neo4jCypherExample" />
   </root>
   <root nodeRef="r:9791e82d-c5eb-4440-b52c-28c559599e1d(neo4j.cypher.sandbox.sandbox)/6532105715028822553">
-    <nodeInfo nodeId="4768758963661091469" fileName="cypher.cypherq" startLine="5" startPosition="0" endLine="5" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4768758963660478738" fileName="cypher.cypherq" startLine="6" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4768758963661093831" fileName="cypher.cypherq" startLine="6" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4030922243380378689" fileName="cypher.cypherq" startLine="8" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4030922243380378690" fileName="cypher.cypherq" startLine="8" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4768758963660478911" fileName="cypher.cypherq" startLine="8" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="6670155983237981151" fileName="cypher.cypherq" startLine="10" startPosition="0" endLine="10" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4409026550618888996" fileName="cypher.cypherq" startLine="11" startPosition="0" endLine="11" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4839691926370584530" fileName="cypher.cypherq" startLine="11" startPosition="0" endLine="11" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4768758963661094594" fileName="cypher.cypherq" startLine="5" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
-    <nodeInfo nodeId="4030922243380527870" fileName="cypher.cypherq" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
-    <nodeInfo nodeId="4030922243380378677" fileName="cypher.cypherq" startLine="3" startPosition="0" endLine="5" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
-    <nodeInfo nodeId="4768758963660479615" fileName="cypher.cypherq" startLine="6" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
-    <nodeInfo nodeId="2103634311710893937" fileName="cypher.cypherq" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
+    <nodeInfo nodeId="4768758963661091469" fileName="cypher.cypherq" startLine="4" startPosition="0" endLine="4" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4768758963660478738" fileName="cypher.cypherq" startLine="5" startPosition="0" endLine="5" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4768758963661093831" fileName="cypher.cypherq" startLine="5" startPosition="0" endLine="5" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4030922243380378689" fileName="cypher.cypherq" startLine="6" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4030922243380378690" fileName="cypher.cypherq" startLine="6" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4768758963660478911" fileName="cypher.cypherq" startLine="6" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="6670155983237981151" fileName="cypher.cypherq" startLine="7" startPosition="0" endLine="7" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4409026550618888996" fileName="cypher.cypherq" startLine="8" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4839691926370584530" fileName="cypher.cypherq" startLine="8" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4030922243380378677" fileName="cypher.cypherq" startLine="3" startPosition="0" endLine="4" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
+    <nodeInfo nodeId="4768758963661094594" fileName="cypher.cypherq" startLine="4" startPosition="0" endLine="5" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
+    <nodeInfo nodeId="4768758963660479615" fileName="cypher.cypherq" startLine="5" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
+    <nodeInfo nodeId="2103634311710893937" fileName="cypher.cypherq" startLine="6" startPosition="0" endLine="7" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
+    <nodeInfo nodeId="4030922243380527870" fileName="cypher.cypherq" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
   </root>
 </debugInfo>
 

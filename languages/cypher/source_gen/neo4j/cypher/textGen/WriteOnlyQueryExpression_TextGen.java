@@ -10,11 +10,13 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class WriteOnlyQueryExpression_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
+    this.append("\"");
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "createStatement", true), this.getSNode());
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "writeStatement", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "writeStatement", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }
     }
+    this.append("\"");
   }
 }
