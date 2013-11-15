@@ -15,9 +15,13 @@ public class IntentionsDescriptor extends BaseIntentionsDescriptor {
   public void init() {
     IntentionsManager.getInstance().registerIntentionFactory(new Asc2Desc_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new ConvertNodeToNodeRef_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new ConvertReadOnly2ReadWriteQuery_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new ConvertReadWrite2ReadOnlyQuery_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new ConvertReadWrite2WriteOnlyQuery_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new ConvertToLRRelationship_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new ConvertToRLRelationship_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new ConvertToUndirectedRelationship_Intention());
+    IntentionsManager.getInstance().registerIntentionFactory(new ConvertWriteOnly2ReadWriteQuery_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new Desc2Asc_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new IWriteStatementGrouping_Intention());
     IntentionsManager.getInstance().registerIntentionFactory(new MakeUntypedRelationship_Intention());
