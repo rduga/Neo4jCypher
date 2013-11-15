@@ -583,6 +583,18 @@
     </scopeInfo>
     <unitInfo nodeId="4030922243380605115" fileName="PropertyOperation_TextGen.java" startLine="9" startPosition="0" endLine="14" endPosition="0" unitName="neo4j.cypher.textGen.PropertyOperation_TextGen" />
   </root>
+  <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/4768758963663812643">
+    <nodeInfo nodeId="4768758963663821149" fileName="DeleteExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4768758963663821149" fileName="DeleteExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4768758963663821149" fileName="DeleteExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4768758963663812643" fileName="DeleteExpression_TextGen.java" startLine="11" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="4768758963663812643" fileName="DeleteExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="152" />
+    <scopeInfo nodeId="4768758963663821149" fileName="DeleteExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="152" />
+    <scopeInfo nodeId="4768758963663812643" fileName="DeleteExpression_TextGen.java" startLine="11" startPosition="0" endLine="14" endPosition="0">
+      <varInfo nodeId="4768758963663812643" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="4768758963663812643" fileName="DeleteExpression_TextGen.java" startLine="10" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.textGen.DeleteExpression_TextGen" />
+  </root>
   <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/6209596031533587809">
     <nodeInfo nodeId="6209596031533587809" fileName="QueryEmptyStatement_TextGen.java" startLine="16" startPosition="44" endLine="17" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6209596031533587809" fileName="QueryEmptyStatement_TextGen.java" startLine="20" startPosition="7" endLine="21" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

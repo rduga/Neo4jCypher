@@ -9,6 +9,6 @@ public class Neo4jCypherExample {
 
     String a = "sdf";
 
-    String cypherQuery = "START (a1) = node(*) RETURN a1 ";
+    String cypherQuery = "START (nodes) = node(*) RETURN nodes ";
   }
 }
