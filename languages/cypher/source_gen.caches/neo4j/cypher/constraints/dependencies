@@ -30,6 +30,7 @@
     <classNode dependClassName="neo4j.cypher.constraints.OrderByStatement_Constraints" />
     <classNode dependClassName="neo4j.cypher.constraints.PathExpression_Constraints" />
     <classNode dependClassName="neo4j.cypher.constraints.PathFunction_Constraints" />
+    <classNode dependClassName="neo4j.cypher.constraints.PropertyOperation_Constraints" />
     <classNode dependClassName="neo4j.cypher.constraints.Relationship_Constraints" />
     <classNode dependClassName="neo4j.cypher.constraints.ReturnStatement_Constraints" />
     <classNode dependClassName="neo4j.cypher.constraints.SetAssignmentStatement_Constraints" />
@@ -244,6 +245,17 @@
   <dependency className="neo4j.cypher.constraints.PathFunction_Constraints" file="PathFunction_Constraints.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
+    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="neo4j.cypher.constraints.PropertyOperation_Constraints" file="PropertyOperation_Constraints.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
