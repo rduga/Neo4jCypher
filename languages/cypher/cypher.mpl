@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="neo4j.cypher" uuid="fa0e36f7-2d65-493a-8638-2d9c4dbffdf7" doNotGenerateAdapters="false">
+<language namespace="neo4j.cypher" uuid="fa0e36f7-2d65-493a-8638-2d9c4dbffdf7">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" />
+    <modelRoot contentPath="${module}/languageModels" type="default">
+      <sourceRoot location="." />
+    </modelRoot>
   </models>
   <accessoryModels />
-  <generators />
+  <generators>
+    <generator name="neo4jgenerator" generatorUID="neo4j.cypher#4768758963664622066" uuid="5af9778e-4aef-4e6f-9183-762dae86a8d1">
+      <models>
+        <modelRoot contentPath="${module}/generator/template" type="default">
+          <sourceRoot location="." />
+        </modelRoot>
+      </models>
+      <external-templates />
+      <usedLanguages>
+        <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>
+        <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
+        <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
+        <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
+        <usedLanguage>fa0e36f7-2d65-493a-8638-2d9c4dbffdf7(neo4j.cypher)</usedLanguage>
+      </usedLanguages>
+      <usedDevKits>
+        <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
+      </usedDevKits>
+      <mapping-priorities />
+    </generator>
+  </generators>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
@@ -14,6 +36,7 @@
     <dependency reexport="false">daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)</dependency>
     <dependency reexport="false">798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)</dependency>
     <dependency reexport="false">18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</dependency>
+    <dependency reexport="false">b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</dependency>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
   </dependencies>
   <usedLanguages>

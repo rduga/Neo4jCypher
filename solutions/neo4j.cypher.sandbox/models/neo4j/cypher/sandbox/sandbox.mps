@@ -625,7 +625,7 @@
                     <node role="property" roleId="qgu4.4409026550619307841" type="qgu4.Property" typeId="qgu4.4395952758104399755" id="4768758963664055790" nodeInfo="ng">
                       <property name="name" nameId="tpck.1169194664001" value="vlastnost1" />
                       <node role="value" roleId="qgu4.3168367791397865763" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4768758963664055791" nodeInfo="nn">
-                        <property name="value" nameId="tpee.1070475926801" value="hodnota1" />
+                        <property name="value" nameId="tpee.1070475926801" value="hodnot\&quot;a1" />
                       </node>
                     </node>
                   </node>
@@ -650,7 +650,7 @@
                     </node>
                   </node>
                   <node role="rightExpression" roleId="qgu4.769752699177760057" type="qgu4.ApStringLiteral" typeId="qgu4.5206628397327069922" id="4768758963664293391" nodeInfo="ng">
-                    <property name="value" nameId="qgu4.5206628397327237187" value="sdf" />
+                    <property name="value" nameId="qgu4.5206628397327237187" value="sd\'f" />
                   </node>
                 </node>
               </node>

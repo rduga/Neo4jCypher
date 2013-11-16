@@ -5,9 +5,9 @@
     <nodeInfo nodeId="1663756355259133773" fileName="Neo4jCypherExample.java" startLine="8" startPosition="27" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="1663756355259133776" fileName="Neo4jCypherExample.java" startLine="9" startPosition="0" endLine="10" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1663756355259156212" fileName="Neo4jCypherExample.java" startLine="10" startPosition="21" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="1663756355259156215" fileName="Neo4jCypherExample.java" startLine="11" startPosition="0" endLine="12" endPosition="247" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1663756355259156215" fileName="Neo4jCypherExample.java" startLine="11" startPosition="0" endLine="12" endPosition="253" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1663756355259051908" fileName="Neo4jCypherExample.java" startLine="7" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <scopeInfo nodeId="1663756355259051911" fileName="Neo4jCypherExample.java" startLine="7" startPosition="42" endLine="12" endPosition="247">
+    <scopeInfo nodeId="1663756355259051911" fileName="Neo4jCypherExample.java" startLine="7" startPosition="42" endLine="12" endPosition="253">
       <varInfo nodeId="1663756355259133777" varName="a" />
       <varInfo nodeId="1663756355259156216" varName="cypherQuery" />
     </scopeInfo>

@@ -9,6 +9,6 @@ public class Neo4jCypherExample {
 
     String a = "sdf";
 
-    String cypherQuery = "START (kk) = node(*), (dfs1231) = node(*) MATCH       kk CREATE       kk--dfs1231 CREATE       (nodik{vlastnost1:"hodnota1"}) SET kk = kk, kk.sdfss = \"sdf\" DELETE dfs1231 RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 ";
+    String cypherQuery = "START (kk) = node(*), (dfs1231) = node(*) MATCH       kk CREATE       kk--dfs1231 CREATE       (nodik{vlastnost1:\"hodnot\"a1\"}) SET kk = kk, kk.sdfss = \"sd\'f\" DELETE dfs1231 RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 ";
   }
 }
