@@ -479,58 +479,235 @@
     <unitInfo nodeId="4030922243380601089" fileName="PathFunction_TextGen.java" startLine="12" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.textGen.PathFunction_TextGen" />
   </root>
   <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/4030922243380601171">
-    <nodeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="12" startPosition="156" endLine="13" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="13" startPosition="23" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="13" startPosition="23" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4030922243380605426" fileName="LRRelationship_TextGen.java" startLine="14" startPosition="157" endLine="15" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4030922243380601171" fileName="LRRelationship_TextGen.java" startLine="11" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" />
-    <scopeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="13" startPosition="23" endLine="14" endPosition="157" />
-    <scopeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" />
-    <scopeInfo nodeId="4030922243380601171" fileName="LRRelationship_TextGen.java" startLine="11" startPosition="42" endLine="15" endPosition="45" />
-    <scopeInfo nodeId="4030922243380601171" fileName="LRRelationship_TextGen.java" startLine="11" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="14" startPosition="156" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174196251" fileName="LRRelationship_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355174214317" fileName="LRRelationship_TextGen.java" startLine="17" startPosition="59" endLine="18" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174214317" fileName="LRRelationship_TextGen.java" startLine="18" startPosition="23" endLine="19" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174226145" fileName="LRRelationship_TextGen.java" startLine="19" startPosition="63" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355174305968" fileName="LRRelationship_TextGen.java" startLine="21" startPosition="95" endLine="22" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355174305968" fileName="LRRelationship_TextGen.java" startLine="21" startPosition="95" endLine="22" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174319141" fileName="LRRelationship_TextGen.java" startLine="24" startPosition="77" endLine="25" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174319141" fileName="LRRelationship_TextGen.java" startLine="26" startPosition="103" endLine="27" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174363346" fileName="LRRelationship_TextGen.java" startLine="31" startPosition="7" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="33" startPosition="69" endLine="34" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="36" startPosition="81" endLine="37" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="38" startPosition="107" endLine="39" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="42" startPosition="9" endLine="43" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174226318" fileName="LRRelationship_TextGen.java" startLine="44" startPosition="7" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355174402978" fileName="LRRelationship_TextGen.java" startLine="46" startPosition="64" endLine="47" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174402978" fileName="LRRelationship_TextGen.java" startLine="47" startPosition="25" endLine="48" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174402978" fileName="LRRelationship_TextGen.java" startLine="48" startPosition="74" endLine="49" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174402978" fileName="LRRelationship_TextGen.java" startLine="49" startPosition="26" endLine="50" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175345667" fileName="LRRelationship_TextGen.java" startLine="51" startPosition="7" endLine="52" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175345667" fileName="LRRelationship_TextGen.java" startLine="51" startPosition="7" endLine="52" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174197763" fileName="LRRelationship_TextGen.java" startLine="53" startPosition="5" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355174196868" fileName="LRRelationship_TextGen.java" startLine="54" startPosition="0" endLine="55" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355174196868" fileName="LRRelationship_TextGen.java" startLine="55" startPosition="22" endLine="56" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355174196868" fileName="LRRelationship_TextGen.java" startLine="55" startPosition="22" endLine="56" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="13" startPosition="42" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355174214317" fileName="LRRelationship_TextGen.java" startLine="17" startPosition="59" endLine="19" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355174196868" fileName="LRRelationship_TextGen.java" startLine="54" startPosition="0" endLine="56" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355174319141" fileName="LRRelationship_TextGen.java" startLine="25" startPosition="113" endLine="28" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="37" startPosition="113" endLine="40" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355174402978" fileName="LRRelationship_TextGen.java" startLine="46" startPosition="64" endLine="50" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355174319141" fileName="LRRelationship_TextGen.java" startLine="23" startPosition="97" endLine="29" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="35" startPosition="101" endLine="41" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5915353355174393885" fileName="LRRelationship_TextGen.java" startLine="45" startPosition="0" endLine="51" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355174319141" fileName="LRRelationship_TextGen.java" startLine="22" startPosition="25" endLine="30" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355174319141" fileName="LRRelationship_TextGen.java" startLine="22" startPosition="25" endLine="30" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="34" startPosition="26" endLine="42" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="33" startPosition="69" endLine="43" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355174226526" fileName="LRRelationship_TextGen.java" startLine="20" startPosition="0" endLine="31" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355174364079" fileName="LRRelationship_TextGen.java" startLine="32" startPosition="0" endLine="44" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355174198387" fileName="LRRelationship_TextGen.java" startLine="16" startPosition="0" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4030922243380601171" fileName="LRRelationship_TextGen.java" startLine="13" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="156" />
+    <scopeInfo nodeId="5915353355174305968" fileName="LRRelationship_TextGen.java" startLine="21" startPosition="95" endLine="22" endPosition="25" />
+    <scopeInfo nodeId="5915353355174319141" fileName="LRRelationship_TextGen.java" startLine="26" startPosition="103" endLine="27" endPosition="31" />
+    <scopeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="38" startPosition="107" endLine="39" endPosition="31" />
+    <scopeInfo nodeId="5915353355175345667" fileName="LRRelationship_TextGen.java" startLine="51" startPosition="7" endLine="52" endPosition="23" />
+    <scopeInfo nodeId="5915353355174196868" fileName="LRRelationship_TextGen.java" startLine="55" startPosition="22" endLine="56" endPosition="157" />
+    <scopeInfo nodeId="4030922243380601174" fileName="LRRelationship_TextGen.java" startLine="13" startPosition="42" endLine="15" endPosition="21" />
+    <scopeInfo nodeId="5915353355174214317" fileName="LRRelationship_TextGen.java" startLine="17" startPosition="59" endLine="19" endPosition="63" />
+    <scopeInfo nodeId="5915353355174196868" fileName="LRRelationship_TextGen.java" startLine="54" startPosition="0" endLine="56" endPosition="157" />
+    <scopeInfo nodeId="5915353355174319141" fileName="LRRelationship_TextGen.java" startLine="24" startPosition="77" endLine="28" endPosition="13" />
+    <scopeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="36" startPosition="81" endLine="40" endPosition="13" />
+    <scopeInfo nodeId="5915353355174393888" fileName="LRRelationship_TextGen.java" startLine="46" startPosition="64" endLine="50" endPosition="74" />
+    <scopeInfo nodeId="5915353355174402978" fileName="LRRelationship_TextGen.java" startLine="46" startPosition="64" endLine="50" endPosition="74" />
+    <scopeInfo nodeId="5915353355174319141" fileName="LRRelationship_TextGen.java" startLine="23" startPosition="97" endLine="29" endPosition="11" />
+    <scopeInfo nodeId="5915353355174319141" fileName="LRRelationship_TextGen.java" startLine="23" startPosition="97" endLine="29" endPosition="11">
+      <varInfo nodeId="5915353355174319141" varName="item" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="35" startPosition="101" endLine="41" endPosition="11" />
+    <scopeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="35" startPosition="101" endLine="41" endPosition="11">
+      <varInfo nodeId="5915353355174371170" varName="item" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355174319141" fileName="LRRelationship_TextGen.java" startLine="22" startPosition="25" endLine="30" endPosition="9" />
+    <scopeInfo nodeId="5915353355174226529" fileName="LRRelationship_TextGen.java" startLine="21" startPosition="95" endLine="30" endPosition="9" />
+    <scopeInfo nodeId="5915353355174364082" fileName="LRRelationship_TextGen.java" startLine="33" startPosition="69" endLine="43" endPosition="25" />
+    <scopeInfo nodeId="5915353355174371170" fileName="LRRelationship_TextGen.java" startLine="33" startPosition="69" endLine="43" endPosition="25" />
+    <scopeInfo nodeId="5915353355174198390" fileName="LRRelationship_TextGen.java" startLine="17" startPosition="59" endLine="52" endPosition="23" />
+    <scopeInfo nodeId="4030922243380601171" fileName="LRRelationship_TextGen.java" startLine="13" startPosition="42" endLine="56" endPosition="157" />
+    <scopeInfo nodeId="4030922243380601171" fileName="LRRelationship_TextGen.java" startLine="13" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="4030922243380601171" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="4030922243380601171" fileName="LRRelationship_TextGen.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="neo4j.cypher.textGen.LRRelationship_TextGen" />
+    <unitInfo nodeId="4030922243380601171" fileName="LRRelationship_TextGen.java" startLine="12" startPosition="0" endLine="59" endPosition="0" unitName="neo4j.cypher.textGen.LRRelationship_TextGen" />
   </root>
   <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/4030922243380601177">
-    <nodeInfo nodeId="4030922243380604388" fileName="RLRelationship_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4030922243380604388" fileName="RLRelationship_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4030922243380604388" fileName="RLRelationship_TextGen.java" startLine="12" startPosition="156" endLine="13" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4030922243380604388" fileName="RLRelationship_TextGen.java" startLine="13" startPosition="23" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4030922243380604388" fileName="RLRelationship_TextGen.java" startLine="13" startPosition="23" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4030922243380605429" fileName="RLRelationship_TextGen.java" startLine="14" startPosition="157" endLine="15" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="4030922243380604388" fileName="RLRelationship_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4030922243380601177" fileName="RLRelationship_TextGen.java" startLine="11" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="4030922243380604388" fileName="RLRelationship_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" />
-    <scopeInfo nodeId="4030922243380604388" fileName="RLRelationship_TextGen.java" startLine="13" startPosition="23" endLine="14" endPosition="157" />
-    <scopeInfo nodeId="4030922243380604388" fileName="RLRelationship_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" />
-    <scopeInfo nodeId="4030922243380601177" fileName="RLRelationship_TextGen.java" startLine="11" startPosition="42" endLine="15" endPosition="45" />
-    <scopeInfo nodeId="4030922243380601177" fileName="RLRelationship_TextGen.java" startLine="11" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="5915353355175448198" fileName="RLRelationship_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175448198" fileName="RLRelationship_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448198" fileName="RLRelationship_TextGen.java" startLine="14" startPosition="156" endLine="15" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448204" fileName="RLRelationship_TextGen.java" startLine="15" startPosition="22" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355175448207" fileName="RLRelationship_TextGen.java" startLine="17" startPosition="59" endLine="18" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448207" fileName="RLRelationship_TextGen.java" startLine="18" startPosition="23" endLine="19" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448213" fileName="RLRelationship_TextGen.java" startLine="19" startPosition="63" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355175448216" fileName="RLRelationship_TextGen.java" startLine="21" startPosition="95" endLine="22" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175448216" fileName="RLRelationship_TextGen.java" startLine="21" startPosition="95" endLine="22" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448218" fileName="RLRelationship_TextGen.java" startLine="24" startPosition="77" endLine="25" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448218" fileName="RLRelationship_TextGen.java" startLine="26" startPosition="103" endLine="27" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448228" fileName="RLRelationship_TextGen.java" startLine="31" startPosition="7" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="33" startPosition="69" endLine="34" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="36" startPosition="81" endLine="37" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="38" startPosition="107" endLine="39" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="42" startPosition="9" endLine="43" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448241" fileName="RLRelationship_TextGen.java" startLine="44" startPosition="7" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355175448244" fileName="RLRelationship_TextGen.java" startLine="46" startPosition="64" endLine="47" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448244" fileName="RLRelationship_TextGen.java" startLine="47" startPosition="25" endLine="48" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448244" fileName="RLRelationship_TextGen.java" startLine="48" startPosition="74" endLine="49" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448244" fileName="RLRelationship_TextGen.java" startLine="49" startPosition="26" endLine="50" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448262" fileName="RLRelationship_TextGen.java" startLine="51" startPosition="7" endLine="52" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175448262" fileName="RLRelationship_TextGen.java" startLine="51" startPosition="7" endLine="52" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448267" fileName="RLRelationship_TextGen.java" startLine="53" startPosition="5" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355175448268" fileName="RLRelationship_TextGen.java" startLine="54" startPosition="0" endLine="55" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448268" fileName="RLRelationship_TextGen.java" startLine="55" startPosition="21" endLine="56" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175448268" fileName="RLRelationship_TextGen.java" startLine="55" startPosition="21" endLine="56" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175448198" fileName="RLRelationship_TextGen.java" startLine="13" startPosition="42" endLine="15" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175448207" fileName="RLRelationship_TextGen.java" startLine="17" startPosition="59" endLine="19" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175448268" fileName="RLRelationship_TextGen.java" startLine="54" startPosition="0" endLine="56" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175448218" fileName="RLRelationship_TextGen.java" startLine="25" startPosition="113" endLine="28" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="37" startPosition="113" endLine="40" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175448244" fileName="RLRelationship_TextGen.java" startLine="46" startPosition="64" endLine="50" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175448218" fileName="RLRelationship_TextGen.java" startLine="23" startPosition="97" endLine="29" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="35" startPosition="101" endLine="41" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5915353355175448242" fileName="RLRelationship_TextGen.java" startLine="45" startPosition="0" endLine="51" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175448218" fileName="RLRelationship_TextGen.java" startLine="22" startPosition="25" endLine="30" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175448218" fileName="RLRelationship_TextGen.java" startLine="22" startPosition="25" endLine="30" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="34" startPosition="26" endLine="42" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="33" startPosition="69" endLine="43" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175448214" fileName="RLRelationship_TextGen.java" startLine="20" startPosition="0" endLine="31" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175448229" fileName="RLRelationship_TextGen.java" startLine="32" startPosition="0" endLine="44" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175448205" fileName="RLRelationship_TextGen.java" startLine="16" startPosition="0" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4030922243380601177" fileName="RLRelationship_TextGen.java" startLine="13" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="5915353355175448198" fileName="RLRelationship_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="156" />
+    <scopeInfo nodeId="5915353355175448216" fileName="RLRelationship_TextGen.java" startLine="21" startPosition="95" endLine="22" endPosition="25" />
+    <scopeInfo nodeId="5915353355175448218" fileName="RLRelationship_TextGen.java" startLine="26" startPosition="103" endLine="27" endPosition="31" />
+    <scopeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="38" startPosition="107" endLine="39" endPosition="31" />
+    <scopeInfo nodeId="5915353355175448262" fileName="RLRelationship_TextGen.java" startLine="51" startPosition="7" endLine="52" endPosition="23" />
+    <scopeInfo nodeId="5915353355175448268" fileName="RLRelationship_TextGen.java" startLine="55" startPosition="21" endLine="56" endPosition="157" />
+    <scopeInfo nodeId="5915353355175448198" fileName="RLRelationship_TextGen.java" startLine="13" startPosition="42" endLine="15" endPosition="22" />
+    <scopeInfo nodeId="5915353355175448207" fileName="RLRelationship_TextGen.java" startLine="17" startPosition="59" endLine="19" endPosition="63" />
+    <scopeInfo nodeId="5915353355175448268" fileName="RLRelationship_TextGen.java" startLine="54" startPosition="0" endLine="56" endPosition="157" />
+    <scopeInfo nodeId="5915353355175448218" fileName="RLRelationship_TextGen.java" startLine="24" startPosition="77" endLine="28" endPosition="13" />
+    <scopeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="36" startPosition="81" endLine="40" endPosition="13" />
+    <scopeInfo nodeId="5915353355175448243" fileName="RLRelationship_TextGen.java" startLine="46" startPosition="64" endLine="50" endPosition="74" />
+    <scopeInfo nodeId="5915353355175448244" fileName="RLRelationship_TextGen.java" startLine="46" startPosition="64" endLine="50" endPosition="74" />
+    <scopeInfo nodeId="5915353355175448218" fileName="RLRelationship_TextGen.java" startLine="23" startPosition="97" endLine="29" endPosition="11" />
+    <scopeInfo nodeId="5915353355175448218" fileName="RLRelationship_TextGen.java" startLine="23" startPosition="97" endLine="29" endPosition="11">
+      <varInfo nodeId="5915353355175448218" varName="item" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="35" startPosition="101" endLine="41" endPosition="11" />
+    <scopeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="35" startPosition="101" endLine="41" endPosition="11">
+      <varInfo nodeId="5915353355175448231" varName="item" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355175448218" fileName="RLRelationship_TextGen.java" startLine="22" startPosition="25" endLine="30" endPosition="9" />
+    <scopeInfo nodeId="5915353355175448215" fileName="RLRelationship_TextGen.java" startLine="21" startPosition="95" endLine="30" endPosition="9" />
+    <scopeInfo nodeId="5915353355175448230" fileName="RLRelationship_TextGen.java" startLine="33" startPosition="69" endLine="43" endPosition="25" />
+    <scopeInfo nodeId="5915353355175448231" fileName="RLRelationship_TextGen.java" startLine="33" startPosition="69" endLine="43" endPosition="25" />
+    <scopeInfo nodeId="5915353355175448206" fileName="RLRelationship_TextGen.java" startLine="17" startPosition="59" endLine="52" endPosition="23" />
+    <scopeInfo nodeId="4030922243380601177" fileName="RLRelationship_TextGen.java" startLine="13" startPosition="42" endLine="56" endPosition="157" />
+    <scopeInfo nodeId="4030922243380601177" fileName="RLRelationship_TextGen.java" startLine="13" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="4030922243380601177" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="4030922243380601177" fileName="RLRelationship_TextGen.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="neo4j.cypher.textGen.RLRelationship_TextGen" />
+    <unitInfo nodeId="4030922243380601177" fileName="RLRelationship_TextGen.java" startLine="12" startPosition="0" endLine="59" endPosition="0" unitName="neo4j.cypher.textGen.RLRelationship_TextGen" />
   </root>
   <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/4030922243380601183">
-    <nodeInfo nodeId="4030922243380604399" fileName="UndirectedRelationship_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4030922243380604399" fileName="UndirectedRelationship_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4030922243380604399" fileName="UndirectedRelationship_TextGen.java" startLine="12" startPosition="156" endLine="13" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4030922243380604399" fileName="UndirectedRelationship_TextGen.java" startLine="13" startPosition="22" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4030922243380604399" fileName="UndirectedRelationship_TextGen.java" startLine="13" startPosition="22" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4030922243380605432" fileName="UndirectedRelationship_TextGen.java" startLine="14" startPosition="157" endLine="15" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="4030922243380604399" fileName="UndirectedRelationship_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4030922243380601183" fileName="UndirectedRelationship_TextGen.java" startLine="11" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="4030922243380604399" fileName="UndirectedRelationship_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" />
-    <scopeInfo nodeId="4030922243380604399" fileName="UndirectedRelationship_TextGen.java" startLine="13" startPosition="22" endLine="14" endPosition="157" />
-    <scopeInfo nodeId="4030922243380604399" fileName="UndirectedRelationship_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" />
-    <scopeInfo nodeId="4030922243380601183" fileName="UndirectedRelationship_TextGen.java" startLine="11" startPosition="42" endLine="15" endPosition="45" />
-    <scopeInfo nodeId="4030922243380601183" fileName="UndirectedRelationship_TextGen.java" startLine="11" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="5915353355175452005" fileName="UndirectedRelationship_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175452005" fileName="UndirectedRelationship_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452005" fileName="UndirectedRelationship_TextGen.java" startLine="14" startPosition="156" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452011" fileName="UndirectedRelationship_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355175452014" fileName="UndirectedRelationship_TextGen.java" startLine="17" startPosition="59" endLine="18" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452014" fileName="UndirectedRelationship_TextGen.java" startLine="18" startPosition="23" endLine="19" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452020" fileName="UndirectedRelationship_TextGen.java" startLine="19" startPosition="63" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355175452023" fileName="UndirectedRelationship_TextGen.java" startLine="21" startPosition="95" endLine="22" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175452023" fileName="UndirectedRelationship_TextGen.java" startLine="21" startPosition="95" endLine="22" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452025" fileName="UndirectedRelationship_TextGen.java" startLine="24" startPosition="77" endLine="25" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452025" fileName="UndirectedRelationship_TextGen.java" startLine="26" startPosition="103" endLine="27" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452035" fileName="UndirectedRelationship_TextGen.java" startLine="31" startPosition="7" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="33" startPosition="69" endLine="34" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="36" startPosition="81" endLine="37" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="38" startPosition="107" endLine="39" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="42" startPosition="9" endLine="43" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452048" fileName="UndirectedRelationship_TextGen.java" startLine="44" startPosition="7" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355175452051" fileName="UndirectedRelationship_TextGen.java" startLine="46" startPosition="64" endLine="47" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452051" fileName="UndirectedRelationship_TextGen.java" startLine="47" startPosition="25" endLine="48" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452051" fileName="UndirectedRelationship_TextGen.java" startLine="48" startPosition="74" endLine="49" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452051" fileName="UndirectedRelationship_TextGen.java" startLine="49" startPosition="26" endLine="50" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452069" fileName="UndirectedRelationship_TextGen.java" startLine="51" startPosition="7" endLine="52" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175452069" fileName="UndirectedRelationship_TextGen.java" startLine="51" startPosition="7" endLine="52" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452074" fileName="UndirectedRelationship_TextGen.java" startLine="53" startPosition="5" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355175452075" fileName="UndirectedRelationship_TextGen.java" startLine="54" startPosition="0" endLine="55" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452075" fileName="UndirectedRelationship_TextGen.java" startLine="55" startPosition="21" endLine="56" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175452075" fileName="UndirectedRelationship_TextGen.java" startLine="55" startPosition="21" endLine="56" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355175452005" fileName="UndirectedRelationship_TextGen.java" startLine="13" startPosition="42" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175452014" fileName="UndirectedRelationship_TextGen.java" startLine="17" startPosition="59" endLine="19" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175452075" fileName="UndirectedRelationship_TextGen.java" startLine="54" startPosition="0" endLine="56" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175452025" fileName="UndirectedRelationship_TextGen.java" startLine="25" startPosition="113" endLine="28" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="37" startPosition="113" endLine="40" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175452051" fileName="UndirectedRelationship_TextGen.java" startLine="46" startPosition="64" endLine="50" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175452025" fileName="UndirectedRelationship_TextGen.java" startLine="23" startPosition="97" endLine="29" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="35" startPosition="101" endLine="41" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="5915353355175452049" fileName="UndirectedRelationship_TextGen.java" startLine="45" startPosition="0" endLine="51" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175452025" fileName="UndirectedRelationship_TextGen.java" startLine="22" startPosition="25" endLine="30" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175452025" fileName="UndirectedRelationship_TextGen.java" startLine="22" startPosition="25" endLine="30" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="34" startPosition="26" endLine="42" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="33" startPosition="69" endLine="43" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355175452021" fileName="UndirectedRelationship_TextGen.java" startLine="20" startPosition="0" endLine="31" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175452036" fileName="UndirectedRelationship_TextGen.java" startLine="32" startPosition="0" endLine="44" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355175452012" fileName="UndirectedRelationship_TextGen.java" startLine="16" startPosition="0" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4030922243380601183" fileName="UndirectedRelationship_TextGen.java" startLine="13" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="5915353355175452005" fileName="UndirectedRelationship_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="156" />
+    <scopeInfo nodeId="5915353355175452023" fileName="UndirectedRelationship_TextGen.java" startLine="21" startPosition="95" endLine="22" endPosition="25" />
+    <scopeInfo nodeId="5915353355175452025" fileName="UndirectedRelationship_TextGen.java" startLine="26" startPosition="103" endLine="27" endPosition="31" />
+    <scopeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="38" startPosition="107" endLine="39" endPosition="31" />
+    <scopeInfo nodeId="5915353355175452069" fileName="UndirectedRelationship_TextGen.java" startLine="51" startPosition="7" endLine="52" endPosition="23" />
+    <scopeInfo nodeId="5915353355175452075" fileName="UndirectedRelationship_TextGen.java" startLine="55" startPosition="21" endLine="56" endPosition="157" />
+    <scopeInfo nodeId="5915353355175452005" fileName="UndirectedRelationship_TextGen.java" startLine="13" startPosition="42" endLine="15" endPosition="21" />
+    <scopeInfo nodeId="5915353355175452014" fileName="UndirectedRelationship_TextGen.java" startLine="17" startPosition="59" endLine="19" endPosition="63" />
+    <scopeInfo nodeId="5915353355175452075" fileName="UndirectedRelationship_TextGen.java" startLine="54" startPosition="0" endLine="56" endPosition="157" />
+    <scopeInfo nodeId="5915353355175452025" fileName="UndirectedRelationship_TextGen.java" startLine="24" startPosition="77" endLine="28" endPosition="13" />
+    <scopeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="36" startPosition="81" endLine="40" endPosition="13" />
+    <scopeInfo nodeId="5915353355175452050" fileName="UndirectedRelationship_TextGen.java" startLine="46" startPosition="64" endLine="50" endPosition="74" />
+    <scopeInfo nodeId="5915353355175452051" fileName="UndirectedRelationship_TextGen.java" startLine="46" startPosition="64" endLine="50" endPosition="74" />
+    <scopeInfo nodeId="5915353355175452025" fileName="UndirectedRelationship_TextGen.java" startLine="23" startPosition="97" endLine="29" endPosition="11" />
+    <scopeInfo nodeId="5915353355175452025" fileName="UndirectedRelationship_TextGen.java" startLine="23" startPosition="97" endLine="29" endPosition="11">
+      <varInfo nodeId="5915353355175452025" varName="item" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="35" startPosition="101" endLine="41" endPosition="11" />
+    <scopeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="35" startPosition="101" endLine="41" endPosition="11">
+      <varInfo nodeId="5915353355175452038" varName="item" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355175452025" fileName="UndirectedRelationship_TextGen.java" startLine="22" startPosition="25" endLine="30" endPosition="9" />
+    <scopeInfo nodeId="5915353355175452022" fileName="UndirectedRelationship_TextGen.java" startLine="21" startPosition="95" endLine="30" endPosition="9" />
+    <scopeInfo nodeId="5915353355175452037" fileName="UndirectedRelationship_TextGen.java" startLine="33" startPosition="69" endLine="43" endPosition="25" />
+    <scopeInfo nodeId="5915353355175452038" fileName="UndirectedRelationship_TextGen.java" startLine="33" startPosition="69" endLine="43" endPosition="25" />
+    <scopeInfo nodeId="5915353355175452013" fileName="UndirectedRelationship_TextGen.java" startLine="17" startPosition="59" endLine="52" endPosition="23" />
+    <scopeInfo nodeId="4030922243380601183" fileName="UndirectedRelationship_TextGen.java" startLine="13" startPosition="42" endLine="56" endPosition="157" />
+    <scopeInfo nodeId="4030922243380601183" fileName="UndirectedRelationship_TextGen.java" startLine="13" startPosition="0" endLine="58" endPosition="0">
       <varInfo nodeId="4030922243380601183" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="4030922243380601183" fileName="UndirectedRelationship_TextGen.java" startLine="10" startPosition="0" endLine="18" endPosition="0" unitName="neo4j.cypher.textGen.UndirectedRelationship_TextGen" />
+    <unitInfo nodeId="4030922243380601183" fileName="UndirectedRelationship_TextGen.java" startLine="12" startPosition="0" endLine="59" endPosition="0" unitName="neo4j.cypher.textGen.UndirectedRelationship_TextGen" />
   </root>
   <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/4030922243380601189">
     <nodeInfo nodeId="4030922243380601192" fileName="RelationshipType_TextGen.java" startLine="10" startPosition="42" endLine="11" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />

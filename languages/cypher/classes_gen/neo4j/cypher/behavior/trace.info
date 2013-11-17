@@ -380,54 +380,55 @@
     <nodeInfo nodeId="4409026550619405982" fileName="Relationship_Behavior.java" startLine="14" startPosition="89" endLine="15" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4839691926370495634" fileName="Relationship_Behavior.java" startLine="15" startPosition="92" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="4839691926370495637" fileName="Relationship_Behavior.java" startLine="16" startPosition="0" endLine="17" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370495719" fileName="Relationship_Behavior.java" startLine="17" startPosition="108" endLine="18" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370495729" fileName="Relationship_Behavior.java" startLine="18" startPosition="114" endLine="19" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370495739" fileName="Relationship_Behavior.java" startLine="19" startPosition="106" endLine="20" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370495738" fileName="Relationship_Behavior.java" startLine="20" startPosition="106" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="4409026550619397565" fileName="Relationship_Behavior.java" startLine="21" startPosition="0" endLine="22" endPosition="170" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619397395" fileName="Relationship_Behavior.java" startLine="22" startPosition="170" endLine="23" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619645655" fileName="Relationship_Behavior.java" startLine="26" startPosition="82" endLine="27" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4409026550619536519" fileName="Relationship_Behavior.java" startLine="30" startPosition="74" endLine="31" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4409026550619536579" fileName="Relationship_Behavior.java" startLine="34" startPosition="74" endLine="35" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4409026550619645732" fileName="Relationship_Behavior.java" startLine="38" startPosition="59" endLine="39" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4409026550619536573" fileName="Relationship_Behavior.java" startLine="42" startPosition="61" endLine="43" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355174545176" fileName="Relationship_Behavior.java" startLine="17" startPosition="108" endLine="18" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370495719" fileName="Relationship_Behavior.java" startLine="18" startPosition="124" endLine="19" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370495729" fileName="Relationship_Behavior.java" startLine="19" startPosition="114" endLine="20" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370495739" fileName="Relationship_Behavior.java" startLine="20" startPosition="106" endLine="21" endPosition="106" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370495738" fileName="Relationship_Behavior.java" startLine="21" startPosition="106" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4409026550619397565" fileName="Relationship_Behavior.java" startLine="22" startPosition="0" endLine="23" endPosition="170" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619397395" fileName="Relationship_Behavior.java" startLine="23" startPosition="170" endLine="24" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619645655" fileName="Relationship_Behavior.java" startLine="27" startPosition="82" endLine="28" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619536519" fileName="Relationship_Behavior.java" startLine="31" startPosition="74" endLine="32" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619536579" fileName="Relationship_Behavior.java" startLine="35" startPosition="74" endLine="36" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619645732" fileName="Relationship_Behavior.java" startLine="39" startPosition="59" endLine="40" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619536573" fileName="Relationship_Behavior.java" startLine="43" startPosition="61" endLine="44" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isRealAnonymous_4409026550619645624#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isNamed_4409026550619536514#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isTyped_4409026550619536574#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-    <nodeInfo nodeId="4409026550619645732" fileName="Relationship_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmpty_ck02f0_a0a0a2#(Ljava/lang/String;)Z" />
-    <nodeInfo nodeId="4409026550619536573" fileName="Relationship_Behavior.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmpty_ck02f0_a0a0d#(Ljava/lang/String;)Z" />
-    <nodeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="14" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_copyConfigOf_4839691926370495851#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="27" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isRealAnonymous_4409026550619645624#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="31" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isNamed_4409026550619536514#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="35" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isTyped_4409026550619536574#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="4409026550619645732" fileName="Relationship_Behavior.java" startLine="39" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isEmpty_ck02f0_a0a0a2#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="4409026550619536573" fileName="Relationship_Behavior.java" startLine="43" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="isNotEmpty_ck02f0_a0a0d#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="14" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_copyConfigOf_4839691926370495851#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <scopeInfo nodeId="4409026550619536372" fileName="Relationship_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
-    <scopeInfo nodeId="4409026550619645627" fileName="Relationship_Behavior.java" startLine="26" startPosition="82" endLine="27" endPosition="169" />
-    <scopeInfo nodeId="4409026550619536517" fileName="Relationship_Behavior.java" startLine="30" startPosition="74" endLine="31" endPosition="84" />
-    <scopeInfo nodeId="4409026550619536577" fileName="Relationship_Behavior.java" startLine="34" startPosition="74" endLine="35" endPosition="98" />
-    <scopeInfo nodeId="4409026550619645732" fileName="Relationship_Behavior.java" startLine="38" startPosition="59" endLine="39" endPosition="44" />
-    <scopeInfo nodeId="4409026550619536573" fileName="Relationship_Behavior.java" startLine="42" startPosition="61" endLine="43" endPosition="43" />
+    <scopeInfo nodeId="4409026550619645627" fileName="Relationship_Behavior.java" startLine="27" startPosition="82" endLine="28" endPosition="169" />
+    <scopeInfo nodeId="4409026550619536517" fileName="Relationship_Behavior.java" startLine="31" startPosition="74" endLine="32" endPosition="84" />
+    <scopeInfo nodeId="4409026550619536577" fileName="Relationship_Behavior.java" startLine="35" startPosition="74" endLine="36" endPosition="98" />
+    <scopeInfo nodeId="4409026550619645732" fileName="Relationship_Behavior.java" startLine="39" startPosition="59" endLine="40" endPosition="44" />
+    <scopeInfo nodeId="4409026550619536573" fileName="Relationship_Behavior.java" startLine="43" startPosition="61" endLine="44" endPosition="43" />
     <scopeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0">
       <varInfo nodeId="4409026550619536370" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="26" startPosition="0" endLine="29" endPosition="0">
+    <scopeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="27" startPosition="0" endLine="30" endPosition="0">
       <varInfo nodeId="4409026550619536370" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="30" startPosition="0" endLine="33" endPosition="0">
+    <scopeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="31" startPosition="0" endLine="34" endPosition="0">
       <varInfo nodeId="4409026550619536370" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
+    <scopeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="35" startPosition="0" endLine="38" endPosition="0">
       <varInfo nodeId="4409026550619536370" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4409026550619645732" fileName="Relationship_Behavior.java" startLine="38" startPosition="0" endLine="41" endPosition="0">
+    <scopeInfo nodeId="4409026550619645732" fileName="Relationship_Behavior.java" startLine="39" startPosition="0" endLine="42" endPosition="0">
       <varInfo nodeId="4409026550619645732" varName="str" />
     </scopeInfo>
-    <scopeInfo nodeId="4409026550619536573" fileName="Relationship_Behavior.java" startLine="42" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="4409026550619536573" fileName="Relationship_Behavior.java" startLine="43" startPosition="0" endLine="46" endPosition="0">
       <varInfo nodeId="4409026550619536573" varName="str" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370495854" fileName="Relationship_Behavior.java" startLine="14" startPosition="89" endLine="23" endPosition="162" />
-    <scopeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="14" startPosition="0" endLine="25" endPosition="0">
+    <scopeInfo nodeId="4839691926370495854" fileName="Relationship_Behavior.java" startLine="14" startPosition="89" endLine="24" endPosition="162" />
+    <scopeInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="14" startPosition="0" endLine="26" endPosition="0">
       <varInfo nodeId="4839691926370495856" varName="other" />
       <varInfo nodeId="4409026550619536370" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="10" startPosition="0" endLine="46" endPosition="0" unitName="neo4j.cypher.behavior.Relationship_Behavior" />
+    <unitInfo nodeId="4409026550619536370" fileName="Relationship_Behavior.java" startLine="10" startPosition="0" endLine="47" endPosition="0" unitName="neo4j.cypher.behavior.Relationship_Behavior" />
   </root>
   <root nodeRef="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)/4721745511893728624">
     <nodeInfo nodeId="4721745511893728629" fileName="CypherMinusExpression_Behavior.java" startLine="15" startPosition="83" endLine="16" endPosition="188" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />

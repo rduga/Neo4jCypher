@@ -15,6 +15,7 @@ public class Relationship_Behavior {
     SPropertyOperations.set(thisNode, "name", SPropertyOperations.getString(other, "name"));
 
     SPropertyOperations.set(thisNode, "concrete", "" + (SPropertyOperations.getBoolean(other, "concrete")));
+    SPropertyOperations.set(thisNode, "inDefinitionMode", "" + (SPropertyOperations.getBoolean(other, "inDefinitionMode")));
     SPropertyOperations.set(thisNode, "specifyHops", "" + (SPropertyOperations.getBoolean(other, "specifyHops")));
     SPropertyOperations.set(thisNode, "minHops", "" + (SPropertyOperations.getInteger(other, "minHops")));
     SPropertyOperations.set(thisNode, "maxHops", "" + (SPropertyOperations.getInteger(other, "maxHops")));

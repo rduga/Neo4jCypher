@@ -6,12 +6,53 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.textGen.TextGenManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class LRRelationship_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "leftExpression", true), this.getSNode());
-    this.append("-->");
+    this.append("-");
+
+    if (SPropertyOperations.getBoolean(node, "concrete")) {
+      this.append("[");
+      this.append(SPropertyOperations.getString(node, "name"));
+
+      if (ListSequence.fromList(SLinkOperations.getTargets(node, "type", true)).isNotEmpty()) {
+        this.append(":");
+        if (ListSequence.fromList(SLinkOperations.getTargets(node, "type", true)).isNotEmpty()) {
+          for (SNode item : SLinkOperations.getTargets(node, "type", true)) {
+            TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
+            if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "type", true)).last()) {
+              this.append("|");
+            }
+          }
+        }
+      }
+
+      if (SPropertyOperations.getBoolean(node, "inDefinitionMode")) {
+        this.append(" {");
+        if (ListSequence.fromList(SLinkOperations.getTargets(node, "property", true)).isNotEmpty()) {
+          for (SNode item : SLinkOperations.getTargets(node, "property", true)) {
+            TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
+            if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "property", true)).last()) {
+              this.append(",");
+            }
+          }
+        }
+        this.append("}");
+      }
+
+      if (SPropertyOperations.getBoolean(node, "specifyHops")) {
+        this.append("*");
+        this.append("" + SPropertyOperations.getInteger(node, "minHops"));
+        this.append("..");
+        this.append("" + SPropertyOperations.getInteger(node, "maxHops"));
+      }
+      this.append("]");
+    }
+
+    this.append("->");
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "rightExpression", true), this.getSNode());
-    // FIXME: define inside of relationship  
   }
 }

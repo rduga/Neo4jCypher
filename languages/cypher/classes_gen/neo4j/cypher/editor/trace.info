@@ -6701,80 +6701,90 @@
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="253" startPosition="87" endLine="254" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="258" startPosition="96" endLine="259" endPosition="134" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="260" startPosition="34" endLine="261" endPosition="95" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="263" startPosition="131" endLine="264" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="270" startPosition="90" endLine="271" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="271" startPosition="87" endLine="272" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="272" startPosition="49" endLine="273" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="273" startPosition="34" endLine="274" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="274" startPosition="68" endLine="275" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="275" startPosition="54" endLine="276" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="276" startPosition="40" endLine="277" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="277" startPosition="34" endLine="278" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="281" startPosition="91" endLine="282" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="282" startPosition="96" endLine="283" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="283" startPosition="50" endLine="284" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="284" startPosition="34" endLine="285" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="285" startPosition="49" endLine="286" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="286" startPosition="40" endLine="287" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="286" startPosition="40" endLine="287" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="287" startPosition="83" endLine="288" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="287" startPosition="83" endLine="288" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="288" startPosition="83" endLine="289" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="288" startPosition="83" endLine="289" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="289" startPosition="83" endLine="290" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="289" startPosition="83" endLine="290" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="290" startPosition="83" endLine="291" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4839691926370448460" fileName="Relationship_MiddleCell.java" startLine="294" startPosition="112" endLine="295" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="298" startPosition="90" endLine="299" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="299" startPosition="87" endLine="300" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="300" startPosition="49" endLine="301" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="301" startPosition="34" endLine="302" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="302" startPosition="54" endLine="303" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="303" startPosition="55" endLine="304" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="304" startPosition="40" endLine="305" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="305" startPosition="34" endLine="306" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="309" startPosition="90" endLine="310" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="310" startPosition="82" endLine="311" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="311" startPosition="32" endLine="312" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="312" startPosition="45" endLine="313" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="313" startPosition="26" endLine="314" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="314" startPosition="58" endLine="315" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="315" startPosition="45" endLine="316" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="316" startPosition="73" endLine="317" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="317" startPosition="57" endLine="318" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="319" startPosition="35" endLine="320" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="320" startPosition="72" endLine="321" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="321" startPosition="78" endLine="322" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="323" startPosition="10" endLine="324" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="327" startPosition="90" endLine="328" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="328" startPosition="88" endLine="329" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="329" startPosition="49" endLine="330" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="330" startPosition="34" endLine="331" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="331" startPosition="54" endLine="332" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="332" startPosition="55" endLine="333" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="333" startPosition="40" endLine="334" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="334" startPosition="34" endLine="335" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="338" startPosition="90" endLine="339" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="339" startPosition="82" endLine="340" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="340" startPosition="32" endLine="341" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="341" startPosition="33" endLine="342" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="342" startPosition="40" endLine="343" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="343" startPosition="26" endLine="344" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="344" startPosition="58" endLine="345" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="345" startPosition="45" endLine="346" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="346" startPosition="73" endLine="347" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="347" startPosition="57" endLine="348" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="349" startPosition="35" endLine="350" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="350" startPosition="72" endLine="351" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="351" startPosition="78" endLine="352" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="353" startPosition="10" endLine="354" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="357" startPosition="89" endLine="358" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="358" startPosition="87" endLine="359" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="359" startPosition="48" endLine="360" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="360" startPosition="34" endLine="361" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="361" startPosition="70" endLine="362" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="362" startPosition="40" endLine="363" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="363" startPosition="34" endLine="364" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="261" startPosition="95" endLine="262" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="264" startPosition="131" endLine="265" endPosition="139" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="271" startPosition="104" endLine="272" endPosition="100" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="272" startPosition="100" endLine="273" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="273" startPosition="38" endLine="274" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="274" startPosition="36" endLine="275" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="275" startPosition="55" endLine="276" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="276" startPosition="56" endLine="277" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="277" startPosition="42" endLine="278" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="278" startPosition="90" endLine="279" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="279" startPosition="87" endLine="280" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="284" startPosition="90" endLine="285" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="285" startPosition="87" endLine="286" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="286" startPosition="49" endLine="287" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="287" startPosition="34" endLine="288" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="288" startPosition="68" endLine="289" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="289" startPosition="54" endLine="290" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="290" startPosition="40" endLine="291" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="291" startPosition="34" endLine="292" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="295" startPosition="91" endLine="296" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="296" startPosition="96" endLine="297" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="297" startPosition="50" endLine="298" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="298" startPosition="34" endLine="299" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="299" startPosition="49" endLine="300" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="300" startPosition="40" endLine="301" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="300" startPosition="40" endLine="301" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="301" startPosition="83" endLine="302" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="301" startPosition="83" endLine="302" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="302" startPosition="83" endLine="303" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="302" startPosition="83" endLine="303" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="303" startPosition="83" endLine="304" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="303" startPosition="83" endLine="304" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="304" startPosition="83" endLine="305" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370448460" fileName="Relationship_MiddleCell.java" startLine="308" startPosition="112" endLine="309" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="312" startPosition="90" endLine="313" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="313" startPosition="87" endLine="314" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="314" startPosition="49" endLine="315" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="315" startPosition="34" endLine="316" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="316" startPosition="54" endLine="317" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="317" startPosition="55" endLine="318" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="318" startPosition="40" endLine="319" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="319" startPosition="34" endLine="320" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="323" startPosition="90" endLine="324" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="324" startPosition="82" endLine="325" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="325" startPosition="32" endLine="326" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="326" startPosition="45" endLine="327" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="327" startPosition="26" endLine="328" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="328" startPosition="58" endLine="329" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="329" startPosition="45" endLine="330" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="330" startPosition="73" endLine="331" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="331" startPosition="57" endLine="332" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="333" startPosition="35" endLine="334" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="334" startPosition="72" endLine="335" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="335" startPosition="78" endLine="336" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="337" startPosition="10" endLine="338" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="341" startPosition="90" endLine="342" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="342" startPosition="88" endLine="343" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="343" startPosition="49" endLine="344" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="344" startPosition="34" endLine="345" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="345" startPosition="54" endLine="346" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="346" startPosition="55" endLine="347" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="347" startPosition="40" endLine="348" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="348" startPosition="34" endLine="349" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="352" startPosition="90" endLine="353" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="353" startPosition="82" endLine="354" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="354" startPosition="32" endLine="355" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="355" startPosition="33" endLine="356" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="356" startPosition="40" endLine="357" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="357" startPosition="26" endLine="358" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="358" startPosition="58" endLine="359" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="359" startPosition="45" endLine="360" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="360" startPosition="73" endLine="361" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="361" startPosition="57" endLine="362" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="363" startPosition="35" endLine="364" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="364" startPosition="72" endLine="365" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="365" startPosition="78" endLine="366" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="367" startPosition="10" endLine="368" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="371" startPosition="89" endLine="372" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="372" startPosition="87" endLine="373" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="373" startPosition="48" endLine="374" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="374" startPosition="34" endLine="375" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="375" startPosition="70" endLine="376" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="376" startPosition="40" endLine="377" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="377" startPosition="34" endLine="378" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getContextHints#()Ljava/util/Collection;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="49" startPosition="40" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -6792,41 +6802,42 @@
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="167" startPosition="9" endLine="170" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3682822877829261658" fileName="Relationship_MiddleCell.java" startLine="211" startPosition="0" endLine="214" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_h1s2v3_a4a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="235" startPosition="0" endLine="238" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="propertyListHandler_h1s2v3_b4a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="259" startPosition="134" endLine="262" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="262" startPosition="9" endLine="265" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4839691926370448458" fileName="Relationship_MiddleCell.java" startLine="294" startPosition="0" endLine="297" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_h1s2v3_a5a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="263" startPosition="9" endLine="266" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4839691926370448458" fileName="Relationship_MiddleCell.java" startLine="308" startPosition="0" endLine="311" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_h1s2v3_a5a0#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;Ljetbrains/mps/smodel/IScope;)Z" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="139" startPosition="0" endLine="143" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="163" startPosition="134" endLine="167" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="239" startPosition="0" endLine="243" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeToInsert#(Ljetbrains/mps/openapi/editor/EditorContext;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="259" startPosition="134" endLine="263" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="144" startPosition="0" endLine="149" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="244" startPosition="0" endLine="249" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createNodeCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480281" fileName="Relationship_MiddleCell.java" startLine="99" startPosition="59" endLine="105" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="150" startPosition="0" endLine="156" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="250" startPosition="0" endLine="256" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEmptyCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="318" startPosition="59" endLine="324" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="348" startPosition="59" endLine="354" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="332" startPosition="59" endLine="338" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="362" startPosition="59" endLine="368" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="226" startPosition="0" endLine="233" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_h1s2v3_b4a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619528983" fileName="Relationship_MiddleCell.java" startLine="79" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_a0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619516587" fileName="Relationship_MiddleCell.java" startLine="188" startPosition="0" endLine="197" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_a3a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="257" startPosition="132" endLine="266" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="357" startPosition="0" endLine="366" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_g0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="371" startPosition="0" endLine="380" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_g0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="108" startPosition="0" endLine="118" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_c0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="123" startPosition="0" endLine="133" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNodeList_h1s2v3_d0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="161" startPosition="132" endLine="171" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="3682822877829261652" fileName="Relationship_MiddleCell.java" startLine="215" startPosition="0" endLine="225" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_a4a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="270" startPosition="0" endLine="280" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_c4a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="298" startPosition="0" endLine="308" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_a5a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="327" startPosition="0" endLine="337" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_c5a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="257" startPosition="132" endLine="267" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="284" startPosition="0" endLine="294" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_c4a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="312" startPosition="0" endLine="322" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_a5a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="341" startPosition="0" endLine="351" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_h1s2v3_c5a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="44" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_h1s2v3_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="199" startPosition="0" endLine="210" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_h1s2v3_e0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="257" startPosition="0" endLine="268" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="161" startPosition="0" endLine="173" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="281" startPosition="0" endLine="293" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_h1s2v3_f0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="257" startPosition="0" endLine="269" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="installElementCellActions#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/cells/EditorCell;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="270" startPosition="0" endLine="282" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSeparatorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="295" startPosition="0" endLine="307" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_h1s2v3_f0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="174" startPosition="0" endLine="187" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createSeparatorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="309" startPosition="0" endLine="326" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_h1s2v3_b5a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="323" startPosition="0" endLine="340" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_h1s2v3_b5a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="56" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_h1s2v3_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="4409026550619480281" fileName="Relationship_MiddleCell.java" startLine="89" startPosition="0" endLine="107" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_h1s2v3_b0a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="338" startPosition="0" endLine="356" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_h1s2v3_d5a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="352" startPosition="0" endLine="370" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_h1s2v3_d5a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="36" startPosition="47" endLine="37" endPosition="35" />
     <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="40" startPosition="79" endLine="41" endPosition="63" />
     <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="50" startPosition="109" endLine="51" endPosition="85" />
@@ -6847,13 +6858,12 @@
     <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="206" startPosition="86" endLine="207" endPosition="83" />
     <scopeInfo nodeId="3682822877829261659" fileName="Relationship_MiddleCell.java" startLine="211" startPosition="112" endLine="212" endPosition="68" />
     <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="235" startPosition="102" endLine="236" endPosition="50" />
-    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="260" startPosition="34" endLine="261" endPosition="95" />
-    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="263" startPosition="131" endLine="264" endPosition="139" />
-    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="286" startPosition="40" endLine="287" endPosition="83" />
-    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="287" startPosition="83" endLine="288" endPosition="83" />
-    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="288" startPosition="83" endLine="289" endPosition="83" />
-    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="289" startPosition="83" endLine="290" endPosition="83" />
-    <scopeInfo nodeId="4839691926370448459" fileName="Relationship_MiddleCell.java" startLine="294" startPosition="112" endLine="295" endPosition="63" />
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="264" startPosition="131" endLine="265" endPosition="139" />
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="300" startPosition="40" endLine="301" endPosition="83" />
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="301" startPosition="83" endLine="302" endPosition="83" />
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="302" startPosition="83" endLine="303" endPosition="83" />
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="303" startPosition="83" endLine="304" endPosition="83" />
+    <scopeInfo nodeId="4839691926370448459" fileName="Relationship_MiddleCell.java" startLine="308" startPosition="112" endLine="309" endPosition="63" />
     <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="139" startPosition="66" endLine="141" endPosition="93">
       <varInfo nodeId="4409026550619480276" varName="listOwner" />
     </scopeInfo>
@@ -6861,6 +6871,7 @@
     <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="239" startPosition="66" endLine="241" endPosition="93">
       <varInfo nodeId="4409026550619480276" varName="listOwner" />
     </scopeInfo>
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="260" startPosition="34" endLine="262" endPosition="80" />
     <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="36" startPosition="0" endLine="39" endPosition="0" />
     <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="40" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="4409026550619480276" varName="editorContext" />
@@ -6909,16 +6920,16 @@
     <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="244" startPosition="86" endLine="247" endPosition="25">
       <varInfo nodeId="4409026550619480276" varName="elementCell" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370448458" fileName="Relationship_MiddleCell.java" startLine="294" startPosition="0" endLine="297" endPosition="0">
+    <scopeInfo nodeId="4839691926370448458" fileName="Relationship_MiddleCell.java" startLine="308" startPosition="0" endLine="311" endPosition="0">
       <varInfo nodeId="4839691926370448458" varName="editorContext" />
       <varInfo nodeId="4839691926370448458" varName="node" />
       <varInfo nodeId="4839691926370448458" varName="scope" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="319" startPosition="35" endLine="322" endPosition="105">
+    <scopeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="333" startPosition="35" endLine="336" endPosition="105">
       <varInfo nodeId="4839691926370448451" varName="manager" />
       <varInfo nodeId="4839691926370448451" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="349" startPosition="35" endLine="352" endPosition="105">
+    <scopeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="363" startPosition="35" endLine="366" endPosition="105">
       <varInfo nodeId="4839691926370448455" varName="manager" />
       <varInfo nodeId="4839691926370448455" varName="opContext" />
     </scopeInfo>
@@ -6964,8 +6975,7 @@
       <varInfo nodeId="4409026550619480276" varName="editorContext" />
       <varInfo nodeId="4409026550619480276" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="258" startPosition="96" endLine="265" endPosition="9" />
-    <scopeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="357" startPosition="89" endLine="364" endPosition="22">
+    <scopeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="371" startPosition="89" endLine="378" endPosition="22">
       <varInfo nodeId="4409026550619528985" varName="editorCell" />
       <varInfo nodeId="4409026550619528985" varName="style" />
     </scopeInfo>
@@ -6983,15 +6993,16 @@
       <varInfo nodeId="3682822877829261652" varName="editorCell" />
       <varInfo nodeId="3682822877829261652" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="270" startPosition="90" endLine="278" endPosition="22">
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="258" startPosition="96" endLine="266" endPosition="9" />
+    <scopeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="284" startPosition="90" endLine="292" endPosition="22">
       <varInfo nodeId="3682822877829261654" varName="editorCell" />
       <varInfo nodeId="3682822877829261654" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="298" startPosition="90" endLine="306" endPosition="22">
+    <scopeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="312" startPosition="90" endLine="320" endPosition="22">
       <varInfo nodeId="4839691926370448457" varName="editorCell" />
       <varInfo nodeId="4839691926370448457" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="327" startPosition="90" endLine="335" endPosition="22">
+    <scopeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="341" startPosition="90" endLine="349" endPosition="22">
       <varInfo nodeId="4839691926370448453" varName="editorCell" />
       <varInfo nodeId="4839691926370448453" varName="style" />
     </scopeInfo>
@@ -7011,8 +7022,11 @@
       <varInfo nodeId="4409026550619480276" varName="editorCell" />
       <varInfo nodeId="4409026550619480276" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="257" startPosition="132" endLine="266" endPosition="7" />
-    <scopeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="357" startPosition="0" endLine="366" endPosition="0">
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="271" startPosition="104" endLine="280" endPosition="24">
+      <varInfo nodeId="4409026550619480276" varName="editorCell" />
+      <varInfo nodeId="4409026550619480276" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619528985" fileName="Relationship_MiddleCell.java" startLine="371" startPosition="0" endLine="380" endPosition="0">
       <varInfo nodeId="4409026550619528985" varName="editorContext" />
       <varInfo nodeId="4409026550619528985" varName="node" />
     </scopeInfo>
@@ -7033,19 +7047,20 @@
       <varInfo nodeId="3682822877829261652" varName="editorContext" />
       <varInfo nodeId="3682822877829261652" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="270" startPosition="0" endLine="280" endPosition="0">
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="257" startPosition="132" endLine="267" endPosition="7" />
+    <scopeInfo nodeId="3682822877829261654" fileName="Relationship_MiddleCell.java" startLine="284" startPosition="0" endLine="294" endPosition="0">
       <varInfo nodeId="3682822877829261654" varName="editorContext" />
       <varInfo nodeId="3682822877829261654" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="281" startPosition="91" endLine="291" endPosition="22">
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="295" startPosition="91" endLine="305" endPosition="22">
       <varInfo nodeId="4409026550619480276" varName="editorCell" />
       <varInfo nodeId="4409026550619480276" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="298" startPosition="0" endLine="308" endPosition="0">
+    <scopeInfo nodeId="4839691926370448457" fileName="Relationship_MiddleCell.java" startLine="312" startPosition="0" endLine="322" endPosition="0">
       <varInfo nodeId="4839691926370448457" varName="editorContext" />
       <varInfo nodeId="4839691926370448457" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="327" startPosition="0" endLine="337" endPosition="0">
+    <scopeInfo nodeId="4839691926370448453" fileName="Relationship_MiddleCell.java" startLine="341" startPosition="0" endLine="351" endPosition="0">
       <varInfo nodeId="4839691926370448453" varName="editorContext" />
       <varInfo nodeId="4839691926370448453" varName="node" />
     </scopeInfo>
@@ -7057,19 +7072,24 @@
       <varInfo nodeId="4409026550619480276" varName="editorContext" />
       <varInfo nodeId="4409026550619480276" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="257" startPosition="0" endLine="268" endPosition="0">
-      <varInfo nodeId="4409026550619480276" varName="editorContext" />
-      <varInfo nodeId="4409026550619480276" varName="elementCell" />
-      <varInfo nodeId="4409026550619480276" varName="elementNode" />
-      <varInfo nodeId="4409026550619480276" varName="listOwner" />
-    </scopeInfo>
     <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="161" startPosition="0" endLine="173" endPosition="0">
       <varInfo nodeId="4409026550619480276" varName="editorContext" />
       <varInfo nodeId="4409026550619480276" varName="elementCell" />
       <varInfo nodeId="4409026550619480276" varName="elementNode" />
       <varInfo nodeId="4409026550619480276" varName="listOwner" />
     </scopeInfo>
-    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="281" startPosition="0" endLine="293" endPosition="0">
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="257" startPosition="0" endLine="269" endPosition="0">
+      <varInfo nodeId="4409026550619480276" varName="editorContext" />
+      <varInfo nodeId="4409026550619480276" varName="elementCell" />
+      <varInfo nodeId="4409026550619480276" varName="elementNode" />
+      <varInfo nodeId="4409026550619480276" varName="listOwner" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="270" startPosition="0" endLine="282" endPosition="0">
+      <varInfo nodeId="4409026550619480276" varName="editorContext" />
+      <varInfo nodeId="4409026550619480276" varName="nextNode" />
+      <varInfo nodeId="4409026550619480276" varName="prevNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="295" startPosition="0" endLine="307" endPosition="0">
       <varInfo nodeId="4409026550619480276" varName="editorContext" />
       <varInfo nodeId="4409026550619480276" varName="node" />
     </scopeInfo>
@@ -7078,7 +7098,7 @@
       <varInfo nodeId="4409026550619480276" varName="nextNode" />
       <varInfo nodeId="4409026550619480276" varName="prevNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="309" startPosition="90" endLine="324" endPosition="22">
+    <scopeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="323" startPosition="90" endLine="338" endPosition="22">
       <varInfo nodeId="4839691926370448451" varName="attributeConcept" />
       <varInfo nodeId="4839691926370448451" varName="attributeKind" />
       <varInfo nodeId="4839691926370448451" varName="editorCell" />
@@ -7093,13 +7113,13 @@
       <varInfo nodeId="4409026550619480281" varName="editorCell" />
       <varInfo nodeId="4409026550619480281" varName="provider" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="338" startPosition="90" endLine="354" endPosition="22">
+    <scopeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="352" startPosition="90" endLine="368" endPosition="22">
       <varInfo nodeId="4839691926370448455" varName="attributeConcept" />
       <varInfo nodeId="4839691926370448455" varName="attributeKind" />
       <varInfo nodeId="4839691926370448455" varName="editorCell" />
       <varInfo nodeId="4839691926370448455" varName="provider" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="309" startPosition="0" endLine="326" endPosition="0">
+    <scopeInfo nodeId="4839691926370448451" fileName="Relationship_MiddleCell.java" startLine="323" startPosition="0" endLine="340" endPosition="0">
       <varInfo nodeId="4839691926370448451" varName="editorContext" />
       <varInfo nodeId="4839691926370448451" varName="node" />
     </scopeInfo>
@@ -7111,13 +7131,13 @@
       <varInfo nodeId="4409026550619480281" varName="editorContext" />
       <varInfo nodeId="4409026550619480281" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="338" startPosition="0" endLine="356" endPosition="0">
+    <scopeInfo nodeId="4839691926370448455" fileName="Relationship_MiddleCell.java" startLine="352" startPosition="0" endLine="370" endPosition="0">
       <varInfo nodeId="4839691926370448455" varName="editorContext" />
       <varInfo nodeId="4839691926370448455" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="234" startPosition="0" endLine="269" endPosition="0" unitName="neo4j.cypher.editor.Relationship_MiddleCell$propertyListHandler_h1s2v3_b4a0" />
+    <unitInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="234" startPosition="0" endLine="283" endPosition="0" unitName="neo4j.cypher.editor.Relationship_MiddleCell$propertyListHandler_h1s2v3_b4a0" />
     <unitInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="134" startPosition="0" endLine="198" endPosition="0" unitName="neo4j.cypher.editor.Relationship_MiddleCell$typeListHandler_h1s2v3_d0a" />
-    <unitInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="35" startPosition="0" endLine="367" endPosition="0" unitName="neo4j.cypher.editor.Relationship_MiddleCell" />
+    <unitInfo nodeId="4409026550619480276" fileName="Relationship_MiddleCell.java" startLine="35" startPosition="0" endLine="381" endPosition="0" unitName="neo4j.cypher.editor.Relationship_MiddleCell" />
   </root>
   <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/4839691926370537057">
     <nodeInfo nodeId="4839691926370537057" fileName="PathExpression_Editor.java" startLine="23" startPosition="79" endLine="24" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
