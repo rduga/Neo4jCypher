@@ -15,14 +15,60 @@ import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import org.jetbrains.mps.openapi.model.SModel;
 import jetbrains.mps.smodel.action.SNodeFactoryOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.regex.Pattern;
 
 public class QueriesGenerated {
   public static void nodeFactory_NodeSetup_StartAssignmentStatement_5206628397327285756(final IOperationContext operationContext, final NodeSetupContext _context) {
     // <node> 
+  }
+
+  public static List<SubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Expression_1325020284374352196(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    {
+      SNode outputConcept = SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.CypherIntegerConstant");
+      SNode childConcept = (SNode) _context.getChildConcept();
+      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
+        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+            SNode cypherIntConst = SNodeFactoryOperations.createNewNode(model, "neo4j.cypher.structure.CypherIntegerConstant", null);
+            try {
+              SPropertyOperations.set(cypherIntConst, "value", "" + (Integer.parseInt(pattern)));
+            } catch (NumberFormatException e) {
+              SPropertyOperations.set(cypherIntConst, "value", "" + (0));
+            }
+            return cypherIntConst;
+          }
+
+          public boolean hasSubstitute() {
+            return true;
+          }
+
+          public boolean canSubstitute_internal(String pattern, boolean strictly) {
+            if (strictly) {
+              return REGEXP_x583g4_a0a0a0a2a0a0a0a2a0a1a1.matcher(pattern).matches();
+            } else {
+              return REGEXP_x583g4_a0a0a0a0c0a0a0a0c0a0b0b.matcher(pattern).matches();
+            }
+          }
+
+          public String getMatchingText(String pattern) {
+            return pattern;
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return getMatchingText(pattern);
+          }
+        });
+      }
+    }
+    return result;
+  }
+
+  public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_1325020284374356380(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
+    return SNodeOperations.getAncestor(_context.getParentNode(), "neo4j.cypher.structure.CypherStatement", false, false) != null;
   }
 
   public static List<SubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_AbstractOperation_2394186179449960313(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
@@ -50,55 +96,9 @@ public class QueriesGenerated {
   }
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_AbstractOperation_2394186179449960315(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    return (SNodeOperations.getAncestor(_context.getParentNode(), "neo4j.cypher.structure.QueryStatement", false, false) != null);
+    return (SNodeOperations.getAncestor(_context.getParentNode(), "neo4j.cypher.structure.QueryExpression", false, false) != null);
   }
 
-  public static List<SubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Expression_1325020284374352196(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
-    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
-    {
-      SNode outputConcept = SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.CypherIntegerConstant");
-      SNode childConcept = (SNode) _context.getChildConcept();
-      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
-        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode cypherIntConst = SNodeFactoryOperations.createNewNode(model, "neo4j.cypher.structure.CypherIntegerConstant", null);
-            try {
-              SPropertyOperations.set(cypherIntConst, "value", "" + (Integer.parseInt(pattern)));
-            } catch (NumberFormatException e) {
-              SPropertyOperations.set(cypherIntConst, "value", "" + (0));
-            }
-            return cypherIntConst;
-          }
-
-          public boolean hasSubstitute() {
-            return true;
-          }
-
-          public boolean canSubstitute_internal(String pattern, boolean strictly) {
-            if (strictly) {
-              return REGEXP_x583g4_a0a0a0a2a0a0a0a2a0a1a3.matcher(pattern).matches();
-            } else {
-              return REGEXP_x583g4_a0a0a0a0c0a0a0a0c0a0b0d.matcher(pattern).matches();
-            }
-          }
-
-          public String getMatchingText(String pattern) {
-            return pattern;
-          }
-
-          public String getVisibleMatchingText(String pattern) {
-            return getMatchingText(pattern);
-          }
-        });
-      }
-    }
-    return result;
-  }
-
-  public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_1325020284374356380(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    return SNodeOperations.getAncestor(_context.getParentNode(), "neo4j.cypher.structure.CypherStatement", false, false) != null;
-  }
-
-  private static Pattern REGEXP_x583g4_a0a0a0a2a0a0a0a2a0a1a3 = Pattern.compile("-?\\d+", 0);
-  private static Pattern REGEXP_x583g4_a0a0a0a0c0a0a0a0c0a0b0d = Pattern.compile("-?\\d*", 0);
+  private static Pattern REGEXP_x583g4_a0a0a0a2a0a0a0a2a0a1a1 = Pattern.compile("-?\\d+", 0);
+  private static Pattern REGEXP_x583g4_a0a0a0a0c0a0a0a0c0a0b0b = Pattern.compile("-?\\d*", 0);
 }

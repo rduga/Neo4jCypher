@@ -42,8 +42,6 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new PathFunction_Constraints();
       case 19:
         return new StartAssignmentStatement_Constraints();
-      case 3:
-        return new ICypherExpression_Constraints();
       case 21:
         return new WithStatement_Constraints();
       case 1:
@@ -54,6 +52,8 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
         return new DeleteStatement_Constraints();
       case 18:
         return new SetAssignmentStatement_Constraints();
+      case 3:
+        return new ICypherExpression_Constraints();
       case 15:
         return new PropertyOperation_Constraints();
       default:
