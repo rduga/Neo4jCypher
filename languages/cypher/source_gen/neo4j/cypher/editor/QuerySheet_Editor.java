@@ -41,7 +41,7 @@ public class QuerySheet_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_ezpmsa_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Cypher Query Definitions:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Cypher Query Sheet:");
     editorCell.setCellId("Constant_ezpmsa_a0");
     editorCell.setDefaultText("");
     return editorCell;
