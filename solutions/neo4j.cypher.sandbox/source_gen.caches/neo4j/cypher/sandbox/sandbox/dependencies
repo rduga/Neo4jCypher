@@ -16,12 +16,17 @@
     <classNode dependClassName="org.neo4j.graphdb.factory.GraphDatabaseFactory" />
   </dependency>
   <dependency className="neo4j.cypher.sandbox.sandbox.ExampleJavaIntegrationPureNeo4jCypher" file="ExampleJavaIntegrationPureNeo4jCypher.java">
+    <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IMapping" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="org.neo4j.cypher.javacompat.ExecutionEngine" />
     <classNode dependClassName="org.neo4j.cypher.javacompat.ExecutionResult" />
     <classNode dependClassName="org.neo4j.graphdb.GraphDatabaseService" />
+    <classNode dependClassName="org.neo4j.graphdb.ResourceIterator" />
     <classNode dependClassName="org.neo4j.graphdb.factory.GraphDatabaseFactory" />
   </dependency>
   <dependency className="neo4j.cypher.sandbox.sandbox.ExampleTesting" file="ExampleTesting.java">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="cmb3h73w51b6m1gq8ti6ulzo6mwdszd">
+<dependencies version="2" modelHash="1m6sdcfu5svmt8vnlvyk21doqy8xnf1">
   <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)" hash="-22ntpsc95x5fmfpwxjbpdpznznpr7z2" />

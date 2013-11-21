@@ -14,6 +14,10 @@
         </modelRoot>
       </models>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">fa0e36f7-2d65-493a-8638-2d9c4dbffdf7(neo4j.cypher)</dependency>
+        <dependency reexport="false">8be426ea-f02f-4221-9d9f-9eb718c2d998(neo4j.cypher.runtime)</dependency>
+      </dependencies>
       <usedLanguages>
         <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
