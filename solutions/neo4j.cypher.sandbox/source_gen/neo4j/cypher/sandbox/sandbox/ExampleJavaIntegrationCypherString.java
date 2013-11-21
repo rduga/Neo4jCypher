@@ -8,6 +8,9 @@ import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
 import org.neo4j.cypher.javacompat.ExecutionEngine;
 import org.neo4j.cypher.javacompat.ExecutionResult;
+import org.neo4j.graphdb.ResourceIterator;
+import jetbrains.mps.internal.collections.runtime.IMapping;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class ExampleJavaIntegrationCypherString {
   public static void main(String[] args) {
@@ -25,16 +28,25 @@ public class ExampleJavaIntegrationCypherString {
 
     ExecutionEngine engine = new ExecutionEngine(graphDb);
 
-    String cypherRWQuery = "START kk = node(*), dfs1231 = node(*) MATCH kk, dfs1231 CREATE kk--kk, kk--dfs1231 CREATE (nodik{vlastnost1:\"hodnot\"a1\"}) SET kk = kk, kk.sdfss = \"sd\'f\" DELETE dfs1231 RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 ";
-
     String pureStringQuery = "start n=node(*) where n.name! = 'my node' return n, n.name";
-    String neo4jCypherString = "START n = node(*) WHERE n.name! = \"my node\" RETURN n,n.name ORDER BY n.name ";
+    String neo4jCypherWriteOnlyQueryString = "CREATE (n{name:\"my node\"}) ";
+
+    String neo4jCypherReadOnlyQueryString = "START n = node(*) WHERE n.name! = \"my node\" RETURN n,n.name ORDER BY n.name ";
+
+    String neo4jCypherReadWriteQueryString = "START n = node(*) WHERE n.name! = \"my node\" SET n.name = \"my new node\" RETURN n,n.name ";
+
 
     System.out.println("Pure query string: " + pureStringQuery);
     executeAndwriteResult(pureStringQuery, engine);
 
-    System.out.println("Neo4jCypherString: " + neo4jCypherString);
-    executeAndwriteResult(neo4jCypherString, engine);
+    System.out.println("neo4jCypherWriteOnlyQueryString: " + neo4jCypherWriteOnlyQueryString);
+    executeAndwriteResult(neo4jCypherWriteOnlyQueryString, engine);
+
+    System.out.println("neo4jCypherReadOnlyQueryString: " + neo4jCypherReadOnlyQueryString);
+    executeAndwriteResult(neo4jCypherReadOnlyQueryString, engine);
+
+    System.out.println("neo4jCypherReadWriteQueryString: " + neo4jCypherReadWriteQueryString);
+    executeAndwriteResult(neo4jCypherReadWriteQueryString, engine);
 
     System.out.println("End of querying into cypher");
   }
@@ -43,6 +55,15 @@ public class ExampleJavaIntegrationCypherString {
 
   public static void executeAndwriteResult(String query, ExecutionEngine engine) {
     ExecutionResult result = engine.execute(query);
-    System.out.println("Result:" + result);
+
+    System.out.println("Result:");
+
+    ResourceIterator<Map<String, Object>> iterator = result.iterator();
+    while (iterator.hasNext()) {
+      for (IMapping<String, Object> i : MapSequence.fromMap(iterator.next())) {
+        // <node> 
+        System.out.println(" -- " + i.key() + "=" + i.value());
+      }
+    }
   }
 }

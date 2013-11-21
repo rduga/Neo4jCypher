@@ -785,6 +785,82 @@
     </scopeInfo>
     <unitInfo nodeId="5915353355180007821" fileName="CypherEqualsExpression_TextGen.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="neo4j.cypher.textGen.CypherEqualsExpression_TextGen" />
   </root>
+  <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/5915353355183504926">
+    <nodeInfo nodeId="5915353355183505929" fileName="LengthScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183505929" fileName="LengthScalarFunction_TextGen.java" startLine="14" startPosition="108" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183505929" fileName="LengthScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355183505929" fileName="LengthScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183505929" fileName="LengthScalarFunction_TextGen.java" startLine="16" startPosition="152" endLine="17" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183505929" fileName="LengthScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355183504926" fileName="LengthScalarFunction_TextGen.java" startLine="13" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="5915353355183505929" fileName="LengthScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="152" />
+    <scopeInfo nodeId="5915353355183504926" fileName="LengthScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="5915353355183505929" fileName="LengthScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="5915353355183504926" fileName="LengthScalarFunction_TextGen.java" startLine="13" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="5915353355183504926" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355183504926" fileName="LengthScalarFunction_TextGen.java" startLine="12" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.textGen.LengthScalarFunction_TextGen" />
+  </root>
+  <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/5915353355183535628">
+    <nodeInfo nodeId="5915353355183535670" fileName="LastScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183535670" fileName="LastScalarFunction_TextGen.java" startLine="14" startPosition="108" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183535670" fileName="LastScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355183535670" fileName="LastScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183535670" fileName="LastScalarFunction_TextGen.java" startLine="16" startPosition="152" endLine="17" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183535670" fileName="LastScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355183535628" fileName="LastScalarFunction_TextGen.java" startLine="13" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="5915353355183535670" fileName="LastScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="152" />
+    <scopeInfo nodeId="5915353355183535628" fileName="LastScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="5915353355183535670" fileName="LastScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="5915353355183535628" fileName="LastScalarFunction_TextGen.java" startLine="13" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="5915353355183535628" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355183535628" fileName="LastScalarFunction_TextGen.java" startLine="12" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.textGen.LastScalarFunction_TextGen" />
+  </root>
+  <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/5915353355183540149">
+    <nodeInfo nodeId="5915353355183540191" fileName="IdScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183540191" fileName="IdScalarFunction_TextGen.java" startLine="14" startPosition="108" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183540191" fileName="IdScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355183540191" fileName="IdScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="162" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183540191" fileName="IdScalarFunction_TextGen.java" startLine="16" startPosition="162" endLine="17" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183540191" fileName="IdScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355183540149" fileName="IdScalarFunction_TextGen.java" startLine="13" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="5915353355183540191" fileName="IdScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="162" />
+    <scopeInfo nodeId="5915353355183540149" fileName="IdScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="5915353355183540191" fileName="IdScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="5915353355183540149" fileName="IdScalarFunction_TextGen.java" startLine="13" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="5915353355183540149" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355183540149" fileName="IdScalarFunction_TextGen.java" startLine="12" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.textGen.IdScalarFunction_TextGen" />
+  </root>
+  <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/5915353355183544560">
+    <nodeInfo nodeId="5915353355183544602" fileName="HeadScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183544602" fileName="HeadScalarFunction_TextGen.java" startLine="14" startPosition="108" endLine="15" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183544602" fileName="HeadScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355183544602" fileName="HeadScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183544602" fileName="HeadScalarFunction_TextGen.java" startLine="16" startPosition="152" endLine="17" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183544602" fileName="HeadScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355183544560" fileName="HeadScalarFunction_TextGen.java" startLine="13" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="5915353355183544602" fileName="HeadScalarFunction_TextGen.java" startLine="15" startPosition="21" endLine="16" endPosition="152" />
+    <scopeInfo nodeId="5915353355183544560" fileName="HeadScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="5915353355183544602" fileName="HeadScalarFunction_TextGen.java" startLine="13" startPosition="42" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="5915353355183544560" fileName="HeadScalarFunction_TextGen.java" startLine="13" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="5915353355183544560" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355183544560" fileName="HeadScalarFunction_TextGen.java" startLine="12" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.textGen.HeadScalarFunction_TextGen" />
+  </root>
+  <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/5915353355183548911">
+    <nodeInfo nodeId="5915353355183548953" fileName="TimestampScalarFunction_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183548953" fileName="TimestampScalarFunction_TextGen.java" startLine="12" startPosition="108" endLine="13" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355183548953" fileName="TimestampScalarFunction_TextGen.java" startLine="11" startPosition="42" endLine="13" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355183548911" fileName="TimestampScalarFunction_TextGen.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="5915353355183548911" fileName="TimestampScalarFunction_TextGen.java" startLine="11" startPosition="42" endLine="13" endPosition="22" />
+    <scopeInfo nodeId="5915353355183548953" fileName="TimestampScalarFunction_TextGen.java" startLine="11" startPosition="42" endLine="13" endPosition="22" />
+    <scopeInfo nodeId="5915353355183548911" fileName="TimestampScalarFunction_TextGen.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="5915353355183548911" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355183548911" fileName="TimestampScalarFunction_TextGen.java" startLine="10" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.textGen.TimestampScalarFunction_TextGen" />
+  </root>
   <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/6209596031533587809">
     <nodeInfo nodeId="6209596031533587809" fileName="QueryEmptyStatement_TextGen.java" startLine="16" startPosition="44" endLine="17" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6209596031533587809" fileName="QueryEmptyStatement_TextGen.java" startLine="20" startPosition="7" endLine="21" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
