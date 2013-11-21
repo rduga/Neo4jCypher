@@ -7,8 +7,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.AbstractCellAction;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class RemoveRelationship {
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
@@ -28,7 +28,13 @@ public class RemoveRelationship {
     }
 
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, "leftExpression", true));
+      SNode leftExpression = SLinkOperations.getTarget(node, "leftExpression", true);
+      SNodeOperations.replaceWithAnother(node, leftExpression);
+      // we select the most right node of left expression 
+      while (SNodeOperations.isInstanceOf(leftExpression, "neo4j.cypher.structure.Relationship")) {
+        leftExpression = SLinkOperations.getTarget(SNodeOperations.cast(leftExpression, "neo4j.cypher.structure.Relationship"), "rightExpression", true);
+      }
+      editorContext.selectWRTFocusPolicy(leftExpression);
     }
   }
 
@@ -44,7 +50,14 @@ public class RemoveRelationship {
     }
 
     public void execute_internal(EditorContext editorContext, SNode node) {
-      SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, "leftExpression", true));
+      SNode leftExpression = SLinkOperations.getTarget(node, "leftExpression", true);
+      SNodeOperations.replaceWithAnother(node, leftExpression);
+      // we select the most right node of left expression 
+      while (SNodeOperations.isInstanceOf(leftExpression, "neo4j.cypher.structure.Relationship")) {
+        leftExpression = SLinkOperations.getTarget(SNodeOperations.cast(leftExpression, "neo4j.cypher.structure.Relationship"), "rightExpression", true);
+      }
+
+      editorContext.selectWRTFocusPolicy(leftExpression);
     }
   }
 }

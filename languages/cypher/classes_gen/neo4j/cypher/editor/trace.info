@@ -9127,24 +9127,35 @@
     <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNode" />
     <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="22" startPosition="50" endLine="23" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="26" startPosition="54" endLine="27" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355170711910" fileName="RemoveRelationship.java" startLine="30" startPosition="75" endLine="31" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="36" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNode" />
-    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="38" startPosition="53" endLine="39" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="42" startPosition="54" endLine="43" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355170736918" fileName="RemoveRelationship.java" startLine="46" startPosition="75" endLine="47" endPosition="104" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355176137104" fileName="RemoveRelationship.java" startLine="30" startPosition="75" endLine="31" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355170711910" fileName="RemoveRelationship.java" startLine="31" startPosition="85" endLine="32" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355177637740" fileName="RemoveRelationship.java" startLine="32" startPosition="63" endLine="33" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5915353355177157121" fileName="RemoveRelationship.java" startLine="34" startPosition="99" endLine="35" endPosition="153" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355176121370" fileName="RemoveRelationship.java" startLine="36" startPosition="7" endLine="37" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="42" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myNode" />
+    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="44" startPosition="53" endLine="45" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="48" startPosition="54" endLine="49" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355176138308" fileName="RemoveRelationship.java" startLine="52" startPosition="75" endLine="53" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355170736918" fileName="RemoveRelationship.java" startLine="53" startPosition="85" endLine="54" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355177639530" fileName="RemoveRelationship.java" startLine="54" startPosition="63" endLine="55" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5915353355177639534" fileName="RemoveRelationship.java" startLine="56" startPosition="99" endLine="57" endPosition="153" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355177639167" fileName="RemoveRelationship.java" startLine="58" startPosition="7" endLine="59" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355176138743" fileName="RemoveRelationship.java" startLine="59" startPosition="0" endLine="60" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RemoveRelationship_DELETE#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute_internal#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="38" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RemoveRelationship_BACKSPACE#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="42" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
-    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute_internal#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="5915353355177152598" fileName="RemoveRelationship.java" startLine="33" startPosition="58" endLine="36" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="44" startPosition="0" endLine="47" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="RemoveRelationship_BACKSPACE#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute#(Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="5915353355177639532" fileName="RemoveRelationship.java" startLine="55" startPosition="58" endLine="58" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
     <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="setCellActions#(Ljetbrains/mps/openapi/editor/cells/EditorCell;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="30" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute_internal#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="52" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="execute_internal#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
     <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="22" startPosition="50" endLine="23" endPosition="25" />
     <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="26" startPosition="54" endLine="27" endPosition="56" />
-    <scopeInfo nodeId="5915353355170711578" fileName="RemoveRelationship.java" startLine="30" startPosition="75" endLine="31" endPosition="104" />
-    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="38" startPosition="53" endLine="39" endPosition="25" />
-    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="42" startPosition="54" endLine="43" endPosition="56" />
-    <scopeInfo nodeId="5915353355170711584" fileName="RemoveRelationship.java" startLine="46" startPosition="75" endLine="47" endPosition="104" />
+    <scopeInfo nodeId="5915353355177152600" fileName="RemoveRelationship.java" startLine="34" startPosition="99" endLine="35" endPosition="153" />
+    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="44" startPosition="53" endLine="45" endPosition="25" />
+    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="48" startPosition="54" endLine="49" endPosition="56" />
+    <scopeInfo nodeId="5915353355177639533" fileName="RemoveRelationship.java" startLine="56" startPosition="99" endLine="57" endPosition="153" />
     <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="14" startPosition="95" endLine="16" endPosition="110" />
     <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="22" startPosition="0" endLine="25" endPosition="0">
       <varInfo nodeId="5915353355170711575" varName="node" />
@@ -9152,28 +9163,34 @@
     <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="26" startPosition="0" endLine="29" endPosition="0">
       <varInfo nodeId="5915353355170711575" varName="editorContext" />
     </scopeInfo>
-    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="30" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="5915353355170711575" varName="editorContext" />
+    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="44" startPosition="0" endLine="47" endPosition="0">
       <varInfo nodeId="5915353355170711575" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="38" startPosition="0" endLine="41" endPosition="0">
-      <varInfo nodeId="5915353355170711575" varName="node" />
-    </scopeInfo>
-    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="42" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="48" startPosition="0" endLine="51" endPosition="0">
       <varInfo nodeId="5915353355170711575" varName="editorContext" />
-    </scopeInfo>
-    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="46" startPosition="0" endLine="49" endPosition="0">
-      <varInfo nodeId="5915353355170711575" varName="editorContext" />
-      <varInfo nodeId="5915353355170711575" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="14" startPosition="0" endLine="18" endPosition="0">
       <varInfo nodeId="5915353355170711575" varName="context" />
       <varInfo nodeId="5915353355170711575" varName="editorCell" />
       <varInfo nodeId="5915353355170711575" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="19" startPosition="0" endLine="34" endPosition="0" unitName="neo4j.cypher.editor.RemoveRelationship$RemoveRelationship_DELETE" />
-    <unitInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="35" startPosition="0" endLine="50" endPosition="0" unitName="neo4j.cypher.editor.RemoveRelationship$RemoveRelationship_BACKSPACE" />
-    <unitInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="13" startPosition="0" endLine="51" endPosition="0" unitName="neo4j.cypher.editor.RemoveRelationship" />
+    <scopeInfo nodeId="5915353355170711578" fileName="RemoveRelationship.java" startLine="30" startPosition="75" endLine="37" endPosition="57">
+      <varInfo nodeId="5915353355176137105" varName="leftExpression" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355170711584" fileName="RemoveRelationship.java" startLine="52" startPosition="75" endLine="60" endPosition="57">
+      <varInfo nodeId="5915353355176138309" varName="leftExpression" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="30" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="5915353355170711575" varName="editorContext" />
+      <varInfo nodeId="5915353355170711575" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="52" startPosition="0" endLine="62" endPosition="0">
+      <varInfo nodeId="5915353355170711575" varName="editorContext" />
+      <varInfo nodeId="5915353355170711575" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="19" startPosition="0" endLine="40" endPosition="0" unitName="neo4j.cypher.editor.RemoveRelationship$RemoveRelationship_DELETE" />
+    <unitInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="41" startPosition="0" endLine="63" endPosition="0" unitName="neo4j.cypher.editor.RemoveRelationship$RemoveRelationship_BACKSPACE" />
+    <unitInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="13" startPosition="0" endLine="64" endPosition="0" unitName="neo4j.cypher.editor.RemoveRelationship" />
   </root>
   <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/7352030329465478746">
     <nodeInfo nodeId="7352030329465478746" fileName="AscOrderBy_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
