@@ -17,7 +17,6 @@ import jetbrains.mps.openapi.editor.selection.SelectionManager;
 public class DeleteAtEndOfRelationship {
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setAction(CellActionType.DELETE, new DeleteAtEndOfRelationship.DeleteAtEndOfRelationship_DELETE(node));
-    editorCell.setAction(CellActionType.BACKSPACE, new DeleteAtEndOfRelationship.DeleteAtEndOfRelationship_BACKSPACE(node));
   }
 
   public static class DeleteAtEndOfRelationship_DELETE extends AbstractCellAction {
@@ -33,43 +32,9 @@ public class DeleteAtEndOfRelationship {
 
     public void execute_internal(EditorContext editorContext, SNode node) {
       if (SNodeOperations.isInstanceOf(node, "neo4j.cypher.structure.LRRelationship")) {
-        if (1 < 5) {
-          throw new RuntimeException("test1");
-        }
-
         SNode uni = SConceptOperations.createNewNode("neo4j.cypher.structure.UndirectedRelationship", null);
         Relationship_Behavior.call_copyRelationshipProperties_6581467451102927870(uni, node);
         SNodeOperations.replaceWithAnother(node, uni);
-        SelectionUtil.selectCell(editorContext, SLinkOperations.getTarget(uni, "rightExpression", true), SelectionManager.FIRST_CELL);
-      } else {
-        SNode replacingNode = SLinkOperations.getTarget(node, "leftExpression", true);
-        SNodeOperations.replaceWithAnother(node, replacingNode);
-        SelectionUtil.selectLabelCellAnSetCaret(editorContext, replacingNode, SelectionManager.LAST_CELL, -1);
-      }
-    }
-  }
-
-  public static class DeleteAtEndOfRelationship_BACKSPACE extends AbstractCellAction {
-    /*package*/ SNode myNode;
-
-    public DeleteAtEndOfRelationship_BACKSPACE(SNode node) {
-      this.myNode = node;
-    }
-
-    public void execute(EditorContext editorContext) {
-      this.execute_internal(editorContext, this.myNode);
-    }
-
-    public void execute_internal(EditorContext editorContext, SNode node) {
-      if (1 < 5) {
-        throw new RuntimeException("test2");
-      }
-
-      if (SNodeOperations.isInstanceOf(node, "neo4j.cypher.structure.LRRelationship")) {
-        SNode uni = SConceptOperations.createNewNode("neo4j.cypher.structure.UndirectedRelationship", null);
-        Relationship_Behavior.call_copyRelationshipProperties_6581467451102927870(uni, node);
-        SNodeOperations.replaceWithAnother(node, uni);
-        editorContext.selectWRTFocusPolicy(SLinkOperations.getTarget(uni, "rightExpression", true));
         SelectionUtil.selectCell(editorContext, SLinkOperations.getTarget(uni, "rightExpression", true), SelectionManager.FIRST_CELL);
       } else {
         SNode replacingNode = SLinkOperations.getTarget(node, "leftExpression", true);
