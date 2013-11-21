@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="neo4j.cypher.sandbox.sandbox.Neo4jCypherExample" file="Neo4jCypherExample.java">
+  <dependency className="neo4j.cypher.sandbox.sandbox.ExampleCypherQuerySheet" file="ExampleCypherQuerySheet.cypherq" />
+  <dependency className="neo4j.cypher.sandbox.sandbox.ExampleJavaIntegrationCypherString" file="ExampleJavaIntegrationCypherString.java">
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="org.neo4j.cypher.javacompat.ExecutionEngine" />
+    <classNode dependClassName="org.neo4j.cypher.javacompat.ExecutionResult" />
+    <classNode dependClassName="org.neo4j.graphdb.GraphDatabaseService" />
+    <classNode dependClassName="org.neo4j.graphdb.factory.GraphDatabaseFactory" />
   </dependency>
-  <dependency className="neo4j.cypher.sandbox.sandbox.cypher" file="cypher.cypherq" />
 </dependenciesRoot>
 

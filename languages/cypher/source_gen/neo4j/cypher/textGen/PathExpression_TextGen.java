@@ -10,7 +10,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class PathExpression_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.indentBuffer();
     if (SPropertyOperations.getBoolean(node, "named")) {
       this.append(SPropertyOperations.getString(node, "name"));
       this.append("=");

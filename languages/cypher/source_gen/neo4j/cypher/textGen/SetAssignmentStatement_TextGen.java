@@ -9,7 +9,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class SetAssignmentStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    // <node> 
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "leftExpression", true), this.getSNode());
     this.append(" = ");
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "rightExpression", true), this.getSNode());

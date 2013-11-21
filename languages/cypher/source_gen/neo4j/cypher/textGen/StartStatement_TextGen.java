@@ -11,7 +11,6 @@ import jetbrains.mps.textGen.TextGenManager;
 public class StartStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     this.append("START ");
-    this.increaseDepth();
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "startStatements", true)).isNotEmpty()) {
       for (SNode item : SLinkOperations.getTargets(node, "startStatements", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
@@ -21,6 +20,5 @@ public class StartStatement_TextGen extends SNodeTextGen {
       }
     }
     this.append(" ");
-    this.decreaseDepth();
   }
 }

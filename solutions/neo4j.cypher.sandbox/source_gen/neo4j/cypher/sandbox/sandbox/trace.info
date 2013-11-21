@@ -1,36 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeRef="r:9791e82d-c5eb-4440-b52c-28c559599e1d(neo4j.cypher.sandbox.sandbox)/1663756355259040233">
-    <nodeInfo nodeId="1663756355259060316" fileName="Neo4jCypherExample.java" startLine="7" startPosition="42" endLine="8" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="1663756355259133773" fileName="Neo4jCypherExample.java" startLine="8" startPosition="27" endLine="9" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="1663756355259133776" fileName="Neo4jCypherExample.java" startLine="9" startPosition="0" endLine="10" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1663756355259156212" fileName="Neo4jCypherExample.java" startLine="10" startPosition="21" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="1663756355259156215" fileName="Neo4jCypherExample.java" startLine="11" startPosition="0" endLine="12" endPosition="267" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1663756355259051908" fileName="Neo4jCypherExample.java" startLine="7" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <scopeInfo nodeId="1663756355259051911" fileName="Neo4jCypherExample.java" startLine="7" startPosition="42" endLine="12" endPosition="267">
-      <varInfo nodeId="1663756355259133777" varName="a" />
-      <varInfo nodeId="1663756355259156216" varName="cypherQuery" />
+    <nodeInfo nodeId="5915353355178414557" fileName="ExampleJavaIntegrationCypherString.java" startLine="13" startPosition="42" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355178422227" fileName="ExampleJavaIntegrationCypherString.java" startLine="14" startPosition="0" endLine="15" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355178364571" fileName="ExampleJavaIntegrationCypherString.java" startLine="15" startPosition="59" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355178144681" fileName="ExampleJavaIntegrationCypherString.java" startLine="16" startPosition="0" endLine="17" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355178144688" fileName="ExampleJavaIntegrationCypherString.java" startLine="17" startPosition="63" endLine="18" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355178144692" fileName="ExampleJavaIntegrationCypherString.java" startLine="18" startPosition="61" endLine="19" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355178144696" fileName="ExampleJavaIntegrationCypherString.java" startLine="19" startPosition="42" endLine="20" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355178161544" fileName="ExampleJavaIntegrationCypherString.java" startLine="20" startPosition="42" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355178158678" fileName="ExampleJavaIntegrationCypherString.java" startLine="21" startPosition="0" endLine="22" endPosition="169" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355178282345" fileName="ExampleJavaIntegrationCypherString.java" startLine="22" startPosition="169" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355178308995" fileName="ExampleJavaIntegrationCypherString.java" startLine="23" startPosition="0" endLine="24" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355178282687" fileName="ExampleJavaIntegrationCypherString.java" startLine="24" startPosition="56" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355178281346" fileName="ExampleJavaIntegrationCypherString.java" startLine="25" startPosition="0" endLine="26" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355178385319" fileName="ExampleJavaIntegrationCypherString.java" startLine="26" startPosition="58" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1663756355259156215" fileName="ExampleJavaIntegrationCypherString.java" startLine="27" startPosition="0" endLine="28" endPosition="239" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355178386942" fileName="ExampleJavaIntegrationCypherString.java" startLine="28" startPosition="239" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355179518266" fileName="ExampleJavaIntegrationCypherString.java" startLine="29" startPosition="0" endLine="30" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355179564916" fileName="ExampleJavaIntegrationCypherString.java" startLine="30" startPosition="90" endLine="31" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355179545522" fileName="ExampleJavaIntegrationCypherString.java" startLine="31" startPosition="112" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355179582166" fileName="ExampleJavaIntegrationCypherString.java" startLine="32" startPosition="0" endLine="33" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355179551081" fileName="ExampleJavaIntegrationCypherString.java" startLine="33" startPosition="64" endLine="34" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355179595676" fileName="ExampleJavaIntegrationCypherString.java" startLine="34" startPosition="51" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355179604186" fileName="ExampleJavaIntegrationCypherString.java" startLine="35" startPosition="0" endLine="36" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355179604195" fileName="ExampleJavaIntegrationCypherString.java" startLine="36" startPosition="66" endLine="37" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355178328402" fileName="ExampleJavaIntegrationCypherString.java" startLine="37" startPosition="53" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355178335131" fileName="ExampleJavaIntegrationCypherString.java" startLine="38" startPosition="0" endLine="39" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355178281351" fileName="ExampleJavaIntegrationCypherString.java" startLine="44" startPosition="82" endLine="45" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355178291493" fileName="ExampleJavaIntegrationCypherString.java" startLine="45" startPosition="51" endLine="46" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355179544017" fileName="ExampleJavaIntegrationCypherString.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="executeAndwriteResult#(Ljava/lang/String;Lorg/neo4j/cypher/javacompat/ExecutionEngine;)V" />
+    <nodeInfo nodeId="1663756355259051908" fileName="ExampleJavaIntegrationCypherString.java" startLine="13" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="5915353355179544023" fileName="ExampleJavaIntegrationCypherString.java" startLine="44" startPosition="82" endLine="46" endPosition="43">
+      <varInfo nodeId="5915353355178281350" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="1663756355259051908" fileName="Neo4jCypherExample.java" startLine="7" startPosition="0" endLine="14" endPosition="0">
+    <scopeInfo nodeId="5915353355179544017" fileName="ExampleJavaIntegrationCypherString.java" startLine="44" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="5915353355179545388" varName="engine" />
+      <varInfo nodeId="5915353355179544018" varName="query" />
+    </scopeInfo>
+    <scopeInfo nodeId="1663756355259051911" fileName="ExampleJavaIntegrationCypherString.java" startLine="13" startPosition="42" endLine="39" endPosition="54">
+      <varInfo nodeId="5915353355178144680" varName="config" />
+      <varInfo nodeId="1663756355259156216" varName="cypherQuery" />
+      <varInfo nodeId="5915353355178281345" varName="engine" />
+      <varInfo nodeId="5915353355178158677" varName="graphDb" />
+      <varInfo nodeId="5915353355179564919" varName="neo4jCypherString" />
+      <varInfo nodeId="5915353355179518269" varName="pureStringQuery" />
+    </scopeInfo>
+    <scopeInfo nodeId="1663756355259051908" fileName="ExampleJavaIntegrationCypherString.java" startLine="13" startPosition="0" endLine="41" endPosition="0">
       <varInfo nodeId="1663756355259051912" varName="args" />
     </scopeInfo>
-    <unitInfo nodeId="1663756355259040233" fileName="Neo4jCypherExample.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.sandbox.sandbox.Neo4jCypherExample" />
+    <unitInfo nodeId="1663756355259040233" fileName="ExampleJavaIntegrationCypherString.java" startLine="12" startPosition="0" endLine="49" endPosition="0" unitName="neo4j.cypher.sandbox.sandbox.ExampleJavaIntegrationCypherString" />
   </root>
   <root nodeRef="r:9791e82d-c5eb-4440-b52c-28c559599e1d(neo4j.cypher.sandbox.sandbox)/6532105715028822553">
-    <nodeInfo nodeId="4768758963661091469" fileName="cypher.cypherq" startLine="4" startPosition="0" endLine="4" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4768758963660478738" fileName="cypher.cypherq" startLine="5" startPosition="0" endLine="5" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4768758963661093831" fileName="cypher.cypherq" startLine="5" startPosition="0" endLine="5" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4030922243380378689" fileName="cypher.cypherq" startLine="6" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4030922243380378690" fileName="cypher.cypherq" startLine="6" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4768758963660478911" fileName="cypher.cypherq" startLine="6" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="6670155983237981151" fileName="cypher.cypherq" startLine="7" startPosition="0" endLine="7" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4409026550618888996" fileName="cypher.cypherq" startLine="8" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4839691926370584530" fileName="cypher.cypherq" startLine="8" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
-    <nodeInfo nodeId="4030922243380378677" fileName="cypher.cypherq" startLine="3" startPosition="0" endLine="4" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
-    <nodeInfo nodeId="4768758963661094594" fileName="cypher.cypherq" startLine="4" startPosition="0" endLine="5" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
-    <nodeInfo nodeId="4768758963660479615" fileName="cypher.cypherq" startLine="5" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
-    <nodeInfo nodeId="2103634311710893937" fileName="cypher.cypherq" startLine="6" startPosition="0" endLine="7" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
-    <nodeInfo nodeId="4030922243380527870" fileName="cypher.cypherq" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
+    <nodeInfo nodeId="4768758963661091469" fileName="ExampleCypherQuerySheet.cypherq" startLine="4" startPosition="0" endLine="4" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4768758963660478738" fileName="ExampleCypherQuerySheet.cypherq" startLine="5" startPosition="0" endLine="5" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4768758963661093831" fileName="ExampleCypherQuerySheet.cypherq" startLine="5" startPosition="0" endLine="5" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4030922243380378689" fileName="ExampleCypherQuerySheet.cypherq" startLine="6" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4030922243380378690" fileName="ExampleCypherQuerySheet.cypherq" startLine="6" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4768758963660478911" fileName="ExampleCypherQuerySheet.cypherq" startLine="6" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="6670155983237981151" fileName="ExampleCypherQuerySheet.cypherq" startLine="7" startPosition="0" endLine="7" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4409026550618888996" fileName="ExampleCypherQuerySheet.cypherq" startLine="8" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4839691926370584530" fileName="ExampleCypherQuerySheet.cypherq" startLine="8" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryEmptyStatement" />
+    <nodeInfo nodeId="4030922243380378677" fileName="ExampleCypherQuerySheet.cypherq" startLine="3" startPosition="0" endLine="4" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
+    <nodeInfo nodeId="4768758963661094594" fileName="ExampleCypherQuerySheet.cypherq" startLine="4" startPosition="0" endLine="5" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
+    <nodeInfo nodeId="4768758963660479615" fileName="ExampleCypherQuerySheet.cypherq" startLine="5" startPosition="0" endLine="6" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
+    <nodeInfo nodeId="2103634311710893937" fileName="ExampleCypherQuerySheet.cypherq" startLine="6" startPosition="0" endLine="7" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
+    <nodeInfo nodeId="4030922243380527870" fileName="ExampleCypherQuerySheet.cypherq" startLine="7" startPosition="0" endLine="8" endPosition="0" conceptFqName="neo4j.cypher.structure.QueryStatement" />
   </root>
 </debugInfo>
 

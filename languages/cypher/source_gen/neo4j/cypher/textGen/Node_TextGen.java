@@ -4,6 +4,7 @@ package neo4j.cypher.textGen;
 
 import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -11,7 +12,10 @@ import jetbrains.mps.textGen.TextGenManager;
 
 public class Node_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    this.append("(");
+    if ((SNodeOperations.getAncestor(node, "neo4j.cypher.structure.StartStatement", false, false) == null)) {
+      this.append("(");
+    }
+
     this.append(SPropertyOperations.getString(node, "name"));
 
     if (SPropertyOperations.getBoolean(node, "inDefinitionMode")) {
@@ -24,6 +28,8 @@ public class Node_TextGen extends SNodeTextGen {
       this.append("}");
     }
 
-    this.append(")");
+    if ((SNodeOperations.getAncestor(node, "neo4j.cypher.structure.StartStatement", false, false) == null)) {
+      this.append(")");
+    }
   }
 }

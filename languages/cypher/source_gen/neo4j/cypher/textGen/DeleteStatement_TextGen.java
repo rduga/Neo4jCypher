@@ -14,7 +14,6 @@ public class DeleteStatement_TextGen extends SNodeTextGen {
     this.append("DELETE ");
     ListSequence.fromList(SLinkOperations.getTargets(node, "expression", true)).visitAll(new IVisitor<SNode>() {
       public void visit(SNode it) {
-        // <node> 
         TextGenManager.instance().appendNodeText(DeleteStatement_TextGen.this.getContext(), DeleteStatement_TextGen.this.getBuffer(), it, DeleteStatement_TextGen.this.getSNode());
         if (it != ListSequence.fromList(SLinkOperations.getTargets(node, "expression", true)).last()) {
           DeleteStatement_TextGen.this.append(",");
