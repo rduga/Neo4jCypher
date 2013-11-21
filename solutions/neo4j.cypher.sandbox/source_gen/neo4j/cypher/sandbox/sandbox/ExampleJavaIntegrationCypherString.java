@@ -25,7 +25,7 @@ public class ExampleJavaIntegrationCypherString {
 
     ExecutionEngine engine = new ExecutionEngine(graphDb);
 
-    String cypherQuery = "START kk = node(*), dfs1231 = node(*) MATCH kk CREATE kk--kk, kk--dfs1231 CREATE (nodik{vlastnost1:\"hodnot\"a1\"}) SET kk = kk, kk.sdfss = \"sd\'f\" DELETE dfs1231 RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 ";
+    String cypherRWQuery = "START kk = node(*), dfs1231 = node(*) MATCH kk, dfs1231 CREATE kk--kk, kk--dfs1231 CREATE (nodik{vlastnost1:\"hodnot\"a1\"}) SET kk = kk, kk.sdfss = \"sd\'f\" DELETE dfs1231 RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 ";
 
     String pureStringQuery = "start n=node(*) where n.name! = 'my node' return n, n.name";
     String neo4jCypherString = "START n = node(*) WHERE n.name! = \"my node\" RETURN n,n.name ORDER BY n.name ";

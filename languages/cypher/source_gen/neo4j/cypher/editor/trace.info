@@ -305,8 +305,8 @@
   </root>
   <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/1268543411552161289">
     <nodeInfo nodeId="1268543411552161289" fileName="ReadOnlyQueryExpression_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1268543411552161289" fileName="ReadOnlyQueryExpression_Editor.java" startLine="24" startPosition="89" endLine="25" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1268543411552161289" fileName="ReadOnlyQueryExpression_Editor.java" startLine="25" startPosition="96" endLine="26" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1268543411552161289" fileName="ReadOnlyQueryExpression_Editor.java" startLine="24" startPosition="89" endLine="25" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1268543411552161289" fileName="ReadOnlyQueryExpression_Editor.java" startLine="25" startPosition="97" endLine="26" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1268543411552161289" fileName="ReadOnlyQueryExpression_Editor.java" startLine="26" startPosition="48" endLine="27" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1268543411552161289" fileName="ReadOnlyQueryExpression_Editor.java" startLine="27" startPosition="28" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1268543411552161289" fileName="ReadOnlyQueryExpression_Editor.java" startLine="27" startPosition="28" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -1510,8 +1510,8 @@
   </root>
   <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/1268543411552268232">
     <nodeInfo nodeId="1268543411552268232" fileName="ReadWriteQueryExpression_Editor.java" startLine="30" startPosition="79" endLine="31" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1268543411552268232" fileName="ReadWriteQueryExpression_Editor.java" startLine="34" startPosition="89" endLine="35" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="1268543411552268232" fileName="ReadWriteQueryExpression_Editor.java" startLine="35" startPosition="96" endLine="36" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1268543411552268232" fileName="ReadWriteQueryExpression_Editor.java" startLine="34" startPosition="89" endLine="35" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="1268543411552268232" fileName="ReadWriteQueryExpression_Editor.java" startLine="35" startPosition="97" endLine="36" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1268543411552268232" fileName="ReadWriteQueryExpression_Editor.java" startLine="36" startPosition="48" endLine="37" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1268543411552268232" fileName="ReadWriteQueryExpression_Editor.java" startLine="37" startPosition="28" endLine="38" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1268543411552268232" fileName="ReadWriteQueryExpression_Editor.java" startLine="37" startPosition="28" endLine="38" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -8966,8 +8966,8 @@
   </root>
   <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/5681435183187549101">
     <nodeInfo nodeId="5681435183187549101" fileName="WriteOnlyQueryExpression_Editor.java" startLine="28" startPosition="79" endLine="29" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5681435183187549101" fileName="WriteOnlyQueryExpression_Editor.java" startLine="32" startPosition="89" endLine="33" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5681435183187549101" fileName="WriteOnlyQueryExpression_Editor.java" startLine="33" startPosition="96" endLine="34" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5681435183187549101" fileName="WriteOnlyQueryExpression_Editor.java" startLine="32" startPosition="89" endLine="33" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5681435183187549101" fileName="WriteOnlyQueryExpression_Editor.java" startLine="33" startPosition="97" endLine="34" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5681435183187549101" fileName="WriteOnlyQueryExpression_Editor.java" startLine="34" startPosition="48" endLine="35" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5681435183187549101" fileName="WriteOnlyQueryExpression_Editor.java" startLine="35" startPosition="28" endLine="36" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="5681435183187549101" fileName="WriteOnlyQueryExpression_Editor.java" startLine="35" startPosition="28" endLine="36" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

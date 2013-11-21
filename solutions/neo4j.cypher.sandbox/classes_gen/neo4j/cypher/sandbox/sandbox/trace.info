@@ -15,8 +15,8 @@
     <nodeInfo nodeId="5915353355178282687" fileName="ExampleJavaIntegrationCypherString.java" startLine="24" startPosition="56" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="5915353355178281346" fileName="ExampleJavaIntegrationCypherString.java" startLine="25" startPosition="0" endLine="26" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5915353355178385319" fileName="ExampleJavaIntegrationCypherString.java" startLine="26" startPosition="58" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="1663756355259156215" fileName="ExampleJavaIntegrationCypherString.java" startLine="27" startPosition="0" endLine="28" endPosition="239" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5915353355178386942" fileName="ExampleJavaIntegrationCypherString.java" startLine="28" startPosition="239" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="1663756355259156215" fileName="ExampleJavaIntegrationCypherString.java" startLine="27" startPosition="0" endLine="28" endPosition="250" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355178386942" fileName="ExampleJavaIntegrationCypherString.java" startLine="28" startPosition="250" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="5915353355179518266" fileName="ExampleJavaIntegrationCypherString.java" startLine="29" startPosition="0" endLine="30" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5915353355179564916" fileName="ExampleJavaIntegrationCypherString.java" startLine="30" startPosition="90" endLine="31" endPosition="112" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5915353355179545522" fileName="ExampleJavaIntegrationCypherString.java" startLine="31" startPosition="112" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
@@ -40,7 +40,7 @@
     </scopeInfo>
     <scopeInfo nodeId="1663756355259051911" fileName="ExampleJavaIntegrationCypherString.java" startLine="13" startPosition="42" endLine="39" endPosition="54">
       <varInfo nodeId="5915353355178144680" varName="config" />
-      <varInfo nodeId="1663756355259156216" varName="cypherQuery" />
+      <varInfo nodeId="1663756355259156216" varName="cypherRWQuery" />
       <varInfo nodeId="5915353355178281345" varName="engine" />
       <varInfo nodeId="5915353355178158677" varName="graphDb" />
       <varInfo nodeId="5915353355179564919" varName="neo4jCypherString" />
