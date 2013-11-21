@@ -18,6 +18,14 @@ import jetbrains.mps.smodel.action.SNodeFactoryOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
+import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
+import org.jetbrains.annotations.Nullable;
+import jetbrains.mps.openapi.editor.EditorContext;
+import neo4j.cypher.behavior.Relationship_Behavior;
+import jetbrains.mps.editor.runtime.selection.SelectionUtil;
+import jetbrains.mps.openapi.editor.selection.SelectionManager;
+import jetbrains.mps.smodel.constraints.ModelConstraints;
 import java.util.regex.Pattern;
 
 public class QueriesGenerated {
@@ -97,6 +105,66 @@ public class QueriesGenerated {
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_AbstractOperation_2394186179449960315(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     return (SNodeOperations.getAncestor(_context.getParentNode(), "neo4j.cypher.structure.QueryExpression", false, false) != null);
+  }
+
+  public static List<SubstituteAction> sideTransform_ActionsFactory_Relationship_6581467451101969997(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.RLRelationship"), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        SNode rl = SConceptOperations.createNewNode("neo4j.cypher.structure.RLRelationship", null);
+        Relationship_Behavior.call_copyRelationshipProperties_6581467451102927870(rl, _context.getSourceNode());
+        SNodeOperations.replaceWithAnother(_context.getSourceNode(), rl);
+        SelectionUtil.selectLabelCellAnSetCaret(editorContext, rl, SelectionManager.LAST_CELL, 0);
+        return rl;
+      }
+
+      public String getMatchingText(String pattern) {
+        return "<";
+      }
+
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+
+      @Override
+      protected boolean isEnabled() {
+        SNode sourceNode = getSourceNode();
+        SNode parent = SNodeOperations.getParent(sourceNode);
+        SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.RLRelationship"), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.RLRelationship"), null));
+      }
+    });
+    return result;
+  }
+
+  public static List<SubstituteAction> sideTransform_ActionsFactory_Relationship_6581467451102921298(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.RLRelationship"), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        SNode lr = SConceptOperations.createNewNode("neo4j.cypher.structure.LRRelationship", null);
+        Relationship_Behavior.call_copyRelationshipProperties_6581467451102927870(lr, _context.getSourceNode());
+        SNodeOperations.replaceWithAnother(_context.getSourceNode(), lr);
+        SelectionUtil.selectLabelCellAnSetCaret(editorContext, lr, SelectionManager.LAST_CELL, 0);
+        return lr;
+      }
+
+      public String getMatchingText(String pattern) {
+        return ">";
+      }
+
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+
+      @Override
+      protected boolean isEnabled() {
+        SNode sourceNode = getSourceNode();
+        SNode parent = SNodeOperations.getParent(sourceNode);
+        SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.RLRelationship"), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.RLRelationship"), null));
+      }
+    });
+    return result;
   }
 
   private static Pattern REGEXP_x583g4_a0a0a0a2a0a0a0a2a0a1a1 = Pattern.compile("-?\\d+", 0);

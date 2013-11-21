@@ -701,7 +701,7 @@
     <nodeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="48" startPosition="84" endLine="49" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="52" startPosition="53" endLine="53" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="56" startPosition="35" endLine="57" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -738,7 +738,7 @@
     <scopeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="32" startPosition="41" endLine="33" endPosition="78" />
     <scopeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="36" startPosition="37" endLine="37" endPosition="26" />
     <scopeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="40" startPosition="34" endLine="41" endPosition="32" />
-    <scopeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="16" />
+    <scopeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="44" startPosition="44" endLine="45" endPosition="17" />
     <scopeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="48" startPosition="84" endLine="49" endPosition="16" />
     <scopeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="52" startPosition="53" endLine="53" endPosition="118" />
     <scopeInfo nodeId="4768758963660137382" fileName="ConvertReadWrite2ReadOnlyQuery_Intention.java" startLine="56" startPosition="35" endLine="57" endPosition="17" />
@@ -786,7 +786,7 @@
     <nodeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="34" startPosition="41" endLine="35" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="38" startPosition="37" endLine="39" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="42" startPosition="34" endLine="43" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="46" startPosition="44" endLine="47" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="46" startPosition="44" endLine="47" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="50" startPosition="84" endLine="51" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="54" startPosition="53" endLine="55" endPosition="118" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="58" startPosition="35" endLine="59" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -825,7 +825,7 @@
     <scopeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="34" startPosition="41" endLine="35" endPosition="79" />
     <scopeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="38" startPosition="37" endLine="39" endPosition="26" />
     <scopeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="42" startPosition="34" endLine="43" endPosition="32" />
-    <scopeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="46" startPosition="44" endLine="47" endPosition="16" />
+    <scopeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="46" startPosition="44" endLine="47" endPosition="17" />
     <scopeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="50" startPosition="84" endLine="51" endPosition="16" />
     <scopeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="54" startPosition="53" endLine="55" endPosition="118" />
     <scopeInfo nodeId="4768758963660704603" fileName="ConvertReadWrite2WriteOnlyQuery_Intention.java" startLine="58" startPosition="35" endLine="59" endPosition="17" />
