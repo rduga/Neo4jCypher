@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="317" endPosition="0" unitName="neo4j.cypher.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="319" endPosition="0" unitName="neo4j.cypher.structure.StructureAspectDescriptor" />
   <root nodeRef="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)/1268543411551983790" />
   <root nodeRef="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)/1268543411551995397" />
   <root nodeRef="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)/1268543411552025423" />

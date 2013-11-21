@@ -1752,5 +1752,23 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8807834474661724161" resolveInfo="IOrderedExpression" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5915353355186285349" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Neo4jExec" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="neo4jexec" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="exec" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5915353355186287628" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="query" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1268543411552025423" resolveInfo="QueryExpression" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5915353355186287630" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="graphDb" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    </node>
+  </root>
 </model>
 

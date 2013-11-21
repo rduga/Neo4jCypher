@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="10" startPosition="0" endLine="170" endPosition="0" unitName="neo4j.cypher.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="10" startPosition="0" endLine="174" endPosition="0" unitName="neo4j.cypher.typesystem.TypesystemDescriptor" />
   <root nodeRef="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)/1160499357071246309">
     <nodeInfo nodeId="1160499357071254489" fileName="typeof_QueryExpression_InferenceRule.java" startLine="20" startPosition="5" endLine="21" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1160499357071254489" fileName="typeof_QueryExpression_InferenceRule.java" startLine="21" startPosition="57" endLine="22" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1724,6 +1724,83 @@
       <varInfo nodeId="5206628397327739530" varName="whereStatement" />
     </scopeInfo>
     <unitInfo nodeId="5206628397327739530" fileName="typeof_WhereStatement_InferenceRule.java" startLine="16" startPosition="0" endLine="50" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_WhereStatement_InferenceRule" />
+  </root>
+  <root nodeRef="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)/5915353355186298394">
+    <nodeInfo nodeId="5915353355186393129" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="21" startPosition="123" endLine="22" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5915353355186392812" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="23" startPosition="5" endLine="24" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186392812" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="24" startPosition="96" endLine="25" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186392812" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="25" startPosition="189" endLine="26" endPosition="289" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186393248" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="28" startPosition="5" endLine="29" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186393248" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="29" startPosition="52" endLine="30" endPosition="189" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186393248" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="30" startPosition="189" endLine="31" endPosition="266" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="35" startPosition="46" endLine="36" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="40" startPosition="5" endLine="41" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="41" startPosition="130" endLine="42" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="46" startPosition="30" endLine="47" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355186392815" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="50" startPosition="61" endLine="51" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186392815" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="51" startPosition="63" endLine="52" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186392815" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="52" startPosition="30" endLine="53" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186392815" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="53" startPosition="165" endLine="54" endPosition="301" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186392815" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="54" startPosition="301" endLine="55" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355186393278" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="58" startPosition="61" endLine="59" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186393278" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="59" startPosition="63" endLine="60" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186393278" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="60" startPosition="30" endLine="61" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186393278" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="61" startPosition="165" endLine="62" endPosition="301" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186393278" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="62" startPosition="301" endLine="63" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="18" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="typeof_Neo4jQuery_InferenceRule#()V" />
+    <nodeInfo nodeId="5915353355186392815" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="52" startPosition="30" endLine="54" endPosition="301" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186392815" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="52" startPosition="30" endLine="54" endPosition="301" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186393278" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="60" startPosition="30" endLine="62" endPosition="301" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186393278" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="60" startPosition="30" endLine="62" endPosition="301" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="35" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="39" startPosition="68" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186392812" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="22" startPosition="28" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186393248" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="27" startPosition="5" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="39" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="5915353355186392815" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="50" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_ac9gyn_a0b0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5915353355186393278" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="58" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_quotation_createNode_ac9gyn_a0c0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="21" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="18" startPosition="44" endLine="18" endPosition="44" />
+    <scopeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="35" startPosition="46" endLine="36" endPosition="47" />
+    <scopeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="46" startPosition="30" endLine="47" endPosition="17" />
+    <scopeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="18" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="40" startPosition="5" endLine="42" endPosition="45">
+      <varInfo nodeId="5915353355186298394" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186392815" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="52" startPosition="30" endLine="54" endPosition="301" />
+    <scopeInfo nodeId="5915353355186393278" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="60" startPosition="30" endLine="62" endPosition="301" />
+    <scopeInfo nodeId="5915353355186392812" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="23" startPosition="5" endLine="26" endPosition="289">
+      <varInfo nodeId="5915353355186392812" varName="_info_12389875345" />
+      <varInfo nodeId="5915353355186392812" varName="_nodeToCheck_1029348928467" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186393248" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="28" startPosition="5" endLine="31" endPosition="266">
+      <varInfo nodeId="5915353355186393248" varName="_info_12389875345" />
+      <varInfo nodeId="5915353355186393248" varName="_nodeToCheck_1029348928467" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="35" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="46" startPosition="0" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="39" startPosition="68" endLine="43" endPosition="5" />
+    <scopeInfo nodeId="5915353355186392815" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="50" startPosition="61" endLine="55" endPosition="24">
+      <varInfo nodeId="5915353355186392815" varName="facade" />
+      <varInfo nodeId="5915353355186392815" varName="quotedNode_1" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186393278" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="58" startPosition="61" endLine="63" endPosition="24">
+      <varInfo nodeId="5915353355186393278" varName="facade" />
+      <varInfo nodeId="5915353355186393278" varName="quotedNode_1" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="39" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="5915353355186298394" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186392815" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="50" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="5915353355186393278" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="58" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="5915353355186298395" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="21" startPosition="123" endLine="32" endPosition="5" />
+    <scopeInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="21" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="5915353355186298394" varName="neo4jQuery" />
+      <varInfo nodeId="5915353355186298394" varName="status" />
+      <varInfo nodeId="5915353355186298394" varName="typeCheckingContext" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355186298394" fileName="typeof_Neo4jQuery_InferenceRule.java" startLine="17" startPosition="0" endLine="66" endPosition="0" unitName="neo4j.cypher.typesystem.typeof_Neo4jQuery_InferenceRule" />
   </root>
   <root nodeRef="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)/6746204763277529219">
     <nodeInfo nodeId="6746204763277529323" fileName="check_OrderByStatement_NonTypesystemRule.java" startLine="24" startPosition="129" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />

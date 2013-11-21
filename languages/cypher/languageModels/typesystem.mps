@@ -11,6 +11,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="nupp" modelUID="f:java_stub#f3061a53-9226-4cc5-a443-f952ceaf5816#jetbrains.mps.baseLanguage.structure(jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure@java_stub)" version="-1" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
+  <import index="45ot" modelUID="f:java_stub#8be426ea-f02f-4221-9d9f-9eb718c2d998#org.neo4j.cypher.javacompat(neo4j.cypher.runtime/org.neo4j.cypher.javacompat@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="npgh" modelUID="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)" version="-1" implicit="yes" />
   <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" implicit="yes" />
@@ -1725,6 +1726,58 @@
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1160499357071246311" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="queryExpression" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="qgu4.1268543411552025423" resolveInfo="QueryExpression" />
+    </node>
+  </root>
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="5915353355186298394" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="typeof_Neo4jQuery" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="exec" />
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="5915353355186298395" nodeInfo="sn">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="5915353355186393129" nodeInfo="nn">
+        <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="5915353355186393144" nodeInfo="nn">
+          <property name="text" nameId="tpee.6329021646629104958" value="subtype &lt;= supertype" />
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateLessThanInequationStatement" typeId="tpd4.1174663118805" id="5915353355186392812" nodeInfo="nn">
+        <node role="leftExpression" roleId="tpd4.1174660783413" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="5915353355186392817" nodeInfo="ng">
+          <node role="normalType" roleId="tpd4.1185788644032" type="tpd4.TypeOfExpression" typeId="tpd4.1174657487114" id="5915353355186392818" nodeInfo="nn">
+            <node role="term" roleId="tpd4.1174657509053" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355186392819" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="5915353355186392820" nodeInfo="nn">
+                <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="5915353355186298397" resolveInfo="neo4jQuery" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="5915353355186392821" nodeInfo="nn">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="qgu4.5915353355186287630" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="rightExpression" roleId="tpd4.1174660783414" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="5915353355186392814" nodeInfo="ng">
+          <node role="normalType" roleId="tpd4.1185788644032" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="5915353355186392815" nodeInfo="nn">
+            <node role="quotedNode" roleId="tp3r.1196350785114" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5915353355186392816" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="45ot.~ExecutionEngine" resolveInfo="ExecutionEngine" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="5915353355186393248" nodeInfo="nn">
+        <node role="rightExpression" roleId="tpd4.1174660783414" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="5915353355186393282" nodeInfo="ng">
+          <node role="normalType" roleId="tpd4.1185788644032" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="5915353355186393278" nodeInfo="nn">
+            <node role="quotedNode" roleId="tp3r.1196350785114" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5915353355186393408" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="45ot.~ExecutionResult" resolveInfo="ExecutionResult" />
+            </node>
+          </node>
+        </node>
+        <node role="leftExpression" roleId="tpd4.1174660783413" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="5915353355186393251" nodeInfo="ng">
+          <node role="normalType" roleId="tpd4.1185788644032" type="tpd4.TypeOfExpression" typeId="tpd4.1174657487114" id="5915353355186388522" nodeInfo="nn">
+            <node role="term" roleId="tpd4.1174657509053" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="5915353355186388586" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="5915353355186298397" resolveInfo="neo4jQuery" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="5915353355186298397" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="neo4jQuery" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="qgu4.5915353355186285349" resolveInfo="Neo4jQuery" />
     </node>
   </root>
 </model>

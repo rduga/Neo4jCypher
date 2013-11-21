@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="14" startPosition="0" endLine="206" endPosition="0" unitName="neo4j.cypher.editor.EditorAspectDescriptorImpl" />
+  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="14" startPosition="0" endLine="208" endPosition="0" unitName="neo4j.cypher.editor.EditorAspectDescriptorImpl" />
   <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/1268543411551995395">
     <nodeInfo nodeId="1268543411551995395" fileName="QuerySheet_Editor.java" startLine="28" startPosition="79" endLine="29" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1268543411551995395" fileName="QuerySheet_Editor.java" startLine="32" startPosition="89" endLine="33" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -9191,6 +9191,141 @@
     <unitInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="19" startPosition="0" endLine="40" endPosition="0" unitName="neo4j.cypher.editor.RemoveRelationship$RemoveRelationship_DELETE" />
     <unitInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="41" startPosition="0" endLine="63" endPosition="0" unitName="neo4j.cypher.editor.RemoveRelationship$RemoveRelationship_BACKSPACE" />
     <unitInfo nodeId="5915353355170711575" fileName="RemoveRelationship.java" startLine="13" startPosition="0" endLine="64" endPosition="0" unitName="neo4j.cypher.editor.RemoveRelationship" />
+  </root>
+  <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/5915353355186291982">
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="21" startPosition="89" endLine="22" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="22" startPosition="96" endLine="23" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="23" startPosition="48" endLine="24" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="24" startPosition="28" endLine="25" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="24" startPosition="28" endLine="25" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="25" startPosition="81" endLine="26" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="25" startPosition="81" endLine="26" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="26" startPosition="81" endLine="27" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="26" startPosition="81" endLine="27" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="27" startPosition="80" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="27" startPosition="80" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355189285272" fileName="Neo4jExec_Editor.java" startLine="33" startPosition="88" endLine="34" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355189285272" fileName="Neo4jExec_Editor.java" startLine="34" startPosition="99" endLine="35" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355189285272" fileName="Neo4jExec_Editor.java" startLine="35" startPosition="47" endLine="36" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355189285272" fileName="Neo4jExec_Editor.java" startLine="36" startPosition="34" endLine="37" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355187257624" fileName="Neo4jExec_Editor.java" startLine="40" startPosition="88" endLine="41" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355187257624" fileName="Neo4jExec_Editor.java" startLine="41" startPosition="90" endLine="42" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355187257624" fileName="Neo4jExec_Editor.java" startLine="42" startPosition="47" endLine="43" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355187257624" fileName="Neo4jExec_Editor.java" startLine="43" startPosition="34" endLine="44" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="47" startPosition="87" endLine="48" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="48" startPosition="81" endLine="49" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="49" startPosition="32" endLine="50" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="50" startPosition="45" endLine="51" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="51" startPosition="26" endLine="52" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="53" startPosition="39" endLine="54" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="55" startPosition="5" endLine="56" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="56" startPosition="73" endLine="57" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="57" startPosition="57" endLine="58" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="59" startPosition="35" endLine="60" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="60" startPosition="72" endLine="61" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="61" startPosition="78" endLine="62" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="63" startPosition="10" endLine="64" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355187983578" fileName="Neo4jExec_Editor.java" startLine="67" startPosition="88" endLine="68" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355187983578" fileName="Neo4jExec_Editor.java" startLine="68" startPosition="92" endLine="69" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355187983578" fileName="Neo4jExec_Editor.java" startLine="69" startPosition="47" endLine="70" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355187983578" fileName="Neo4jExec_Editor.java" startLine="70" startPosition="34" endLine="71" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="74" startPosition="87" endLine="75" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="75" startPosition="81" endLine="76" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="76" startPosition="30" endLine="77" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="77" startPosition="43" endLine="78" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="78" startPosition="26" endLine="79" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="80" startPosition="39" endLine="81" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="82" startPosition="5" endLine="83" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="83" startPosition="73" endLine="84" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="84" startPosition="57" endLine="85" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="86" startPosition="35" endLine="87" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="87" startPosition="72" endLine="88" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="88" startPosition="78" endLine="89" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="90" startPosition="10" endLine="91" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="52" startPosition="58" endLine="55" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="79" startPosition="58" endLine="82" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355189285272" fileName="Neo4jExec_Editor.java" startLine="33" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_60m31y_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5915353355187257624" fileName="Neo4jExec_Editor.java" startLine="40" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_60m31y_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="58" startPosition="59" endLine="64" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355187983578" fileName="Neo4jExec_Editor.java" startLine="67" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_60m31y_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="85" startPosition="59" endLine="91" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="21" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_60m31y_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="47" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_60m31y_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="74" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_60m31y_e0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" />
+    <scopeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="24" startPosition="28" endLine="25" endPosition="81" />
+    <scopeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="25" startPosition="81" endLine="26" endPosition="81" />
+    <scopeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="26" startPosition="81" endLine="27" endPosition="80" />
+    <scopeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="27" startPosition="80" endLine="28" endPosition="81" />
+    <scopeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" />
+    <scopeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="53" startPosition="39" endLine="54" endPosition="36" />
+    <scopeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="80" startPosition="39" endLine="81" endPosition="34" />
+    <scopeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="17" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="5915353355186291982" varName="editorContext" />
+      <varInfo nodeId="5915353355186291982" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="59" startPosition="35" endLine="62" endPosition="105">
+      <varInfo nodeId="5915353355186292922" varName="manager" />
+      <varInfo nodeId="5915353355186292922" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="86" startPosition="35" endLine="89" endPosition="105">
+      <varInfo nodeId="5915353355186292897" varName="manager" />
+      <varInfo nodeId="5915353355186292897" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355189285272" fileName="Neo4jExec_Editor.java" startLine="33" startPosition="88" endLine="37" endPosition="22">
+      <varInfo nodeId="5915353355189285272" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355187257624" fileName="Neo4jExec_Editor.java" startLine="40" startPosition="88" endLine="44" endPosition="22">
+      <varInfo nodeId="5915353355187257624" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355187983578" fileName="Neo4jExec_Editor.java" startLine="67" startPosition="88" endLine="71" endPosition="22">
+      <varInfo nodeId="5915353355187983578" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355189285272" fileName="Neo4jExec_Editor.java" startLine="33" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="5915353355189285272" varName="editorContext" />
+      <varInfo nodeId="5915353355189285272" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355187257624" fileName="Neo4jExec_Editor.java" startLine="40" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="5915353355187257624" varName="editorContext" />
+      <varInfo nodeId="5915353355187257624" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355187983578" fileName="Neo4jExec_Editor.java" startLine="67" startPosition="0" endLine="73" endPosition="0">
+      <varInfo nodeId="5915353355187983578" varName="editorContext" />
+      <varInfo nodeId="5915353355187983578" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="21" startPosition="89" endLine="30" endPosition="22">
+      <varInfo nodeId="5915353355186291982" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="21" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="5915353355186291982" varName="editorContext" />
+      <varInfo nodeId="5915353355186291982" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="47" startPosition="87" endLine="64" endPosition="22">
+      <varInfo nodeId="5915353355186292922" varName="attributeConcept" />
+      <varInfo nodeId="5915353355186292922" varName="attributeKind" />
+      <varInfo nodeId="5915353355186292922" varName="editorCell" />
+      <varInfo nodeId="5915353355186292922" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="74" startPosition="87" endLine="91" endPosition="22">
+      <varInfo nodeId="5915353355186292897" varName="attributeConcept" />
+      <varInfo nodeId="5915353355186292897" varName="attributeKind" />
+      <varInfo nodeId="5915353355186292897" varName="editorCell" />
+      <varInfo nodeId="5915353355186292897" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186292922" fileName="Neo4jExec_Editor.java" startLine="47" startPosition="0" endLine="66" endPosition="0">
+      <varInfo nodeId="5915353355186292922" varName="editorContext" />
+      <varInfo nodeId="5915353355186292922" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355186292897" fileName="Neo4jExec_Editor.java" startLine="74" startPosition="0" endLine="93" endPosition="0">
+      <varInfo nodeId="5915353355186292897" varName="editorContext" />
+      <varInfo nodeId="5915353355186292897" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="16" startPosition="0" endLine="94" endPosition="0" unitName="neo4j.cypher.editor.Neo4jExec_Editor" />
   </root>
   <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/7352030329465478746">
     <nodeInfo nodeId="7352030329465478746" fileName="AscOrderBy_Editor.java" startLine="17" startPosition="79" endLine="18" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

@@ -169,6 +169,10 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
   </dependency>
+  <dependency className="neo4j.cypher.textGen.Neo4jExec_TextGen" file="Neo4jExec_TextGen.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
+  </dependency>
   <dependency className="neo4j.cypher.textGen.Node_TextGen" file="Node_TextGen.java">
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />

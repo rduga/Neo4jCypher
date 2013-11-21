@@ -70,6 +70,10 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
+      InferenceRule_Runtime inferenceRule = new typeof_Neo4jQuery_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
       InferenceRule_Runtime inferenceRule = new typeof_Node_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }

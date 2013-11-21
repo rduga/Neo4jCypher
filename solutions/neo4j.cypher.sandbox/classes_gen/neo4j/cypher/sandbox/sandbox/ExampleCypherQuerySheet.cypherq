@@ -1,6 +1,6 @@
 Cypher Query Definitions: ExampleCypherQuerySheet
 
-"START kk = node(*), dfs1231 = node(*), ss = node(*), dd = node(*) MATCH kk-[df:sdfw|eewrf|sdfds*34..20]-kk CREATE kk--ss<--dd--ss, kk-[sd342f:ewf {s2df:\"fsdf\",sdf423s:\"sdf\"}]->dfs1231 CREATE (nodik{vlastnost1:\"hodnota1\"}) SET kk = kk, kk.sdfss = \"sdf\", kk.asd = \"property2\" DELETE dfs1231 RETURN kk,55 != 23 ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 "
+"START kk = node(*), dfs1231 = node(*), ss = node(*), dd = node(*) MATCH kk-[alias:type1|tupe2|type3|sdfds*34..0]-kk--(newnode), newnode<--kk WHERE newnode.jmeno = \"sdf\" RETURN kk,alias,55 != 23,count(kk) ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 "
 "CREATE (kk) CREATE kk--(sdf) CREATE (nodik{vlastnost1:\"hodnota1\"}) SET kk = kk, kk.sdfss = \"sdf\" DELETE sdf "
 "START kk = node(*), dfs1231 = node(*) MATCH kk RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 "
 "START f1 = node(*), f2 = node(*), f12466 = node(*) MATCH namedpath=f1<--f2-[sdf1:sd|as|ger*2..4]->f1-[sdfrel:sdf]-f1--(sdf), allShortestPaths(f1<-[*0..3]-f2--f1), nmd=shortestPath((f12)--()), f1-->(sd) WHERE f12466.sdfsdf = \"sdfsdf\" && f12.asd = true && sdfrel.`sdfa]` = \"sdfsd\" && f1 = f2 || !(f1.sdf) && \"sdf\".sdf && f12466.asd RETURN abs(f1.size),f2.asd,f2.asdas,sdfrel,round(f2.sdf),max(f1),count(*),substring(\"asda\", 12, 34),namedpath,true ORDER BY f12.sd ASC, f2.sdfsdf DESC "

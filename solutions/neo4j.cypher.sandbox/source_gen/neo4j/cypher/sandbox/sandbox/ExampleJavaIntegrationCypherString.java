@@ -13,9 +13,11 @@ import jetbrains.mps.internal.collections.runtime.IMapping;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class ExampleJavaIntegrationCypherString {
+
+
   public static void main(String[] args) {
 
-    System.out.println("Running ExampleCypherStringUsage");
+    System.out.println("Running " + ExampleJavaIntegrationCypherString.class.getCanonicalName());
 
     Map<String, String> config = new HashMap<String, String>();
     config.put("neostore.nodestore.db.mapped_memory", "10M");

@@ -23,118 +23,8 @@
     <property name="name" nameId="tpck.1169194664001" value="ExampleCypherQuerySheet" />
     <node role="statement" roleId="qgu4.1268543411552025426" type="qgu4.QueryStatement" typeId="qgu4.1268543411551995397" id="4030922243380378677" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="readWriteQuery" />
-      <node role="queryExpression" roleId="qgu4.1268543411552161282" type="qgu4.ReadWriteQueryExpression" typeId="qgu4.1268543411552161286" id="4030922243380378683" nodeInfo="ng">
-        <node role="writeStatement" roleId="qgu4.3830435865999835421" type="qgu4.CreateStatement" typeId="qgu4.3830435865999835353" id="4030922243380467303" nodeInfo="ng">
-          <node role="pathExpression" roleId="qgu4.4677677581647667801" type="qgu4.PathExpression" typeId="qgu4.4839691926370534642" id="5915353355171703493" nodeInfo="ng">
-            <node role="expression" roleId="qgu4.4839691926370584531" type="qgu4.UndirectedRelationship" typeId="qgu4.2686030116060685549" id="5915353355178108981" nodeInfo="ng">
-              <node role="rightExpression" roleId="tpee.1081773367579" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355178109081" nodeInfo="ng">
-                <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="5915353355171703909" resolveInfo="ss" />
-              </node>
-              <node role="leftExpression" roleId="tpee.1081773367580" type="qgu4.RLRelationship" typeId="qgu4.2686030116060677025" id="5915353355178108837" nodeInfo="ng">
-                <node role="leftExpression" roleId="tpee.1081773367580" type="qgu4.UndirectedRelationship" typeId="qgu4.2686030116060685549" id="5915353355172168137" nodeInfo="ng">
-                  <node role="leftExpression" roleId="tpee.1081773367580" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355171703507" nodeInfo="ng">
-                    <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="4030922243380378686" resolveInfo="kk" />
-                  </node>
-                  <node role="rightExpression" roleId="tpee.1081773367579" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355172168172" nodeInfo="ng">
-                    <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="5915353355171703909" resolveInfo="ss" />
-                  </node>
-                </node>
-                <node role="rightExpression" roleId="tpee.1081773367579" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355178108915" nodeInfo="ng">
-                  <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="5915353355171703942" resolveInfo="dd" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="pathExpression" roleId="qgu4.4677677581647667801" type="qgu4.PathExpression" typeId="qgu4.4839691926370534642" id="4030922243380467304" nodeInfo="ng">
-            <node role="expression" roleId="qgu4.4839691926370584531" type="qgu4.LRRelationship" typeId="qgu4.2686030116060668985" id="5915353355174524214" nodeInfo="ng">
-              <property name="name" nameId="tpck.1169194664001" value="sd342f" />
-              <property name="concrete" nameId="qgu4.4409026550619611591" value="true" />
-              <property name="specifyHops" nameId="qgu4.4839691926370448445" value="false" />
-              <property name="minHops" nameId="qgu4.4839691926370448443" value="0" />
-              <property name="maxHops" nameId="qgu4.4839691926370448444" value="0" />
-              <property name="inDefinitionMode" nameId="qgu4.4205663719920292967" value="true" />
-              <node role="leftExpression" roleId="tpee.1081773367580" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355174524222" nodeInfo="ng">
-                <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="4030922243380378686" resolveInfo="kk" />
-              </node>
-              <node role="rightExpression" roleId="tpee.1081773367579" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355174524221" nodeInfo="ng">
-                <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="4030922243380389896" resolveInfo="dfs1231" />
-              </node>
-              <node role="property" roleId="qgu4.4409026550619307841" type="qgu4.Property" typeId="qgu4.4395952758104399755" id="5915353355174357745" nodeInfo="ng">
-                <property name="name" nameId="tpck.1169194664001" value="s2df" />
-                <node role="value" roleId="qgu4.3168367791397865763" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355174357819" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="fsdf" />
-                </node>
-              </node>
-              <node role="property" roleId="qgu4.4409026550619307841" type="qgu4.Property" typeId="qgu4.4395952758104399755" id="5915353355174357771" nodeInfo="ng">
-                <property name="name" nameId="tpck.1169194664001" value="sdf423s" />
-                <node role="value" roleId="qgu4.3168367791397865763" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355174357799" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="sdf" />
-                </node>
-              </node>
-              <node role="type" roleId="qgu4.2686030116060608323" type="qgu4.RelationshipType" typeId="qgu4.2686030116060608322" id="5915353355174357699" nodeInfo="ng">
-                <property name="name" nameId="tpck.1169194664001" value="ewf" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="writeStatement" roleId="qgu4.3830435865999835421" type="qgu4.CreateStatement" typeId="qgu4.3830435865999835353" id="4030922243380467308" nodeInfo="ng">
-          <node role="pathExpression" roleId="qgu4.4677677581647667801" type="qgu4.PathExpression" typeId="qgu4.4839691926370534642" id="3609129268825111434" nodeInfo="ng">
-            <node role="expression" roleId="qgu4.4839691926370584531" type="qgu4.Node" typeId="qgu4.1268543411552161297" id="3609129268825111436" nodeInfo="ng">
-              <property name="name" nameId="tpck.1169194664001" value="nodik" />
-              <property name="inDefinitionMode" nameId="qgu4.4205663719920292967" value="true" />
-              <node role="property" roleId="qgu4.4409026550619307841" type="qgu4.Property" typeId="qgu4.4395952758104399755" id="3609129268825111437" nodeInfo="ng">
-                <property name="name" nameId="tpck.1169194664001" value="vlastnost1" />
-                <node role="value" roleId="qgu4.3168367791397865763" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3609129268825111439" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="hodnota1" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="writeStatement" roleId="qgu4.3830435865999835421" type="qgu4.SetStatement" typeId="qgu4.3830435865999835373" id="4030922243380528977" nodeInfo="ng">
-          <node role="setAssignmentStatement" roleId="qgu4.3830435865999835376" type="qgu4.SetAssignmentStatement" typeId="qgu4.769752699177760055" id="4030922243380528978" nodeInfo="ng">
-            <node role="leftExpression" roleId="qgu4.769752699177760056" type="qgu4.NamedPropertyContainerRef" typeId="qgu4.7918996842015188022" id="4030922243380528981" nodeInfo="ng">
-              <link role="propertyContainer" roleId="qgu4.7918996842015188023" targetNodeId="4030922243380378686" resolveInfo="kk" />
-            </node>
-            <node role="rightExpression" roleId="qgu4.769752699177760057" type="qgu4.NamedPropertyContainerRef" typeId="qgu4.7918996842015188022" id="4030922243380528982" nodeInfo="ng">
-              <link role="propertyContainer" roleId="qgu4.7918996842015188023" targetNodeId="4030922243380378686" resolveInfo="kk" />
-            </node>
-          </node>
-          <node role="setAssignmentStatement" roleId="qgu4.3830435865999835376" type="qgu4.SetAssignmentStatement" typeId="qgu4.769752699177760055" id="4030922243380605096" nodeInfo="ng">
-            <node role="leftExpression" roleId="qgu4.769752699177760056" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4030922243380605106" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="qgu4.NamedPropertyContainerRef" typeId="qgu4.7918996842015188022" id="4030922243380605099" nodeInfo="ng">
-                <link role="propertyContainer" roleId="qgu4.7918996842015188023" targetNodeId="4030922243380378686" resolveInfo="kk" />
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="qgu4.PropertyOperation" typeId="qgu4.3168367791397806367" id="4030922243380605113" nodeInfo="ng">
-                <property name="name" nameId="tpck.1169194664001" value="sdfss" />
-              </node>
-            </node>
-            <node role="rightExpression" roleId="qgu4.769752699177760057" type="qgu4.ApStringLiteral" typeId="qgu4.5206628397327069922" id="4768758963664227204" nodeInfo="ng">
-              <property name="value" nameId="qgu4.5206628397327237187" value="sdf" />
-            </node>
-          </node>
-          <node role="setAssignmentStatement" roleId="qgu4.3830435865999835376" type="qgu4.SetAssignmentStatement" typeId="qgu4.769752699177760055" id="5915353355169560385" nodeInfo="ng">
-            <node role="leftExpression" roleId="qgu4.769752699177760056" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355169560718" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="qgu4.NamedPropertyContainerRef" typeId="qgu4.7918996842015188022" id="5915353355169560701" nodeInfo="ng">
-                <link role="propertyContainer" roleId="qgu4.7918996842015188023" targetNodeId="4030922243380378686" resolveInfo="kk" />
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="qgu4.PropertyOperation" typeId="qgu4.3168367791397806367" id="5915353355169560782" nodeInfo="ng">
-                <property name="name" nameId="tpck.1169194664001" value="asd" />
-              </node>
-            </node>
-            <node role="rightExpression" roleId="qgu4.769752699177760057" type="qgu4.ApStringLiteral" typeId="qgu4.5206628397327069922" id="5915353355169560802" nodeInfo="ng">
-              <property name="value" nameId="qgu4.5206628397327237187" value="property2" />
-            </node>
-          </node>
-        </node>
-        <node role="writeStatement" roleId="qgu4.3830435865999835421" type="qgu4.DeleteStatement" typeId="qgu4.3830435865999835403" id="1663756355259156252" nodeInfo="ng">
-          <node role="expression" roleId="qgu4.3830435865999835404" type="qgu4.DeleteExpression" typeId="qgu4.8807834474661724166" id="1663756355259156253" nodeInfo="ng">
-            <node role="expression" roleId="qgu4.8807834474661767156" type="qgu4.NamedPropertyContainerRef" typeId="qgu4.7918996842015188022" id="1663756355259156255" nodeInfo="ng">
-              <link role="propertyContainer" roleId="qgu4.7918996842015188023" targetNodeId="4030922243380389896" resolveInfo="dfs1231" />
-            </node>
-          </node>
-        </node>
-        <node role="startStatement" roleId="qgu4.4660597163991665344" type="qgu4.StartStatement" typeId="qgu4.4395952758104566948" id="4030922243380378684" nodeInfo="ng">
+      <node role="queryExpression" roleId="qgu4.1268543411552161282" type="qgu4.ReadOnlyQueryExpression" typeId="qgu4.1268543411552161285" id="5915353355190182136" nodeInfo="ng">
+        <node role="startStatement" roleId="qgu4.4660597163991665342" type="qgu4.StartStatement" typeId="qgu4.4395952758104566948" id="4030922243380378684" nodeInfo="ng">
           <node role="startStatements" roleId="qgu4.1268543411552268231" type="qgu4.StartAssignmentStatement" typeId="qgu4.1268543411552161296" id="4030922243380378685" nodeInfo="ng">
             <node role="node1" roleId="qgu4.1268543411552161302" type="qgu4.Node" typeId="qgu4.1268543411552161297" id="4030922243380378686" nodeInfo="ng">
               <property name="name" nameId="tpck.1169194664001" value="kk" />
@@ -160,37 +50,72 @@
             <node role="index" roleId="qgu4.1268543411552224154" type="qgu4.AllIndex" typeId="qgu4.1268543411552224188" id="5915353355171703974" nodeInfo="ng" />
           </node>
         </node>
-        <node role="matchStatement" roleId="qgu4.3830435865999835348" type="qgu4.MatchStatement" typeId="qgu4.4395952758104028947" id="4030922243380466638" nodeInfo="ng">
+        <node role="matchStatement" roleId="qgu4.4395952758104095468" type="qgu4.MatchStatement" typeId="qgu4.4395952758104028947" id="4030922243380466638" nodeInfo="ng">
           <node role="pathExpression" roleId="qgu4.3830435865999368529" type="qgu4.PathExpression" typeId="qgu4.4839691926370534642" id="4030922243380466639" nodeInfo="ng">
-            <node role="expression" roleId="qgu4.4839691926370584531" type="qgu4.UndirectedRelationship" typeId="qgu4.2686030116060685549" id="5915353355175520772" nodeInfo="ng">
-              <property name="name" nameId="tpck.1169194664001" value="df" />
-              <property name="concrete" nameId="qgu4.4409026550619611591" value="true" />
-              <property name="inDefinitionMode" nameId="qgu4.4205663719920292967" value="false" />
-              <property name="specifyHops" nameId="qgu4.4839691926370448445" value="true" />
-              <property name="minHops" nameId="qgu4.4839691926370448443" value="34" />
-              <property name="maxHops" nameId="qgu4.4839691926370448444" value="20" />
-              <node role="leftExpression" roleId="tpee.1081773367580" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355175520774" nodeInfo="ng">
+            <node role="expression" roleId="qgu4.4839691926370584531" type="qgu4.UndirectedRelationship" typeId="qgu4.2686030116060685549" id="5915353355190171341" nodeInfo="ng">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="qgu4.Node" typeId="qgu4.1268543411552161297" id="5915353355190174172" nodeInfo="ng">
+                <property name="name" nameId="tpck.1169194664001" value="newnode" />
+              </node>
+              <node role="leftExpression" roleId="tpee.1081773367580" type="qgu4.UndirectedRelationship" typeId="qgu4.2686030116060685549" id="5915353355175520772" nodeInfo="ng">
+                <property name="concrete" nameId="qgu4.4409026550619611591" value="true" />
+                <property name="inDefinitionMode" nameId="qgu4.4205663719920292967" value="false" />
+                <property name="specifyHops" nameId="qgu4.4839691926370448445" value="true" />
+                <property name="minHops" nameId="qgu4.4839691926370448443" value="34" />
+                <property name="name" nameId="tpck.1169194664001" value="alias" />
+                <node role="leftExpression" roleId="tpee.1081773367580" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355175520774" nodeInfo="ng">
+                  <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="4030922243380378686" resolveInfo="kk" />
+                </node>
+                <node role="type" roleId="qgu4.2686030116060608323" type="qgu4.RelationshipType" typeId="qgu4.2686030116060608322" id="5915353355174353617" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="type1" />
+                </node>
+                <node role="type" roleId="qgu4.2686030116060608323" type="qgu4.RelationshipType" typeId="qgu4.2686030116060608322" id="5915353355174353641" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="tupe2" />
+                </node>
+                <node role="type" roleId="qgu4.2686030116060608323" type="qgu4.RelationshipType" typeId="qgu4.2686030116060608322" id="5915353355190248261" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="type3" />
+                </node>
+                <node role="type" roleId="qgu4.2686030116060608323" type="qgu4.RelationshipType" typeId="qgu4.2686030116060608322" id="5915353355174353666" nodeInfo="ng">
+                  <property name="name" nameId="tpck.1169194664001" value="sdfds" />
+                </node>
+                <node role="rightExpression" roleId="tpee.1081773367579" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355175520775" nodeInfo="ng">
+                  <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="4030922243380378686" resolveInfo="kk" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="pathExpression" roleId="qgu4.3830435865999368529" type="qgu4.PathExpression" typeId="qgu4.4839691926370534642" id="5915353355190174435" nodeInfo="ng">
+            <node role="expression" roleId="qgu4.4839691926370584531" type="qgu4.RLRelationship" typeId="qgu4.2686030116060677025" id="5915353355190174478" nodeInfo="ng">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355190174513" nodeInfo="ng">
                 <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="4030922243380378686" resolveInfo="kk" />
               </node>
-              <node role="rightExpression" roleId="tpee.1081773367579" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355175520775" nodeInfo="ng">
-                <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="4030922243380378686" resolveInfo="kk" />
-              </node>
-              <node role="type" roleId="qgu4.2686030116060608323" type="qgu4.RelationshipType" typeId="qgu4.2686030116060608322" id="5915353355174353617" nodeInfo="ng">
-                <property name="name" nameId="tpck.1169194664001" value="sdfw" />
-              </node>
-              <node role="type" roleId="qgu4.2686030116060608323" type="qgu4.RelationshipType" typeId="qgu4.2686030116060608322" id="5915353355174353641" nodeInfo="ng">
-                <property name="name" nameId="tpck.1169194664001" value="eewrf" />
-              </node>
-              <node role="type" roleId="qgu4.2686030116060608323" type="qgu4.RelationshipType" typeId="qgu4.2686030116060608322" id="5915353355174353666" nodeInfo="ng">
-                <property name="name" nameId="tpck.1169194664001" value="sdfds" />
+              <node role="leftExpression" roleId="tpee.1081773367580" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355190174454" nodeInfo="ng">
+                <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="5915353355190174172" resolveInfo="newnode" />
               </node>
             </node>
           </node>
         </node>
-        <node role="returnStatementBlock" roleId="qgu4.3830435865999835352" type="qgu4.ReturnStatementBlock" typeId="qgu4.2979687674397788067" id="4030922243380522572" nodeInfo="ng">
+        <node role="whereStatement" roleId="qgu4.4395952758104095469" type="qgu4.WhereStatement" typeId="qgu4.4395952758104028948" id="5915353355190175067" nodeInfo="ng">
+          <node role="expression" roleId="qgu4.3830435865999486510" type="qgu4.CypherEqualsExpression" typeId="qgu4.5206628397327870200" id="5915353355190177079" nodeInfo="ng">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="qgu4.ApStringLiteral" typeId="qgu4.5206628397327069922" id="5915353355190177116" nodeInfo="ng">
+              <property name="value" nameId="qgu4.5206628397327237187" value="sdf" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355190175751" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="qgu4.NamedPropertyContainerRef" typeId="qgu4.7918996842015188022" id="5915353355190175083" nodeInfo="ng">
+                <link role="propertyContainer" roleId="qgu4.7918996842015188023" targetNodeId="5915353355190174172" resolveInfo="newnode" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="qgu4.PropertyOperation" typeId="qgu4.3168367791397806367" id="5915353355190176076" nodeInfo="ng">
+                <property name="name" nameId="tpck.1169194664001" value="jmeno" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="returnStatementBlock" roleId="qgu4.4395952758104566943" type="qgu4.ReturnStatementBlock" typeId="qgu4.2979687674397788067" id="4030922243380522572" nodeInfo="ng">
           <node role="returnStatement" roleId="qgu4.2979687674397788069" type="qgu4.ReturnStatement" typeId="qgu4.4395952758104563294" id="4030922243380522573" nodeInfo="ng">
             <node role="returnExpression" roleId="qgu4.4395952758104095470" type="qgu4.NamedPropertyContainerRef" typeId="qgu4.7918996842015188022" id="4030922243380522575" nodeInfo="ng">
               <link role="propertyContainer" roleId="qgu4.7918996842015188023" targetNodeId="4030922243380378686" resolveInfo="kk" />
+            </node>
+            <node role="returnExpression" roleId="qgu4.4395952758104095470" type="qgu4.NamedPropertyContainerRef" typeId="qgu4.7918996842015188022" id="5915353355190174763" nodeInfo="ng">
+              <link role="propertyContainer" roleId="qgu4.7918996842015188023" targetNodeId="5915353355175520772" resolveInfo="alias" />
             </node>
             <node role="returnExpression" roleId="qgu4.4395952758104095470" type="qgu4.CypherNotEqualsExpression" typeId="qgu4.5206628397327933191" id="5915353355174141610" nodeInfo="ng">
               <node role="rightExpression" roleId="tpee.1081773367579" type="qgu4.CypherIntegerConstant" typeId="qgu4.1325020284374319148" id="5915353355174141636" nodeInfo="ng">
@@ -198,6 +123,11 @@
               </node>
               <node role="leftExpression" roleId="tpee.1081773367580" type="qgu4.CypherIntegerConstant" typeId="qgu4.1325020284374319148" id="5915353355174135311" nodeInfo="ng">
                 <property name="value" nameId="qgu4.1068580320021" value="55" />
+              </node>
+            </node>
+            <node role="returnExpression" roleId="qgu4.4395952758104095470" type="qgu4.CountAggregate" typeId="qgu4.7352030329465733481" id="5915353355190183195" nodeInfo="ng">
+              <node role="expression" roleId="qgu4.5206628397327714030" type="qgu4.NamedPropertyContainerRef" typeId="qgu4.7918996842015188022" id="5915353355190183223" nodeInfo="ng">
+                <link role="propertyContainer" roleId="qgu4.7918996842015188023" targetNodeId="4030922243380378686" resolveInfo="kk" />
               </node>
             </node>
           </node>
@@ -673,6 +603,7 @@
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1663756355259040233" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ExampleJavaIntegrationCypherString" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="5915353355186017329" nodeInfo="ngu" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1663756355259040234" nodeInfo="nn" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="1663756355259051908" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="main" />
@@ -688,13 +619,23 @@
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5915353355178422225" nodeInfo="nn">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355178422226" nodeInfo="nn">
-                <property name="value" nameId="tpee.1070475926801" value="Running ExampleCypherStringUsage" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5915353355186033148" nodeInfo="nn">
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355186069110" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="5915353355186057668" nodeInfo="nn">
+                    <link role="classifier" roleId="tpee.1116615189566" targetNodeId="1663756355259040233" resolveInfo="ExampleJavaIntegrationCypherString" />
+                  </node>
+                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5915353355186195914" nodeInfo="nn">
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Class%dgetCanonicalName()%cjava%dlang%dString" resolveInfo="getCanonicalName" />
+                  </node>
+                </node>
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355178422226" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1070475926801" value="Running " />
+                </node>
               </node>
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5915353355178364571" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5915353355186017741" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="5915353355178144681" nodeInfo="nn">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5915353355178144680" nodeInfo="nr">
             <property name="isFinal" nameId="tpee.1176718929932" value="false" />
@@ -1446,6 +1387,206 @@
       </node>
     </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5915353355183473239" nodeInfo="nn" />
+  </root>
+  <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="5915353355186008285" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ExampleJavaIntegrationPureNeo4jCypher" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="5915353355186013245" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="5915353355186013166" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="main" />
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="5915353355186013167" nodeInfo="ir">
+        <property name="name" nameId="tpck.1169194664001" value="args" />
+        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ArrayType" typeId="tpee.1070534760951" id="5915353355186013168" nodeInfo="in">
+          <node role="componentType" roleId="tpee.1070534760952" type="tpee.StringType" typeId="tpee.1225271177708" id="5915353355186013169" nodeInfo="in" />
+        </node>
+      </node>
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="5915353355186013170" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5915353355186013171" nodeInfo="nn" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5915353355186013172" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5915353355186235100" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5915353355186233981" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355186233982" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="5915353355186233983" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+              <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5915353355186233984" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="5915353355186233985" nodeInfo="nn">
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355186233989" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1070475926801" value="Running " />
+                </node>
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355186242981" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="5915353355186241247" nodeInfo="nn">
+                    <link role="classifier" roleId="tpee.1116615189566" targetNodeId="5915353355186008285" resolveInfo="ExampleJavaIntegrationPureNeo4jCypher" />
+                  </node>
+                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5915353355186247200" nodeInfo="nn">
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Class%dgetCanonicalName()%cjava%dlang%dString" resolveInfo="getCanonicalName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5915353355190114354" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="5915353355190115931" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5915353355190115932" nodeInfo="nr">
+            <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+            <property name="name" nameId="tpck.1169194664001" value="config" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5915353355190115933" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="k7g3.~Map" resolveInfo="Map" />
+              <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5915353355190115934" nodeInfo="in">
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
+              </node>
+              <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5915353355190115935" nodeInfo="in">
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
+              </node>
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="5915353355190115936" nodeInfo="nn">
+              <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5915353355190115937" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~HashMap%d&lt;init&gt;()" resolveInfo="HashMap" />
+                <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5915353355190115938" nodeInfo="in">
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
+                </node>
+                <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5915353355190115939" nodeInfo="in">
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~String" resolveInfo="String" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5915353355190115940" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355190115941" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5915353355190115942" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5915353355190115932" resolveInfo="config" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5915353355190115943" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~Map%dput(java%dlang%dObject,java%dlang%dObject)%cjava%dlang%dObject" resolveInfo="put" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355190115944" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="neostore.nodestore.db.mapped_memory" />
+              </node>
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355190115945" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="10M" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5915353355190115946" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355190115947" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5915353355190115948" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5915353355190115932" resolveInfo="config" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5915353355190115949" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~Map%dput(java%dlang%dObject,java%dlang%dObject)%cjava%dlang%dObject" resolveInfo="put" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355190115950" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="string_block_size" />
+              </node>
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355190115951" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="60" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5915353355190115952" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355190115953" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5915353355190115954" nodeInfo="nn">
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5915353355190115932" resolveInfo="config" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5915353355190115955" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="k7g3.~Map%dput(java%dlang%dObject,java%dlang%dObject)%cjava%dlang%dObject" resolveInfo="put" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355190115956" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="array_block_size" />
+              </node>
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355190115957" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="300" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5915353355190115958" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="5915353355190115959" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5915353355190115960" nodeInfo="nr">
+            <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+            <property name="name" nameId="tpck.1169194664001" value="graphDb" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5915353355190115961" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="pe4i.~GraphDatabaseService" resolveInfo="GraphDatabaseService" />
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355190115962" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355190115963" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355190115964" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="5915353355190115965" nodeInfo="nn">
+                    <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5915353355190115966" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lh3y.~GraphDatabaseFactory%d&lt;init&gt;()" resolveInfo="GraphDatabaseFactory" />
+                    </node>
+                  </node>
+                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5915353355190115967" nodeInfo="nn">
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lh3y.~GraphDatabaseFactory%dnewEmbeddedDatabaseBuilder(java%dlang%dString)%corg%dneo4j%dgraphdb%dfactory%dGraphDatabaseBuilder" resolveInfo="newEmbeddedDatabaseBuilder" />
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5915353355190115968" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1070475926801" value="solutions/neo4j.cypher.runtime/database" />
+                    </node>
+                  </node>
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5915353355190115969" nodeInfo="nn">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lh3y.~GraphDatabaseBuilder%dsetConfig(java%dutil%dMap)%corg%dneo4j%dgraphdb%dfactory%dGraphDatabaseBuilder" resolveInfo="setConfig" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5915353355190115970" nodeInfo="nn">
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5915353355190115932" resolveInfo="config" />
+                  </node>
+                </node>
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5915353355190115971" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lh3y.~GraphDatabaseBuilder%dnewGraphDatabase()%corg%dneo4j%dgraphdb%dGraphDatabaseService" resolveInfo="newGraphDatabase" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5915353355190115790" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="5915353355190128966" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5915353355190128967" nodeInfo="nr">
+            <property name="name" nameId="tpck.1169194664001" value="result" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5915353355190128968" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="45ot.~ExecutionResult" resolveInfo="ExecutionResult" />
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="qgu4.Neo4jExec" typeId="qgu4.5915353355186285349" id="5915353355189283824" nodeInfo="ng">
+              <node role="query" roleId="qgu4.5915353355186287628" type="qgu4.ReadOnlyQueryExpression" typeId="qgu4.1268543411552161285" id="5915353355190118874" nodeInfo="ng">
+                <node role="startStatement" roleId="qgu4.4660597163991665342" type="qgu4.StartStatement" typeId="qgu4.4395952758104566948" id="5915353355190118876" nodeInfo="ng">
+                  <node role="startStatements" roleId="qgu4.1268543411552268231" type="qgu4.StartAssignmentStatement" typeId="qgu4.1268543411552161296" id="5915353355190118878" nodeInfo="ng">
+                    <node role="node1" roleId="qgu4.1268543411552161302" type="qgu4.Node" typeId="qgu4.1268543411552161297" id="5915353355190118880" nodeInfo="ng">
+                      <property name="name" nameId="tpck.1169194664001" value="nod234" />
+                    </node>
+                    <node role="index" roleId="qgu4.1268543411552224154" type="qgu4.AllIndex" typeId="qgu4.1268543411552224188" id="5915353355190119081" nodeInfo="ng" />
+                  </node>
+                </node>
+                <node role="returnStatementBlock" roleId="qgu4.4395952758104566943" type="qgu4.ReturnStatementBlock" typeId="qgu4.2979687674397788067" id="5915353355190118884" nodeInfo="ng">
+                  <node role="returnStatement" roleId="qgu4.2979687674397788069" type="qgu4.ReturnStatement" typeId="qgu4.4395952758104563294" id="5915353355190118886" nodeInfo="ng">
+                    <node role="returnExpression" roleId="qgu4.4395952758104095470" type="qgu4.NamedPropertyContainerRef" typeId="qgu4.7918996842015188022" id="5915353355190125956" nodeInfo="ng">
+                      <link role="propertyContainer" roleId="qgu4.7918996842015188023" targetNodeId="5915353355190118880" resolveInfo="nod234" />
+                    </node>
+                  </node>
+                </node>
+                <node role="whereStatement" roleId="qgu4.4395952758104095469" type="qgu4.WhereStatement" typeId="qgu4.4395952758104028948" id="5915353355190119111" nodeInfo="ng">
+                  <node role="expression" roleId="qgu4.3830435865999486510" type="qgu4.CypherEqualsExpression" typeId="qgu4.5206628397327870200" id="5915353355190125706" nodeInfo="ng">
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="qgu4.ApStringLiteral" typeId="qgu4.5206628397327069922" id="5915353355190125776" nodeInfo="ng">
+                      <property name="value" nameId="qgu4.5206628397327237187" value="john" />
+                    </node>
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5915353355190119840" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="qgu4.NamedPropertyContainerRef" typeId="qgu4.7918996842015188022" id="5915353355190119166" nodeInfo="ng">
+                        <link role="propertyContainer" roleId="qgu4.7918996842015188023" targetNodeId="5915353355190118880" resolveInfo="nod234" />
+                      </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="qgu4.PropertyOperation" typeId="qgu4.3168367791397806367" id="5915353355190120192" nodeInfo="ng">
+                        <property name="name" nameId="tpck.1169194664001" value="name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="graphDb" roleId="qgu4.5915353355186287630" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5915353355190118839" nodeInfo="nn">
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5915353355190115960" resolveInfo="graphDb" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5915353355186008286" nodeInfo="nn" />
   </root>
 </model>
 
