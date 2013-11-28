@@ -125,5 +125,20 @@
       <varInfo nodeId="6581467451102921304" varName="lr" />
     </scopeInfo>
   </root>
+  <root nodeRef="r:ae4b435d-e2de-45ff-8308-3989c5d9b5ff(neo4j.cypher.actions)/7273172444865398024">
+    <nodeInfo nodeId="7273172444865398025" fileName="cypher_CopyPasteHandlers_PastePostProcessor_0.java" startLine="11" startPosition="39" endLine="12" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7273172444865407843" fileName="cypher_CopyPasteHandlers_PastePostProcessor_0.java" startLine="16" startPosition="119" endLine="17" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7273172444865398025" fileName="cypher_CopyPasteHandlers_PastePostProcessor_0.java" startLine="11" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConcept#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="7273172444865398293" fileName="cypher_CopyPasteHandlers_PastePostProcessor_0.java" startLine="15" startPosition="48" endLine="18" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7273172444865398025" fileName="cypher_CopyPasteHandlers_PastePostProcessor_0.java" startLine="15" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="postProcesNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="7273172444865398025" fileName="cypher_CopyPasteHandlers_PastePostProcessor_0.java" startLine="11" startPosition="39" endLine="12" endPosition="94" />
+    <scopeInfo nodeId="7273172444865398294" fileName="cypher_CopyPasteHandlers_PastePostProcessor_0.java" startLine="16" startPosition="119" endLine="17" endPosition="92" />
+    <scopeInfo nodeId="7273172444865398025" fileName="cypher_CopyPasteHandlers_PastePostProcessor_0.java" startLine="11" startPosition="0" endLine="14" endPosition="0" />
+    <scopeInfo nodeId="7273172444865398290" fileName="cypher_CopyPasteHandlers_PastePostProcessor_0.java" startLine="15" startPosition="48" endLine="18" endPosition="5" />
+    <scopeInfo nodeId="7273172444865398025" fileName="cypher_CopyPasteHandlers_PastePostProcessor_0.java" startLine="15" startPosition="0" endLine="20" endPosition="0">
+      <varInfo nodeId="7273172444865398025" varName="pastedNode" />
+    </scopeInfo>
+    <unitInfo nodeId="7273172444865398025" fileName="cypher_CopyPasteHandlers_PastePostProcessor_0.java" startLine="10" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.actions.cypher_CopyPasteHandlers_PastePostProcessor_0" />
+  </root>
 </debugInfo>
 

@@ -34,5 +34,11 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
+  <dependency className="neo4j.cypher.actions.cypher_CopyPasteHandlers_PastePostProcessor_0" file="cypher_CopyPasteHandlers_PastePostProcessor_0.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.datatransfer.PastePostProcessor" />
+  </dependency>
 </dependenciesRoot>
 
