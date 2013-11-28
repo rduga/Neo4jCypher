@@ -44,7 +44,7 @@ public class ConvertReadWrite2WriteOnlyQuery_Intention implements IntentionFacto
   }
 
   public boolean isAvailableInChildNodes() {
-    return true;
+    return false;
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {

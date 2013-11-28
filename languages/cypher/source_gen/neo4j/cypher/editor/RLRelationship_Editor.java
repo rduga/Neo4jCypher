@@ -15,6 +15,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.editor.runtime.style.FocusPolicy;
 
 public class RLRelationship_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -42,6 +43,7 @@ public class RLRelationship_Editor extends DefaultNodeEditor {
     if (editorCell.getRole() == null) {
       editorCell.setRole("leftExpression");
     }
+    DeleteInLeftChildOfRelationship.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -59,6 +61,7 @@ public class RLRelationship_Editor extends DefaultNodeEditor {
     Style style = new StyleImpl();
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     editorCell.getStyle().putAll(style);
+    DeleteAtBeginningOfRelationship.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -73,8 +76,9 @@ public class RLRelationship_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_b1wk19_d0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.RT_ANCHOR_TAG, "ext_2_RTransform");
     editorCell.getStyle().putAll(style);
-    RemoveRelationship.setCellActions(editorCell, node, editorContext);
+    DeleteAtEndOfRelationship.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -88,7 +92,10 @@ public class RLRelationship_Editor extends DefaultNodeEditor {
     if (editorCell.getRole() == null) {
       editorCell.setRole("rightExpression");
     }
-    RemoveRelationship.setCellActions(editorCell, node, editorContext);
+    if (true) {
+      editorCell.getStyle().set(StyleAttributes.FOCUS_POLICY, FocusPolicy.ATTRACTS_RECURSIVELY);
+    }
+    DeleteInRightChildOfRelationship.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

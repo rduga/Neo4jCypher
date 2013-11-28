@@ -36,6 +36,12 @@ public class Relationship_Behavior {
     return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "type", true)).isNotEmpty();
   }
 
+  public static void call_copyRelationshipProperties_6581467451102927870(SNode thisNode, SNode source) {
+    Relationship_Behavior.call_copyConfigOf_4839691926370495851(thisNode, source);
+    SLinkOperations.setTarget(thisNode, "leftExpression", SLinkOperations.getTarget(source, "leftExpression", true), true);
+    SLinkOperations.setTarget(thisNode, "rightExpression", SLinkOperations.getTarget(source, "rightExpression", true), true);
+  }
+
   public static boolean isEmpty_ck02f0_a0a0a2(String str) {
     return str == null || str.length() == 0;
   }

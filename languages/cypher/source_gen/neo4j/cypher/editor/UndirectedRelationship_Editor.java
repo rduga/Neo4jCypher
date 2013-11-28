@@ -42,6 +42,7 @@ public class UndirectedRelationship_Editor extends DefaultNodeEditor {
     if (editorCell.getRole() == null) {
       editorCell.setRole("leftExpression");
     }
+    DeleteInLeftChildOfRelationship.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -58,7 +59,9 @@ public class UndirectedRelationship_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_8hvahl_b0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+    style.set(StyleAttributes.RT_ANCHOR_TAG, "ext_1_RTransform");
     editorCell.getStyle().putAll(style);
+    DeleteAtBeginningOfRelationship.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -73,8 +76,9 @@ public class UndirectedRelationship_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_8hvahl_d0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    style.set(StyleAttributes.RT_ANCHOR_TAG, "ext_2_RTransform");
     editorCell.getStyle().putAll(style);
-    RemoveRelationship.setCellActions(editorCell, node, editorContext);
+    DeleteAtEndOfRelationship.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -88,7 +92,7 @@ public class UndirectedRelationship_Editor extends DefaultNodeEditor {
     if (editorCell.getRole() == null) {
       editorCell.setRole("rightExpression");
     }
-    RemoveRelationship.setCellActions(editorCell, node, editorContext);
+    DeleteInRightChildOfRelationship.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
