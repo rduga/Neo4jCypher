@@ -74,6 +74,7 @@ public class PathExpression_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_sboxpj_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_sboxpj_b0a");
+    DeletePathExpressionName.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }

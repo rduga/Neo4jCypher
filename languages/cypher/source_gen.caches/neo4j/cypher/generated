@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-10gci7p5gpmivtvy9ws4pv7yanknzu9">
+<dependencies version="2" modelHash="5whs5g3b6gzy112xi8uuz8sow08zvv2">
   <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)" hash="7geq0vzrb3yimo0hfy0ticwwv9gyxxf" />
-  <dep model="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)" hash="-a10de2lbw8n5qm9ewqjbs0ppq6rsfr2" />
+  <dep model="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)" hash="d2tfdbr98i123rkfl5x8kkfcu6bfseb" />
   <common>
     <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />

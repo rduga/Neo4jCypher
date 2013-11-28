@@ -82,6 +82,7 @@ public class LRRelationship_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_fsr2fb_d0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyRightParen(style, editorCell);
+    style.set(StyleAttributes.RT_ANCHOR_TAG, "ext_2_RTransform");
     editorCell.getStyle().putAll(style);
     DeleteAtEndOfRelationship.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
