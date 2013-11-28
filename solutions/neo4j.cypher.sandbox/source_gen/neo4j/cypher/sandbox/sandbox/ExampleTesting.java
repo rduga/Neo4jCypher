@@ -6,6 +6,6 @@ package neo4j.cypher.sandbox.sandbox;
 public class ExampleTesting {
   public static void main(String[] args) {
 
-    String cypherRWQuery = "START kk = node(*), dfs1231 = node(*) MATCH kk, dfs1231 CREATE kk--kk, kk--dfs1231 CREATE (nodik{vlastnost1:\"hodnot\"a1\"}) SET kk = kk, kk.sdfss = \"sd\'f\" DELETE dfs1231 RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 ";
+    String cypherRWQuery = "START kk = node(*), dfs1231 = node(*) MATCH kk, dfs1231 CREATE kk<--kk, kk--dfs1231 CREATE (nodik{vlastnost1:\"hodnot\"a1\"}) SET kk = kk, kk.sdfss = \"sd\'f\" DELETE dfs1231 RETURN kk ORDER BY kk.dfaaaa SKIP 34 LIMIT 63 ";
   }
 }

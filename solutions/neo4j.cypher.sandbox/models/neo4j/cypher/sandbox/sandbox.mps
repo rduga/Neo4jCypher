@@ -1266,7 +1266,12 @@
             <node role="initializer" roleId="tpee.1068431790190" type="qgu4.ReadWriteQueryExpression" typeId="qgu4.1268543411552161286" id="4768758963664055781" nodeInfo="ng">
               <node role="writeStatement" roleId="qgu4.3830435865999835421" type="qgu4.CreateStatement" typeId="qgu4.3830435865999835353" id="4768758963664055782" nodeInfo="ng">
                 <node role="pathExpression" roleId="qgu4.4677677581647667801" type="qgu4.PathExpression" typeId="qgu4.4839691926370534642" id="5915353355170668152" nodeInfo="ng">
-                  <node role="expression" roleId="qgu4.4839691926370584531" type="qgu4.UndirectedRelationship" typeId="qgu4.2686030116060685549" id="5915353355170668279" nodeInfo="ng">
+                  <node role="expression" roleId="qgu4.4839691926370584531" type="qgu4.RLRelationship" typeId="qgu4.2686030116060677025" id="5915353355194724169" nodeInfo="ng">
+                    <property name="concrete" nameId="qgu4.4409026550619611591" value="false" />
+                    <property name="inDefinitionMode" nameId="qgu4.4205663719920292967" value="false" />
+                    <property name="specifyHops" nameId="qgu4.4839691926370448445" value="false" />
+                    <property name="minHops" nameId="qgu4.4839691926370448443" value="0" />
+                    <property name="maxHops" nameId="qgu4.4839691926370448444" value="0" />
                     <node role="leftExpression" roleId="tpee.1081773367580" type="qgu4.NamedNodeRef" typeId="qgu4.4395952758104302029" id="5915353355170668226" nodeInfo="ng">
                       <link role="node1" roleId="qgu4.4395952758104302030" targetNodeId="4768758963664055806" resolveInfo="kk" />
                     </node>
@@ -1578,7 +1583,7 @@
                   </node>
                 </node>
               </node>
-              <node role="graphDb" roleId="qgu4.5915353355186287630" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5915353355190118839" nodeInfo="nn">
+              <node role="graphDb" roleId="qgu4.5915353355186287630" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5915353355195211597" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5915353355190115960" resolveInfo="graphDb" />
               </node>
             </node>

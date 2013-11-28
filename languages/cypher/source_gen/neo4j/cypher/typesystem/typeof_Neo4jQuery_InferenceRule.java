@@ -33,7 +33,7 @@ public class typeof_Neo4jQuery_InferenceRule extends AbstractInferenceRule_Runti
   }
 
   public String getApplicableConceptFQName() {
-    return "neo4j.cypher.structure.Neo4jQuery";
+    return "neo4j.cypher.structure.Neo4jExec";
   }
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
@@ -51,7 +51,7 @@ public class typeof_Neo4jQuery_InferenceRule extends AbstractInferenceRule_Runti
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", null, null, GlobalScope.getInstance(), false);
-    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#8be426ea-f02f-4221-9d9f-9eb718c2d998#org.neo4j.cypher.javacompat(neo4j.cypher.runtime/org.neo4j.cypher.javacompat@java_stub)"), facade.createNodeId("~ExecutionEngine")));
+    quotedNode_1.setReference("classifier", SReference.create("classifier", quotedNode_1, facade.createModelReference("f:java_stub#8be426ea-f02f-4221-9d9f-9eb718c2d998#org.neo4j.graphdb(neo4j.cypher.runtime/org.neo4j.graphdb@java_stub)"), facade.createNodeId("~GraphDatabaseService")));
     return quotedNode_1;
   }
 

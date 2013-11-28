@@ -97,84 +97,86 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 40:
         return Collections.<ConceptEditor>singletonList(new NamedRelationshipRef_Editor());
       case 41:
-        return Collections.<ConceptEditor>singletonList(new Node_Editor());
+        return Collections.<ConceptEditor>singletonList(new Neo4jExec_Editor());
       case 42:
-        return Collections.<ConceptEditor>singletonList(new NodesCollFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new Node_Editor());
       case 43:
-        return Collections.<ConceptEditor>singletonList(new OrderByStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new NodesCollFunction_Editor());
       case 44:
-        return Collections.<ConceptEditor>singletonList(new Parameter_Editor());
+        return Collections.<ConceptEditor>singletonList(new OrderByStatement_Editor());
       case 45:
-        return Collections.<ConceptEditor>singletonList(new PathExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new Parameter_Editor());
       case 46:
-        return Collections.<ConceptEditor>singletonList(new PathFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new PathExpression_Editor());
       case 47:
-        return Collections.<ConceptEditor>singletonList(new PredicateExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new PathFunction_Editor());
       case 48:
-        return Collections.<ConceptEditor>singletonList(new PredicateFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new PredicateExpression_Editor());
       case 49:
-        return Collections.<ConceptEditor>singletonList(new Property_Editor());
+        return Collections.<ConceptEditor>singletonList(new PredicateFunction_Editor());
       case 50:
-        return Collections.<ConceptEditor>singletonList(new PropertyOperation_Editor());
+        return Collections.<ConceptEditor>singletonList(new Property_Editor());
       case 51:
-        return Collections.<ConceptEditor>singletonList(new QueryEmptyStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new PropertyOperation_Editor());
       case 52:
-        return Collections.<ConceptEditor>singletonList(new QuerySheet_Editor());
+        return Collections.<ConceptEditor>singletonList(new QueryEmptyStatement_Editor());
       case 53:
-        return Collections.<ConceptEditor>singletonList(new QueryStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new QuerySheet_Editor());
       case 54:
-        return Collections.<ConceptEditor>singletonList(new RLRelationship_Editor());
+        return Collections.<ConceptEditor>singletonList(new QueryStatement_Editor());
       case 55:
-        return Collections.<ConceptEditor>singletonList(new RTrimMStringFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new RLRelationship_Editor());
       case 56:
-        return Collections.<ConceptEditor>singletonList(new RangeCollFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new RTrimMStringFunction_Editor());
       case 57:
-        return Collections.<ConceptEditor>singletonList(new ReadOnlyQueryExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new RangeCollFunction_Editor());
       case 58:
-        return Collections.<ConceptEditor>singletonList(new ReadWriteQueryExpression_Editor());
+        return Collections.<ConceptEditor>singletonList(new ReadOnlyQueryExpression_Editor());
       case 59:
-        return Collections.<ConceptEditor>singletonList(new RelationshipType_Editor());
+        return Collections.<ConceptEditor>singletonList(new ReadWriteQueryExpression_Editor());
       case 60:
-        return Collections.<ConceptEditor>singletonList(new RelationshipsCollFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new RelationshipType_Editor());
       case 61:
-        return Collections.<ConceptEditor>singletonList(new ReplaceMStringFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new RelationshipsCollFunction_Editor());
       case 62:
-        return Collections.<ConceptEditor>singletonList(new ReturnStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new ReplaceMStringFunction_Editor());
       case 63:
-        return Collections.<ConceptEditor>singletonList(new ReturnStatementBlock_Editor());
+        return Collections.<ConceptEditor>singletonList(new ReturnStatement_Editor());
       case 64:
-        return Collections.<ConceptEditor>singletonList(new RightMStringFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new ReturnStatementBlock_Editor());
       case 65:
-        return Collections.<ConceptEditor>singletonList(new SetAssignmentStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new RightMStringFunction_Editor());
       case 66:
-        return Collections.<ConceptEditor>singletonList(new SetStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new SetAssignmentStatement_Editor());
       case 67:
-        return Collections.<ConceptEditor>singletonList(new SkipStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new SetStatement_Editor());
       case 68:
-        return Collections.<ConceptEditor>singletonList(new StartAssignmentStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new SkipStatement_Editor());
       case 69:
-        return Collections.<ConceptEditor>singletonList(new StartStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new StartAssignmentStatement_Editor());
       case 70:
-        return Collections.<ConceptEditor>singletonList(new StrStringFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new StartStatement_Editor());
       case 71:
-        return Collections.<ConceptEditor>singletonList(new SubstringMStringFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new StrStringFunction_Editor());
       case 72:
-        return Collections.<ConceptEditor>singletonList(new TailCollFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new SubstringMStringFunction_Editor());
       case 73:
-        return Collections.<ConceptEditor>singletonList(new TimestampScalarFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new TailCollFunction_Editor());
       case 74:
-        return Collections.<ConceptEditor>singletonList(new TrimMStringFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new TimestampScalarFunction_Editor());
       case 75:
-        return Collections.<ConceptEditor>singletonList(new TypeScalarFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new TrimMStringFunction_Editor());
       case 76:
-        return Collections.<ConceptEditor>singletonList(new UndirectedRelationship_Editor());
+        return Collections.<ConceptEditor>singletonList(new TypeScalarFunction_Editor());
       case 77:
-        return Collections.<ConceptEditor>singletonList(new UpperMStringFunction_Editor());
+        return Collections.<ConceptEditor>singletonList(new UndirectedRelationship_Editor());
       case 78:
-        return Collections.<ConceptEditor>singletonList(new WhereStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new UpperMStringFunction_Editor());
       case 79:
-        return Collections.<ConceptEditor>singletonList(new WithStatement_Editor());
+        return Collections.<ConceptEditor>singletonList(new WhereStatement_Editor());
       case 80:
+        return Collections.<ConceptEditor>singletonList(new WithStatement_Editor());
+      case 81:
         return Collections.<ConceptEditor>singletonList(new WriteOnlyQueryExpression_Editor());
       default:
     }
@@ -200,6 +202,6 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   }
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"neo4j.cypher.structure.AggregateFunction", "neo4j.cypher.structure.AllExpression", "neo4j.cypher.structure.AllIndex", "neo4j.cypher.structure.ApStringLiteral", "neo4j.cypher.structure.AsExpression", "neo4j.cypher.structure.AscOrderBy", "neo4j.cypher.structure.CoalesceScalarFunction", "neo4j.cypher.structure.Collection", "neo4j.cypher.structure.ConnectionSheet", "neo4j.cypher.structure.CreateStatement", "neo4j.cypher.structure.CypherDotExpression", "neo4j.cypher.structure.CypherIntegerConstant", "neo4j.cypher.structure.CypherNotExpression", "neo4j.cypher.structure.DeleteExpression", "neo4j.cypher.structure.DeleteStatement", "neo4j.cypher.structure.DescOrderBy", "neo4j.cypher.structure.DistinctExpression", "neo4j.cypher.structure.EmbeddedConnection", "neo4j.cypher.structure.EmptyConnectionStatement", "neo4j.cypher.structure.EmptyNode", "neo4j.cypher.structure.ExtractCollFunction", "neo4j.cypher.structure.HeadScalarFunction", "neo4j.cypher.structure.IdIndex", "neo4j.cypher.structure.IdScalarFunction", "neo4j.cypher.structure.ImpermanentConnection", "neo4j.cypher.structure.Index", "neo4j.cypher.structure.KeyValueNodeIndex", "neo4j.cypher.structure.KeyValueRelationshipIndex", "neo4j.cypher.structure.LRRelationship", "neo4j.cypher.structure.LTrimMStringFunction", "neo4j.cypher.structure.LastScalarFunction", "neo4j.cypher.structure.LeftMStringFunction", "neo4j.cypher.structure.LengthScalarFunction", "neo4j.cypher.structure.LowerMStringFunction", "neo4j.cypher.structure.LuceneIndex", "neo4j.cypher.structure.MatchStatement", "neo4j.cypher.structure.MathFunction", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedPathRef", "neo4j.cypher.structure.NamedPropertyContainerRef", "neo4j.cypher.structure.NamedRelationshipRef", "neo4j.cypher.structure.Node", "neo4j.cypher.structure.NodesCollFunction", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.Parameter", "neo4j.cypher.structure.PathExpression", "neo4j.cypher.structure.PathFunction", "neo4j.cypher.structure.PredicateExpression", "neo4j.cypher.structure.PredicateFunction", "neo4j.cypher.structure.Property", "neo4j.cypher.structure.PropertyOperation", "neo4j.cypher.structure.QueryEmptyStatement", "neo4j.cypher.structure.QuerySheet", "neo4j.cypher.structure.QueryStatement", "neo4j.cypher.structure.RLRelationship", "neo4j.cypher.structure.RTrimMStringFunction", "neo4j.cypher.structure.RangeCollFunction", "neo4j.cypher.structure.ReadOnlyQueryExpression", "neo4j.cypher.structure.ReadWriteQueryExpression", "neo4j.cypher.structure.RelationshipType", "neo4j.cypher.structure.RelationshipsCollFunction", "neo4j.cypher.structure.ReplaceMStringFunction", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.ReturnStatementBlock", "neo4j.cypher.structure.RightMStringFunction", "neo4j.cypher.structure.SetAssignmentStatement", "neo4j.cypher.structure.SetStatement", "neo4j.cypher.structure.SkipStatement", "neo4j.cypher.structure.StartAssignmentStatement", "neo4j.cypher.structure.StartStatement", "neo4j.cypher.structure.StrStringFunction", "neo4j.cypher.structure.SubstringMStringFunction", "neo4j.cypher.structure.TailCollFunction", "neo4j.cypher.structure.TimestampScalarFunction", "neo4j.cypher.structure.TrimMStringFunction", "neo4j.cypher.structure.TypeScalarFunction", "neo4j.cypher.structure.UndirectedRelationship", "neo4j.cypher.structure.UpperMStringFunction", "neo4j.cypher.structure.WhereStatement", "neo4j.cypher.structure.WithStatement", "neo4j.cypher.structure.WriteOnlyQueryExpression"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0a = new String[]{"neo4j.cypher.structure.AggregateFunction", "neo4j.cypher.structure.AllExpression", "neo4j.cypher.structure.AllIndex", "neo4j.cypher.structure.ApStringLiteral", "neo4j.cypher.structure.AsExpression", "neo4j.cypher.structure.AscOrderBy", "neo4j.cypher.structure.CoalesceScalarFunction", "neo4j.cypher.structure.Collection", "neo4j.cypher.structure.ConnectionSheet", "neo4j.cypher.structure.CreateStatement", "neo4j.cypher.structure.CypherDotExpression", "neo4j.cypher.structure.CypherIntegerConstant", "neo4j.cypher.structure.CypherNotExpression", "neo4j.cypher.structure.DeleteExpression", "neo4j.cypher.structure.DeleteStatement", "neo4j.cypher.structure.DescOrderBy", "neo4j.cypher.structure.DistinctExpression", "neo4j.cypher.structure.EmbeddedConnection", "neo4j.cypher.structure.EmptyConnectionStatement", "neo4j.cypher.structure.EmptyNode", "neo4j.cypher.structure.ExtractCollFunction", "neo4j.cypher.structure.HeadScalarFunction", "neo4j.cypher.structure.IdIndex", "neo4j.cypher.structure.IdScalarFunction", "neo4j.cypher.structure.ImpermanentConnection", "neo4j.cypher.structure.Index", "neo4j.cypher.structure.KeyValueNodeIndex", "neo4j.cypher.structure.KeyValueRelationshipIndex", "neo4j.cypher.structure.LRRelationship", "neo4j.cypher.structure.LTrimMStringFunction", "neo4j.cypher.structure.LastScalarFunction", "neo4j.cypher.structure.LeftMStringFunction", "neo4j.cypher.structure.LengthScalarFunction", "neo4j.cypher.structure.LowerMStringFunction", "neo4j.cypher.structure.LuceneIndex", "neo4j.cypher.structure.MatchStatement", "neo4j.cypher.structure.MathFunction", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedPathRef", "neo4j.cypher.structure.NamedPropertyContainerRef", "neo4j.cypher.structure.NamedRelationshipRef", "neo4j.cypher.structure.Neo4jExec", "neo4j.cypher.structure.Node", "neo4j.cypher.structure.NodesCollFunction", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.Parameter", "neo4j.cypher.structure.PathExpression", "neo4j.cypher.structure.PathFunction", "neo4j.cypher.structure.PredicateExpression", "neo4j.cypher.structure.PredicateFunction", "neo4j.cypher.structure.Property", "neo4j.cypher.structure.PropertyOperation", "neo4j.cypher.structure.QueryEmptyStatement", "neo4j.cypher.structure.QuerySheet", "neo4j.cypher.structure.QueryStatement", "neo4j.cypher.structure.RLRelationship", "neo4j.cypher.structure.RTrimMStringFunction", "neo4j.cypher.structure.RangeCollFunction", "neo4j.cypher.structure.ReadOnlyQueryExpression", "neo4j.cypher.structure.ReadWriteQueryExpression", "neo4j.cypher.structure.RelationshipType", "neo4j.cypher.structure.RelationshipsCollFunction", "neo4j.cypher.structure.ReplaceMStringFunction", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.ReturnStatementBlock", "neo4j.cypher.structure.RightMStringFunction", "neo4j.cypher.structure.SetAssignmentStatement", "neo4j.cypher.structure.SetStatement", "neo4j.cypher.structure.SkipStatement", "neo4j.cypher.structure.StartAssignmentStatement", "neo4j.cypher.structure.StartStatement", "neo4j.cypher.structure.StrStringFunction", "neo4j.cypher.structure.SubstringMStringFunction", "neo4j.cypher.structure.TailCollFunction", "neo4j.cypher.structure.TimestampScalarFunction", "neo4j.cypher.structure.TrimMStringFunction", "neo4j.cypher.structure.TypeScalarFunction", "neo4j.cypher.structure.UndirectedRelationship", "neo4j.cypher.structure.UpperMStringFunction", "neo4j.cypher.structure.WhereStatement", "neo4j.cypher.structure.WithStatement", "neo4j.cypher.structure.WriteOnlyQueryExpression"};
   private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"neo4j.cypher.structure.Relationship"};
 }

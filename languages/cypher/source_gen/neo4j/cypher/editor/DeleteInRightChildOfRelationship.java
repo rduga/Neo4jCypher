@@ -41,7 +41,7 @@ public class DeleteInRightChildOfRelationship {
 
       if (SNodeOperations.isInstanceOf(parent, "neo4j.cypher.structure.RLRelationship")) {
         SNode uni = SConceptOperations.createNewNode("neo4j.cypher.structure.UndirectedRelationship", null);
-        Relationship_Behavior.call_copyRelationshipProperties_6581467451102927870(uni, parent);
+        Relationship_Behavior.call_copyRelationshipProperties_6581467451102927870(uni, SNodeOperations.cast(parent, "neo4j.cypher.structure.Relationship"));
         SNodeOperations.replaceWithAnother(parent, uni);
       } else {
         SNodeOperations.replaceWithAnother(parent, currentNode);

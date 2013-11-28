@@ -76,9 +76,9 @@
   </root>
   <root nodeRef="r:9791e82d-c5eb-4440-b52c-28c559599e1d(neo4j.cypher.sandbox.sandbox)/5915353355183473238">
     <nodeInfo nodeId="5915353355183496357" fileName="ExampleTesting.java" startLine="7" startPosition="42" endLine="8" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="5915353355183496069" fileName="ExampleTesting.java" startLine="8" startPosition="0" endLine="9" endPosition="250" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355183496069" fileName="ExampleTesting.java" startLine="8" startPosition="0" endLine="9" endPosition="251" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="5915353355183473252" fileName="ExampleTesting.java" startLine="7" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <scopeInfo nodeId="5915353355183473258" fileName="ExampleTesting.java" startLine="7" startPosition="42" endLine="9" endPosition="250">
+    <scopeInfo nodeId="5915353355183473258" fileName="ExampleTesting.java" startLine="7" startPosition="42" endLine="9" endPosition="251">
       <varInfo nodeId="1663756355259156216" varName="cypherRWQuery" />
     </scopeInfo>
     <scopeInfo nodeId="5915353355183473252" fileName="ExampleTesting.java" startLine="7" startPosition="0" endLine="11" endPosition="0">
