@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-9hg2gg4jjdp7gm2sfmiuk8vle30v6z">
+<dependencies version="2" modelHash="7o792y4kfldd019rxkuz7e6xe61bf8v">
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
@@ -332,7 +332,7 @@
   <source id="5915353355195736498" name="ReadWriteQueryStringExpression" hash="-8jjnd0yr8ig3nsl7ptcf28innjkg3yz" />
   <source id="5915353355195736527" name="ReadWriteQueryTupleExpression" hash="-dntiw7gkr34z3rumoyx0jm66gymj300" />
   <source id="5915353355195736556" name="WriteOnlyQueryTupleExpression" hash="-dp9ijmf3ua7rkddm32qzxy2ltikaa10" />
-  <source id="5915353355196217882" name="CypherTupleType" hash="c5mqa4nsi3kwawja5vetmo3m9g1e42q" />
+  <source id="5915353355196217882" name="CypherTupleType" hash="7krttr1yt2dvy79rclrnpwxfgc0vssk" />
   <source id="5915353355198810180" name="WriteOnlyQueryStringExpression" hash="-cqxdtcgx5h21h2m6xijhxf3y5hsvkvi" />
 </dependencies>
 

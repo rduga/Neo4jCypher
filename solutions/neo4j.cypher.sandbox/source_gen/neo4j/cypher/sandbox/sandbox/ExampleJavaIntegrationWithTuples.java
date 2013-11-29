@@ -18,6 +18,10 @@ public class ExampleJavaIntegrationWithTuples {
 
     System.out.println("example" + tplexample);
     System.out.println("example tuple call:" + getExampleNamedTuple());
+
+    String readOnlyQuery = "START tuplenode = node(*), tuplenode2 = node(*) RETURN tuplenode,tuplenode2,\"str1\",\"str2\" ";
+
+    System.out.println("typed:" + readOnlyQuery);
   }
 
 

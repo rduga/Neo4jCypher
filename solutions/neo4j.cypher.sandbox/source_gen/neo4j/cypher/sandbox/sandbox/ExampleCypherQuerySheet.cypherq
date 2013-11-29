@@ -1,3 +1,3 @@
 Cypher Query Definitions: ExampleCypherQuerySheet
 
-"START xx1 = node(*) RETURN \"sdf\",\"sdfsdf\" "
+"START ads = node(*) RETURN ads,\"dfg\",\"ret3\" "

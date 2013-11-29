@@ -46,6 +46,10 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
   </dependency>
+  <dependency className="neo4j.cypher.textGen.CypherTupleType_TextGen" file="CypherTupleType_TextGen.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
+  </dependency>
   <dependency className="neo4j.cypher.textGen.DeleteExpression_TextGen" file="DeleteExpression_TextGen.java">
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.textGen.TextGenManager" />

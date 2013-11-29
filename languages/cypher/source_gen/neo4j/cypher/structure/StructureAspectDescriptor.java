@@ -86,7 +86,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 35:
         return new ConceptDescriptorBuilder("neo4j.cypher.structure.CypherStatement").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").abstract_().create();
       case 36:
-        return new ConceptDescriptorBuilder("neo4j.cypher.structure.CypherTupleType").super_("jetbrains.mps.baseLanguage.structure.Type").parents("jetbrains.mps.baseLanguage.structure.Type").children(new String[]{"tupleType"}, new boolean[]{false}).create();
+        return new ConceptDescriptorBuilder("neo4j.cypher.structure.CypherTupleType").super_("jetbrains.mps.baseLanguage.structure.Type").parents("jetbrains.mps.baseLanguage.structure.Type").children(new String[]{"tupleType"}, new boolean[]{false}).alias("cypherTupleType", "").create();
       case 37:
         return new ConceptDescriptorBuilder("neo4j.cypher.structure.DeleteExpression").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("neo4j.cypher.structure.IDeleteExpression", "neo4j.cypher.structure.IOrderedExpression", "jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"expression"}, new boolean[]{false}).create();
       case 38:

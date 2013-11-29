@@ -146,22 +146,27 @@
     <nodeInfo nodeId="5915353355195622139" fileName="ExampleJavaIntegrationWithTuples.java" startLine="17" startPosition="22" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
     <nodeInfo nodeId="5915353355195529802" fileName="ExampleJavaIntegrationWithTuples.java" startLine="18" startPosition="0" endLine="19" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="5915353355195637681" fileName="ExampleJavaIntegrationWithTuples.java" startLine="19" startPosition="47" endLine="20" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355195632741" fileName="ExampleJavaIntegrationWithTuples.java" startLine="25" startPosition="58" endLine="26" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355195634487" fileName="ExampleJavaIntegrationWithTuples.java" startLine="26" startPosition="46" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="5915353355195635939" fileName="ExampleJavaIntegrationWithTuples.java" startLine="27" startPosition="0" endLine="28" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5915353355195655052" fileName="ExampleJavaIntegrationWithTuples.java" startLine="25" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getExampleNamedTuple#()Ljetbrains/mps/baseLanguage/tuples/runtime/Tuples/_0;" />
-    <nodeInfo nodeId="5915353355195555814" fileName="ExampleJavaIntegrationWithTuples.java" startLine="12" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
-    <scopeInfo nodeId="5915353355195632452" fileName="ExampleJavaIntegrationWithTuples.java" startLine="25" startPosition="58" endLine="28" endPosition="50" />
-    <scopeInfo nodeId="5915353355195655052" fileName="ExampleJavaIntegrationWithTuples.java" startLine="25" startPosition="0" endLine="30" endPosition="0" />
-    <scopeInfo nodeId="5915353355195555820" fileName="ExampleJavaIntegrationWithTuples.java" startLine="12" startPosition="42" endLine="20" endPosition="71">
+    <nodeInfo nodeId="5915353355202869644" fileName="ExampleJavaIntegrationWithTuples.java" startLine="20" startPosition="71" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3444411749674879126" fileName="ExampleJavaIntegrationWithTuples.java" startLine="21" startPosition="0" endLine="22" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355205513009" fileName="ExampleJavaIntegrationWithTuples.java" startLine="22" startPosition="124" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355205495190" fileName="ExampleJavaIntegrationWithTuples.java" startLine="23" startPosition="0" endLine="24" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355195632741" fileName="ExampleJavaIntegrationWithTuples.java" startLine="29" startPosition="58" endLine="30" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355195634487" fileName="ExampleJavaIntegrationWithTuples.java" startLine="30" startPosition="46" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5915353355195635939" fileName="ExampleJavaIntegrationWithTuples.java" startLine="31" startPosition="0" endLine="32" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355195655052" fileName="ExampleJavaIntegrationWithTuples.java" startLine="29" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getExampleNamedTuple#()Ljetbrains/mps/baseLanguage/tuples/runtime/Tuples/_0;" />
+    <nodeInfo nodeId="5915353355195555814" fileName="ExampleJavaIntegrationWithTuples.java" startLine="12" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="main#([Ljava/lang/String;)V" />
+    <scopeInfo nodeId="5915353355195632452" fileName="ExampleJavaIntegrationWithTuples.java" startLine="29" startPosition="58" endLine="32" endPosition="50" />
+    <scopeInfo nodeId="5915353355195655052" fileName="ExampleJavaIntegrationWithTuples.java" startLine="29" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="5915353355195555820" fileName="ExampleJavaIntegrationWithTuples.java" startLine="12" startPosition="42" endLine="24" endPosition="49">
       <varInfo nodeId="5915353355195626897" varName="exampleNamedTuple" />
       <varInfo nodeId="5915353355196243790" varName="list" />
+      <varInfo nodeId="3444411749674879127" varName="readOnlyQuery" />
       <varInfo nodeId="5915353355195513142" varName="tplexample" />
     </scopeInfo>
-    <scopeInfo nodeId="5915353355195555814" fileName="ExampleJavaIntegrationWithTuples.java" startLine="12" startPosition="0" endLine="22" endPosition="0">
+    <scopeInfo nodeId="5915353355195555814" fileName="ExampleJavaIntegrationWithTuples.java" startLine="12" startPosition="0" endLine="26" endPosition="0">
       <varInfo nodeId="5915353355195555815" varName="args" />
     </scopeInfo>
-    <unitInfo nodeId="5915353355195550349" fileName="ExampleJavaIntegrationWithTuples.java" startLine="9" startPosition="0" endLine="35" endPosition="0" unitName="neo4j.cypher.sandbox.sandbox.ExampleJavaIntegrationWithTuples" />
+    <unitInfo nodeId="5915353355195550349" fileName="ExampleJavaIntegrationWithTuples.java" startLine="9" startPosition="0" endLine="39" endPosition="0" unitName="neo4j.cypher.sandbox.sandbox.ExampleJavaIntegrationWithTuples" />
   </root>
   <root nodeRef="r:9791e82d-c5eb-4440-b52c-28c559599e1d(neo4j.cypher.sandbox.sandbox)/5915353355195625658">
     <nodeInfo nodeId="5915353355195625658" fileName="ExampleNamedTuple.java" startLine="9" startPosition="30" endLine="10" endPosition="12" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />

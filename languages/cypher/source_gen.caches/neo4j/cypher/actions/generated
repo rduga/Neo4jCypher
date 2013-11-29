@@ -21,7 +21,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959051a(jetbrains.mps.baseLanguage.regexp.generator.baseLanguage.template.main@generator)" />
   <dep model="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)" hash="1cnr97j2chd7ksyzjj5mlvmllnp2sx7" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="1c27a2d9k2it85hnzyz2spgp2vktqc9" />
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="7o792y4kfldd019rxkuz7e6xe61bf8v" />
   <common hash="-8g1d8j8r9h8oormsyjh21v4wii456x8">
     <dep root="1325020284374352195" />
     <dep root="2394186179449960312" />

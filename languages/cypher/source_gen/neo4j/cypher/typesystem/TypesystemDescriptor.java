@@ -102,10 +102,6 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      InferenceRule_Runtime inferenceRule = new typeof_ReadOnlyQueryTupleExpression_InferenceRule();
-      this.myInferenceRules.add(inferenceRule);
-    }
-    {
       InferenceRule_Runtime inferenceRule = new typeof_Relationship_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }

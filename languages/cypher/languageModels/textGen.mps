@@ -154,7 +154,7 @@
   </root>
   <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="6209596031533588017" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="query.statement" />
-    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="qgu4.1268543411551995397" resolveInfo="QueryStatement" />
+    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="qgu4.1268543411551995397" resolveInfo="QueryTupleStatement" />
     <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="6209596031533588018" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6209596031533588019" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="6209596031533588020" nodeInfo="nn">
@@ -2236,6 +2236,24 @@
           </node>
           <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="5915353355183548958" nodeInfo="ng">
             <property name="value" nameId="2omo.1237305576108" value="()" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="3444411749675053049" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="query.expression.typed" />
+    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="qgu4.5915353355196217882" resolveInfo="CypherTupleType" />
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="3444411749675053050" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3444411749675053051" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="3444411749675063273" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="3444411749675063290" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="FIXME: temporary generate into string" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="1237463992452" nodeInfo="nn">
+          <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="1237463992454" nodeInfo="ng">
+            <property name="value" nameId="2omo.1237305576108" value="String" />
           </node>
         </node>
       </node>
