@@ -7,8 +7,8 @@ import jetbrains.mps.baseLanguage.behavior.IValidIdentifier_BehaviorDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class QueryStatement_BehaviorDescriptor extends Statement_BehaviorDescriptor implements IValidIdentifier_BehaviorDescriptor, IQueryStatement_BehaviorDescriptor {
-  public QueryStatement_BehaviorDescriptor() {
+public class QueryTupleStatement_BehaviorDescriptor extends Statement_BehaviorDescriptor implements IValidIdentifier_BehaviorDescriptor, IQuerySheetStatement_BehaviorDescriptor {
+  public QueryTupleStatement_BehaviorDescriptor() {
   }
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {
@@ -17,6 +17,6 @@ public class QueryStatement_BehaviorDescriptor extends Statement_BehaviorDescrip
 
   @Override
   public String getConceptFqName() {
-    return "neo4j.cypher.structure.QueryStatement";
+    return "neo4j.cypher.structure.QueryTupleStatement";
   }
 }

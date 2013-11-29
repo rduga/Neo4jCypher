@@ -12,20 +12,20 @@ import jetbrains.mps.smodel.SModelUtil_new;
 import org.jetbrains.mps.openapi.persistence.PersistenceFacade;
 import jetbrains.mps.project.GlobalScope;
 
-public class typeof_QueryExpression_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
-  public typeof_QueryExpression_InferenceRule() {
+public class typeof_QueryStringExpression_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
+  public typeof_QueryStringExpression_InferenceRule() {
   }
 
-  public void applyRule(final SNode queryExpression, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
+  public void applyRule(final SNode queryStringExpression, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
     {
-      SNode _nodeToCheck_1029348928467 = queryExpression;
-      EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "1160499357071254489", 0, null);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "1160499357071254466", true), (SNode) _quotation_createNode_cuqbfo_a0a0b(), _info_12389875345);
+      SNode _nodeToCheck_1029348928467 = queryStringExpression;
+      EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "5915353355195821531", 0, null);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "5915353355195821362", true), (SNode) _quotation_createNode_pw6jp8_a0a0b(), _info_12389875345);
     }
   }
 
   public String getApplicableConceptFQName() {
-    return "neo4j.cypher.structure.QueryExpression";
+    return "neo4j.cypher.structure.QueryStringExpression";
   }
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
@@ -39,7 +39,7 @@ public class typeof_QueryExpression_InferenceRule extends AbstractInferenceRule_
     return false;
   }
 
-  private static SNode _quotation_createNode_cuqbfo_a0a0b() {
+  private static SNode _quotation_createNode_pw6jp8_a0a0b() {
     PersistenceFacade facade = PersistenceFacade.getInstance();
     SNode quotedNode_1 = null;
     quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", null, null, GlobalScope.getInstance(), false);

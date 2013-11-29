@@ -28,6 +28,7 @@ public class ExampleJavaIntegrationPureNeo4jCypher {
 
     ExecutionResult result = new ExecutionEngine(graphDb).execute("START nod234 = node(*) WHERE nod234.name = \"john\" RETURN nod234 ");
 
+
     System.out.println("neo4jCypherWriteOnlyQueryExec: ");
     writeResult(new ExecutionEngine(graphDb).execute("CREATE (n{name:\"my node\"}) "));
 
@@ -35,8 +36,10 @@ public class ExampleJavaIntegrationPureNeo4jCypher {
     writeResult(new ExecutionEngine(graphDb).execute("START n = node(*) WHERE n.name! = \"my node\" RETURN n,n.name ORDER BY n.name "));
 
     System.out.println("neo4jCypherReadWriteQueryExec: ");
-    writeResult(new ExecutionEngine(graphDb).execute("START n = node(*) WHERE n.name! = \"my node\" SET n.name = \"my new node\" RETURN n,n.name "));
+    writeResult(new ExecutionEngine(graphDb).execute("START n = node(*) WHERE n.name! = \"my node\" RETURN n,n.name "));
   }
+
+
 
 
 

@@ -33,10 +33,9 @@ public class ExampleJavaIntegrationCypherString {
     String pureStringQuery = "start n=node(*) where n.name! = 'my node' return n, n.name";
     String neo4jCypherWriteOnlyQueryString = "CREATE (n{name:\"my node\"}) ";
 
-    String neo4jCypherReadOnlyQueryString = "START n = node(*) WHERE n.name! = \"my node\" RETURN n,n.name ORDER BY n.name ";
+    String neo4jCypherReadOnlyQueryString = "START n = node(*) WHERE n.name = \"my node\" RETURN n,n.name ";
 
-    String neo4jCypherReadWriteQueryString = "START n = node(*) WHERE n.name! = \"my node\" SET n.name = \"my new node\" RETURN n,n.name ";
-
+    String neo4jCypherReadWriteQueryString = "START n = node(*) WHERE n.name = \"my node\" SET n.name = \"my new node\" RETURN n,n.name ";
 
     System.out.println("Pure query string: " + pureStringQuery);
     executeAndwriteResult(pureStringQuery, engine);

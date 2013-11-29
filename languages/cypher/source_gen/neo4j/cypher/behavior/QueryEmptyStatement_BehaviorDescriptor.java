@@ -4,7 +4,7 @@ package neo4j.cypher.behavior;
 
 import jetbrains.mps.baseLanguage.behavior.Statement_BehaviorDescriptor;
 
-public class QueryEmptyStatement_BehaviorDescriptor extends Statement_BehaviorDescriptor implements IQueryStatement_BehaviorDescriptor {
+public class QueryEmptyStatement_BehaviorDescriptor extends Statement_BehaviorDescriptor implements IQuerySheetStatement_BehaviorDescriptor {
   public QueryEmptyStatement_BehaviorDescriptor() {
   }
 

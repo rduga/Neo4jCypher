@@ -13,7 +13,7 @@ import org.apache.log4j.Priority;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
-public class QueryStatement_TextGen extends SNodeTextGen {
+public class QueryTupleStatement_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     if (getBuffer().hasPositionsSupport()) {
       TraceInfoGenerationUtil.createPositionInfo(this, node);
@@ -35,5 +35,5 @@ public class QueryStatement_TextGen extends SNodeTextGen {
     }
   }
 
-  protected static Logger LOG = LogManager.getLogger(QueryStatement_TextGen.class);
+  protected static Logger LOG = LogManager.getLogger(QueryTupleStatement_TextGen.class);
 }

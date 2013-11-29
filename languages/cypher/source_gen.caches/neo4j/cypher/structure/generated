@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="9s2jzhbzxkjo8zfpj6vfv8mddbxshu2">
+<dependencies version="2" modelHash="-9hg2gg4jjdp7gm2sfmiuk8vle30v6z">
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="45v38w3qzj2vecvausrr6woeya2juwy">
+  <common hash="19j8r5upepe1fy4324y5m7acxybmccm">
     <dep root="1268543411551983790" />
     <dep root="1268543411551995397" />
     <dep root="1268543411552025423" />
@@ -131,6 +131,15 @@
     <dep root="5784729841983545159" />
     <dep root="5784729841983545160" />
     <dep root="5915353355186285349" />
+    <dep root="5915353355195734376" />
+    <dep root="5915353355195736032" />
+    <dep root="5915353355195736312" />
+    <dep root="5915353355195736425" />
+    <dep root="5915353355195736498" />
+    <dep root="5915353355195736527" />
+    <dep root="5915353355195736556" />
+    <dep root="5915353355196217882" />
+    <dep root="5915353355198810180" />
     <dep root="6440869843963881978" />
     <dep root="7169725830544999549" />
     <dep root="7169725830545051563" />
@@ -164,11 +173,11 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="StructureAspectDescriptor.java" />
   </common>
-  <source id="1268543411551983790" name="QuerySheet" hash="-1rfw9y67xgiidet718i3efw66idmqjh" />
-  <source id="1268543411551995397" name="QueryStatement" hash="6ln7b1rha2xn4x825wfr1flx9nhvx1t" />
+  <source id="1268543411551983790" name="QuerySheet" hash="-cn8hgvl1f4iby3jq17hqijmmf8sr756" />
+  <source id="1268543411551995397" name="QueryTupleStatement" hash="-65reihfmmx2d0xiopoqvv36rh0nf54s" />
   <source id="1268543411552025423" name="QueryExpression" hash="chzolddz6w8rrssyi4nh0kqf8blvgmy" />
-  <source id="1268543411552161285" name="ReadOnlyQueryExpression" hash="-35zh9i3o4q7isadfivvmc8mewbcqesy" />
-  <source id="1268543411552161286" name="ReadWriteQueryExpression" hash="d8c0ytk3yvvgcldzhn82mapynavpu4p" />
+  <source id="1268543411552161285" name="ReadOnlyQueryExpression" hash="9rvf14ploxzgcvgaqoqul5go1asnfvz" />
+  <source id="1268543411552161286" name="ReadWriteQueryExpression" hash="-az4yupjxtzpqn0i26yrkdm2ie2qj1z7" />
   <source id="1268543411552161296" name="StartAssignmentStatement" hash="-b8i4snsw7emesm7qfqr4630uxd4r57b" />
   <source id="1268543411552161297" name="Node" hash="-e4hcvx5a63lnkd2xdgqltllpmyxp9l7" />
   <source id="1268543411552224123" name="Index" hash="-7f2oxja5vha4uo597ifhsf5wwk04n0y" />
@@ -177,8 +186,8 @@
   <source id="1268543411552224132" name="IdIndex" hash="-ctgd5pt3e5ol9b4ho00htupbafpg61h" />
   <source id="1268543411552224159" name="NamedIndex" hash="3a9625ti1ii7yb0aqrjj0h7p6uprdgv" />
   <source id="1268543411552224188" name="AllIndex" hash="-b3wucti3tmqgiom84ebcnq4x04a1wht" />
-  <source id="1268543411552273140" name="QueryEmptyStatement" hash="-qphleo5yi5nf8lh1c9p4pc7pdtqahm" />
-  <source id="1268543411552277293" name="IQueryStatement" hash="-6k12k9eangtydg7fqi9ktb1w3uakq1z" />
+  <source id="1268543411552273140" name="QueryEmptyStatement" hash="-ae8u5jjx35666z0dpcpnv82nrovhvis" />
+  <source id="1268543411552277293" name="IQuerySheetStatement" hash="-pno9cfdhzfry8ed96qpgtvlh7rrfex" />
   <source id="7169725830544999549" name="PropertyContainer" hash="-2mt0e9st6o8ioiqpk4kb46hip8xugv4" />
   <source id="7169725830545051563" name="Relationship" hash="-535ciwsh3i7gvtbnyo86tnmo3zdemlo" />
   <source id="2686030116060608322" name="RelationshipType" hash="-brcxqypz3mmh4zjkxwgvskez4mmfmws" />
@@ -306,7 +315,7 @@
   <source id="769752699177760055" name="SetAssignmentStatement" hash="9p3r6vg1a00dalsy1u95n5wjsjer3be" />
   <source id="769752699177906561" name="ISetExpression" hash="3r6aodlkxiikrm90jm14nhpyctf43cr" />
   <source id="2555493848067153827" name="IWriteStatement" hash="-4a8zo8cwf4asp44undgedljth10dmd4" />
-  <source id="2555493848067153829" name="WriteOnlyQueryExpression" hash="969ag17lysnnbxcr7gjz2kkvm4j65q" />
+  <source id="2555493848067153829" name="WriteOnlyQueryExpression" hash="692dj0teomgg3h7ss0s7bsrkozvkem1" />
   <source id="8020740480871949053" name="EmbeddedConnection" hash="-1l62x87a1f1wt1ratazfm33dap109ci" />
   <source id="8020740480872419274" name="CypherStatementOrder" hash="-5olr3itnzltaevo8zgyrfu9fb7n75hj">
     <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -315,6 +324,15 @@
   <source id="8807834474661724159" name="IWrite" hash="3dbu8zlx7nwk6e093zal7ksypgqthwt" />
   <source id="8807834474661724161" name="IOrderedExpression" hash="bggd71yehmxhnt5e2mvd9iqmr0ynhfc" />
   <source id="8807834474661724166" name="DeleteExpression" hash="-578xabmca6w19qfcvdbbrr04rzlm09r" />
-  <source id="5915353355186285349" name="Neo4jExec" hash="7xfq2xwcazplzf0qttrbcngfdejhmfi" />
+  <source id="5915353355186285349" name="Neo4jExec" hash="1wtbbppwss92f98a34a3tbep2qvop2k" />
+  <source id="5915353355195734376" name="QueryStringExpression" hash="71tey3kl3kefl1locqobzrscgwxg95t" />
+  <source id="5915353355195736032" name="QueryTupleExpression" hash="60z2vq5j7hcs7ce5y2c4qecqxbgfffa" />
+  <source id="5915353355195736312" name="ReadOnlyQueryStringExpression" hash="-7fkxyll3gfcurx9ph8vewsviz1vw5gk" />
+  <source id="5915353355195736425" name="ReadOnlyQueryTupleExpression" hash="-aot6q1ivzug3fmegic5vgqmiwgt9vto" />
+  <source id="5915353355195736498" name="ReadWriteQueryStringExpression" hash="-8jjnd0yr8ig3nsl7ptcf28innjkg3yz" />
+  <source id="5915353355195736527" name="ReadWriteQueryTupleExpression" hash="-dntiw7gkr34z3rumoyx0jm66gymj300" />
+  <source id="5915353355195736556" name="WriteOnlyQueryTupleExpression" hash="-dp9ijmf3ua7rkddm32qzxy2ltikaa10" />
+  <source id="5915353355196217882" name="CypherTupleType" hash="c5mqa4nsi3kwawja5vetmo3m9g1e42q" />
+  <source id="5915353355198810180" name="WriteOnlyQueryStringExpression" hash="-cqxdtcgx5h21h2m6xijhxf3y5hsvkvi" />
 </dependencies>
 

@@ -11,7 +11,7 @@
   <unitInfo fileName="AsExpression_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.behavior.AsExpression_BehaviorDescriptor" />
   <unitInfo fileName="AscOrderBy_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.AscOrderBy_BehaviorDescriptor" />
   <unitInfo fileName="AvgAggregate_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.AvgAggregate_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="248" endPosition="0" unitName="neo4j.cypher.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="256" endPosition="0" unitName="neo4j.cypher.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CoalesceScalarFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.CoalesceScalarFunction_BehaviorDescriptor" />
   <unitInfo fileName="CollectAggregate_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.CollectAggregate_BehaviorDescriptor" />
   <unitInfo fileName="CollectionFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.CollectionFunction_BehaviorDescriptor" />
@@ -37,6 +37,7 @@
   <unitInfo fileName="CypherRelationshipType_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.CypherRelationshipType_BehaviorDescriptor" />
   <unitInfo fileName="CypherRemExpression_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="neo4j.cypher.behavior.CypherRemExpression_BehaviorDescriptor" />
   <unitInfo fileName="CypherStatement_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="19" endPosition="0" unitName="neo4j.cypher.behavior.CypherStatement_BehaviorDescriptor" />
+  <unitInfo fileName="CypherTupleType_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.CypherTupleType_BehaviorDescriptor" />
   <unitInfo fileName="DeleteExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.DeleteExpression_BehaviorDescriptor" />
   <unitInfo fileName="DeleteStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="24" endPosition="0" unitName="neo4j.cypher.behavior.DeleteStatement_BehaviorDescriptor" />
   <unitInfo fileName="DescOrderBy_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.DescOrderBy_BehaviorDescriptor" />
@@ -61,7 +62,7 @@
   <unitInfo fileName="IOrderByExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IOrderByExpression_BehaviorDescriptor" />
   <unitInfo fileName="IOrderedExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IOrderedExpression_BehaviorDescriptor" />
   <unitInfo fileName="IPropertyContainer_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IPropertyContainer_BehaviorDescriptor" />
-  <unitInfo fileName="IQueryStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IQueryStatement_BehaviorDescriptor" />
+  <unitInfo fileName="IQuerySheetStatement_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IQuerySheetStatement_BehaviorDescriptor" />
   <unitInfo fileName="IReturnExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IReturnExpression_BehaviorDescriptor" />
   <unitInfo fileName="ISetExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.ISetExpression_BehaviorDescriptor" />
   <unitInfo fileName="IWhereExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.IWhereExpression_BehaviorDescriptor" />
@@ -111,12 +112,18 @@
   <unitInfo fileName="QueryEmptyStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.QueryEmptyStatement_BehaviorDescriptor" />
   <unitInfo fileName="QueryExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.QueryExpression_BehaviorDescriptor" />
   <unitInfo fileName="QuerySheet_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.behavior.QuerySheet_BehaviorDescriptor" />
-  <unitInfo fileName="QueryStatement_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.behavior.QueryStatement_BehaviorDescriptor" />
+  <unitInfo fileName="QueryStringExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="neo4j.cypher.behavior.QueryStringExpression_BehaviorDescriptor" />
+  <unitInfo fileName="QueryTupleExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="neo4j.cypher.behavior.QueryTupleExpression_BehaviorDescriptor" />
+  <unitInfo fileName="QueryTupleStatement_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.behavior.QueryTupleStatement_BehaviorDescriptor" />
   <unitInfo fileName="RLRelationship_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.RLRelationship_BehaviorDescriptor" />
   <unitInfo fileName="RTrimMStringFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.RTrimMStringFunction_BehaviorDescriptor" />
   <unitInfo fileName="RangeCollFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.RangeCollFunction_BehaviorDescriptor" />
   <unitInfo fileName="ReadOnlyQueryExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.ReadOnlyQueryExpression_BehaviorDescriptor" />
+  <unitInfo fileName="ReadOnlyQueryStringExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.ReadOnlyQueryStringExpression_BehaviorDescriptor" />
+  <unitInfo fileName="ReadOnlyQueryTupleExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.behavior.ReadOnlyQueryTupleExpression_BehaviorDescriptor" />
   <unitInfo fileName="ReadWriteQueryExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.ReadWriteQueryExpression_BehaviorDescriptor" />
+  <unitInfo fileName="ReadWriteQueryStringExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.ReadWriteQueryStringExpression_BehaviorDescriptor" />
+  <unitInfo fileName="ReadWriteQueryTupleExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.behavior.ReadWriteQueryTupleExpression_BehaviorDescriptor" />
   <unitInfo fileName="ReduceCollFunction_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.ReduceCollFunction_BehaviorDescriptor" />
   <unitInfo fileName="RelationshipType_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="neo4j.cypher.behavior.RelationshipType_BehaviorDescriptor" />
   <unitInfo fileName="Relationship_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="neo4j.cypher.behavior.Relationship_BehaviorDescriptor" />
@@ -149,6 +156,8 @@
   <unitInfo fileName="WhereStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.behavior.WhereStatement_BehaviorDescriptor" />
   <unitInfo fileName="WithStatement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.behavior.WithStatement_BehaviorDescriptor" />
   <unitInfo fileName="WriteOnlyQueryExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.WriteOnlyQueryExpression_BehaviorDescriptor" />
+  <unitInfo fileName="WriteOnlyQueryStringExpression_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="neo4j.cypher.behavior.WriteOnlyQueryStringExpression_BehaviorDescriptor" />
+  <unitInfo fileName="WriteOnlyQueryTupleExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="20" endPosition="0" unitName="neo4j.cypher.behavior.WriteOnlyQueryTupleExpression_BehaviorDescriptor" />
   <root nodeRef="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)/1325020284374268226">
     <nodeInfo nodeId="1213877269062" fileName="CypherPlusExpression_Behavior.java" startLine="15" startPosition="83" endLine="16" endPosition="188" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="1213877269071" fileName="CypherPlusExpression_Behavior.java" startLine="16" startPosition="188" endLine="17" endPosition="190" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -668,6 +677,70 @@
       <varInfo nodeId="5206628397327481274" varName="thisConcept" />
     </scopeInfo>
     <unitInfo nodeId="5206628397327481274" fileName="Parameter_Behavior.java" startLine="8" startPosition="0" endLine="27" endPosition="0" unitName="neo4j.cypher.behavior.Parameter_Behavior" />
+  </root>
+  <root nodeRef="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)/5915353355198810183">
+    <nodeInfo nodeId="5915353355198810183" fileName="QueryTupleExpression_Behavior.java" startLine="15" startPosition="83" endLine="16" endPosition="159" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355198810183" fileName="QueryTupleExpression_Behavior.java" startLine="20" startPosition="116" endLine="21" endPosition="284" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355198810183" fileName="QueryTupleExpression_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="5915353355198810183" fileName="QueryTupleExpression_Behavior.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getReturnStatement_5915353355198811340#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5915353355198810183" fileName="QueryTupleExpression_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getReturnStatement_5915353355198811340#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="5915353355198810185" fileName="QueryTupleExpression_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
+    <scopeInfo nodeId="5915353355198810183" fileName="QueryTupleExpression_Behavior.java" startLine="15" startPosition="83" endLine="16" endPosition="159" />
+    <scopeInfo nodeId="5915353355198810183" fileName="QueryTupleExpression_Behavior.java" startLine="20" startPosition="116" endLine="21" endPosition="284" />
+    <scopeInfo nodeId="5915353355198810183" fileName="QueryTupleExpression_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="5915353355198810183" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355198810183" fileName="QueryTupleExpression_Behavior.java" startLine="14" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="5915353355198810183" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355198810183" fileName="QueryTupleExpression_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="5915353355198810183" varName="callerConceptFqName" />
+      <varInfo nodeId="5915353355198810183" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355198810183" fileName="QueryTupleExpression_Behavior.java" startLine="10" startPosition="0" endLine="24" endPosition="0" unitName="neo4j.cypher.behavior.QueryTupleExpression_Behavior" />
+  </root>
+  <root nodeRef="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)/5915353355198811351">
+    <nodeInfo nodeId="5915353355198811364" fileName="ReadOnlyQueryTupleExpression_Behavior.java" startLine="12" startPosition="86" endLine="13" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355198811351" fileName="ReadOnlyQueryTupleExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="5915353355198811351" fileName="ReadOnlyQueryTupleExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getReturnStatement_5915353355198811340#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="5915353355198811353" fileName="ReadOnlyQueryTupleExpression_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="5915353355198811358" fileName="ReadOnlyQueryTupleExpression_Behavior.java" startLine="12" startPosition="86" endLine="13" endPosition="129" />
+    <scopeInfo nodeId="5915353355198811351" fileName="ReadOnlyQueryTupleExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
+      <varInfo nodeId="5915353355198811351" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355198811351" fileName="ReadOnlyQueryTupleExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="5915353355198811351" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355198811351" fileName="ReadOnlyQueryTupleExpression_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.ReadOnlyQueryTupleExpression_Behavior" />
+  </root>
+  <root nodeRef="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)/5915353355198825955">
+    <nodeInfo nodeId="5915353355198825981" fileName="ReadWriteQueryTupleExpression_Behavior.java" startLine="12" startPosition="86" endLine="13" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355198825955" fileName="ReadWriteQueryTupleExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="5915353355198825955" fileName="ReadWriteQueryTupleExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getReturnStatement_5915353355198811340#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="5915353355198825957" fileName="ReadWriteQueryTupleExpression_Behavior.java" startLine="9" startPosition="43" endLine="9" endPosition="43" />
+    <scopeInfo nodeId="5915353355198825962" fileName="ReadWriteQueryTupleExpression_Behavior.java" startLine="12" startPosition="86" endLine="13" endPosition="129" />
+    <scopeInfo nodeId="5915353355198825955" fileName="ReadWriteQueryTupleExpression_Behavior.java" startLine="9" startPosition="0" endLine="11" endPosition="0">
+      <varInfo nodeId="5915353355198825955" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355198825955" fileName="ReadWriteQueryTupleExpression_Behavior.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="5915353355198825955" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355198825955" fileName="ReadWriteQueryTupleExpression_Behavior.java" startLine="8" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.ReadWriteQueryTupleExpression_Behavior" />
+  </root>
+  <root nodeRef="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)/5915353355198840612">
+    <nodeInfo nodeId="5915353355198840704" fileName="WriteOnlyQueryTupleExpression_Behavior.java" startLine="11" startPosition="86" endLine="12" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="5915353355198840638" fileName="WriteOnlyQueryTupleExpression_Behavior.java" startLine="12" startPosition="60" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355198840612" fileName="WriteOnlyQueryTupleExpression_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="5915353355198840612" fileName="WriteOnlyQueryTupleExpression_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getReturnStatement_5915353355198811340#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="5915353355198840614" fileName="WriteOnlyQueryTupleExpression_Behavior.java" startLine="8" startPosition="43" endLine="8" endPosition="43" />
+    <scopeInfo nodeId="5915353355198840612" fileName="WriteOnlyQueryTupleExpression_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0">
+      <varInfo nodeId="5915353355198840612" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="5915353355198840619" fileName="WriteOnlyQueryTupleExpression_Behavior.java" startLine="11" startPosition="86" endLine="13" endPosition="16" />
+    <scopeInfo nodeId="5915353355198840612" fileName="WriteOnlyQueryTupleExpression_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="5915353355198840612" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="5915353355198840612" fileName="WriteOnlyQueryTupleExpression_Behavior.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="neo4j.cypher.behavior.WriteOnlyQueryTupleExpression_Behavior" />
   </root>
   <root nodeRef="r:198dc929-1daf-4fd6-a7d4-c87445a0712a(neo4j.cypher.behavior)/6384283002380927135">
     <nodeInfo nodeId="6384283002380927135" fileName="CypherStatement_Behavior.java" startLine="15" startPosition="71" endLine="16" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
