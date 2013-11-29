@@ -82,6 +82,7 @@ public class Relationship_MiddleCell implements ConceptEditorComponent {
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyLeftBracket(style, editorCell);
     editorCell.getStyle().putAll(style);
+    DeleteConcreteSectionBracket.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -94,6 +95,10 @@ public class Relationship_MiddleCell implements ConceptEditorComponent {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_name");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.RT_ANCHOR_TAG, "ext_3_RTransform");
+    editorCell.getStyle().putAll(style);
+    DeleteConcreteSectionBracket.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -127,6 +132,7 @@ public class Relationship_MiddleCell implements ConceptEditorComponent {
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, true);
     editorCell.getStyle().putAll(style);
+    DeleteTypes.setCellActions(editorCell, node, editorContext);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
@@ -219,6 +225,7 @@ public class Relationship_MiddleCell implements ConceptEditorComponent {
     BaseLanguageStyle_StyleSheet.applyLeftBrace(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     editorCell.getStyle().putAll(style);
+    DeleteProperty.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -227,6 +234,7 @@ public class Relationship_MiddleCell implements ConceptEditorComponent {
     AbstractCellListHandler handler = new Relationship_MiddleCell.propertyListHandler_h1s2v3_b4a0(node, "property", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_property");
+    DeleteProperty.setCellActions(editorCell, node, editorContext);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
@@ -288,6 +296,7 @@ public class Relationship_MiddleCell implements ConceptEditorComponent {
     BaseLanguageStyle_StyleSheet.applyRightBrace(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     editorCell.getStyle().putAll(style);
+    DeleteProperty.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -316,6 +325,7 @@ public class Relationship_MiddleCell implements ConceptEditorComponent {
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     editorCell.getStyle().putAll(style);
+    DeleteHops.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -327,6 +337,7 @@ public class Relationship_MiddleCell implements ConceptEditorComponent {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_minHops");
+    DeleteHops.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -345,6 +356,7 @@ public class Relationship_MiddleCell implements ConceptEditorComponent {
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     editorCell.getStyle().putAll(style);
+    DeleteHops.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -357,6 +369,7 @@ public class Relationship_MiddleCell implements ConceptEditorComponent {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_maxHops");
+    DeleteHops.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -374,6 +387,7 @@ public class Relationship_MiddleCell implements ConceptEditorComponent {
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyRightBracket(style, editorCell);
     editorCell.getStyle().putAll(style);
+    DeleteConcreteSectionBracket.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }

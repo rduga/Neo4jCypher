@@ -26,6 +26,8 @@ import neo4j.cypher.behavior.Relationship_Behavior;
 import jetbrains.mps.editor.runtime.selection.SelectionUtil;
 import jetbrains.mps.openapi.editor.selection.SelectionManager;
 import jetbrains.mps.smodel.constraints.ModelConstraints;
+import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.regex.Pattern;
 
 public class QueriesGenerated {
@@ -137,9 +139,13 @@ public class QueriesGenerated {
     return result;
   }
 
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Relationship_7273172444847450918(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return !(SNodeOperations.isInstanceOf(_context.getSourceNode(), "neo4j.cypher.structure.RLRelationship"));
+  }
+
   public static List<SubstituteAction> sideTransform_ActionsFactory_Relationship_6581467451102921298(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
-    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.RLRelationship"), _context.getSourceNode()) {
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.LRRelationship"), _context.getSourceNode()) {
       public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
         SNode lr = SConceptOperations.createNewNode("neo4j.cypher.structure.LRRelationship", null);
         Relationship_Behavior.call_copyRelationshipProperties_6581467451102927870(lr, _context.getSourceNode());
@@ -161,10 +167,106 @@ public class QueriesGenerated {
         SNode sourceNode = getSourceNode();
         SNode parent = SNodeOperations.getParent(sourceNode);
         SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
-        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.RLRelationship"), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.RLRelationship"), null));
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.LRRelationship"), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.LRRelationship"), null));
       }
     });
     return result;
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Relationship_7273172444847461750(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return !(SNodeOperations.isInstanceOf(_context.getSourceNode(), "neo4j.cypher.structure.LRRelationship"));
+  }
+
+  public static List<SubstituteAction> sideTransform_ActionsFactory_Relationship_7273172444846951580(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.Relationship"), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        SPropertyOperations.set(_context.getSourceNode(), "concrete", "" + (true));
+        return _context.getSourceNode();
+      }
+
+      public String getMatchingText(String pattern) {
+        return "[";
+      }
+
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+
+      @Override
+      protected boolean isEnabled() {
+        SNode sourceNode = getSourceNode();
+        SNode parent = SNodeOperations.getParent(sourceNode);
+        SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.Relationship"), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.Relationship"), null));
+      }
+    });
+    return result;
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Relationship_7273172444846951885(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return SPropertyOperations.getBoolean(_context.getSourceNode(), "concrete") == false;
+  }
+
+  public static List<SubstituteAction> sideTransform_ActionsFactory_Relationship_7273172444849641442(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.Relationship"), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        SPropertyOperations.set(_context.getSourceNode(), "concrete", "" + (true));
+        return _context.getSourceNode();
+      }
+
+      public String getMatchingText(String pattern) {
+        return "]";
+      }
+
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+
+      @Override
+      protected boolean isEnabled() {
+        SNode sourceNode = getSourceNode();
+        SNode parent = SNodeOperations.getParent(sourceNode);
+        SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.Relationship"), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.Relationship"), null));
+      }
+    });
+    return result;
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Relationship_7273172444849641457(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return SPropertyOperations.getBoolean(_context.getSourceNode(), "concrete") == false;
+  }
+
+  public static List<SubstituteAction> sideTransform_ActionsFactory_Relationship_7273172444857921771(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.Relationship"), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        return SNodeFactoryOperations.addNewChild(_context.getSourceNode(), "type", "neo4j.cypher.structure.RelationshipType");
+      }
+
+      public String getMatchingText(String pattern) {
+        return ":";
+      }
+
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+
+      @Override
+      protected boolean isEnabled() {
+        SNode sourceNode = getSourceNode();
+        SNode parent = SNodeOperations.getParent(sourceNode);
+        SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.Relationship"), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.Relationship"), null));
+      }
+    });
+    return result;
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Relationship_7273172444857921897(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getSourceNode(), "type", true)).isEmpty();
   }
 
   private static Pattern REGEXP_x583g4_a0a0a0a2a0a0a0a2a0a1a1 = Pattern.compile("-?\\d+", 0);

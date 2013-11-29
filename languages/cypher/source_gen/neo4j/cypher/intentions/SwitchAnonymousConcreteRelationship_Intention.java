@@ -12,6 +12,8 @@ import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.smodel.SNodePointer;
 import java.util.Collections;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.intentions.IntentionDescriptor;
 
 public class SwitchAnonymousConcreteRelationship_Intention implements IntentionFactory {
@@ -73,6 +75,14 @@ public class SwitchAnonymousConcreteRelationship_Intention implements IntentionF
 
     public void execute(final SNode node, final EditorContext editorContext) {
       SPropertyOperations.set(node, "concrete", "" + (!(SPropertyOperations.getBoolean(node, "concrete"))));
+      if (!(SPropertyOperations.getBoolean(node, "concrete"))) {
+        SPropertyOperations.set(node, "name", null);
+        ListSequence.fromList(SLinkOperations.getTargets(node, "type", true)).clear();
+        SPropertyOperations.set(node, "specifyHops", "" + (false));
+        SPropertyOperations.set(node, "minHops", "" + (0));
+        SPropertyOperations.set(node, "maxHops", "" + (0));
+        ListSequence.fromList(SLinkOperations.getTargets(node, "property", true)).clear();
+      }
     }
 
     public IntentionDescriptor getDescriptor() {
