@@ -60,7 +60,6 @@ public class RLRelationship_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_b1wk19_b0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
-    style.set(StyleAttributes.RT_ANCHOR_TAG, "ext_1_RTransform");
     editorCell.getStyle().putAll(style);
     DeleteAtBeginningOfRelationship.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");

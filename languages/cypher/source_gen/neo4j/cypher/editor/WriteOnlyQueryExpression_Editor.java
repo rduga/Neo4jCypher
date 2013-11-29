@@ -30,7 +30,7 @@ public class WriteOnlyQueryExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createCollection_316wzv_a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_316wzv_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_316wzv_a0(editorContext, node));

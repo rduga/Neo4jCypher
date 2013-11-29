@@ -32,7 +32,7 @@ public class ReadWriteQueryExpression_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createCollection_wj5stm_a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_wj5stm_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_wj5stm_a0(editorContext, node));
