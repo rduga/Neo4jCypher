@@ -229,6 +229,23 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
+  <dependency className="neo4j.cypher.editor.CypherTupleType_Editor" file="CypherTupleType_Editor.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet" />
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
+    <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
+    <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.EditorManager" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Collection" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.style.Style" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
+  </dependency>
   <dependency className="neo4j.cypher.editor.DeleteAtBeginningOfRelationship" file="DeleteAtBeginningOfRelationship.java">
     <classNode dependClassName="jetbrains.mps.editor.runtime.selection.SelectionUtil" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
@@ -361,6 +378,7 @@
     <classNode dependClassName="neo4j.cypher.editor.CypherDotExpression_Editor" />
     <classNode dependClassName="neo4j.cypher.editor.CypherIntegerConstant_Editor" />
     <classNode dependClassName="neo4j.cypher.editor.CypherNotExpression_Editor" />
+    <classNode dependClassName="neo4j.cypher.editor.CypherTupleType_Editor" />
     <classNode dependClassName="neo4j.cypher.editor.DeleteExpression_Editor" />
     <classNode dependClassName="neo4j.cypher.editor.DeleteStatement_Editor" />
     <classNode dependClassName="neo4j.cypher.editor.DescOrderBy_Editor" />
@@ -389,6 +407,7 @@
     <classNode dependClassName="neo4j.cypher.editor.NamedPathRef_Editor" />
     <classNode dependClassName="neo4j.cypher.editor.NamedPropertyContainerRef_Editor" />
     <classNode dependClassName="neo4j.cypher.editor.NamedRelationshipRef_Editor" />
+    <classNode dependClassName="neo4j.cypher.editor.Neo4jExec_Editor" />
     <classNode dependClassName="neo4j.cypher.editor.Node_Editor" />
     <classNode dependClassName="neo4j.cypher.editor.NodesCollFunction_Editor" />
     <classNode dependClassName="neo4j.cypher.editor.OrderByStatement_Editor" />
@@ -821,6 +840,19 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
+  </dependency>
+  <dependency className="neo4j.cypher.editor.Neo4jExec_Editor" file="Neo4jExec_Editor.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.EditorManager" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Collection" />
+    <classNode dependClassName="jetbrains.mps.nodeEditor.cells.EditorCell_Constant" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.cells.EditorCell" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
   <dependency className="neo4j.cypher.editor.Node_Editor" file="Node_Editor.java">
     <classNode dependClassName="java.lang.Class" />
