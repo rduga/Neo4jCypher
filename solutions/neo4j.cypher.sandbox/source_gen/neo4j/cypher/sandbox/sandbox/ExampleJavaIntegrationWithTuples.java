@@ -11,6 +11,7 @@ public class ExampleJavaIntegrationWithTuples {
 
   public static void main(String[] args) {
     Tuples._2<Integer, String> tplexample = MultiTuple.<Integer,String>from(5435, "dfsd");
+    System.out.println("tuple:" + (int) tplexample._0());
 
     ExampleNamedTuple exampleNamedTuple = new ExampleNamedTuple("John", 45, 443);
 
@@ -19,9 +20,18 @@ public class ExampleJavaIntegrationWithTuples {
     System.out.println("example" + tplexample);
     System.out.println("example tuple call:" + getExampleNamedTuple());
 
-    String readOnlyQuery = "START tuplenode = node(*), tuplenode2 = node(*) RETURN tuplenode,tuplenode2,\"str1\",\"str2\" ";
+    String cypherroq = "START tuplenode = node(*), tuplenode2 = node(*) MATCH tcesta=tuplenode-[rel1]-tuplenode2 RETURN tuplenode,tuplenode2,\"str1\",\"str2\",rel1,tcesta ";
 
-    System.out.println("typed:" + readOnlyQuery);
+    String cypherroq2 = cypherroq;
+    cypherroq.toString();
+    String result = cypherroq.toString();
+
+
+    ExampleJavaIntegrationCypherString asd = new ExampleJavaIntegrationCypherString();
+    asd.hashCode();
+
+    System.out.println("typed:" + cypherroq);
+    System.out.println("Result" + result);
   }
 
 

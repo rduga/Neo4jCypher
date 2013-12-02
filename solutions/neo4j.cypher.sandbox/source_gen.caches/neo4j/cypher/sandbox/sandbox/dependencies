@@ -36,6 +36,7 @@
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.tuples.runtime.Tuples" />
+    <classNode dependClassName="neo4j.cypher.sandbox.sandbox.ExampleJavaIntegrationCypherString" />
     <classNode dependClassName="neo4j.cypher.sandbox.sandbox.ExampleNamedTuple" />
   </dependency>
   <dependency className="neo4j.cypher.sandbox.sandbox.ExampleNamedTuple" file="ExampleNamedTuple.java">

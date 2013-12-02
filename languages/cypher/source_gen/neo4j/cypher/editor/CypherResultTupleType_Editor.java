@@ -10,39 +10,39 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
-import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
+import jetbrains.mps.lang.project.editor.ProjectStructure_StyleSheet;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
-public class CypherTupleType_Editor extends DefaultNodeEditor {
+public class CypherResultTupleType_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_cyt0b6_a(editorContext, node);
+    return this.createCollection_iegvkh_a(editorContext, node);
   }
 
-  private EditorCell createCollection_cyt0b6_a(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_iegvkh_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_cyt0b6_a");
+    editorCell.setCellId("Collection_iegvkh_a");
     editorCell.setBig(true);
-    editorCell.addEditorCell(this.createConstant_cyt0b6_a0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_cyt0b6_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_iegvkh_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_iegvkh_b0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_cyt0b6_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "cypherQuery");
-    editorCell.setCellId("Constant_cyt0b6_a0");
+  private EditorCell createConstant_iegvkh_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "cypherResult");
+    editorCell.setCellId("Constant_iegvkh_a0");
     Style style = new StyleImpl();
-    BaseLanguageStyle_StyleSheet.applyKeyWord(style, editorCell);
+    ProjectStructure_StyleSheet.applyKeyWord(style, editorCell);
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
     editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_cyt0b6_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_iegvkh_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("tupleType");
     provider.setNoTargetText("<no tupleType>");

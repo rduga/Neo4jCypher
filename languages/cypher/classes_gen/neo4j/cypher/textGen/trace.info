@@ -216,16 +216,16 @@
     <unitInfo nodeId="2741251308014609901" fileName="SubstringMStringFunction_TextGen.java" startLine="12" startPosition="0" endLine="24" endPosition="0" unitName="neo4j.cypher.textGen.SubstringMStringFunction_TextGen" />
   </root>
   <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/3444411749675053049">
-    <nodeInfo nodeId="3444411749675063273" fileName="CypherTupleType_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
-    <nodeInfo nodeId="1237463992452" fileName="CypherTupleType_TextGen.java" startLine="10" startPosition="45" endLine="11" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="1237463992452" fileName="CypherTupleType_TextGen.java" startLine="10" startPosition="45" endLine="11" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3444411749675053049" fileName="CypherTupleType_TextGen.java" startLine="9" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="1237463992452" fileName="CypherTupleType_TextGen.java" startLine="10" startPosition="45" endLine="11" endPosition="26" />
-    <scopeInfo nodeId="3444411749675053049" fileName="CypherTupleType_TextGen.java" startLine="9" startPosition="42" endLine="11" endPosition="26" />
-    <scopeInfo nodeId="3444411749675053049" fileName="CypherTupleType_TextGen.java" startLine="9" startPosition="0" endLine="13" endPosition="0">
+    <nodeInfo nodeId="3444411749675063273" fileName="CypherQueryTupleType_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="1237463992452" fileName="CypherQueryTupleType_TextGen.java" startLine="10" startPosition="45" endLine="11" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1237463992452" fileName="CypherQueryTupleType_TextGen.java" startLine="10" startPosition="45" endLine="11" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3444411749675053049" fileName="CypherQueryTupleType_TextGen.java" startLine="9" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1237463992452" fileName="CypherQueryTupleType_TextGen.java" startLine="10" startPosition="45" endLine="11" endPosition="26" />
+    <scopeInfo nodeId="3444411749675053049" fileName="CypherQueryTupleType_TextGen.java" startLine="9" startPosition="42" endLine="11" endPosition="26" />
+    <scopeInfo nodeId="3444411749675053049" fileName="CypherQueryTupleType_TextGen.java" startLine="9" startPosition="0" endLine="13" endPosition="0">
       <varInfo nodeId="3444411749675053049" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="3444411749675053049" fileName="CypherTupleType_TextGen.java" startLine="8" startPosition="0" endLine="14" endPosition="0" unitName="neo4j.cypher.textGen.CypherTupleType_TextGen" />
+    <unitInfo nodeId="3444411749675053049" fileName="CypherQueryTupleType_TextGen.java" startLine="8" startPosition="0" endLine="14" endPosition="0" unitName="neo4j.cypher.textGen.CypherQueryTupleType_TextGen" />
   </root>
   <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/347473201666268036">
     <nodeInfo nodeId="347473201666335054" fileName="QuerySheet_TextGen.java" startLine="13" startPosition="42" endLine="14" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -261,6 +261,30 @@
       <varInfo nodeId="347473201666268036" varName="node" />
     </scopeInfo>
     <unitInfo nodeId="347473201666268036" fileName="QuerySheet_TextGen.java" startLine="12" startPosition="0" endLine="32" endPosition="0" unitName="neo4j.cypher.textGen.QuerySheet_TextGen" />
+  </root>
+  <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/3693218355998626516">
+    <nodeInfo nodeId="3693218355998626537" fileName="CypherResultTupleType_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="3693218355998626539" fileName="CypherResultTupleType_TextGen.java" startLine="10" startPosition="45" endLine="11" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3693218355998626539" fileName="CypherResultTupleType_TextGen.java" startLine="10" startPosition="45" endLine="11" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355998626516" fileName="CypherResultTupleType_TextGen.java" startLine="9" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="3693218355998626539" fileName="CypherResultTupleType_TextGen.java" startLine="10" startPosition="45" endLine="11" endPosition="26" />
+    <scopeInfo nodeId="3693218355998626516" fileName="CypherResultTupleType_TextGen.java" startLine="9" startPosition="42" endLine="11" endPosition="26" />
+    <scopeInfo nodeId="3693218355998626516" fileName="CypherResultTupleType_TextGen.java" startLine="9" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="3693218355998626516" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="3693218355998626516" fileName="CypherResultTupleType_TextGen.java" startLine="8" startPosition="0" endLine="14" endPosition="0" unitName="neo4j.cypher.textGen.CypherResultTupleType_TextGen" />
+  </root>
+  <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/3693218356001140898">
+    <nodeInfo nodeId="3693218356001142400" fileName="CypherQueryExecute_TextGen.java" startLine="9" startPosition="42" endLine="10" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="3693218356001142354" fileName="CypherQueryExecute_TextGen.java" startLine="10" startPosition="55" endLine="11" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3693218356001142354" fileName="CypherQueryExecute_TextGen.java" startLine="10" startPosition="55" endLine="11" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218356001140898" fileName="CypherQueryExecute_TextGen.java" startLine="9" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="3693218356001142354" fileName="CypherQueryExecute_TextGen.java" startLine="10" startPosition="55" endLine="11" endPosition="30" />
+    <scopeInfo nodeId="3693218356001140898" fileName="CypherQueryExecute_TextGen.java" startLine="9" startPosition="42" endLine="11" endPosition="30" />
+    <scopeInfo nodeId="3693218356001140898" fileName="CypherQueryExecute_TextGen.java" startLine="9" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="3693218356001140898" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="3693218356001140898" fileName="CypherQueryExecute_TextGen.java" startLine="8" startPosition="0" endLine="14" endPosition="0" unitName="neo4j.cypher.textGen.CypherQueryExecute_TextGen" />
   </root>
   <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/4030922243380599527">
     <nodeInfo nodeId="4030922243380599530" fileName="StartAssignmentStatement_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="147" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
@@ -1220,6 +1244,55 @@
       <varInfo nodeId="6209596031533750961" varName="node" />
     </scopeInfo>
     <unitInfo nodeId="6209596031533750961" fileName="SetStatement_TextGen.java" startLine="11" startPosition="0" endLine="25" endPosition="0" unitName="neo4j.cypher.textGen.SetStatement_TextGen" />
+  </root>
+  <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/7978368461565381788">
+    <nodeInfo nodeId="1237463993282" fileName="CypherAndExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1237463993282" fileName="CypherAndExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237463993282" fileName="CypherAndExpression_TextGen.java" startLine="12" startPosition="156" endLine="13" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237463993282" fileName="CypherAndExpression_TextGen.java" startLine="13" startPosition="25" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1237463993282" fileName="CypherAndExpression_TextGen.java" startLine="13" startPosition="25" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237463993282" fileName="CypherAndExpression_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7978368461565381788" fileName="CypherAndExpression_TextGen.java" startLine="11" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1237463993282" fileName="CypherAndExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" />
+    <scopeInfo nodeId="1237463993282" fileName="CypherAndExpression_TextGen.java" startLine="13" startPosition="25" endLine="14" endPosition="157" />
+    <scopeInfo nodeId="1237463993282" fileName="CypherAndExpression_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" />
+    <scopeInfo nodeId="7978368461565381788" fileName="CypherAndExpression_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" />
+    <scopeInfo nodeId="7978368461565381788" fileName="CypherAndExpression_TextGen.java" startLine="11" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="7978368461565381788" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="7978368461565381788" fileName="CypherAndExpression_TextGen.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="neo4j.cypher.textGen.CypherAndExpression_TextGen" />
+  </root>
+  <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/7978368461565383694">
+    <nodeInfo nodeId="1237463992053" fileName="CypherOrExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1237463992053" fileName="CypherOrExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237463992053" fileName="CypherOrExpression_TextGen.java" startLine="12" startPosition="156" endLine="13" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237463992053" fileName="CypherOrExpression_TextGen.java" startLine="13" startPosition="24" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1237463992053" fileName="CypherOrExpression_TextGen.java" startLine="13" startPosition="24" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237463992053" fileName="CypherOrExpression_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7978368461565383694" fileName="CypherOrExpression_TextGen.java" startLine="11" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1237463992053" fileName="CypherOrExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="156" />
+    <scopeInfo nodeId="1237463992053" fileName="CypherOrExpression_TextGen.java" startLine="13" startPosition="24" endLine="14" endPosition="157" />
+    <scopeInfo nodeId="1237463992053" fileName="CypherOrExpression_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" />
+    <scopeInfo nodeId="7978368461565383694" fileName="CypherOrExpression_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="157" />
+    <scopeInfo nodeId="7978368461565383694" fileName="CypherOrExpression_TextGen.java" startLine="11" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="7978368461565383694" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="7978368461565383694" fileName="CypherOrExpression_TextGen.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="neo4j.cypher.textGen.CypherOrExpression_TextGen" />
+  </root>
+  <root nodeRef="r:a396c5c0-1975-43af-95b7-5efd3810f370(neo4j.cypher.textGen)/7978368461565386700">
+    <nodeInfo nodeId="1237463993134" fileName="CypherNotExpression_TextGen.java" startLine="11" startPosition="42" endLine="12" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237463993134" fileName="CypherNotExpression_TextGen.java" startLine="12" startPosition="24" endLine="13" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1237463993134" fileName="CypherNotExpression_TextGen.java" startLine="12" startPosition="24" endLine="13" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237463993134" fileName="CypherNotExpression_TextGen.java" startLine="13" startPosition="152" endLine="14" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1237463993134" fileName="CypherNotExpression_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7978368461565386700" fileName="CypherNotExpression_TextGen.java" startLine="11" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="doGenerateText#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1237463993134" fileName="CypherNotExpression_TextGen.java" startLine="12" startPosition="24" endLine="13" endPosition="152" />
+    <scopeInfo nodeId="1237463993134" fileName="CypherNotExpression_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="21" />
+    <scopeInfo nodeId="7978368461565386700" fileName="CypherNotExpression_TextGen.java" startLine="11" startPosition="42" endLine="14" endPosition="21" />
+    <scopeInfo nodeId="7978368461565386700" fileName="CypherNotExpression_TextGen.java" startLine="11" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="7978368461565386700" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="7978368461565386700" fileName="CypherNotExpression_TextGen.java" startLine="10" startPosition="0" endLine="17" endPosition="0" unitName="neo4j.cypher.textGen.CypherNotExpression_TextGen" />
   </root>
 </debugInfo>
 

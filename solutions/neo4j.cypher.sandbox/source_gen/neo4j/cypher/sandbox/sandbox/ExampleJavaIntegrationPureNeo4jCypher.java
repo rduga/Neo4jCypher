@@ -30,13 +30,13 @@ public class ExampleJavaIntegrationPureNeo4jCypher {
 
 
     System.out.println("neo4jCypherWriteOnlyQueryExec: ");
-    writeResult(new ExecutionEngine(graphDb).execute("CREATE (n{name:\"my node\"}) "));
+    writeResult(new ExecutionEngine(graphDb).execute("CREATE (n{name:\"my node\"})-[rel1:TYP1]-(m{name:\"franta\"}) "));
 
     System.out.println("neo4jCypherReadOnlyQueryExec: ");
-    writeResult(new ExecutionEngine(graphDb).execute("START n = node(*) WHERE n.name! = \"my node\" RETURN n,n.name ORDER BY n.name "));
-
+    writeResult(new ExecutionEngine(graphDb).execute("START n = node(*) MATCH cesta=n--(m) WHERE n.name! = \"my node\" AND m.name = \"franta\" RETURN n,n.name,cesta ORDER BY n.name "));
+    // path 
     System.out.println("neo4jCypherReadWriteQueryExec: ");
-    writeResult(new ExecutionEngine(graphDb).execute("START n = node(*) WHERE n.name! = \"my node\" RETURN n,n.name "));
+    writeResult(new ExecutionEngine(graphDb).execute("START n = node(*) WHERE n.name! = \"my node\" RETURN n,n.name,* "));
   }
 
 

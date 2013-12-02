@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="67" endPosition="0" unitName="neo4j.cypher.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="69" endPosition="0" unitName="neo4j.cypher.constraints.ConstraintsAspectDescriptor" />
   <root nodeRef="r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)/1325020284374000547">
     <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="14" startPosition="42" endLine="15" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1325020284374000547" fileName="AggregateFunction_Constraints.java" startLine="19" startPosition="46" endLine="20" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -81,6 +81,59 @@
       <varInfo nodeId="2394186179449127053" varName="parentNode" />
     </scopeInfo>
     <unitInfo nodeId="2394186179449127053" fileName="PropertyOperation_Constraints.java" startLine="14" startPosition="0" endLine="41" endPosition="0" unitName="neo4j.cypher.constraints.PropertyOperation_Constraints" />
+  </root>
+  <root nodeRef="r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)/3693218355999920429">
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="17" startPosition="43" endLine="18" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="22" startPosition="43" endLine="23" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="27" startPosition="200" endLine="28" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="28" startPosition="96" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="30" startPosition="51" endLine="31" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="32" startPosition="5" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="33" startPosition="0" endLine="34" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218356000163007" fileName="CypherQueryExecute_Constraints.java" startLine="38" startPosition="108" endLine="39" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1343296446925671011" fileName="CypherQueryExecute_Constraints.java" startLine="40" startPosition="5" endLine="41" endPosition="152" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218356000192151" fileName="CypherQueryExecute_Constraints.java" startLine="41" startPosition="152" endLine="42" endPosition="221" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218356000219862" fileName="CypherQueryExecute_Constraints.java" startLine="43" startPosition="30" endLine="44" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218356000189723" fileName="CypherQueryExecute_Constraints.java" startLine="45" startPosition="5" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="3693218356000174441" fileName="CypherQueryExecute_Constraints.java" startLine="46" startPosition="0" endLine="47" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="50" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="canBeChildBreakingPoint" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CypherQueryExecute_Constraints#()V" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="29" startPosition="0" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3693218356000156337" fileName="CypherQueryExecute_Constraints.java" startLine="37" startPosition="148" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3693218356000207153" fileName="CypherQueryExecute_Constraints.java" startLine="42" startPosition="221" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="21" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="hasOwnCanBeChildMethod#()Z" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="26" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canBeChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+    <nodeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="37" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="static_canBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/smodel/IOperationContext;)Z" />
+    <scopeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="17" startPosition="43" endLine="18" endPosition="55" />
+    <scopeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="22" startPosition="43" endLine="23" endPosition="16" />
+    <scopeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="30" startPosition="51" endLine="31" endPosition="67" />
+    <scopeInfo nodeId="3693218356000156340" fileName="CypherQueryExecute_Constraints.java" startLine="38" startPosition="108" endLine="39" endPosition="19" />
+    <scopeInfo nodeId="3693218356000207156" fileName="CypherQueryExecute_Constraints.java" startLine="43" startPosition="30" endLine="44" endPosition="19" />
+    <scopeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="17" startPosition="0" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="21" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="27" startPosition="200" endLine="34" endPosition="18">
+      <varInfo nodeId="3693218355999920429" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="26" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="3693218355999920429" varName="checkingNodeContext" />
+      <varInfo nodeId="3693218355999920429" varName="childConcept" />
+      <varInfo nodeId="3693218355999920429" varName="link" />
+      <varInfo nodeId="3693218355999920429" varName="node" />
+      <varInfo nodeId="3693218355999920429" varName="operationContext" />
+      <varInfo nodeId="3693218355999920429" varName="parentNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355999928181" fileName="CypherQueryExecute_Constraints.java" startLine="37" startPosition="148" endLine="47" endPosition="16">
+      <varInfo nodeId="1343296446925671012" varName="instance" />
+      <varInfo nodeId="3693218356000192152" varName="queryType" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="37" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="3693218355999920429" varName="childConcept" />
+      <varInfo nodeId="3693218355999920429" varName="link" />
+      <varInfo nodeId="3693218355999920429" varName="node" />
+      <varInfo nodeId="3693218355999920429" varName="operationContext" />
+      <varInfo nodeId="3693218355999920429" varName="parentNode" />
+    </scopeInfo>
+    <unitInfo nodeId="3693218355999920429" fileName="CypherQueryExecute_Constraints.java" startLine="16" startPosition="0" endLine="52" endPosition="0" unitName="neo4j.cypher.constraints.CypherQueryExecute_Constraints" />
   </root>
   <root nodeRef="r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)/4677677581647714315">
     <nodeInfo nodeId="4677677581647714315" fileName="CreateStatement_Constraints.java" startLine="13" startPosition="40" endLine="14" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />

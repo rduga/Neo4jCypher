@@ -444,5 +444,11 @@
     </dependencies>
     <rename id="qgu4.1268543411552161302" type="CHILD" from="node" to="node1" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="73" />
+    </dependencies>
+    <rename id="qgu4.5915353355196217882" type="CONCEPT" from="CypherTupleType" to="CypherQueryTupleType" />
+  </StructureModification>
 </history>
 

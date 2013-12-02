@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="14" startPosition="0" endLine="210" endPosition="0" unitName="neo4j.cypher.editor.EditorAspectDescriptorImpl" />
+  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="14" startPosition="0" endLine="214" endPosition="0" unitName="neo4j.cypher.editor.EditorAspectDescriptorImpl" />
   <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/1268543411551995395">
     <nodeInfo nodeId="1268543411551995395" fileName="QuerySheet_Editor.java" startLine="28" startPosition="79" endLine="29" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1268543411551995395" fileName="QuerySheet_Editor.java" startLine="32" startPosition="89" endLine="33" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -4037,6 +4037,176 @@
       <varInfo nodeId="3168367791397806374" varName="node" />
     </scopeInfo>
     <unitInfo nodeId="3168367791397806372" fileName="PropertyOperation_Editor.java" startLine="14" startPosition="0" endLine="38" endPosition="0" unitName="neo4j.cypher.editor.PropertyOperation_Editor" />
+  </root>
+  <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/3693218355997297052">
+    <nodeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="26" startPosition="96" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="27" startPosition="48" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="30" startPosition="80" endLine="31" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218355997298580" fileName="CypherResultTupleType_Editor.java" startLine="34" startPosition="88" endLine="35" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355997298580" fileName="CypherResultTupleType_Editor.java" startLine="35" startPosition="98" endLine="36" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997298580" fileName="CypherResultTupleType_Editor.java" startLine="36" startPosition="47" endLine="37" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355997298580" fileName="CypherResultTupleType_Editor.java" startLine="37" startPosition="34" endLine="38" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997298580" fileName="CypherResultTupleType_Editor.java" startLine="38" startPosition="64" endLine="39" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997298580" fileName="CypherResultTupleType_Editor.java" startLine="39" startPosition="55" endLine="40" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997298580" fileName="CypherResultTupleType_Editor.java" startLine="40" startPosition="40" endLine="41" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997298580" fileName="CypherResultTupleType_Editor.java" startLine="41" startPosition="34" endLine="42" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="45" startPosition="87" endLine="46" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="46" startPosition="81" endLine="47" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="47" startPosition="34" endLine="48" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="48" startPosition="47" endLine="49" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="49" startPosition="26" endLine="50" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="51" startPosition="39" endLine="52" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="53" startPosition="5" endLine="54" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="54" startPosition="73" endLine="55" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="55" startPosition="57" endLine="56" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="57" startPosition="35" endLine="58" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="58" startPosition="72" endLine="59" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="59" startPosition="78" endLine="60" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="61" startPosition="10" endLine="62" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="50" startPosition="58" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="56" startPosition="59" endLine="62" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="25" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_iegvkh_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3693218355997298580" fileName="CypherResultTupleType_Editor.java" startLine="34" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_iegvkh_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="45" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_iegvkh_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" />
+    <scopeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" />
+    <scopeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" />
+    <scopeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="51" startPosition="39" endLine="52" endPosition="38" />
+    <scopeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="3693218355997297052" varName="editorContext" />
+      <varInfo nodeId="3693218355997297052" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="57" startPosition="35" endLine="60" endPosition="105">
+      <varInfo nodeId="3693218355997298582" varName="manager" />
+      <varInfo nodeId="3693218355997298582" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="25" startPosition="89" endLine="31" endPosition="22">
+      <varInfo nodeId="3693218355997297052" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="25" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="3693218355997297052" varName="editorContext" />
+      <varInfo nodeId="3693218355997297052" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355997298580" fileName="CypherResultTupleType_Editor.java" startLine="34" startPosition="88" endLine="42" endPosition="22">
+      <varInfo nodeId="3693218355997298580" varName="editorCell" />
+      <varInfo nodeId="3693218355997298580" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355997298580" fileName="CypherResultTupleType_Editor.java" startLine="34" startPosition="0" endLine="44" endPosition="0">
+      <varInfo nodeId="3693218355997298580" varName="editorContext" />
+      <varInfo nodeId="3693218355997298580" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="45" startPosition="87" endLine="62" endPosition="22">
+      <varInfo nodeId="3693218355997298582" varName="attributeConcept" />
+      <varInfo nodeId="3693218355997298582" varName="attributeKind" />
+      <varInfo nodeId="3693218355997298582" varName="editorCell" />
+      <varInfo nodeId="3693218355997298582" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355997298582" fileName="CypherResultTupleType_Editor.java" startLine="45" startPosition="0" endLine="64" endPosition="0">
+      <varInfo nodeId="3693218355997298582" varName="editorContext" />
+      <varInfo nodeId="3693218355997298582" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="3693218355997297052" fileName="CypherResultTupleType_Editor.java" startLine="20" startPosition="0" endLine="65" endPosition="0" unitName="neo4j.cypher.editor.CypherResultTupleType_Editor" />
+  </root>
+  <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/3693218355998652008">
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="20" startPosition="89" endLine="21" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="21" startPosition="96" endLine="22" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="22" startPosition="48" endLine="23" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="24" startPosition="81" endLine="25" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="24" startPosition="81" endLine="25" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="25" startPosition="81" endLine="26" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="25" startPosition="81" endLine="26" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="26" startPosition="81" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="26" startPosition="81" endLine="27" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="27" startPosition="81" endLine="28" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218355998652010" fileName="CypherQueryExecute_Editor.java" startLine="31" startPosition="88" endLine="32" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355998652010" fileName="CypherQueryExecute_Editor.java" startLine="32" startPosition="93" endLine="33" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355998652010" fileName="CypherQueryExecute_Editor.java" startLine="33" startPosition="47" endLine="34" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218355998652010" fileName="CypherQueryExecute_Editor.java" startLine="34" startPosition="34" endLine="35" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355998652010" fileName="CypherQueryExecute_Editor.java" startLine="35" startPosition="71" endLine="36" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355998652010" fileName="CypherQueryExecute_Editor.java" startLine="36" startPosition="40" endLine="37" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218355998652010" fileName="CypherQueryExecute_Editor.java" startLine="37" startPosition="34" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218356001412424" fileName="CypherQueryExecute_Editor.java" startLine="41" startPosition="88" endLine="42" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218356001412424" fileName="CypherQueryExecute_Editor.java" startLine="42" startPosition="87" endLine="43" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218356001412424" fileName="CypherQueryExecute_Editor.java" startLine="43" startPosition="47" endLine="44" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218356001412424" fileName="CypherQueryExecute_Editor.java" startLine="44" startPosition="34" endLine="45" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218356001412424" fileName="CypherQueryExecute_Editor.java" startLine="45" startPosition="76" endLine="46" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218356001412424" fileName="CypherQueryExecute_Editor.java" startLine="46" startPosition="40" endLine="47" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218356001412424" fileName="CypherQueryExecute_Editor.java" startLine="47" startPosition="34" endLine="48" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218356002410862" fileName="CypherQueryExecute_Editor.java" startLine="51" startPosition="88" endLine="52" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218356002410862" fileName="CypherQueryExecute_Editor.java" startLine="52" startPosition="86" endLine="53" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218356002410862" fileName="CypherQueryExecute_Editor.java" startLine="53" startPosition="47" endLine="54" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218356002410862" fileName="CypherQueryExecute_Editor.java" startLine="54" startPosition="34" endLine="55" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218356001412432" fileName="CypherQueryExecute_Editor.java" startLine="58" startPosition="88" endLine="59" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218356001412432" fileName="CypherQueryExecute_Editor.java" startLine="59" startPosition="87" endLine="60" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218356001412432" fileName="CypherQueryExecute_Editor.java" startLine="60" startPosition="47" endLine="61" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3693218356001412432" fileName="CypherQueryExecute_Editor.java" startLine="61" startPosition="34" endLine="62" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218356001412432" fileName="CypherQueryExecute_Editor.java" startLine="62" startPosition="68" endLine="63" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218356001412432" fileName="CypherQueryExecute_Editor.java" startLine="63" startPosition="40" endLine="64" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3693218356001412432" fileName="CypherQueryExecute_Editor.java" startLine="64" startPosition="34" endLine="65" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3693218356002410862" fileName="CypherQueryExecute_Editor.java" startLine="51" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_t0c0f6_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3693218355998652010" fileName="CypherQueryExecute_Editor.java" startLine="31" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_t0c0f6_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3693218356001412424" fileName="CypherQueryExecute_Editor.java" startLine="41" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_t0c0f6_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3693218356001412432" fileName="CypherQueryExecute_Editor.java" startLine="58" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_t0c0f6_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="20" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_t0c0f6_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="16" startPosition="79" endLine="17" endPosition="63" />
+    <scopeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="23" startPosition="28" endLine="24" endPosition="81" />
+    <scopeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="24" startPosition="81" endLine="25" endPosition="81" />
+    <scopeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="25" startPosition="81" endLine="26" endPosition="81" />
+    <scopeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="26" startPosition="81" endLine="27" endPosition="81" />
+    <scopeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="3693218355998652008" varName="editorContext" />
+      <varInfo nodeId="3693218355998652008" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218356002410862" fileName="CypherQueryExecute_Editor.java" startLine="51" startPosition="88" endLine="55" endPosition="22">
+      <varInfo nodeId="3693218356002410862" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218356002410862" fileName="CypherQueryExecute_Editor.java" startLine="51" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="3693218356002410862" varName="editorContext" />
+      <varInfo nodeId="3693218356002410862" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355998652010" fileName="CypherQueryExecute_Editor.java" startLine="31" startPosition="88" endLine="38" endPosition="22">
+      <varInfo nodeId="3693218355998652010" varName="editorCell" />
+      <varInfo nodeId="3693218355998652010" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218356001412424" fileName="CypherQueryExecute_Editor.java" startLine="41" startPosition="88" endLine="48" endPosition="22">
+      <varInfo nodeId="3693218356001412424" varName="editorCell" />
+      <varInfo nodeId="3693218356001412424" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218356001412432" fileName="CypherQueryExecute_Editor.java" startLine="58" startPosition="88" endLine="65" endPosition="22">
+      <varInfo nodeId="3693218356001412432" varName="editorCell" />
+      <varInfo nodeId="3693218356001412432" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="20" startPosition="89" endLine="28" endPosition="22">
+      <varInfo nodeId="3693218355998652008" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355998652010" fileName="CypherQueryExecute_Editor.java" startLine="31" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="3693218355998652010" varName="editorContext" />
+      <varInfo nodeId="3693218355998652010" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218356001412424" fileName="CypherQueryExecute_Editor.java" startLine="41" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="3693218356001412424" varName="editorContext" />
+      <varInfo nodeId="3693218356001412424" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218356001412432" fileName="CypherQueryExecute_Editor.java" startLine="58" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="3693218356001412432" varName="editorContext" />
+      <varInfo nodeId="3693218356001412432" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="20" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="3693218355998652008" varName="editorContext" />
+      <varInfo nodeId="3693218355998652008" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="3693218355998652008" fileName="CypherQueryExecute_Editor.java" startLine="15" startPosition="0" endLine="68" endPosition="0" unitName="neo4j.cypher.editor.CypherQueryExecute_Editor" />
   </root>
   <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/3830435865999438094">
     <nodeInfo nodeId="3830435865999438094" fileName="MatchStatement_Editor.java" startLine="25" startPosition="79" endLine="26" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -9337,80 +9507,80 @@
     <unitInfo nodeId="5915353355186291982" fileName="Neo4jExec_Editor.java" startLine="16" startPosition="0" endLine="94" endPosition="0" unitName="neo4j.cypher.editor.Neo4jExec_Editor" />
   </root>
   <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/5915353355196256691">
-    <nodeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="26" startPosition="96" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="27" startPosition="48" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="30" startPosition="80" endLine="31" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5915353355196256751" fileName="CypherTupleType_Editor.java" startLine="34" startPosition="88" endLine="35" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5915353355196256751" fileName="CypherTupleType_Editor.java" startLine="35" startPosition="97" endLine="36" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256751" fileName="CypherTupleType_Editor.java" startLine="36" startPosition="47" endLine="37" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5915353355196256751" fileName="CypherTupleType_Editor.java" startLine="37" startPosition="34" endLine="38" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256751" fileName="CypherTupleType_Editor.java" startLine="38" startPosition="65" endLine="39" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256751" fileName="CypherTupleType_Editor.java" startLine="39" startPosition="55" endLine="40" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256751" fileName="CypherTupleType_Editor.java" startLine="40" startPosition="40" endLine="41" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256751" fileName="CypherTupleType_Editor.java" startLine="41" startPosition="34" endLine="42" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="45" startPosition="87" endLine="46" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="46" startPosition="81" endLine="47" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="47" startPosition="34" endLine="48" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="48" startPosition="47" endLine="49" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="49" startPosition="26" endLine="50" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="51" startPosition="39" endLine="52" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="53" startPosition="5" endLine="54" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="54" startPosition="73" endLine="55" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="55" startPosition="57" endLine="56" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="57" startPosition="35" endLine="58" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="58" startPosition="72" endLine="59" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="59" startPosition="78" endLine="60" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="61" startPosition="10" endLine="62" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="50" startPosition="58" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="56" startPosition="59" endLine="62" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="25" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_cyt0b6_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5915353355196256751" fileName="CypherTupleType_Editor.java" startLine="34" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_cyt0b6_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="45" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_cyt0b6_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <scopeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" />
-    <scopeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" />
-    <scopeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" />
-    <scopeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="51" startPosition="39" endLine="52" endPosition="38" />
-    <scopeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+    <nodeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="26" startPosition="96" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="27" startPosition="48" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="30" startPosition="80" endLine="31" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355196256751" fileName="CypherQueryTupleType_Editor.java" startLine="34" startPosition="88" endLine="35" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355196256751" fileName="CypherQueryTupleType_Editor.java" startLine="35" startPosition="97" endLine="36" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256751" fileName="CypherQueryTupleType_Editor.java" startLine="36" startPosition="47" endLine="37" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355196256751" fileName="CypherQueryTupleType_Editor.java" startLine="37" startPosition="34" endLine="38" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256751" fileName="CypherQueryTupleType_Editor.java" startLine="38" startPosition="65" endLine="39" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256751" fileName="CypherQueryTupleType_Editor.java" startLine="39" startPosition="55" endLine="40" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256751" fileName="CypherQueryTupleType_Editor.java" startLine="40" startPosition="40" endLine="41" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256751" fileName="CypherQueryTupleType_Editor.java" startLine="41" startPosition="34" endLine="42" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="45" startPosition="87" endLine="46" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="46" startPosition="81" endLine="47" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="47" startPosition="34" endLine="48" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="48" startPosition="47" endLine="49" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="49" startPosition="26" endLine="50" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="51" startPosition="39" endLine="52" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="53" startPosition="5" endLine="54" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="54" startPosition="73" endLine="55" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="55" startPosition="57" endLine="56" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="57" startPosition="35" endLine="58" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="58" startPosition="72" endLine="59" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="59" startPosition="78" endLine="60" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="61" startPosition="10" endLine="62" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="50" startPosition="58" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="56" startPosition="59" endLine="62" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="25" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_qpxqvv_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5915353355196256751" fileName="CypherQueryTupleType_Editor.java" startLine="34" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_qpxqvv_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="45" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_qpxqvv_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" />
+    <scopeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" />
+    <scopeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="80" />
+    <scopeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="51" startPosition="39" endLine="52" endPosition="38" />
+    <scopeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="5915353355196256691" varName="editorContext" />
       <varInfo nodeId="5915353355196256691" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="57" startPosition="35" endLine="60" endPosition="105">
+    <scopeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="57" startPosition="35" endLine="60" endPosition="105">
       <varInfo nodeId="5915353355196256759" varName="manager" />
       <varInfo nodeId="5915353355196256759" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="25" startPosition="89" endLine="31" endPosition="22">
+    <scopeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="25" startPosition="89" endLine="31" endPosition="22">
       <varInfo nodeId="5915353355196256691" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="25" startPosition="0" endLine="33" endPosition="0">
+    <scopeInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="25" startPosition="0" endLine="33" endPosition="0">
       <varInfo nodeId="5915353355196256691" varName="editorContext" />
       <varInfo nodeId="5915353355196256691" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5915353355196256751" fileName="CypherTupleType_Editor.java" startLine="34" startPosition="88" endLine="42" endPosition="22">
+    <scopeInfo nodeId="5915353355196256751" fileName="CypherQueryTupleType_Editor.java" startLine="34" startPosition="88" endLine="42" endPosition="22">
       <varInfo nodeId="5915353355196256751" varName="editorCell" />
       <varInfo nodeId="5915353355196256751" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="5915353355196256751" fileName="CypherTupleType_Editor.java" startLine="34" startPosition="0" endLine="44" endPosition="0">
+    <scopeInfo nodeId="5915353355196256751" fileName="CypherQueryTupleType_Editor.java" startLine="34" startPosition="0" endLine="44" endPosition="0">
       <varInfo nodeId="5915353355196256751" varName="editorContext" />
       <varInfo nodeId="5915353355196256751" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="45" startPosition="87" endLine="62" endPosition="22">
+    <scopeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="45" startPosition="87" endLine="62" endPosition="22">
       <varInfo nodeId="5915353355196256759" varName="attributeConcept" />
       <varInfo nodeId="5915353355196256759" varName="attributeKind" />
       <varInfo nodeId="5915353355196256759" varName="editorCell" />
       <varInfo nodeId="5915353355196256759" varName="provider" />
     </scopeInfo>
-    <scopeInfo nodeId="5915353355196256759" fileName="CypherTupleType_Editor.java" startLine="45" startPosition="0" endLine="64" endPosition="0">
+    <scopeInfo nodeId="5915353355196256759" fileName="CypherQueryTupleType_Editor.java" startLine="45" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="5915353355196256759" varName="editorContext" />
       <varInfo nodeId="5915353355196256759" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="5915353355196256691" fileName="CypherTupleType_Editor.java" startLine="20" startPosition="0" endLine="65" endPosition="0" unitName="neo4j.cypher.editor.CypherTupleType_Editor" />
+    <unitInfo nodeId="5915353355196256691" fileName="CypherQueryTupleType_Editor.java" startLine="20" startPosition="0" endLine="65" endPosition="0" unitName="neo4j.cypher.editor.CypherQueryTupleType_Editor" />
   </root>
   <root nodeRef="r:3032a80e-f963-4201-b9cb-54fd187627a2(neo4j.cypher.editor)/6581467451105360145">
     <nodeInfo nodeId="6581467451105360145" fileName="DeleteAtBeginningOfRelationship.java" startLine="18" startPosition="95" endLine="19" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

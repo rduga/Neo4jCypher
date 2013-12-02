@@ -5,7 +5,7 @@ package neo4j.cypher.textGen;
 import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 
-public class CypherTupleType_TextGen extends SNodeTextGen {
+public class CypherResultTupleType_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     // FIXME: temporary generate into string 
     this.append("String");
