@@ -5,6 +5,8 @@ package neo4j.cypher.sandbox.sandbox;
 import jetbrains.mps.baseLanguage.tuples.runtime.Tuples;
 import jetbrains.mps.baseLanguage.tuples.runtime.MultiTuple;
 import java.util.List;
+import org.neo4j.graphdb.Relationship;
+import org.neo4j.graphdb.Path;
 
 public class ExampleJavaIntegrationWithTuples {
 
@@ -14,7 +16,7 @@ public class ExampleJavaIntegrationWithTuples {
     System.out.println("tuple:" + (int) tplexample._0());
 
     ExampleNamedTuple exampleNamedTuple = new ExampleNamedTuple("John", 45, 443);
-
+    System.out.println("name:" + exampleNamedTuple.name());
     List<String> list;
 
     System.out.println("example" + tplexample);
@@ -25,6 +27,21 @@ public class ExampleJavaIntegrationWithTuples {
     String cypherroq2 = cypherroq;
     cypherroq.toString();
     String result = cypherroq.toString();
+
+    String resultIt = result.toString();
+
+    while (resultIt.toString().equals("permanent")) {
+      String row = resultIt.toString();
+      System.out.println("tuplenode:" + null + null);
+
+      Relationship relationship = null;
+      Path path = null;
+
+      System.out.println("rel type:" + relationship.getType());
+      System.out.println("path length:" + path.length());
+    }
+
+
 
 
     ExampleJavaIntegrationCypherString asd = new ExampleJavaIntegrationCypherString();

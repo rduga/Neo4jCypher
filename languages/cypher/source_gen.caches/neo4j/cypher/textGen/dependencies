@@ -64,11 +64,31 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
   </dependency>
-  <dependency className="neo4j.cypher.textGen.CypherQueryExecute_TextGen" file="CypherQueryExecute_TextGen.java">
+  <dependency className="neo4j.cypher.textGen.CypherQueryExecuteMethod_TextGen" file="CypherQueryExecuteMethod_TextGen.java">
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
   </dependency>
   <dependency className="neo4j.cypher.textGen.CypherQueryTupleType_TextGen" file="CypherQueryTupleType_TextGen.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
+  </dependency>
+  <dependency className="neo4j.cypher.textGen.CypherResultIteratorHasNextMethod_TextGen" file="CypherResultIteratorHasNextMethod_TextGen.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
+  </dependency>
+  <dependency className="neo4j.cypher.textGen.CypherResultIteratorMethod_TextGen" file="CypherResultIteratorMethod_TextGen.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
+  </dependency>
+  <dependency className="neo4j.cypher.textGen.CypherResultIteratorNextMethod_TextGen" file="CypherResultIteratorNextMethod_TextGen.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
+  </dependency>
+  <dependency className="neo4j.cypher.textGen.CypherResultIteratorTupleType_TextGen" file="CypherResultIteratorTupleType_TextGen.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
+  </dependency>
+  <dependency className="neo4j.cypher.textGen.CypherResultRowTupleType_TextGen" file="CypherResultRowTupleType_TextGen.java">
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
   </dependency>
@@ -120,6 +140,10 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.textGen.TextGenManager" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
+  </dependency>
+  <dependency className="neo4j.cypher.textGen.IndexedCypherResultRowMemberAccessExpression_TextGen" file="IndexedCypherResultRowMemberAccessExpression_TextGen.java">
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
   </dependency>

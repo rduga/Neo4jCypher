@@ -13,9 +13,9 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 import jetbrains.mps.smodel.SNodePointer;
 
-public class CypherQueryExecute_Constraints extends BaseConstraintsDescriptor {
-  public CypherQueryExecute_Constraints() {
-    super("neo4j.cypher.structure.CypherQueryExecute");
+public class CypherResultIteratorNextMethod_Constraints extends BaseConstraintsDescriptor {
+  public CypherResultIteratorNextMethod_Constraints() {
+    super("neo4j.cypher.structure.CypherResultIteratorNextMethod");
   }
 
   @Override
@@ -39,13 +39,13 @@ public class CypherQueryExecute_Constraints extends BaseConstraintsDescriptor {
       return false;
     }
     SNode instance = SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.baseLanguage.structure.DotExpression"), "operand", true);
-    SNode queryType = TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(instance), HUtil.createMatchingPatternByConceptFQName("neo4j.cypher.structure.CypherQueryTupleType"), false);
-    if ((queryType == null)) {
+    SNode resultType = TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(instance), HUtil.createMatchingPatternByConceptFQName("neo4j.cypher.structure.CypherResultIteratorTupleType"), false);
+    if ((resultType == null)) {
       return false;
     }
 
     return true;
   }
 
-  private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "3693218355999928180");
+  private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:7c28ecee-5ab5-4b97-b9e6-691aea2e2951(neo4j.cypher.constraints)", "1942295127445244497");
 }

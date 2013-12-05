@@ -12,57 +12,63 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0b, fqName)) {
-      case 13:
+      case 16:
         return new OrderByStatement_Constraints();
-      case 12:
+      case 15:
         return new OrderByExpression_Constraints();
-      case 7:
+      case 10:
         return new NamedNodeRef_Constraints();
-      case 18:
-        return new ReturnStatement_Constraints();
       case 21:
+        return new ReturnStatement_Constraints();
+      case 24:
         return new WhereStatement_Constraints();
       case 0:
         return new AggregateFunction_Constraints();
-      case 5:
-        return new INamedIdentifier_Constraints();
-      case 17:
-        return new Relationship_Constraints();
-      case 10:
-        return new NamedRelationshipRef_Constraints();
-      case 11:
-        return new Node_Constraints();
-      case 9:
-        return new NamedPropertyContainerRef_Constraints();
-      case 14:
-        return new PathExpression_Constraints();
       case 8:
-        return new NamedPathRef_Constraints();
-      case 15:
-        return new PathFunction_Constraints();
+        return new INamedIdentifier_Constraints();
       case 20:
+        return new Relationship_Constraints();
+      case 13:
+        return new NamedRelationshipRef_Constraints();
+      case 14:
+        return new Node_Constraints();
+      case 12:
+        return new NamedPropertyContainerRef_Constraints();
+      case 17:
+        return new PathExpression_Constraints();
+      case 11:
+        return new NamedPathRef_Constraints();
+      case 18:
+        return new PathFunction_Constraints();
+      case 23:
         return new StartAssignmentStatement_Constraints();
-      case 22:
+      case 25:
         return new WithStatement_Constraints();
       case 1:
         return new CreateStatement_Constraints();
-      case 6:
+      case 9:
         return new INamedNullableIdentifier_Constraints();
-      case 3:
+      case 6:
         return new DeleteStatement_Constraints();
-      case 19:
+      case 22:
         return new SetAssignmentStatement_Constraints();
-      case 4:
+      case 7:
         return new ICypherExpression_Constraints();
-      case 16:
+      case 19:
         return new PropertyOperation_Constraints();
       case 2:
-        return new CypherQueryExecute_Constraints();
+        return new CypherQueryExecuteMethod_Constraints();
+      case 4:
+        return new CypherResultIteratorMethod_Constraints();
+      case 3:
+        return new CypherResultIteratorHasNextMethod_Constraints();
+      case 5:
+        return new CypherResultIteratorNextMethod_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"neo4j.cypher.structure.AggregateFunction", "neo4j.cypher.structure.CreateStatement", "neo4j.cypher.structure.CypherQueryExecute", "neo4j.cypher.structure.DeleteStatement", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.INamedIdentifier", "neo4j.cypher.structure.INamedNullableIdentifier", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedPathRef", "neo4j.cypher.structure.NamedPropertyContainerRef", "neo4j.cypher.structure.NamedRelationshipRef", "neo4j.cypher.structure.Node", "neo4j.cypher.structure.OrderByExpression", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.PathExpression", "neo4j.cypher.structure.PathFunction", "neo4j.cypher.structure.PropertyOperation", "neo4j.cypher.structure.Relationship", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.SetAssignmentStatement", "neo4j.cypher.structure.StartAssignmentStatement", "neo4j.cypher.structure.WhereStatement", "neo4j.cypher.structure.WithStatement"};
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"neo4j.cypher.structure.AggregateFunction", "neo4j.cypher.structure.CreateStatement", "neo4j.cypher.structure.CypherQueryExecuteMethod", "neo4j.cypher.structure.CypherResultIteratorHasNextMethod", "neo4j.cypher.structure.CypherResultIteratorMethod", "neo4j.cypher.structure.CypherResultIteratorNextMethod", "neo4j.cypher.structure.DeleteStatement", "neo4j.cypher.structure.ICypherExpression", "neo4j.cypher.structure.INamedIdentifier", "neo4j.cypher.structure.INamedNullableIdentifier", "neo4j.cypher.structure.NamedNodeRef", "neo4j.cypher.structure.NamedPathRef", "neo4j.cypher.structure.NamedPropertyContainerRef", "neo4j.cypher.structure.NamedRelationshipRef", "neo4j.cypher.structure.Node", "neo4j.cypher.structure.OrderByExpression", "neo4j.cypher.structure.OrderByStatement", "neo4j.cypher.structure.PathExpression", "neo4j.cypher.structure.PathFunction", "neo4j.cypher.structure.PropertyOperation", "neo4j.cypher.structure.Relationship", "neo4j.cypher.structure.ReturnStatement", "neo4j.cypher.structure.SetAssignmentStatement", "neo4j.cypher.structure.StartAssignmentStatement", "neo4j.cypher.structure.WhereStatement", "neo4j.cypher.structure.WithStatement"};
 }

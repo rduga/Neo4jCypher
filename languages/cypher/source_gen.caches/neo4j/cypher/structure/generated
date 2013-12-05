@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="cwyiqlg88w2s39vufeku0ie5k8tgkjo">
+<dependencies version="2" modelHash="d2sp12xjk0vym4k273v5rhkprylqd5q">
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
   <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <dep model="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <common hash="7a3gxsed05nht2l9egijip0wngq1d9s">
+  <common hash="9glcu1elabyvkthitjcw3u1uuh6i5qd">
     <dep root="1268543411551983790" />
     <dep root="1268543411551995397" />
     <dep root="1268543411552025423" />
@@ -37,6 +37,12 @@
     <dep root="1325020284374268225" />
     <dep root="1325020284374319148" />
     <dep root="1405627269901181106" />
+    <dep root="1942295127442354953" />
+    <dep root="1942295127442515793" />
+    <dep root="1942295127444000126" />
+    <dep root="1942295127445232882" />
+    <dep root="1942295127445238917" />
+    <dep root="1942295127446394196" />
     <dep root="2555493848067153827" />
     <dep root="2555493848067153829" />
     <dep root="2686030116060608322" />
@@ -53,6 +59,7 @@
     <dep root="309801451901101853" />
     <dep root="3168367791397806367" />
     <dep root="3693218355997296634" />
+    <dep root="3693218355998648881" />
     <dep root="3830435865999703329" />
     <dep root="3830435865999703330" />
     <dep root="3830435865999720216" />
@@ -336,6 +343,12 @@
   <source id="5915353355196217882" name="CypherQueryTupleType" hash="-4akjw24jlz322z48703o4j7l65c5yyq" />
   <source id="5915353355198810180" name="WriteOnlyQueryStringExpression" hash="-cqxdtcgx5h21h2m6xijhxf3y5hsvkvi" />
   <source id="3693218355997296634" name="CypherResultTupleType" hash="-4qwhr3ufmontiu8rfjm0inn72uy1kpk" />
-  <source id="3693218355998648881" name="CypherQueryExecute" hash="-bcsvs7sz0axv5xylqj6ietp257uapau" />
+  <source id="3693218355998648881" name="CypherQueryExecuteMethod" hash="-a6ga74jqfkb5f08w0732bq5a3fil29y" />
+  <source id="1942295127442354953" name="CypherResultIteratorMethod" hash="er1xgfqjni4q7izaqvni8e3ehh4pbfs" />
+  <source id="1942295127442515793" name="CypherResultIteratorTupleType" hash="-8o6jmp2pj6n3ift2f5tm4wxj15iyrwn" />
+  <source id="1942295127444000126" name="CypherResultIteratorHasNextMethod" hash="8wo0bp1u29h61gqlm3fdsd5xtvmkiif" />
+  <source id="1942295127445232882" name="CypherResultRowTupleType" hash="9dfl9kfo6cpx6rqoabmbh3mwja7lji3" />
+  <source id="1942295127445238917" name="CypherResultIteratorNextMethod" hash="-d8e4zl0usj2vkilswxdrci390xkz5rx" />
+  <source id="1942295127446394196" name="IndexedCypherResultRowMemberAccessExpression" hash="-5jsbokieou23hknk1wfkj7h3nz2eqrj" />
 </dependencies>
 

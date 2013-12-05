@@ -5,7 +5,7 @@
   <language namespace="ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)" />
   <language namespace="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="74" />
+  <import index="qgu4" modelUID="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" version="75" />
   <import index="dmyu" modelUID="r:c6eeedda-084d-4659-9c4d-80b7768f2bb2(jetbrains.mps.baseLanguage.textGen)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="4" />
   <import index="2omo" modelUID="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" version="12" implicit="yes" />
@@ -2361,7 +2361,7 @@
   </root>
   <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="3693218356001140898" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="query.expression.typed" />
-    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="qgu4.3693218355998648881" resolveInfo="CypherQueryExecute" />
+    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="qgu4.3693218355998648881" resolveInfo="CypherQueryExecuteMethod" />
     <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="3693218356001140899" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3693218356001140900" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="3693218356001142400" nodeInfo="nn">
@@ -2371,6 +2371,109 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="3693218356001142354" nodeInfo="nn">
           <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="3693218356001142367" nodeInfo="ng">
+            <property name="value" nameId="2omo.1237305576108" value="toString()" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1942295127451724769" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="query.expression.typed" />
+    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="qgu4.1942295127442515793" resolveInfo="CypherResultIteratorTupleType" />
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1942295127451724770" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1942295127451724771" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="1942295127451724860" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="1942295127451724861" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="FIXME: temporary generate into string" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="1942295127451724862" nodeInfo="nn">
+          <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="1942295127451724863" nodeInfo="ng">
+            <property name="value" nameId="2omo.1237305576108" value="String" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1942295127451724876" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="query.expression.typed" />
+    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="qgu4.1942295127445232882" resolveInfo="CypherResultRowTupleType" />
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1942295127451724877" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1942295127451724878" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="1942295127451724897" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="1942295127451724898" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="FIXME: temporary generate into string" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="1942295127451724899" nodeInfo="nn">
+          <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="1942295127451724900" nodeInfo="ng">
+            <property name="value" nameId="2omo.1237305576108" value="String" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1942295127451730389" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="query.expression.typed" />
+    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="qgu4.1942295127446394196" resolveInfo="IndexedCypherResultRowMemberAccessExpression" />
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1942295127451730390" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1942295127451730391" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="1942295127451731794" nodeInfo="nn">
+          <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="1942295127451866084" nodeInfo="ng">
+            <property name="value" nameId="2omo.1237305576108" value="null" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1942295127451737062" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="query.expression.typed" />
+    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="qgu4.1942295127444000126" resolveInfo="CypherResultIteratorHasNextMethod" />
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1942295127451737063" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1942295127451737064" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="1942295127451737083" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="1942295127451737084" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="TODO: add call to execute method of under layer" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="1942295127451737085" nodeInfo="nn">
+          <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="1942295127451737086" nodeInfo="ng">
+            <property name="value" nameId="2omo.1237305576108" value="toString().equals(&quot;permanent&quot;)" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1942295127451737099" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="query.expression.typed" />
+    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="qgu4.1942295127442354953" resolveInfo="CypherResultIteratorMethod" />
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1942295127451737100" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1942295127451737101" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="1942295127451737120" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="1942295127451737121" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="TODO: add call to execute method of under layer" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="1942295127451737122" nodeInfo="nn">
+          <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="1942295127451737123" nodeInfo="ng">
+            <property name="value" nameId="2omo.1237305576108" value="toString()" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="2omo.ConceptTextGenDeclaration" typeId="2omo.1233670071145" id="1942295127451737194" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="query.expression.typed" />
+    <link role="conceptDeclaration" roleId="2omo.1233670257997" targetNodeId="qgu4.1942295127445238917" resolveInfo="CypherResultIteratorNextMethod" />
+    <node role="textGenBlock" roleId="2omo.1233749296504" type="2omo.GenerateTextDeclaration" typeId="2omo.1233749247888" id="1942295127451737195" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1942295127451737196" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="1942295127451737215" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="1942295127451737216" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="TODO: add call to execute method of under layer" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="1942295127451737217" nodeInfo="nn">
+          <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="1942295127451737218" nodeInfo="ng">
             <property name="value" nameId="2omo.1237305576108" value="toString()" />
           </node>
         </node>

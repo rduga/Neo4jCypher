@@ -28,6 +28,9 @@ import jetbrains.mps.openapi.editor.selection.SelectionManager;
 import jetbrains.mps.smodel.constraints.ModelConstraints;
 import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.pattern.IMatchingPattern;
+import jetbrains.mps.lang.typesystem.runtime.HUtil;
+import jetbrains.mps.typesystem.inference.TypeChecker;
 import java.util.regex.Pattern;
 
 public class QueriesGenerated {
@@ -267,6 +270,48 @@ public class QueriesGenerated {
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Relationship_7273172444857921897(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getSourceNode(), "type", true)).isEmpty();
+  }
+
+  public static List<SubstituteAction> sideTransform_ActionsFactory_Expression_1942295127447711899(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.IndexedCypherResultRowMemberAccessExpression"), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        SNode indexedNode = SConceptOperations.createNewNode("neo4j.cypher.structure.IndexedCypherResultRowMemberAccessExpression", null);
+
+        SNodeOperations.replaceWithAnother(_context.getSourceNode(), indexedNode);
+        SLinkOperations.setTarget(indexedNode, "resultRowTuple", _context.getSourceNode(), true);
+        return indexedNode;
+      }
+
+      public String getMatchingText(String pattern) {
+        return "[";
+      }
+
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+
+      @Override
+      protected boolean isEnabled() {
+        SNode sourceNode = getSourceNode();
+        SNode parent = SNodeOperations.getParent(sourceNode);
+        SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.IndexedCypherResultRowMemberAccessExpression"), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, SConceptOperations.findConceptDeclaration("neo4j.cypher.structure.IndexedCypherResultRowMemberAccessExpression"), null));
+      }
+    });
+    return result;
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1942295127447722923(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    {
+      IMatchingPattern pattern_2qy4g7_a0a0 = HUtil.createMatchingPatternByConceptFQName("neo4j.cypher.structure.CypherResultRowTupleType");
+      SNode coercedNode_2qy4g7_a0a0 = TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(_context.getSourceNode()), pattern_2qy4g7_a0a0);
+      if (coercedNode_2qy4g7_a0a0 != null) {
+        return true;
+      } else {
+        return false;
+      }
+    }
   }
 
   private static Pattern REGEXP_x583g4_a0a0a0a2a0a0a0a2a0a1a1 = Pattern.compile("-?\\d+", 0);

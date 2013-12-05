@@ -5,9 +5,9 @@ package neo4j.cypher.textGen;
 import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 
-public class CypherQueryExecute_TextGen extends SNodeTextGen {
+public class CypherResultIteratorTupleType_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
-    // TODO: add call to execute method of under layer 
-    this.append("toString()");
+    // FIXME: temporary generate into string 
+    this.append("String");
   }
 }

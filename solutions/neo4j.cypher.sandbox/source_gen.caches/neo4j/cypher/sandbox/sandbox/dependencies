@@ -38,6 +38,8 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.tuples.runtime.Tuples" />
     <classNode dependClassName="neo4j.cypher.sandbox.sandbox.ExampleJavaIntegrationCypherString" />
     <classNode dependClassName="neo4j.cypher.sandbox.sandbox.ExampleNamedTuple" />
+    <classNode dependClassName="org.neo4j.graphdb.Path" />
+    <classNode dependClassName="org.neo4j.graphdb.Relationship" />
   </dependency>
   <dependency className="neo4j.cypher.sandbox.sandbox.ExampleNamedTuple" file="ExampleNamedTuple.java">
     <classNode dependClassName="java.lang.Integer" />

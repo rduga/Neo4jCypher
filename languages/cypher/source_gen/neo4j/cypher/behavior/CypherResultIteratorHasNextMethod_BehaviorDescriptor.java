@@ -8,8 +8,8 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.baseLanguage.behavior.IOperation_Behavior;
 import org.jetbrains.mps.openapi.language.SConcept;
 
-public class CypherQueryExecute_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IOperation_BehaviorDescriptor {
-  public CypherQueryExecute_BehaviorDescriptor() {
+public class CypherResultIteratorHasNextMethod_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IOperation_BehaviorDescriptor {
+  public CypherResultIteratorHasNextMethod_BehaviorDescriptor() {
   }
 
   public String virtual_getVariableExpectedName_1213877410087(SNode thisNode) {
@@ -34,6 +34,6 @@ public class CypherQueryExecute_BehaviorDescriptor extends BaseConcept_BehaviorD
 
   @Override
   public String getConceptFqName() {
-    return "neo4j.cypher.structure.CypherQueryExecute";
+    return "neo4j.cypher.structure.CypherResultIteratorHasNextMethod";
   }
 }

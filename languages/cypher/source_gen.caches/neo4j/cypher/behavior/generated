@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="7j29ue8igx7ilp2iazsy1men5imuu98">
+<dependencies version="2" modelHash="9t43wvadhye625hsgjfdtfz0uz50gc5">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
@@ -22,9 +22,9 @@
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="cwyiqlg88w2s39vufeku0ie5k8tgkjo" />
+  <dep model="r:f744ecfb-e681-4d00-8f57-1ca9664f32ee(neo4j.cypher.structure)" hash="d2sp12xjk0vym4k273v5rhkprylqd5q" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
-  <common hash="6m6oos0trsoh5ofhcw37b5z2uol9c0i" dependsOnNodes="true">
+  <common hash="-e1bh32alls5kg0zlafvt8nzm21y10zc" dependsOnNodes="true">
     <dep root="1325020284374268226" />
     <dep root="1325020284374323643" />
     <dep root="1951399816900233216" />
@@ -101,10 +101,15 @@
     <file name="CypherPathType_BehaviorDescriptor.java" />
     <file name="CypherPlusExpression_BehaviorDescriptor.java" />
     <file name="CypherPropertyContainerType_BehaviorDescriptor.java" />
-    <file name="CypherQueryExecute_BehaviorDescriptor.java" />
+    <file name="CypherQueryExecuteMethod_BehaviorDescriptor.java" />
     <file name="CypherQueryTupleType_BehaviorDescriptor.java" />
     <file name="CypherRelationshipType_BehaviorDescriptor.java" />
     <file name="CypherRemExpression_BehaviorDescriptor.java" />
+    <file name="CypherResultIteratorHasNextMethod_BehaviorDescriptor.java" />
+    <file name="CypherResultIteratorMethod_BehaviorDescriptor.java" />
+    <file name="CypherResultIteratorNextMethod_BehaviorDescriptor.java" />
+    <file name="CypherResultIteratorTupleType_BehaviorDescriptor.java" />
+    <file name="CypherResultRowTupleType_BehaviorDescriptor.java" />
     <file name="CypherResultTupleType_BehaviorDescriptor.java" />
     <file name="CypherStatement_BehaviorDescriptor.java" />
     <file name="DeleteExpression_BehaviorDescriptor.java" />
@@ -141,6 +146,7 @@
     <file name="IdScalarFunction_BehaviorDescriptor.java" />
     <file name="ImpermanentConnection_BehaviorDescriptor.java" />
     <file name="Index_BehaviorDescriptor.java" />
+    <file name="IndexedCypherResultRowMemberAccessExpression_BehaviorDescriptor.java" />
     <file name="KeyValueNodeIndex_BehaviorDescriptor.java" />
     <file name="KeyValueRelationshipIndex_BehaviorDescriptor.java" />
     <file name="LRRelationship_BehaviorDescriptor.java" />

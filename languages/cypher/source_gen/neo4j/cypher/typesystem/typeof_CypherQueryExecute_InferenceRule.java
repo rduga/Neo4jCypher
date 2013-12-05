@@ -21,8 +21,8 @@ public class typeof_CypherQueryExecute_InferenceRule extends AbstractInferenceRu
   public typeof_CypherQueryExecute_InferenceRule() {
   }
 
-  public void applyRule(final SNode cypherQueryExecute, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    final SNode operand = SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(cypherQueryExecute), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operand", true);
+  public void applyRule(final SNode cypherQueryExecuteMethod, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
+    final SNode operand = SLinkOperations.getTarget(SNodeOperations.cast(SNodeOperations.getParent(cypherQueryExecuteMethod), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operand", true);
 
     {
       final SNode queryType = typeCheckingContext.typeOf(operand, "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "3693218356000594188", true);
@@ -30,7 +30,7 @@ public class typeof_CypherQueryExecute_InferenceRule extends AbstractInferenceRu
         public void run() {
           SNode type = TypeChecker.getInstance().getRuntimeSupport().coerce_(typeCheckingContext.getExpandedNode(queryType), HUtil.createMatchingPatternByConceptFQName("neo4j.cypher.structure.CypherQueryTupleType"), true);
           {
-            SNode _nodeToCheck_1029348928467 = cypherQueryExecute;
+            SNode _nodeToCheck_1029348928467 = cypherQueryExecuteMethod;
             EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "3693218356000949999", 0, null);
             typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:1549d4d9-195d-4192-a8ca-9bdca0139ffa(neo4j.cypher.typesystem)", "3693218356000949810", true), (SNode) _quotation_createNode_ah6ol2_a0b0c0b(SLinkOperations.getTargets(SLinkOperations.getTarget(type, "tupleType", true), "componentType", true)), _info_12389875345);
           }
@@ -40,7 +40,7 @@ public class typeof_CypherQueryExecute_InferenceRule extends AbstractInferenceRu
   }
 
   public String getApplicableConceptFQName() {
-    return "neo4j.cypher.structure.CypherQueryExecute";
+    return "neo4j.cypher.structure.CypherQueryExecuteMethod";
   }
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {

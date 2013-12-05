@@ -12,25 +12,25 @@ import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 
-public class CypherQueryExecute_Editor extends DefaultNodeEditor {
+public class CypherResultIteratorNextMethod_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_t0c0f6_a(editorContext, node);
+    return this.createCollection_syp6ax_a(editorContext, node);
   }
 
-  private EditorCell createCollection_t0c0f6_a(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_syp6ax_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_t0c0f6_a");
+    editorCell.setCellId("Collection_syp6ax_a");
     editorCell.setBig(true);
-    editorCell.addEditorCell(this.createConstant_t0c0f6_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_t0c0f6_b0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_t0c0f6_c0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_t0c0f6_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_syp6ax_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_syp6ax_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_syp6ax_c0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_syp6ax_d0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_t0c0f6_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "execute");
-    editorCell.setCellId("Constant_t0c0f6_a0");
+  private EditorCell createConstant_syp6ax_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "next");
+    editorCell.setCellId("Constant_syp6ax_a0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyMPSMethodCall(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -38,9 +38,9 @@ public class CypherQueryExecute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_t0c0f6_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_syp6ax_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_t0c0f6_b0");
+    editorCell.setCellId("Constant_syp6ax_b0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyLeftParenAfterName(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -48,16 +48,16 @@ public class CypherQueryExecute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_t0c0f6_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_syp6ax_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_t0c0f6_c0");
+    editorCell.setCellId("Constant_syp6ax_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_t0c0f6_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_syp6ax_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_t0c0f6_d0");
+    editorCell.setCellId("Constant_syp6ax_d0");
     Style style = new StyleImpl();
     BaseLanguageStyle_StyleSheet.applyRightParen(style, editorCell);
     editorCell.getStyle().putAll(style);
